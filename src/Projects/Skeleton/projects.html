@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Home Page</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://mihailmaximov.ru/projects/snow/snowfall2020.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    function showHover(img) {
+      if (img) {
+        img.src = 'images/cat.jpeg';
+      }
+    }
+
+    function showNormal(img) {
+      if (img) {
+        img.src = 'images/under.jpg';
+      }
+    }
+
+    $(document).ready(function () {
+      $('#ex1').mouseover(function () {
+        showHover(this);
+      }).mouseout(function () {
+        showNormal(this);
+      });
+
+      $('#hlink').mouseover(function () {
+        showHover($('#ex2').get()[0]);
+      }).mouseout(function () {
+        showNormal($('#ex2').get()[0]);
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <script src="snowfall2020.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns header">
+        <h1>Portfolio</h1>
+        <a class="button" href="index.html">Main Page</a>
+        <a class="button" href="projects.html">My Projects</a>
+        <a class="button" href="page.html">About This Page</a>
+        <a class="button" href="about.html">About Me</a>
+        <a class="button" href="contact.html">CV</a>
+        <a class="button" href="calendar.html">Calendar</a>
+        <a class="button" href="todo.html">To-Do</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="three columns right">
+        <h3></h3>
+      </div>
+      <div class="six columns main">
+        <h2>My Projects</h2>
+        <img id="ex1" src="images/under.jpg" height="300" width="400">
+        <br>
+        <br>
+      </div>
+      <div class="three columns right">
+        <h3></h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns footer">
+        <p>© Maxim Villivald 2019</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns">
+        <a href="mailto: maxim.villivald@student.lab.fi">Contact by email</a>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
