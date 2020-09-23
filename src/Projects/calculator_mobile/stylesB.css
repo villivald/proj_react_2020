@@ -1,0 +1,74 @@
+body {
+    width: 405px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.75);
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+button {
+    width: 90px;
+    height: 80px;
+    font-size: 40px;
+    opacity: 0.95;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: #F2F2F2;
+    box-shadow: 2px 2px #666;
+}
+
+.equal-operator {
+    width: 385px;
+    height: 100px;
+    font-size: 50px;
+    opacity: 0.95;
+    outline: none;
+}
+
+button:hover {
+    box-shadow: 4px 4px #666;
+    opacity: 1;
+    outline: none;
+    font-weight: bolder;
+}
+
+button:active {
+    background-color: lightgrey;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.75);
+    transform: translateY(4px);
+    outline: none;
+    font-weight: bolder;
+}
+
+.screen {
+    height: 75px;
+    width: 405px;
+    background-color: #F2F2F2;
+    font-size: 25px;
+    padding-left: 50px;
+    border: none;
+    outline: none;
+    text-align: right;
+}
+
+.result {
+    height: 75px;
+    width: 405px;
+    background-color: #F2F2F2;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 50px;
+    border: none;
+    outline: none;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 8px 8px 8px 8px;
+    grid-gap: 5px 90px;
+    background-color: #88BFBF;
+    padding: 10px;
+    text-align: center;
+}

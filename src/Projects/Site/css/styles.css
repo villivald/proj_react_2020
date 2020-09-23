@@ -1,0 +1,103 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+.icons-sprite, .icons-image1, .icons-image2, .icons-image3, .icons-image4, .icons-image5 {
+  background-image: url('/images/icons-sf8f9a5110b.png');
+  background-repeat: no-repeat;
+}
+
+.icons-image1 {
+  background-position: 0 0;
+  height: 32px;
+  width: 32px;
+}
+
+.icons-image2 {
+  background-position: 0 -32px;
+  height: 32px;
+  width: 32px;
+}
+
+.icons-image3 {
+  background-position: 0 -64px;
+  height: 32px;
+  width: 32px;
+}
+
+.icons-image4 {
+  background-position: 0 -96px;
+  height: 32px;
+  width: 32px;
+}
+
+.icons-image5 {
+  background-position: 0 -128px;
+  height: 32px;
+  width: 32px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: -30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header {
+  color: #fff;
+  height: 60px;
+  background-color: #4db3b3;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 10px 25px;
+}
+
+h3 {
+  margin-top: 20px;
+  padding-left: 15px;
+  color: #000000;
+}
+
+.sidebar {
+  float: left;
+  width: 200px;
+  height: 591px;
+  background-color: #d22d2d;
+  color: #000000;
+  padding: 10px;
+}
+
+.sidebar a {
+  padding: 0 0 0 80px;
+  line-height: 70px;
+  color: #000000;
+  text-decoration: underline;
+}
+.sidebar a:hover, .sidebar a:focus {
+  color: #8cffff;
+  font-size: 20px;
+}
+
+.main {
+  margin: 0 70px 0 250px;
+  padding: 0px 10px;
+  height: 400px;
+  color: #353427;
+}
+
+.footer {
+  background-color: #4db3b3;
+  color: #fff;
+  height: 50px;
+  margin-top: 210px;
+}
