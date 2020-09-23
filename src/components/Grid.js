@@ -1,6 +1,11 @@
 import React from "react";
 import GridItem from "./GridItem";
 import Colors from "../constants/colors";
+import html from "../images/html.png";
+import js from "../images/js.svg";
+import react from "../images/react.svg";
+import wpb from "../images/wpb.svg";
+import soon from "../images/soon.png";
 
 const styles = {
   box: {
@@ -48,9 +53,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.blog}
           afterHover={Colors.blog}
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/0/09/Wordpress-Logo.svg"
-          }
+          image={wpb}
         />
         <GridItem
           text={"Calculator | 🖥"}
@@ -62,9 +65,7 @@ const Grid = () => {
           boxStyle={styles.box}
           background={Colors.button}
           afterHover={Colors.button}
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-          }
+          image={js}
         />
         <GridItem
           text={"Calculator | 📱"}
@@ -75,9 +76,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={Colors.button}
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-          }
+          image={js}
         />
         <GridItem
           text={"Ping-Pong | Player vs Player"}
@@ -88,9 +87,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={Colors.button}
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-          }
+          image={js}
         />
         <GridItem
           text={"Ping-Pong | Player vs AI"}
@@ -101,9 +98,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={Colors.button}
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-          }
+          image={js}
         />
         <GridItem
           text={"Todo App | JS"}
@@ -112,9 +107,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={Colors.button}
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-          }
+          image={js}
         />
         <GridItem
           text={"Layout"}
@@ -123,9 +116,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={Colors.button}
-          image={
-            "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
-          }
+          image={html}
         />
         <GridItem
           text={"Mine Sweeper | JS"}
@@ -136,9 +127,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={Colors.button}
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-          }
+          image={js}
         />
         <GridItem
           text={"Todo App | React"}
@@ -147,9 +136,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={Colors.button}
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-          }
+          image={react}
         />
         <GridItem
           text={"Phonebook | React & Heroku"}
@@ -158,9 +145,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={Colors.button}
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-          }
+          image={react}
         />
         <GridItem
           text={"Website (Winter '19)"}
@@ -168,9 +153,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={Colors.button}
-          image={
-            "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
-          }
+          image={html}
         />
         <GridItem
           text={"Website (Spring '20)"}
@@ -178,9 +161,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={Colors.button}
-          image={
-            "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
-          }
+          image={html}
         />
         <GridItem
           text={"Currently working on: React Native App"}
@@ -188,9 +169,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={Colors.button}
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-          }
+          image={react}
         />
         <GridItem
           text={"More coming soon... "}
@@ -198,9 +177,7 @@ const Grid = () => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={Colors.button}
-          image={
-            "https://cdn.dribbble.com/users/725831/screenshots/3251631/__________-2.png"
-          }
+          image={soon}
         />
       </div>
     </div>
