@@ -171,31 +171,244 @@ h1 {
   padding-top: 15px;
 }
 
-@media only screen and (max-width: 1500px) {
-}
-
-@media only screen and (max-width: 1400px) {
-}
-
 @media only screen and (max-width: 1300px) {
+  .grid-wrapper {
+    display: grid;
+    grid-gap: 3%;
+    grid-template-columns: repeat(6, 160px);
+    margin-top: 1%;
+    margin-left: -150px;
+  }
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .headers {
+    display: none;
+  }
+  h1 {
+    margin-bottom: -4%;
+  }
+  .chipWrapper {
+    width: 80%;
+    margin-left: -60px;
+    margin-bottom: -20px;
+  }
+  .chip-grid {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 200px);
+    padding-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
+  .grid-wrapper {
+    display: grid;
+    grid-gap: 3%;
+    grid-template-columns: repeat(5, 180px);
+    margin-top: 1%;
+    margin-left: -100px;
+  }
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .headers {
+    display: none;
+  }
+  h1 {
+    margin-bottom: -4%;
+  }
+  .chipWrapper {
+    width: 80%;
+    margin-left: -60px;
+    margin-bottom: -20px;
+  }
+  .chip-grid {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 200px);
+    padding-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
+  .grid-wrapper {
+    display: grid;
+    grid-gap: 3%;
+    grid-template-columns: repeat(5, 175px);
+    margin-top: 1%;
+    margin-left: -100px;
+  }
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .headers {
+    display: none;
+  }
+  h1 {
+    margin-bottom: -4%;
+  }
+  .chipWrapper {
+    width: 80%;
+    margin-left: -60px;
+    margin-bottom: -20px;
+  }
+  .chip-grid {
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(3, 200px);
+    padding-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
+  .grid-wrapper {
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: repeat(5, 160px);
+    margin-top: 1%;
+    margin-left: -60px;
+  }
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .headers {
+    display: none;
+  }
+  h1 {
+    margin-bottom: -4%;
+  }
+  .chipWrapper {
+    width: 80%;
+    margin-left: -60px;
+    margin-bottom: -20px;
+  }
+  .chip-grid {
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(3, 200px);
+    padding-top: 15px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
+  .grid-wrapper {
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: repeat(4, 170px);
+    margin-top: 1%;
+    margin-left: -40px;
+  }
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .headers {
+    display: none;
+  }
+  h1 {
+    margin-bottom: -4%;
+  }
+  .chipWrapper {
+    width: 80%;
+    margin-left: -50px;
+  }
+  .chip-grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 180px);
+    padding-top: 15px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
+  .grid-wrapper {
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: repeat(3, 180px);
+    margin-top: 1%;
+    margin-left: -10px;
+  }
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .headers {
+    display: none;
+  }
+  h1 {
+    margin-bottom: -4%;
+  }
+  .chipWrapper {
+    width: 80%;
+    margin-left: -50px;
+  }
+  .chip-grid {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(3, 170px);
+    padding-top: 15px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
+  .grid-wrapper {
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: repeat(2, 200px);
+    margin-top: 1%;
+    margin-left: -10px;
+  }
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .headers {
+    display: none;
+  }
+  h1 {
+    margin-bottom: -4%;
+  }
+  .chipWrapper {
+    width: 80%;
+    margin-left: -50px;
+  }
+
+  .chip-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 140px);
+    padding-top: 15px;
+  }
+
+  .header {
+    font-size: 42px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
