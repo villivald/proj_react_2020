@@ -9,6 +9,7 @@ import Paper from "@material-ui/core/Paper";
 import "antd/dist/antd.css";
 import { Progress } from "antd";
 import ChipCloud from "./components/ChipCloud";
+import clip2 from "./images/clip-2.png";
 
 const StyledPaper = withStyles({
   root: {
@@ -45,11 +46,14 @@ const App = () => {
               >
                 <ChipCloud />
               </div>
-              <div style={{ width: 200, marginLeft: 20, marginTop: 30 }}>
-                <Progress percent={37.5} size="small" /> B.E. 2019 - 2023
-                (90/240 ECTS)
-                <Progress percent={100} size="small" /> M.A. 2011 - 2015 (300
-                ECTS)
+              <div className="stats">
+                <div style={{ width: 200, marginLeft: 20, marginTop: 30 }}>
+                  <Progress percent={37.5} size="small" /> B.E. 2019 - 2023
+                  (90/240 ECTS)
+                  <Progress percent={100} size="small" /> M.A. 2011 - 2015 (300
+                  ECTS)
+                </div>
+                <img src={clip2} alt="Logo" width="250px" />
               </div>
             </StyledPaper>
           </div>
