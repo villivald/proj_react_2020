@@ -40,6 +40,7 @@ const Screens = () => {
         <StyledPaper elevation={6}>
           <a href="https://create-react-app.com/8-university-zsh/">
             <img
+              className="image"
               src={logo8}
               width="350px"
               height="290px"
@@ -50,6 +51,7 @@ const Screens = () => {
         <StyledPaper elevation={6}>
           <a href="https://create-react-app.com/7-react-native/">
             <img
+              className="image"
               src={logo7}
               width="350px"
               height="290px"
@@ -60,6 +62,7 @@ const Screens = () => {
         <StyledPaper elevation={6}>
           <a href="https://create-react-app.com/6-javascript-methods-map-filter-reduce/">
             <img
+              className="image"
               src={logo6}
               width="350px"
               height="290px"

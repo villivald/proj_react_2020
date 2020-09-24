@@ -2,6 +2,8 @@ import React from "react";
 import Colors from "../constants/colors";
 import Drop from "./Drop";
 import Toggle from "./Toggle";
+//import scribble18 from "../images/scribble18.png";
+import scribble84 from "../images/scribbles-scribbles-98.png";
 
 const Menu = (props) => {
   const changeTextColor = (e) => {
@@ -25,6 +27,7 @@ const Menu = (props) => {
           >
             PROJ
           </div>
+          <img src={scribble84} alt="Logo" width="150px" />
           <div className="drop">
             <Drop />
           </div>
