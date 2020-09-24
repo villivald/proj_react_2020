@@ -20,14 +20,7 @@ const StyledChip = withStyles({
 
 const ChipCloud = () => {
   return (
-    <div
-      style={{
-        display: "grid",
-        gridGap: 20,
-        gridTemplateColumns: "repeat(3, 160px)",
-        paddingTop: 15,
-      }}
-    >
+    <div className="chip-grid">
       <StyledChip avatar={<Avatar src={html}></Avatar>} label="HTML" />
       <StyledChip avatar={<Avatar src={css}></Avatar>} label="CSS" />
       <StyledChip avatar={<Avatar src={js}></Avatar>} label="JavaScript" />
