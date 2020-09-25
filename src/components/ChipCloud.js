@@ -16,6 +16,7 @@ const StyledChip = withStyles({
   root: {
     backgroundColor: Colors.header,
     color: Colors.whiteSmoke,
+    fontFamily: "Mate, serif",
   },
 })(Chip);
 
