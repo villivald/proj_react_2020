@@ -2,7 +2,7 @@ const Colors = {
   buttonBackground: "#3299BB",
   buttonShadow: "gray",
   header: "#5C8D76",
-  accent: "#B96C25",
+  accent: "#e54b4b",
   background: "#E4E1DB",
   gray: "#333",
   button: "#3B828F",
