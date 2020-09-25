@@ -47,6 +47,7 @@ a {
   margin-bottom: 20px;
   font-weight: bold;
   letter-spacing: 15px;
+  margin-left: 100px;
 }
 .drop {
   display: flex;
@@ -135,7 +136,9 @@ img {
 h1 {
   font-family: "Mate", serif;
   text-align: center;
+  color: #333;
 }
+
 .headers {
   font-family: "Mate", serif;
   display: flex;

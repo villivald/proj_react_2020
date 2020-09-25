@@ -15,6 +15,7 @@ import github from "../images/github.png";
 const StyledChip = withStyles({
   root: {
     backgroundColor: Colors.header,
+    color: Colors.whiteSmoke,
   },
 })(Chip);
 
