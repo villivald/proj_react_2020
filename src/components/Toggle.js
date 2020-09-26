@@ -4,7 +4,7 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Switch from "@material-ui/core/Switch";
 import { withStyles } from "@material-ui/core";
 import Colors from "../constants/colors";
-import clip5 from "../images/clip-5.png";
+import clip5 from "../images/dc2.png";
 import clip3 from "../images/clip-3.png";
 
 const StyledSwitch = withStyles({
