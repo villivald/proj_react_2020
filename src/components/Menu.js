@@ -14,9 +14,9 @@ const Menu = (props) => {
   };
 
   return (
-    <div>
+    <div className="stickyHeader">
       <div className="wrapper">
-        <div className="menu" style={{ backgroundColor: props.SuperColor }}>
+        <div className="menu">
           <div className="switch">
             <Toggle />
           </div>
