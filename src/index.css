@@ -268,6 +268,9 @@ h1 {
     grid-template-columns: repeat(3, 200px);
     padding-top: 30px;
   }
+  .switch {
+    margin-left: 15px;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -301,6 +304,9 @@ h1 {
     grid-gap: 35px;
     grid-template-columns: repeat(3, 200px);
     padding-top: 30px;
+  }
+  .switch {
+    margin-left: 30px;
   }
 }
 
@@ -336,6 +342,12 @@ h1 {
     grid-template-columns: repeat(3, 200px);
     padding-top: 15px;
   }
+  .switch {
+    margin-left: 45px;
+  }
+  .logo {
+    margin-left: 25px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -369,6 +381,10 @@ h1 {
     grid-template-columns: repeat(3, 180px);
     padding-top: 15px;
   }
+
+  .switch {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -401,6 +417,10 @@ h1 {
     grid-gap: 25px;
     grid-template-columns: repeat(3, 170px);
     padding-top: 15px;
+  }
+
+  .switch {
+    display: none;
   }
 }
 
@@ -440,6 +460,10 @@ h1 {
   .header {
     font-size: 42px;
   }
+
+  .switch {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -478,5 +502,9 @@ h1 {
 
   .header {
     font-size: 42px;
+  }
+
+  .switch {
+    display: none;
   }
 }
