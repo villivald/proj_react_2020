@@ -193,6 +193,13 @@ h1 {
   margin-bottom: 30px;
 }
 
+.stickyHeader {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -20px;
+  z-index: 1;
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;
