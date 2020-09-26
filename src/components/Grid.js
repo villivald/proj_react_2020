@@ -149,6 +149,9 @@ const Grid = () => {
         />
         <GridItem
           text={"Website (Winter '19)"}
+          link={
+            "https://proj.create-react-app.com/Projects/Skeleton/index.html"
+          }
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
@@ -157,6 +160,7 @@ const Grid = () => {
         />
         <GridItem
           text={"Website (Spring '20)"}
+          link={"https://proj.create-react-app.com/"}
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
@@ -165,6 +169,7 @@ const Grid = () => {
         />
         <GridItem
           text={"Currently working on: React Native App"}
+          link={"https://create-react-app.com/7-react-native/"}
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}

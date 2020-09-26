@@ -40,14 +40,16 @@ a {
 }
 .header {
   display: flex;
-  color: #333;
-  font-size: 52px;
-  font-family: "Mate SC", serif;
-  padding-top: 10px;
-  margin-bottom: 20px;
-  font-weight: bold;
+  justify-content: center;
+  align-items: center;
   letter-spacing: 15px;
-  margin-left: 100px;
+  cursor: pointer;
+}
+.logo {
+  padding: 4px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.3rem #333);
+  /*filter: drop-shadow(5px 2px 4px #333);*/
 }
 .drop {
   display: flex;
