@@ -2,8 +2,7 @@ import React from "react";
 import Colors from "../constants/colors";
 import Drop from "./Drop";
 import Toggle from "./Toggle";
-//import scribble18 from "../images/scribble18.png";
-import scribble84 from "../images/scribbles-scribbles-98.png";
+import logo from "../images/logo/103.png";
 
 const Menu = (props) => {
   const changeTextColor = (e) => {
@@ -11,6 +10,9 @@ const Menu = (props) => {
   };
   const setTextColorToDefault = (e) => {
     e.target.style.color = "#333";
+  };
+  const handleClick = () => {
+    window.parent.location = window.parent.location.href;
   };
 
   return (
@@ -24,10 +26,10 @@ const Menu = (props) => {
             className="header"
             onMouseOver={changeTextColor}
             onMouseLeave={setTextColorToDefault}
+            onClick={handleClick}
           >
-            PROJ
+            <img className="logo" src={logo} alt="Logo" width="150px" />
           </div>
-          <img src={scribble84} alt="Logo" width="150px" />
           <div className="drop">
             <Drop />
           </div>
