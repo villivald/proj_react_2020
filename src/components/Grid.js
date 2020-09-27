@@ -64,7 +64,7 @@ const Grid = () => {
         <GridItem
           text={"Calculator | 🖥"}
           link={
-            "https://proj.create-react-app.com/Projects/calculator/index.html"
+            "https://old.create-react-app.com/Projects/calculator/index.html"
           }
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
@@ -76,7 +76,7 @@ const Grid = () => {
         <GridItem
           text={"Calculator | 📱"}
           link={
-            "https://proj.create-react-app.com/Projects/calculator_mobile/test.html"
+            "https://old.create-react-app.com/Projects/calculator_mobile/test.html"
           }
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
@@ -87,7 +87,7 @@ const Grid = () => {
         <GridItem
           text={"Ping-Pong | Player vs Player"}
           link={
-            "https://proj.create-react-app.com/Projects/ping_pong/index.html"
+            "https://old.create-react-app.com/Projects/ping_pong/index.html"
           }
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
@@ -98,7 +98,7 @@ const Grid = () => {
         <GridItem
           text={"Ping-Pong | Player vs AI"}
           link={
-            "https://proj.create-react-app.com/Projects/ping_pong_v2/index.html"
+            "https://old.create-react-app.com/Projects/ping_pong_v2/index.html"
           }
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
@@ -108,7 +108,7 @@ const Grid = () => {
         />
         <GridItem
           text={"Todo App | JS"}
-          link={"https://proj.create-react-app.com/Projects/ToDo/todo.html"}
+          link={"https://old.create-react-app.com/Projects/ToDo/todo.html"}
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
@@ -117,7 +117,7 @@ const Grid = () => {
         />
         <GridItem
           text={"Layout"}
-          link={"https://proj.create-react-app.com/Projects/Site/index.html"}
+          link={"https://old.create-react-app.com/Projects/Site/index.html"}
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
@@ -127,7 +127,7 @@ const Grid = () => {
         <GridItem
           text={"Mine Sweeper | JS"}
           link={
-            "https://proj.create-react-app.com/Projects/MineSweeper/index.html"
+            "https://old.create-react-app.com/Projects/MineSweeper/index.html"
           }
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
@@ -137,7 +137,7 @@ const Grid = () => {
         />
         <GridItem
           text={"Todo App | React"}
-          link={"https://proj.create-react-app.com/todo/"}
+          link={"https://old.create-react-app.com/todo/"}
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
@@ -155,9 +155,7 @@ const Grid = () => {
         />
         <GridItem
           text={"Website (Winter '19)"}
-          link={
-            "https://proj.create-react-app.com/Projects/Skeleton/index.html"
-          }
+          link={"https://old.create-react-app.com/Projects/Skeleton/index.html"}
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
@@ -166,7 +164,7 @@ const Grid = () => {
         />
         <GridItem
           text={"Website (Spring '20)"}
-          link={"https://proj.create-react-app.com/"}
+          link={"https://old.create-react-app.com/"}
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
