@@ -24,9 +24,9 @@ const Drop = (props) => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleClose = (props) => {
-    //setAnchorEl(null);
-    window.location.href = "http://google.com";
+  const handleClose = (event) => {
+    setAnchorEl(null);
+    window.location.href = props.link;
   };
 
   return (

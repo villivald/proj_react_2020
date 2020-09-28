@@ -1,7 +1,7 @@
 import React from "react";
-import Drop from "./Drop";
 import Toggle from "./Toggle";
 import logo from "../images/logo/103.png";
+import Dropdown from "../components/Dropdown";
 
 const Menu = () => {
   const handleClick = () => {
@@ -19,7 +19,7 @@ const Menu = () => {
             <img className="logo" src={logo} alt="Logo" width="150px" />
           </div>
           <div className="drop">
-            <Drop />
+            <Dropdown />
           </div>
         </div>
       </div>
