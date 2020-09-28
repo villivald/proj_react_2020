@@ -2,7 +2,7 @@
 
 [Proj](https://proj.create-react-app.com/)
 
-[Imgur](https://i.imgur.com/1JJxOYF.png)
+![Imgur](https://i.imgur.com/1JJxOYF.png)
 
 ### Blog
 
