@@ -200,6 +200,14 @@ h1 {
   z-index: 1;
 }
 
+.btn-info {
+  color: #fff;
+  background-color: #5c8d76;
+  border-color: black;
+  font-family: "Mate", serif;
+  box-shadow: 1px 1px 1px 1px rgba(51, 51, 51, 0.91);
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;
