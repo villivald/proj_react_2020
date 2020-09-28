@@ -8,4 +8,4 @@
 
 [Create React App Blog](https://create-react-app.com/)
 
-[Imgur](https://i.imgur.com/0o2KKuo.png)
+![Imgur](https://i.imgur.com/0o2KKuo.png)
