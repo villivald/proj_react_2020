@@ -40,6 +40,9 @@ a {
 }
 .header {
   cursor: pointer;
+  display: flex;
+  place-content: center;
+  place-items: center;
 }
 .logo {
   padding: 4px;
