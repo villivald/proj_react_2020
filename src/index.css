@@ -140,6 +140,7 @@ h1 {
   font-family: "Mate", serif;
   text-align: center;
   color: #333;
+  letter-spacing: 0.05em;
 }
 
 .headers {
@@ -209,6 +210,7 @@ h1 {
   border-color: black;
   font-family: "Mate", serif;
   box-shadow: 1px 1px 1px 1px rgba(51, 51, 51, 0.91);
+  letter-spacing: 0.05em;
 }
 
 @media only screen and (max-width: 1300px) {
