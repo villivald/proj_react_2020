@@ -2,9 +2,9 @@ import React from "react";
 import { makeStyles, withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Colors from "../constants/colors";
-import logo8 from "../images/8.png";
-import logo7 from "../images/7.png";
-import logo6 from "../images/6.png";
+import logo8 from "../images/8.webp";
+import logo7 from "../images/7.webp";
+import logo6 from "../images/6.webp";
 
 const useStyles = makeStyles((theme) => ({
   root: {

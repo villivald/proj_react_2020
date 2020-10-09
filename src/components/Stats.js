@@ -1,7 +1,7 @@
 import React from "react";
 import { Progress } from "antd";
 import ChipCloud from "../components/ChipCloud";
-import clip2 from "../images/clip-2.png";
+import clip2 from "../images/clip-2.webp";
 import Timelines from "../components/Timeline";
 import { withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
