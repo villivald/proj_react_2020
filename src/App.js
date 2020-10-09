@@ -1,19 +1,18 @@
 import React from "react";
-import Grid from "./components/Grid";
-import Menu from "./components/Menu";
-import Footer from "./components/Footer";
-import Screens from "./components/Screens";
-import Stats from "./components/Stats";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/home";
+import First from "./pages/first";
+import Second from "./pages/second";
 
 const App = () => {
   return (
-    <div className="main">
-      <Menu />
-      <Grid />
-      <Stats />
-      <Screens />
-      <Footer />
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/first" exact component={First} />
+        <Route path="/second" exact component={Second} />
+      </Switch>
+    </Router>
   );
 };
 
