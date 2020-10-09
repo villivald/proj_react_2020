@@ -1,11 +1,11 @@
 import React from "react";
 import GridItem from "./GridItem";
 import Colors from "../constants/colors";
-import html from "../images/html.png";
-import js from "../images/js.svg";
-import react from "../images/react.svg";
-import wpb from "../images/wpb.svg";
-import soon from "../images/soon.png";
+import html from "../images/html.webp";
+import js from "../images/js.webp";
+import react from "../images/react.webp";
+import wpb from "../images/wpb.webp";
+import soon from "../images/soon.webp";
 
 const styles = {
   box: {

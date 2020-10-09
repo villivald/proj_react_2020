@@ -9,11 +9,11 @@ import TimelineOppositeContent from "@material-ui/lab/TimelineOppositeContent";
 import Typography from "@material-ui/core/Typography";
 import Avatar from "@material-ui/core/Avatar";
 import { withStyles } from "@material-ui/core";
-import helsinki from "../images/helsinki.png";
-import prohelsinki from "../images/prohelsinki.jpg";
-import ma from "../images/ma.png";
-import hkl from "../images/hkl.jpg";
-import lab from "../images/lab.png";
+import helsinki from "../images/helsinki.webp";
+import prohelsinki from "../images/prohelsinki.webp";
+import ma from "../images/ma.webp";
+import hkl from "../images/hkl.webp";
+import lab from "../images/lab.webp";
 
 const StyledTypo = withStyles({
   root: {
