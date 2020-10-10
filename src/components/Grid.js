@@ -60,6 +60,7 @@ const Grid = () => {
           boxStyle={styles.blog}
           afterHover={Colors.blog}
           image={wpb}
+          alt="wordpress"
         />
         <GridItem
           text={"Calculator | 🖥"}
@@ -72,6 +73,7 @@ const Grid = () => {
           background={Colors.button}
           afterHover={Colors.button}
           image={js}
+          alt="js"
         />
         <GridItem
           text={"Calculator | 📱"}
@@ -83,6 +85,7 @@ const Grid = () => {
           boxStyle={styles.box}
           afterHover={Colors.button}
           image={js}
+          alt="js"
         />
         <GridItem
           text={"Ping-Pong | Player vs Player"}
@@ -94,6 +97,7 @@ const Grid = () => {
           boxStyle={styles.box}
           afterHover={Colors.button}
           image={js}
+          alt="js"
         />
         <GridItem
           text={"Ping-Pong | Player vs AI"}
@@ -105,6 +109,7 @@ const Grid = () => {
           boxStyle={styles.box}
           afterHover={Colors.button}
           image={js}
+          alt="js"
         />
         <GridItem
           text={"Todo App | JS"}
@@ -114,6 +119,7 @@ const Grid = () => {
           boxStyle={styles.box}
           afterHover={Colors.button}
           image={js}
+          alt="js"
         />
         <GridItem
           text={"Layout"}
@@ -123,6 +129,7 @@ const Grid = () => {
           boxStyle={styles.box}
           afterHover={Colors.button}
           image={html}
+          alt="html"
         />
         <GridItem
           text={"Mine Sweeper | JS"}
@@ -134,6 +141,7 @@ const Grid = () => {
           boxStyle={styles.box}
           afterHover={Colors.button}
           image={js}
+          alt="js"
         />
         <GridItem
           text={"Todo App | React"}
@@ -143,6 +151,7 @@ const Grid = () => {
           boxStyle={styles.box}
           afterHover={Colors.button}
           image={react}
+          alt="react"
         />
         <GridItem
           text={"Phonebook | React & Heroku"}
@@ -152,6 +161,7 @@ const Grid = () => {
           boxStyle={styles.box}
           afterHover={Colors.button}
           image={react}
+          alt="react"
         />
         <GridItem
           text={"Website (Winter '19)"}
@@ -161,6 +171,7 @@ const Grid = () => {
           boxStyle={styles.box}
           afterHover={Colors.button}
           image={html}
+          alt="html"
         />
         <GridItem
           text={"Website (Spring '20)"}
@@ -170,6 +181,7 @@ const Grid = () => {
           boxStyle={styles.box}
           afterHover={Colors.button}
           image={html}
+          alt="html"
         />
         <GridItem
           text={"Currently working on: React Native App"}
@@ -179,6 +191,7 @@ const Grid = () => {
           boxStyle={styles.box}
           afterHover={Colors.button}
           image={react}
+          alt="react"
         />
         <GridItem
           text={"More coming soon... "}
@@ -187,6 +200,7 @@ const Grid = () => {
           boxStyle={styles.box}
           afterHover={Colors.button}
           image={soon}
+          alt="coming soon"
         />
       </div>
     </div>

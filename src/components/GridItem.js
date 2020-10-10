@@ -48,7 +48,11 @@ const GridItem = (props) => {
         onClick={handlePress}
       >
         {props.text}
-        <Avatar src={props.image} className={classes.small} />
+        <Avatar
+          src={props.image}
+          className={classes.small}
+          alt={`${props.alt} logo`}
+        />
       </button>
     </div>
   );
