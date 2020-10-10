@@ -38,7 +38,7 @@ const Footer = () => {
             <TelegramIcon />
             <Link color="inherit">Telegram</Link>
           </a>
-          <a href="https://twitter.com/ReactApp_Blog">
+          <a href="https://twitter.com/crapp_blog">
             <TwitterIcon />
             <Link color="inherit">Twitter</Link>
           </a>
