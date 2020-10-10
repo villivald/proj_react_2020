@@ -34,7 +34,7 @@ const Timelines = (props) => {
         </TimelineSeparator>
         <TimelineContent>
           <StyledTypo>University of Helsinki</StyledTypo>
-          <Avatar src={helsinki} />
+          <Avatar src={helsinki} alt="university of helsinki" />
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -47,7 +47,7 @@ const Timelines = (props) => {
         </TimelineSeparator>
         <TimelineContent>
           <StyledTypo>Trainee Copywriter @ AshberryDesign Oy</StyledTypo>
-          <Avatar src={prohelsinki} />
+          <Avatar src={prohelsinki} alt="pro helsinki" />
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -60,7 +60,7 @@ const Timelines = (props) => {
         </TimelineSeparator>
         <TimelineContent>
           <StyledTypo>Graduated as Master of Arts</StyledTypo>
-          <Avatar src={ma} />
+          <Avatar src={ma} alt="master of arts" />
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -73,7 +73,7 @@ const Timelines = (props) => {
         </TimelineSeparator>
         <TimelineContent>
           <StyledTypo>Tram driver @ HKL</StyledTypo>
-          <Avatar src={hkl} />
+          <Avatar src={hkl} alt="hkl/hst" />
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -86,7 +86,7 @@ const Timelines = (props) => {
         </TimelineSeparator>
         <TimelineContent>
           <StyledTypo>LAB University of Applied Sciences</StyledTypo>
-          <Avatar src={lab} />
+          <Avatar src={lab} alt="lab university" />
         </TimelineContent>
       </TimelineItem>
     </Timeline>

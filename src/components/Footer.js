@@ -1,6 +1,7 @@
 import React from "react";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
-import Link from "@material-ui/core/Link";
+
+//Icons
 import GitHubIcon from "@material-ui/icons/GitHub";
 import CreateIcon from "@material-ui/icons/Create";
 import WebIcon from "@material-ui/icons/Web";
@@ -16,31 +17,31 @@ const Footer = () => {
         <Breadcrumbs aria-label="breadcrumb">
           <a href="https://create-react-app.com/">
             <CreateIcon />
-            <Link color="inherit">Blog</Link>
+            Blog
           </a>
           <a href="https://proj.create-react-app.com/">
             <WebIcon />
-            <Link color="inherit">Site</Link>
+            Site
           </a>
           <a href="https://github.com/villivald">
             <GitHubIcon />
-            <Link color="inherit">GitHub</Link>
+            GitHub
           </a>
           <a href="https://www.linkedin.com/in/maxim-villivald-4b1b311a3/">
             <LinkedInIcon />
-            <Link color="inherit">LinkedIn</Link>
+            LinkedIn
           </a>
           <a href="mailto:maxim.villivald@gmail.com">
             <MailIcon />
-            <Link color="inherit">Email</Link>
+            Email
           </a>
           <a href="https://t.me/create_react_app">
             <TelegramIcon />
-            <Link color="inherit">Telegram</Link>
+            Telegram
           </a>
           <a href="https://twitter.com/crapp_blog">
             <TwitterIcon />
-            <Link color="inherit">Twitter</Link>
+            Twitter
           </a>
         </Breadcrumbs>
       </div>
