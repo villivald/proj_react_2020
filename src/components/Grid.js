@@ -11,7 +11,7 @@ const styles = {
   box: {
     boxSizing: "border-box",
     color: Colors.whiteSmoke,
-    fontSize: 18,
+    fontSize: "1.2rem",
     fontFamily: "Mate, serif",
     width: 200,
     height: 100,
@@ -30,7 +30,7 @@ const styles = {
   blog: {
     boxSizing: "border-box",
     color: Colors.whiteSmoke,
-    fontSize: 18,
+    fontSize: "1.2rem",
     fontFamily: "Mate, serif",
     width: 200,
     height: 100,

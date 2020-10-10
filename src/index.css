@@ -12,6 +12,7 @@ a {
   color: #333;
   text-decoration: none;
   font-family: "Mate", serif;
+  font-size: 1rem;
   display: flex;
   gap: 5px;
 }
@@ -138,6 +139,7 @@ img {
 
 h1 {
   font-family: "Mate", serif;
+  font-size: 2.5rem;
   text-align: center;
   color: #333;
   letter-spacing: 0.05em;

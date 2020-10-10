@@ -18,7 +18,6 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-around",
     marginTop: 40,
     marginBottom: 50,
-    fontSize: 18,
   },
 }));
 
