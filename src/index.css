@@ -215,6 +215,25 @@ h1 {
   letter-spacing: 0.05em;
 }
 
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: "Mate SC", serif;
+  letter-spacing: 0.65em;
+  font-size: 2rem;
+  margin-left: -70px;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 15px 5px 5px 5px;
+  /*border: 2px dashed #e54b4b;*/
+  border-radius: 5px;
+}
+
+.vertical-text:hover {
+  border: 2px solid #e54b4b;
+  transform: rotate(-3deg);
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;
