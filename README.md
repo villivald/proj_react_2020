@@ -6,8 +6,15 @@
   <img alt="Version" src="https://img.shields.io/badge/version-0.3.0-blue.svg?cacheSeconds=2592000" />
   <img alt="Contributors" src="https://img.shields.io/github/contributors/villivald/proj_react_2020.svg?style=flat" />
   <img alt="Forks" src="https://img.shields.io/github/forks/villivald/proj_react_2020.svg?style=flat" />
-  <img alt="Issues" src="https://img.shields.io/github/issues/villivald/proj_react_2020.svg?style=flat" />
-  <img alt="Issues" src="https://img.shields.io/github/stars/villivald/proj_react_2020.svg?style=flat" />
+  <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/villivald/proj_react_2020">
+  <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/villivald/proj_react_2020">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/villivald/proj_react_2020">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/villivald/proj_react_2020">
+  <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fproj.create-react-app.com%2F">
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/villivald/proj_react_2020">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/villivald/proj_react_2020">
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/villivald?style=social">
+  <img alt="Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fvillivald%2Fproj_react_2020" />
 </p>
 
 <p align="center">
