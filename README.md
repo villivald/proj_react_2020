@@ -32,7 +32,7 @@
 
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
-    <img src="src/images/logo/103.png" alt="Logo" width="200" height="200">
+    <img src="./gif/header.gif" alt="Logo"  >
   </a>
 </p>
 
@@ -58,13 +58,33 @@
 
 [Proj](https://proj.create-react-app.com/)
 
-![Imgur](https://i.imgur.com/1JJxOYF.png)
+<p align="center">
+  <a href="https://github.com/villivald/proj_react_2020">
+    <img src="./gif/website.gif" alt="Logo"  >
+  </a>
+</p>
+
+
+
+#### Projects
+
+<p align="center">
+  <a href="https://github.com/villivald/proj_react_2020">
+    <img src="./gif/Projects.gif" alt="Logo"  >
+  </a>
+</p>
 
 #### Blog
 
 [Create React App Blog](https://create-react-app.com/)
 
-![Imgur](https://i.imgur.com/0o2KKuo.png)
+
+
+<p align="center">
+  <a href="https://github.com/villivald/proj_react_2020">
+    <img src="./gif/blog.gif" alt="Logo"  >
+  </a>
+</p>
 
 
 <!-- ROAD MAP -->
@@ -90,6 +110,12 @@ Contributions are what make the open source community such an amazing place to b
 ### Contact
 
 [https://create-react-app.com/contact/](https://create-react-app.com/contact/)
+
+<p align="center">
+  <a href="https://github.com/villivald/proj_react_2020">
+    <img src="./gif/footer.gif" alt="Logo"  >
+  </a>
+</p>
 
 
 
