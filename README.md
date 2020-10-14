@@ -51,7 +51,6 @@
 "Enter your proj_react_2020 details here..."
 <br>
 * [Proj](https://proj.create-react-app.com/)
-<br>
 * [Create React App Blog](https://create-react-app.com/)
 
 
