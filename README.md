@@ -3,7 +3,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![GitHub license](https://img.shields.io/github/license/villivald/proj_react_2020)](https://github.com/villivald/proj_react_2020)
 
 
 <!-- PROJECT LOGO -->
@@ -31,9 +30,7 @@
       - [Blog](#blog)
   - [Road map](#road-map)
   - [Contributing](#contributing)
-  - [License](#license)
   - [Contact](#contact)
-  - [Acknowledgements](#acknowledgements)
 
 
 
@@ -48,23 +45,17 @@
 # Proj
 
 <!-- Description -->
-"Enter your proj_react_2020 details here..."
 <br>
 * [Proj](https://proj.create-react-app.com/)
 * [Create React App Blog](https://create-react-app.com/)
 
 
 ### Built With
-This section should list any major frameworks that you built using your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples:
 * [React](https://reactjs.org/docs/getting-started.html)
-* [Stack overflow](https://stackoverflow.com/)
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 ```sh
@@ -91,8 +82,6 @@ npm start
 ```
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
 ### Website
 
 [Proj](https://proj.create-react-app.com/)
@@ -105,7 +94,6 @@ npm start
 
 ![Imgur](https://i.imgur.com/0o2KKuo.png)
 
-_For more examples, please refer to the [Documentation]()_
 
 
 
@@ -129,26 +117,12 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the <s>MIT</s> License. See [`LICENSE`](https://choosealicense.com) for more information.
-
-
-
 <!-- CONTACT -->
 ## Contact
 
 Project Link: [https://github.com/villivald/proj_react_2020](https://github.com/villivald/proj_react_2020)
 
 
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [Stack overflow](http://stackoverflow.com/)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
