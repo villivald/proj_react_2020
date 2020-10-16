@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
-    <img src="./gif/header.gif" alt="Logo"  >
+    <img src="src/images/logo/103.png" alt="Logo" width="200" height="200">
   </a>
 </p>
 
@@ -89,7 +89,6 @@
   </a>
 </p>
 
-=======
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/villivald/proj_react_2020/issues).
 
 
