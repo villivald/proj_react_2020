@@ -239,7 +239,7 @@ h1 {
   display: grid;
   grid-gap: 14%;
   grid-template-columns: repeat(3, 160px);
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 .contact-wrapper {

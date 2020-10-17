@@ -3,6 +3,7 @@ import Toggle from "./Toggle";
 import logo from "../images/logo/103.png";
 import Dropdown from "../components/Dropdown";
 import { Frame } from "framer";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   const handleClick = () => {
@@ -29,7 +30,9 @@ const Menu = () => {
               radius={30}
               background={"hsla(0, 100%, 50%, 0)"}
             >
-              <img className="logo" src={logo} alt="Logo" width="150px" />
+              <Link to="/">
+                <img className="logo" src={logo} alt="Logo" width="150px" />
+              </Link>
             </Frame>
           </div>
           <div className="drop">
