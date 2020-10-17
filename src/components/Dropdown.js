@@ -11,11 +11,11 @@ const DropDown = () => {
       </Dropdown.Item>
       <Dropdown.Divider />
       <Dropdown.Item>
-        <Link to="/first">First Page</Link>
+        <Link to="/first">About</Link>
       </Dropdown.Item>
       <Dropdown.Divider />
       <Dropdown.Item>
-        <Link to="/second">Second Page</Link>
+        <Link to="/second">Contact</Link>
       </Dropdown.Item>
     </DropdownButton>
   );

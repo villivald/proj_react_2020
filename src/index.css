@@ -234,6 +234,28 @@ h1 {
   transform: rotate(-3deg);
 }
 
+.contact-badges {
+  margin-top: 3%;
+  display: grid;
+  grid-gap: 14%;
+  grid-template-columns: repeat(3, 160px);
+  margin-bottom: 20%;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  margin-bottom: 25%;
+}
+
+.icons:hover {
+  transform: scale(1.5) rotate(-5deg);
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;
