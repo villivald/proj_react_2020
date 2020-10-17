@@ -6,6 +6,7 @@ import { withStyles } from "@material-ui/core";
 import Colors from "../constants/colors";
 import clip5 from "../images/dc2.webp";
 import clip3 from "../images/clip-3.webp";
+import { Link } from "react-router-dom";
 
 const StyledSwitch = withStyles({
   switchBase: {
@@ -48,7 +49,11 @@ const SwitchLabels = (props) => {
           label=""
         />
       </FormGroup>
-      <img src={logo} alt="Logo" width="350px" className="headerClip" />
+      <Link to="/">
+        <div>
+          <img src={logo} alt="Logo" width="350px" className="headerClip" />
+        </div>
+      </Link>
     </div>
   );
 };

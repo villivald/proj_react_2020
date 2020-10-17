@@ -31,7 +31,9 @@ const Menu = () => {
               background={"hsla(0, 100%, 50%, 0)"}
             >
               <Link to="/">
-                <img className="logo" src={logo} alt="Logo" width="150px" />
+                <div>
+                  <img className="logo" src={logo} alt="Logo" width="150px" />
+                </div>
               </Link>
             </Frame>
           </div>
