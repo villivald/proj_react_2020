@@ -42,6 +42,7 @@ const GridItem = (props) => {
   return (
     <div className="button-box">
       <button
+        className="button"
         style={props.boxStyle}
         onMouseOver={changeBackground}
         onMouseLeave={setBackgroundToDefault}

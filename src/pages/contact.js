@@ -9,13 +9,13 @@ import telegram from "../images/telegram.png";
 import mail from "../images/gmail.png";
 import twitter from "../images/twitter.png";
 import strava from "../images/strava.png";
-import facebook from "../images/facebook.png";
+import medium from "../images/medium.png";
 
 const Second = () => {
   return (
     <div className="main">
       <Menu />
-      <h1>Contact</h1>
+      <h1 className="contacts">Contact</h1>
       <div className="contact-wrapper">
         <div className="contact-badges">
           <a href="https://dev.to/villivald">
@@ -90,11 +90,11 @@ const Second = () => {
               width="30"
             />
           </a>
-          <a href="https://www.facebook.com/maxim.villivald">
+          <a href="https://create-react-app.medium.com/">
             <img
               className="icons"
-              src={facebook}
-              alt="MV's FB Profile"
+              src={medium}
+              alt="MV's Medium Profile"
               height="30"
               width="30"
             />

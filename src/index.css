@@ -275,7 +275,7 @@ h1 {
     display: none;
   }
   h1 {
-    margin-bottom: -4%;
+    margin-bottom: -1%;
   }
   .chipWrapper {
     width: 80%;
@@ -287,6 +287,10 @@ h1 {
     grid-gap: 40px;
     grid-template-columns: repeat(3, 200px);
     padding-top: 30px;
+  }
+
+  .button {
+    font-size: 1.1rem !important;
   }
 }
 
@@ -309,7 +313,7 @@ h1 {
     display: none;
   }
   h1 {
-    margin-bottom: -4%;
+    margin-bottom: -1%;
   }
   .chipWrapper {
     width: 80%;
@@ -346,7 +350,7 @@ h1 {
     display: none;
   }
   h1 {
-    margin-bottom: -4%;
+    margin-bottom: -1%;
   }
   .chipWrapper {
     width: 80%;
@@ -401,6 +405,10 @@ h1 {
   }
   .logo {
     margin-left: 25px;
+  }
+
+  .contacts {
+    margin-bottom: 2%;
   }
 }
 
@@ -513,6 +521,24 @@ h1 {
   .switch {
     display: none;
   }
+
+  .footer {
+    padding: 0 10% 0 10%;
+  }
+
+  .stats {
+    padding-left: 10%;
+  }
+
+  .dropdown {
+    margin-left: -2%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .dropdown {
+    margin-left: -20%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -549,12 +575,24 @@ h1 {
     padding-top: 15px;
   }
 
-  .drop {
-    display: none;
+  .dropdown {
+    margin-left: -25%;
   }
 
   .switch {
     display: none;
+  }
+
+  .button {
+    font-size: 1rem !important;
+  }
+
+  .contact-badges {
+    margin-top: 3%;
+    display: grid;
+    grid-gap: 8%;
+    grid-template-columns: repeat(3, 140px);
+    margin-bottom: 10%;
   }
 }
 
@@ -567,8 +605,8 @@ h1 {
     margin-left: 10px;
   }
 
-  .drop {
-    display: none;
+  .dropdown {
+    margin-left: -30%;
   }
 
   .timeline {
@@ -598,6 +636,22 @@ h1 {
   }
 
   .switch {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .contact-badges {
+    margin-top: 3%;
+    display: grid;
+    grid-gap: 6%;
+    grid-template-columns: repeat(3, 120px);
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .drop {
     display: none;
   }
 }
