@@ -17,7 +17,6 @@ const styles = {
     height: 100,
     border: "none",
     boxShadow: `5px 5px 9px 2px rgba(51,51,51,0.5)`,
-    outline: "none",
     borderRadius: 5,
     transform: "",
     backgroundColor: Colors.button,
@@ -36,7 +35,6 @@ const styles = {
     height: 100,
     border: "none",
     boxShadow: `5px 5px 9px 2px rgba(51,51,51,0.5)`,
-    outline: "none",
     borderRadius: 5,
     transform: "",
     backgroundColor: Colors.blog,
@@ -61,7 +59,6 @@ const Grid = () => {
           boxStyle={styles.blog}
           afterHover={Colors.blog}
           image={wpb}
-          alt="wordpress"
         />
         <GridItem
           text={"Calculator | 🖥"}

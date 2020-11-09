@@ -17,6 +17,10 @@ a {
   gap: 5px;
 }
 
+a:focus {
+  outline: lightgreen solid 2px;
+}
+
 /*HEADER*/
 
 .wrapper {
@@ -129,12 +133,20 @@ a {
   align-items: center;
 }
 
+button.button:focus {
+  outline: lightgreen solid 2px;
+}
+
 img {
   border-radius: 5px;
 }
 
 .image:hover {
   transform: scale(1.1);
+}
+
+.image:focus {
+  outline: lightgreen solid 2px;
 }
 
 h1 {
