@@ -6,6 +6,7 @@ import js from "../images/js.webp";
 import react from "../images/react.webp";
 import wpb from "../images/wpb.webp";
 import soon from "../images/soon.webp";
+import php from "../images/php.webp";
 
 const styles = {
   box: {
@@ -59,6 +60,7 @@ const Grid = () => {
           boxStyle={styles.blog}
           afterHover={Colors.blog}
           image={wpb}
+          alt="wordpress"
         />
         <GridItem
           text={"Calculator | 🖥"}
@@ -180,6 +182,16 @@ const Grid = () => {
           afterHover={Colors.button}
           image={html}
           alt="html"
+        />
+        <GridItem
+          text={"Store catalog | PHP"}
+          link={"https://old.create-react-app.com/Projects/PHP/"}
+          color={Colors.gray}
+          hoverColor={Colors.buttonShadow}
+          boxStyle={styles.box}
+          afterHover={Colors.button}
+          image={php}
+          alt="php"
         />
         <GridItem
           text={"Currently working on: React Native App"}

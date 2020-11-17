@@ -157,6 +157,14 @@ h1 {
   letter-spacing: 0.05em;
 }
 
+h2 {
+  font-family: "Mate", serif;
+  text-align: center;
+  color: #333;
+  letter-spacing: 0.05em;
+  margin-top: 1.5%;
+}
+
 .headers {
   font-family: "Mate", serif;
   display: flex;
@@ -260,12 +268,31 @@ h1 {
   align-items: center;
 }
 
+.uses-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
 .icons {
   margin-bottom: 25%;
 }
 
 .icons:hover {
   transform: scale(1.5) rotate(-5deg);
+}
+
+.uses {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+ul {
+  list-style-type: none;
 }
 
 @media only screen and (max-width: 1300px) {

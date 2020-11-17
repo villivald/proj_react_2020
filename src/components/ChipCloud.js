@@ -13,6 +13,8 @@ import wp from "../images/wp.webp";
 import sql from "../images/sql.webp";
 import git from "../images/git.webp";
 import github from "../images/github.webp";
+import bash from "../images/bash.webp";
+import php from "../images/php.webp";
 
 const StyledChip = withStyles({
   root: {
@@ -60,6 +62,14 @@ const ChipCloud = () => {
       <StyledChip
         avatar={<Avatar alt="github logo" src={github}></Avatar>}
         label="GitHub"
+      />
+      <StyledChip
+        avatar={<Avatar alt="github logo" src={bash}></Avatar>}
+        label="Bash"
+      />
+      <StyledChip
+        avatar={<Avatar alt="github logo" src={php}></Avatar>}
+        label="PHP"
       />
     </div>
   );

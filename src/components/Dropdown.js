@@ -17,6 +17,10 @@ const DropDown = () => {
       <Dropdown.Item>
         <Link to="/contact">Contact</Link>
       </Dropdown.Item>
+      <Dropdown.Divider />
+      <Dropdown.Item>
+        <Link to="/uses">Uses</Link>
+      </Dropdown.Item>
     </DropdownButton>
   );
 };
