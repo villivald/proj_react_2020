@@ -159,10 +159,10 @@ h1 {
 
 h2 {
   font-family: "Mate", serif;
-  text-align: center;
   color: #333;
   letter-spacing: 0.05em;
-  margin-top: 1.5%;
+  margin: auto;
+  text-align: center;
 }
 
 .headers {
@@ -273,6 +273,8 @@ h2 {
   justify-content: center;
   align-items: center;
   margin-bottom: 1%;
+  font-family: "Mate", serif;
+  letter-spacing: 0.05em;
 }
 
 .icons {
@@ -287,12 +289,33 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 5%;
-  padding-top: 1%;
-  padding-bottom: 2%;
+  margin-bottom: 2%;
+}
+
+.usesBox {
+  box-sizing: border-box;
+  margin: 10px 0 10px 20px;
+  border: 2px dashed #e54b4b;
+  border-radius: 5px;
+}
+
+.usesBox:hover {
+  border: 2px solid #e54b4b;
+  transform: rotate(3deg);
 }
 
 ul {
   list-style-type: none;
+}
+
+.use {
+  display: flex;
+  gap: 10px;
+  min-width: 200px;
+}
+
+.emoji {
+  width: 20px;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -324,7 +347,7 @@ ul {
   .chip-grid {
     display: grid;
     grid-gap: 40px;
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(4, 200px);
     padding-top: 30px;
   }
 
@@ -362,7 +385,7 @@ ul {
   .chip-grid {
     display: grid;
     grid-gap: 40px;
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(4, 200px);
     padding-top: 30px;
   }
   .switch {
@@ -399,7 +422,7 @@ ul {
   .chip-grid {
     display: grid;
     grid-gap: 35px;
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(4, 180px);
     padding-top: 30px;
   }
   .switch {
@@ -436,7 +459,7 @@ ul {
   .chip-grid {
     display: grid;
     grid-gap: 35px;
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(4, 170px);
     padding-top: 15px;
   }
   .switch {
@@ -479,7 +502,7 @@ ul {
   .chip-grid {
     display: grid;
     grid-gap: 30px;
-    grid-template-columns: repeat(3, 180px);
+    grid-template-columns: repeat(4, 150px);
     padding-top: 15px;
   }
 
@@ -578,6 +601,13 @@ ul {
   .dropdown {
     margin-left: -20%;
   }
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23%;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -651,7 +681,7 @@ ul {
   .timeline {
     display: flex;
     flex-direction: column;
-    margin-top: 20%;
+    margin-top: 25%;
     justify-content: space-around;
     align-items: center;
   }
@@ -670,7 +700,7 @@ ul {
   .chip-grid {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(2, 150px);
+    grid-template-columns: repeat(3, 100px);
     padding-top: 15px;
   }
 
@@ -692,6 +722,13 @@ ul {
 @media only screen and (max-width: 400px) {
   .drop {
     display: none;
+  }
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 
