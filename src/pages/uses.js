@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import { withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
+import uses from "../images/uses.webp";
+import cat from "../images/cat.webp";
+import catPic from "../images/catPic.webp";
 
 const StyledPaper = withStyles({
   root: {
@@ -13,16 +16,46 @@ const StyledPaper = withStyles({
 })(Paper);
 
 const Uses = () => {
+  const [displayState, setDisplayState] = useState("none");
+  const handlePic = () => {
+    setDisplayState("list-item");
+  };
+  const handlePicOut = () => {
+    setDisplayState("none");
+  };
   return (
     <div className="main">
       <Menu />
       <h1>Uses</h1>
+      <div className="contact-wrapper">
+        <img
+          style={{ marginBottom: "50px" }}
+          src={uses}
+          alt="Uses"
+          width="50%"
+        />
+      </div>
       <div className="uses-wrapper">
         The following is a list of the tools and software that I use on a daily
         basis. This page was inspired by Wes Bos and his project -
         https://uses.tech/.
       </div>
       <div className="uses">
+        <div
+          onMouseOver={handlePic}
+          onMouseOut={handlePicOut}
+          style={{
+            width: "100px",
+            height: "100px",
+            marginLeft: "-160px",
+            borderRadius: "50%",
+            backgroundColor: "#25A2B9",
+            display: "grid",
+            placeItems: "center",
+          }}
+        >
+          <img src={catPic} alt="cat"></img>
+        </div>
         <StyledPaper elevation={6}>
           <div className="usesBox">
             <h2>Hardware</h2>
@@ -36,6 +69,16 @@ const Uses = () => {
                 MacBook Pro 13" 2017
               </a>
             </li>
+            <img
+              src={cat}
+              alt="pic"
+              width="60%"
+              style={{
+                display: displayState,
+                position: "absolute",
+                transform: "translateX(50px) translateY(-100px)",
+              }}
+            />
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 📱
@@ -99,109 +142,119 @@ const Uses = () => {
               <span className="emoji" role="img" aria-label="bike">
                 🖥
               </span>
-              Code editor: VS Code, Theme: Dark+, Font: Dank Mono
+              <a href="https://code.visualstudio.com/">
+                VS Code + Dark + Dank Mono
+              </a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 🐚
               </span>
-              macOS Terminal + Zsh + OhMyZsh
+              <a href="https://ohmyz.sh/">macOS Terminal + Zsh + OhMyZsh</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 👾
               </span>
-              Chrome, Firefox Dev
+              <a href="https://www.google.com/intl/en/chrome/">Chrome</a>+
+              <a href="https://www.mozilla.org/en-US/firefox/developer/">
+                Firefox Dev
+              </a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 ✉️
               </span>
-              Gmail/Spark
+              <a href="https://www.google.com/gmail/">Gmail</a>+
+              <a href="https://sparkmailapp.com/">Spark</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 📋
               </span>
-              Todoist
+              <a href="https://todoist.com/">Todoist</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 📁
               </span>
-              Notion
+              <a href="https://www.notion.so/">Notion</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 💬
               </span>
-              Telegram
+              <a href="https://web.telegram.org/">Telegram</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 👨‍💻
               </span>
-              Teams
+              <a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software">
+                Teams
+              </a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 🗄
               </span>
-              OneNote
+              <a href="https://www.onenote.com/">OneNote</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 📆
               </span>
-              Calendars 5
+              <a href="https://readdle.com/calendars5">Calendars 5</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 🗂
               </span>
-              Pocket
+              <a href="https://getpocket.com/">Pocket</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 🏋️‍♀️
               </span>
-              Strava
+              <a href="https://www.strava.com/athletes/42251423">Strava</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 📚
               </span>
-              Bookmate/Books/Audible
+              <a href="https://bookmate.com/@platonlliv/books/all">Bookmate</a>{" "}
+              + <a href="https://www.apple.com/apple-books/">Books</a> +{" "}
+              <a href="https://www.audible.co.uk/">Audible</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 📻
               </span>
-              Pocket Casts
+              <a href="https://www.pocketcasts.com/">Pocket Casts</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 🥷
               </span>
-              Tweetbot
+              <a href="https://tapbots.com/tweetbot/">Tweetbot</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 ✍️
               </span>
-              Grammarly
+              <a href="https://www.grammarly.com/">Grammarly</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 🎶
               </span>
-              Endel
+              <a href="https://endel.io/">Endel</a>
             </li>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 💾
               </span>
-              Transmit
+              <a href="https://panic.com/transmit/">Transmit</a>
             </li>
           </ul>
         </StyledPaper>
@@ -211,22 +264,44 @@ const Uses = () => {
           </div>
           <ul>
             <li className="use">
-              <span role="img" aria-label="bike">
+              <span className="emoji" role="img" aria-label="bike">
                 🚴
               </span>
-               Serious Grafix Gravel Bike
+              <a href="https://www.serious-cycles.com/kategorie/gravelbikes/gravelbikes-serie-serious-grafix/">
+                Serious Grafix Gravel Bike
+              </a>
             </li>
             <li className="use">
-              <span role="img" aria-label="bike">
+              <span className="emoji" role="img" aria-label="bike">
                 🎒
               </span>
-               Roka Utility Pack
+              <a href="https://www.roka.com/products/utility-pack">
+                Roka Utility Pack
+              </a>
             </li>
             <li className="use">
-              <span role="img" aria-label="bike">
+              <span className="emoji" role="img" aria-label="bike">
                 🍼
               </span>
-               Hydro Flask
+              <a href="https://www.hydroflask.com/21-oz-standard-mouth">
+                Hydro Flask
+              </a>
+            </li>
+            <li className="use">
+              <span className="emoji" role="img" aria-label="bike">
+                📝
+              </span>
+              <a href="https://fi.moleskine.com/18-month-daily-planner-black/p1831">
+                Moleskine
+              </a>
+            </li>
+            <li className="use">
+              <span className="emoji" role="img" aria-label="bike">
+                🖊
+              </span>
+              <a href="https://www.mujionline.eu/uk/stationery/pens-and-pencils/gel-ink-pens">
+                Muji pens
+              </a>
             </li>
           </ul>
         </StyledPaper>
