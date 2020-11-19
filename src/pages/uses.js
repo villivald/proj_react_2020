@@ -72,11 +72,11 @@ const Uses = () => {
             <img
               src={cat}
               alt="pic"
-              width="60%"
+              width="50%"
               style={{
                 display: displayState,
                 position: "absolute",
-                transform: "translateX(50px) translateY(-100px)",
+                transform: "translateX(80px) translateY(-92px)",
               }}
             />
             <li className="use">
