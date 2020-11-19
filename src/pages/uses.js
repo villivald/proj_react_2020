@@ -6,6 +6,7 @@ import Paper from "@material-ui/core/Paper";
 import uses from "../images/uses.webp";
 import cat from "../images/cat.webp";
 import catPic from "../images/catPic.webp";
+import List from "../components/List";
 
 const StyledPaper = withStyles({
   root: {
@@ -61,14 +62,11 @@ const Uses = () => {
             <h2>Hardware</h2>
           </div>
           <ul>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                💻
-              </span>
-              <a href="https://www.apple.com/fi/macbook-pro-13/">
-                MacBook Pro 13" 2017
-              </a>
-            </li>
+            <List
+              emoji="💻"
+              name="MacBook Pro 13 2017"
+              link="https://www.apple.com/fi/macbook-pro-13/"
+            />
             <img
               src={cat}
               alt="pic"
@@ -79,58 +77,41 @@ const Uses = () => {
                 transform: "translateX(80px) translateY(-92px)",
               }}
             />
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                📱
-              </span>
-              <a href="https://www.apple.com/shop/buy-iphone/iphone-11/6.1-inch-display-64gb-green-unlocked">
-                iPhone 11
-              </a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🍏
-              </span>
-              <a href="https://www.apple.com/ipad-10.2/">iPad 10,2" 2019</a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                ⌚️
-              </span>
-              <a href="https://www.polar.com/en/vantage/v">Polar Vantage V</a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🎧
-              </span>
-              <a href="https://www.corsair.com/us/en/Categories/Products/Gaming-Headsets/Stereo-Headsets/HS60/p/CA-9011173-NA">
-                Corsair HS60
-              </a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🎧
-              </span>
-              <a href="https://www.jabra.com/bluetooth-headsets/jabra-elite-active-65t?_ga=2.179610726.358933741.1605687397-815382529.1605687397##100-99010000-02">
-                Jabra Elite Active 65T
-              </a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                📺
-              </span>
-              <a href="https://www.asus.com/Monitors/VC279H/">
-                Asus VC279H 27"
-              </a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                💽
-              </span>
-              <a href="https://shop.westerndigital.com/products/portable-drives/wd-my-passport-for-mac-usb-3-0-hdd#WDBA2D0020BBL-WESN">
-                WD My Passport for Mac
-              </a>
-            </li>
+            <List
+              emoji="📱"
+              name="iPhone 11"
+              link="https://www.apple.com/shop/buy-iphone/iphone-11/6.1-inch-display-64gb-green-unlocked"
+            />
+            <List
+              emoji="🍏"
+              name="iPad 10,2 2019"
+              link="https://www.apple.com/ipad-10.2/"
+            />
+            <List
+              emoji="⌚️"
+              name="Polar Vantage V"
+              link="https://www.polar.com/en/vantage/v"
+            />
+            <List
+              emoji="🎧"
+              name="Corsair HS60"
+              link="https://www.corsair.com/us/en/Categories/Products/Gaming-Headsets/Stereo-Headsets/HS60/p/CA-9011173-NA"
+            />
+            <List
+              emoji="🎧"
+              name="Jabra Elite Active 65T"
+              link="https://www.jabra.com/bluetooth-headsets/jabra-elite-active-65t?_ga=2.179610726.358933741.1605687397-815382529.1605687397##100-99010000-02"
+            />
+            <List
+              emoji="📺"
+              name="Asus VC279H 27"
+              link="https://www.asus.com/Monitors/VC279H/"
+            />
+            <List
+              emoji="💽"
+              name="WD My Passport for Mac"
+              link="https://shop.westerndigital.com/products/portable-drives/wd-my-passport-for-mac-usb-3-0-hdd#WDBA2D0020BBL-WESN"
+            />
           </ul>
         </StyledPaper>
         <StyledPaper elevation={6}>
@@ -138,20 +119,16 @@ const Uses = () => {
             <h2>Software</h2>
           </div>
           <ul>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🖥
-              </span>
-              <a href="https://code.visualstudio.com/">
-                VS Code + Dark + Dank Mono
-              </a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🐚
-              </span>
-              <a href="https://ohmyz.sh/">macOS Terminal + Zsh + OhMyZsh</a>
-            </li>
+            <List
+              emoji="🖥"
+              name="VS Code + Dark + Dank Mono"
+              link="https://code.visualstudio.com/"
+            />
+            <List
+              emoji="🐚"
+              name="macOS Terminal + Zsh + OhMyZsh"
+              link="https://ohmyz.sh/"
+            />
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 👾
@@ -168,56 +145,26 @@ const Uses = () => {
               <a href="https://www.google.com/gmail/">Gmail</a>+
               <a href="https://sparkmailapp.com/">Spark</a>
             </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                📋
-              </span>
-              <a href="https://todoist.com/">Todoist</a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                📁
-              </span>
-              <a href="https://www.notion.so/">Notion</a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                💬
-              </span>
-              <a href="https://web.telegram.org/">Telegram</a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                👨‍💻
-              </span>
-              <a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software">
-                Teams
-              </a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🗄
-              </span>
-              <a href="https://www.onenote.com/">OneNote</a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                📆
-              </span>
-              <a href="https://readdle.com/calendars5">Calendars 5</a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🗂
-              </span>
-              <a href="https://getpocket.com/">Pocket</a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🏋️‍♀️
-              </span>
-              <a href="https://www.strava.com/athletes/42251423">Strava</a>
-            </li>
+            <List emoji="📋" name="Todoist" link="https://todoist.com/" />
+            <List emoji="📁" name="Notion" link="https://www.notion.so/" />
+            <List emoji="💬" name="Telegram" link="https://web.telegram.org/" />
+            <List
+              emoji="👨‍💻"
+              name="Teams"
+              link="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software"
+            />
+            <List emoji="🗄" name="OneNote" link="https://www.onenote.com/" />
+            <List
+              emoji="📆"
+              name="Calendars 5"
+              link="https://readdle.com/calendars5"
+            />
+            <List emoji="🗂" name="Pocket" link="https://getpocket.com/" />
+            <List
+              emoji="🏋️‍♀️"
+              name="Strava"
+              link="https://www.strava.com/athletes/42251423"
+            />
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
                 📚
@@ -226,36 +173,27 @@ const Uses = () => {
               + <a href="https://www.apple.com/apple-books/">Books</a> +{" "}
               <a href="https://www.audible.co.uk/">Audible</a>
             </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                📻
-              </span>
-              <a href="https://www.pocketcasts.com/">Pocket Casts</a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🥷
-              </span>
-              <a href="https://tapbots.com/tweetbot/">Tweetbot</a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                ✍️
-              </span>
-              <a href="https://www.grammarly.com/">Grammarly</a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🎶
-              </span>
-              <a href="https://endel.io/">Endel</a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                💾
-              </span>
-              <a href="https://panic.com/transmit/">Transmit</a>
-            </li>
+            <List
+              emoji="📻"
+              name="Pocket Casts"
+              link="https://www.pocketcasts.com/"
+            />
+            <List
+              emoji="🥷"
+              name="Tweetbot"
+              link="https://tapbots.com/tweetbot/"
+            />
+            <List
+              emoji="✍️"
+              name="Grammarly"
+              link="https://www.grammarly.com/"
+            />
+            <List emoji="🎶" name="Endel" link="https://endel.io/" />
+            <List
+              emoji="💾"
+              name="Transmit"
+              link="https://panic.com/transmit/"
+            />
           </ul>
         </StyledPaper>
         <StyledPaper elevation={6}>
@@ -263,46 +201,31 @@ const Uses = () => {
             <h2>Other</h2>
           </div>
           <ul>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🚴
-              </span>
-              <a href="https://www.serious-cycles.com/kategorie/gravelbikes/gravelbikes-serie-serious-grafix/">
-                Serious Grafix Gravel Bike
-              </a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🎒
-              </span>
-              <a href="https://www.roka.com/products/utility-pack">
-                Roka Utility Pack
-              </a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🍼
-              </span>
-              <a href="https://www.hydroflask.com/21-oz-standard-mouth">
-                Hydro Flask
-              </a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                📝
-              </span>
-              <a href="https://fi.moleskine.com/18-month-daily-planner-black/p1831">
-                Moleskine
-              </a>
-            </li>
-            <li className="use">
-              <span className="emoji" role="img" aria-label="bike">
-                🖊
-              </span>
-              <a href="https://www.mujionline.eu/uk/stationery/pens-and-pencils/gel-ink-pens">
-                Muji pens
-              </a>
-            </li>
+            <List
+              emoji="🚴"
+              name="Serious Grafix Gravel Bike"
+              link="https://www.serious-cycles.com/kategorie/gravelbikes/gravelbikes-serie-serious-grafix/"
+            />
+            <List
+              emoji="🎒"
+              name="Roka Utility Pack"
+              link="https://www.roka.com/products/utility-pack"
+            />
+            <List
+              emoji="🍼"
+              name="Hydro Flask"
+              link="https://www.hydroflask.com/21-oz-standard-mouth"
+            />
+            <List
+              emoji="📝"
+              name="Moleskine"
+              link="https://fi.moleskine.com/18-month-daily-planner-black/p1831"
+            />
+            <List
+              emoji="🖊"
+              name="Muji pens"
+              link="https://www.mujionline.eu/uk/stationery/pens-and-pencils/gel-ink-pens"
+            />
           </ul>
         </StyledPaper>
       </div>
