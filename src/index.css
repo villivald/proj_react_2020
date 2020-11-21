@@ -294,13 +294,48 @@ h2 {
 }
 
 .usesBox {
-  box-sizing: border-box;
-  margin: 10px 0 10px 20px;
-  border: 2px dashed #e54b4b;
+  border: 2px dotted transparent;
   border-radius: 5px;
+  margin: 10px 0 10px 20px;
+  background-image: repeating-linear-gradient(
+      16deg,
+      #e54b4b,
+      #e54b4b 11px,
+      transparent 11px,
+      transparent 23px,
+      #e54b4b 23px
+    ),
+    repeating-linear-gradient(
+      106deg,
+      #e54b4b,
+      #e54b4b 11px,
+      transparent 11px,
+      transparent 23px,
+      #e54b4b 23px
+    ),
+    repeating-linear-gradient(
+      196deg,
+      #e54b4b,
+      #e54b4b 11px,
+      transparent 11px,
+      transparent 23px,
+      #e54b4b 23px
+    ),
+    repeating-linear-gradient(
+      286deg,
+      #e54b4b,
+      #e54b4b 11px,
+      transparent 11px,
+      transparent 23px,
+      #e54b4b 23px
+    );
+  background-size: 3px 100%, 100% 3px, 3px 100%, 100% 3px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
 }
 
 .usesBox:hover {
+  background-image: none;
   border: 2px solid #e54b4b;
   transform: rotate(3deg);
 }
