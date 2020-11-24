@@ -6,7 +6,7 @@ import about from "../images/about.svg";
 const First = () => {
   return (
     <div className="main">
-      <Menu />
+      <Menu menuStyle="menu" />
       <div className="contact-wrapper">
         <img
           style={{ marginBottom: "50px" }}
@@ -15,7 +15,7 @@ const First = () => {
           width="50%"
         />
       </div>
-      <Footer />
+      <Footer footerStyle="footer" />
     </div>
   );
 };

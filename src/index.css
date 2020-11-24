@@ -8,6 +8,10 @@ body {
   background-color: #e4e1db;
 }
 
+.main-alt {
+  background-color: #333;
+}
+
 a {
   color: #333;
   text-decoration: none;
@@ -36,6 +40,20 @@ a:focus {
   height: 150px;
   width: 95%;
   background-color: #5c8d76;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 9px 2px rgba(51, 51, 51, 0.41);
+}
+
+.menu-alt {
+  display: flex;
+  box-sizing: border-box;
+  height: 150px;
+  width: 95%;
+  background-color: rgb(139, 133, 133);
   margin-top: 10px;
   margin-bottom: 30px;
   justify-content: center;
@@ -111,6 +129,20 @@ a:focus {
   box-shadow: 0px 0px 9px 2px rgba(51, 51, 51, 0.41);
 }
 
+.footer-alt {
+  display: flex;
+  box-sizing: border-box;
+  font-family: "Mate", serif;
+  color: #333;
+  height: 100px;
+  width: 95%;
+  background-color: rgb(139, 133, 133);
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 9px 2px rgba(51, 51, 51, 0.41);
+}
 /*SCREENS*/
 
 .screen-wrapper {
@@ -157,6 +189,14 @@ h1 {
   letter-spacing: 0.05em;
 }
 
+.h1-alt {
+  font-family: "Mate", serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.05em;
+}
+
 h2 {
   font-family: "Mate", serif;
   color: #333;
@@ -191,6 +231,10 @@ h2 {
   height: 150%;
   background-color: #f5f5f5;
   margin-bottom: 10%;
+}
+
+.MuiPaper-root-alt {
+  background-color: red !important;
 }
 
 .chip-grid {
@@ -352,6 +396,12 @@ ul {
 
 .emoji {
   width: 20px;
+}
+
+.theme-btn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1300px) {

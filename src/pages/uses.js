@@ -26,7 +26,7 @@ const Uses = () => {
   };
   return (
     <div className="main">
-      <Menu />
+      <Menu menuStyle="menu" />
       <h1>Uses</h1>
       <div className="contact-wrapper">
         <img
@@ -229,7 +229,7 @@ const Uses = () => {
           </ul>
         </StyledPaper>
       </div>
-      <Footer />
+      <Footer footerStyle="footer" />
     </div>
   );
 };

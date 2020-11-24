@@ -10,10 +10,10 @@ import MailIcon from "@material-ui/icons/Mail";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <div className="footer-wrapper">
-      <div className="footer">
+      <div className={props.footerStyle}>
         <Breadcrumbs aria-label="breadcrumb">
           <a href="https://create-react-app.com/">
             <CreateIcon />
