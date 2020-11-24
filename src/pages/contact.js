@@ -14,7 +14,7 @@ import medium from "../images/medium.png";
 const Second = () => {
   return (
     <div className="main">
-      <Menu />
+      <Menu menuStyle="menu" />
       <h1 className="contacts">Contact</h1>
       <div className="contact-wrapper">
         <div className="contact-badges">
@@ -101,7 +101,7 @@ const Second = () => {
           </a>
         </div>
       </div>
-      <Footer />
+      <Footer footerStyle="footer" />
     </div>
   );
 };

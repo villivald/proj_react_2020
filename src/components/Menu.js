@@ -5,7 +5,7 @@ import Dropdown from "../components/Dropdown";
 import { Frame } from "framer";
 import { Link } from "react-router-dom";
 
-const Menu = () => {
+const Menu = (props) => {
   const handleClick = () => {
     window.parent.location = window.parent.location.href;
   };
@@ -17,10 +17,11 @@ const Menu = () => {
   return (
     <div className="stickyHeader">
       <div className="wrapper">
-        <div className="menu">
+        <div className={props.menuStyle}>
           <div className="switch">
             <Toggle />
           </div>
+
           <div className="header" onClick={handleClick}>
             <Frame
               initial={"variantA"}
