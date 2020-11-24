@@ -2,9 +2,9 @@ import React from "react";
 import { makeStyles, withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Colors from "../constants/colors";
+import logo13 from "../images/13.webp";
 import logo12 from "../images/12.webp";
 import logo11 from "../images/11.webp";
-import logo10 from "../images/10.webp";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -37,7 +37,18 @@ const Screens = () => {
       <h1>The Latest Blog Posts</h1>
       <div className={classes.root}>
         <StyledPaper elevation={6}>
-          <a href="https://create-react-app.com/new-website/">
+          <a href="https://create-react-app.com/top-15-most-useful-tools-in-2020/">
+            <img
+              className="image"
+              src={logo13}
+              width="350px"
+              height="290px"
+              alt="blog-post-13-logo"
+            />
+          </a>
+        </StyledPaper>
+        <StyledPaper elevation={6}>
+          <a href="https://create-react-app.com/top-15-resources-to-learn-coding/">
             <img
               className="image"
               src={logo12}
@@ -48,24 +59,13 @@ const Screens = () => {
           </a>
         </StyledPaper>
         <StyledPaper elevation={6}>
-          <a href="https://create-react-app.com/top-15-resources-to-learn-coding/">
+          <a href="https://create-react-app.com/11-php/">
             <img
               className="image"
               src={logo11}
               width="350px"
               height="290px"
               alt="blog-post-11-logo"
-            />
-          </a>
-        </StyledPaper>
-        <StyledPaper elevation={6}>
-          <a href="https://create-react-app.com/10-hacktoberfest/">
-            <img
-              className="image"
-              src={logo10}
-              width="350px"
-              height="290px"
-              alt="blog-post-10-logo"
             />
           </a>
         </StyledPaper>
