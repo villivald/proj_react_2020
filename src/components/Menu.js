@@ -38,8 +38,18 @@ const Menu = (props) => {
               </Link>
             </Frame>
           </div>
+          <button
+            className="theme-btn"
+            onClick={() => {
+              props.setMainStyle(!props.mainStyle);
+            }}
+          >
+            <span role="img" aria-label="emoji">
+              🌗
+            </span>
+          </button>
           <div className="drop">
-            <Dropdown />
+            <Dropdown DropdownId={props.DropdownMenuStyle} />
           </div>
         </div>
       </div>

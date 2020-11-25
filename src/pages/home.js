@@ -9,21 +9,21 @@ const Home = () => {
   const [mainStyle, setMainStyle] = useState(false);
   return (
     <div className={mainStyle ? "main-alt" : "main"}>
-      <Menu menuStyle={mainStyle ? "menu-alt" : "menu"} />
+      <Menu
+        menuStyle={mainStyle ? "menu-alt" : "menu"}
+        DropdownMenuStyle={
+          mainStyle ? "dropdown-basic-button-alt" : "dropdown-basic-button"
+        }
+        mainStyle={mainStyle}
+        setMainStyle={setMainStyle}
+      />
       <Grid />
-      <Stats statsHeaders={mainStyle ? "h1-alt" : ""} />
+      <Stats
+        statsHeaders={mainStyle ? "h1-alt" : ""}
+        TimelineColor={mainStyle ? "error" : "textSecondary"}
+      />
       <Screens />
-      <Footer footerStyle={mainStyle ? "footer-alt" : "menu"} />
-      <button
-        className="theme-btn"
-        onClick={() => {
-          setMainStyle(!mainStyle);
-        }}
-      >
-        <span role="img" aria-label="emoji">
-          🌗
-        </span>
-      </button>
+      <Footer footerStyle={mainStyle ? "footer-alt" : "footer"} />
     </div>
   );
 };

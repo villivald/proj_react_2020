@@ -25,7 +25,7 @@ const Stats = (props) => {
       </div>
       <div className="timeline">
         <div className="timelines">
-          <Timelines />
+          <Timelines TextColor={props.TimelineColor} />
         </div>
         <div className="chipWrapper">
           <div className="chipper">

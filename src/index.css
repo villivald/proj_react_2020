@@ -279,6 +279,10 @@ h2 {
   letter-spacing: 0.05em;
 }
 
+#dropdown-basic-button-alt {
+  background-color: #333;
+}
+
 .vertical-text {
   writing-mode: vertical-rl;
   text-orientation: mixed;
@@ -399,9 +403,13 @@ ul {
 }
 
 .theme-btn {
+  border: none;
+  background-color: transparent;
   width: 30px;
   height: 30px;
   cursor: pointer;
+  margin-left: 40%;
+  position: absolute;
 }
 
 @media only screen and (max-width: 1300px) {

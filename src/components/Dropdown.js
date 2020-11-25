@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 
-const DropDown = () => {
+const DropDown = (props) => {
   return (
-    <DropdownButton id="dropdown-basic-button" variant="info" title="Menu">
+    <DropdownButton id={props.DropdownId} variant="info" title="Menu">
       <Dropdown.Item>
         <Link to="/">Home Page</Link>
       </Dropdown.Item>
