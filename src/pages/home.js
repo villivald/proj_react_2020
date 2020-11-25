@@ -24,11 +24,14 @@ const Home = () => {
       <Grid
         BlogButtonColor={mainStyle ? "rgb(139, 133, 133)" : Colors.blog}
         ButtonColor={mainStyle ? "rgb(139, 133, 133)" : Colors.button}
+        AfterHoverBlog={mainStyle ? "rgb(139, 133, 133)" : Colors.blog}
+        AfterHoverButtons={mainStyle ? "rgb(139, 133, 133)" : Colors.button}
       />
       <Stats
         statsHeaders={mainStyle ? "h1-alt" : ""}
-        TimelineColor={mainStyle ? "error" : "textSecondary"}
+        TimelineColor={mainStyle ? "error" : ""}
         ContainerColor={mainStyle ? "rgb(139, 133, 133)" : ""}
+        ChipColors={mainStyle ? "#333" : Colors.header}
       />
       <Screens statsHeaders={mainStyle ? "h1-alt" : ""} />
       <Footer footerStyle={mainStyle ? "footer-alt" : "footer"} />

@@ -59,6 +59,7 @@ const Menu = (props) => {
             </Frame>
           </div>
           <button
+            style={{ display: props.ButtonDisplay }}
             className="theme-btn"
             onClick={() => {
               props.setMainStyle(!props.mainStyle);

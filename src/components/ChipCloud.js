@@ -16,15 +16,14 @@ import github from "../images/github.webp";
 import bash from "../images/bash.webp";
 import php from "../images/php.webp";
 
-const StyledChip = withStyles({
-  root: {
-    backgroundColor: Colors.header,
-    color: Colors.whiteSmoke,
-    fontFamily: "Mate, serif",
-  },
-})(Chip);
-
-const ChipCloud = () => {
+const ChipCloud = (props) => {
+  const StyledChip = withStyles({
+    root: {
+      backgroundColor: props.ChipColor,
+      color: Colors.whiteSmoke,
+      fontFamily: "Mate, serif",
+    },
+  })(Chip);
   return (
     <div className="chip-grid">
       <StyledChip

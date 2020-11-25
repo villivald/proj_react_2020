@@ -26,7 +26,7 @@ const Uses = () => {
   };
   return (
     <div className="main">
-      <Menu menuStyle="menu" />
+      <Menu menuStyle="menu" ButtonDisplay="none" />
       <h1>Uses</h1>
       <div className="contact-wrapper">
         <img

@@ -37,7 +37,7 @@ const Stats = (props) => {
                   height: 200,
                 }}
               >
-                <ChipCloud />
+                <ChipCloud ChipColor={props.ChipColors} />
               </div>
               <div className="stats">
                 <div

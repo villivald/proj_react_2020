@@ -57,7 +57,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.blog}
-          afterHover={Colors.blog}
+          afterHover={props.AfterHoverBlog}
           image={wpb}
           alt="wordpress"
         />
@@ -70,7 +70,7 @@ const Grid = (props) => {
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           background={Colors.button}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={js}
           alt="js"
         />
@@ -82,7 +82,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={js}
           alt="js"
         />
@@ -94,7 +94,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={js}
           alt="js"
         />
@@ -106,7 +106,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={js}
           alt="js"
         />
@@ -116,7 +116,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={js}
           alt="js"
         />
@@ -126,7 +126,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={html}
           alt="html"
         />
@@ -138,7 +138,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={js}
           alt="js"
         />
@@ -148,7 +148,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={react}
           alt="react"
         />
@@ -158,7 +158,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={react}
           alt="react"
         />
@@ -168,7 +168,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={html}
           alt="html"
         />
@@ -178,7 +178,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={html}
           alt="html"
         />
@@ -188,7 +188,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={php}
           alt="php"
         />
@@ -198,7 +198,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={react}
           alt="react"
         />
@@ -207,7 +207,7 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          afterHover={Colors.button}
+          afterHover={props.AfterHoverButtons}
           image={soon}
           alt="coming soon"
         />
