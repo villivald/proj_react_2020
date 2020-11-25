@@ -4,6 +4,25 @@ import logo from "../images/logo/103.png";
 import Dropdown from "../components/Dropdown";
 import { Frame } from "framer";
 import { Link } from "react-router-dom";
+import Avatar from "@material-ui/core/Avatar";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: "flex",
+    "& > *": {
+      margin: theme.spacing(1),
+    },
+  },
+  small: {
+    width: theme.spacing(3),
+    height: theme.spacing(3),
+  },
+  large: {
+    width: theme.spacing(7),
+    height: theme.spacing(7),
+  },
+}));
 
 const Menu = (props) => {
   const handleClick = () => {
@@ -13,6 +32,7 @@ const Menu = (props) => {
     variantA: { scale: 1, rotate: 0 },
     variantB: { scale: 1.2, rotate: 90 },
   };
+  const classes = useStyles();
 
   return (
     <div className="stickyHeader">
@@ -38,8 +58,21 @@ const Menu = (props) => {
               </Link>
             </Frame>
           </div>
+          <button
+            style={{ display: props.ButtonDisplay }}
+            className="theme-btn"
+            onClick={() => {
+              props.setMainStyle(!props.mainStyle);
+            }}
+          >
+            <Avatar
+              src={props.Pic}
+              className={classes.large}
+              alt={"dark theme button"}
+            />
+          </button>
           <div className="drop">
-            <Dropdown />
+            <Dropdown DropdownId={props.DropdownMenuStyle} />
           </div>
         </div>
       </div>

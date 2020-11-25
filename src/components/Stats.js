@@ -7,16 +7,15 @@ import { withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import "antd/dist/antd.css";
 
-const StyledPaper = withStyles({
-  root: {
-    fontFamily: "Mate SC, serif",
-    backgroundColor: "",
-    borderRadius: 5,
-    paddingBottom: 50,
-  },
-})(Paper);
-
 const Stats = (props) => {
+  const StyledPaper = withStyles({
+    root: {
+      fontFamily: "Mate SC, serif",
+      backgroundColor: props.ContainerColor,
+      borderRadius: 5,
+      paddingBottom: 50,
+    },
+  })(Paper);
   return (
     <div>
       <div className="headers">
@@ -25,7 +24,7 @@ const Stats = (props) => {
       </div>
       <div className="timeline">
         <div className="timelines">
-          <Timelines />
+          <Timelines TextColor={props.TimelineColor} />
         </div>
         <div className="chipWrapper">
           <div className="chipper">
@@ -38,7 +37,7 @@ const Stats = (props) => {
                   height: 200,
                 }}
               >
-                <ChipCloud />
+                <ChipCloud ChipColor={props.ChipColors} />
               </div>
               <div className="stats">
                 <div

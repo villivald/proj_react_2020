@@ -30,11 +30,11 @@ const StyledPaper = withStyles({
   },
 })(Paper);
 
-const Screens = () => {
+const Screens = (props) => {
   const classes = useStyles();
   return (
     <div>
-      <h1>The Latest Blog Posts</h1>
+      <h1 className={props.statsHeaders}>The Latest Blog Posts</h1>
       <div className={classes.root}>
         <StyledPaper elevation={6}>
           <a href="https://create-react-app.com/top-15-most-useful-tools-in-2020/">

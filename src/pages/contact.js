@@ -14,7 +14,7 @@ import medium from "../images/medium.png";
 const Second = () => {
   return (
     <div className="main">
-      <Menu menuStyle="menu" />
+      <Menu menuStyle="menu" ButtonDisplay="none" />
       <h1 className="contacts">Contact</h1>
       <div className="contact-wrapper">
         <div className="contact-badges">
