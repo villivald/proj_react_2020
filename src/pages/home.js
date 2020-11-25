@@ -30,7 +30,7 @@ const Home = () => {
         TimelineColor={mainStyle ? "error" : "textSecondary"}
         ContainerColor={mainStyle ? "rgb(139, 133, 133)" : ""}
       />
-      <Screens />
+      <Screens statsHeaders={mainStyle ? "h1-alt" : ""} />
       <Footer footerStyle={mainStyle ? "footer-alt" : "footer"} />
     </div>
   );
