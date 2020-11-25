@@ -4,6 +4,8 @@ import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import Screens from "../components/Screens";
 import Stats from "../components/Stats";
+import night from "../images/night.png";
+import lamp from "../images/lamp.png";
 
 const Home = () => {
   const [mainStyle, setMainStyle] = useState(false);
@@ -16,6 +18,7 @@ const Home = () => {
         }
         mainStyle={mainStyle}
         setMainStyle={setMainStyle}
+        Pic={mainStyle ? lamp : night}
       />
       <Grid />
       <Stats

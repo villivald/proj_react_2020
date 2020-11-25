@@ -412,6 +412,10 @@ ul {
   position: absolute;
 }
 
+.theme-btn:focus {
+  outline: none;
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;
