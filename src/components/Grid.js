@@ -8,46 +8,45 @@ import wpb from "../images/wpb.webp";
 import soon from "../images/soon.webp";
 import php from "../images/php.webp";
 
-const styles = {
-  box: {
-    boxSizing: "border-box",
-    color: Colors.whiteSmoke,
-    fontSize: "1.2rem",
-    fontFamily: "Mate, serif",
-    width: 200,
-    height: 100,
-    border: "none",
-    boxShadow: `5px 5px 9px 2px rgba(51,51,51,0.5)`,
-    borderRadius: 5,
-    transform: "",
-    backgroundColor: Colors.button,
-    cursor: "pointer",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-around",
-    alignItems: "center",
-  },
-  blog: {
-    boxSizing: "border-box",
-    color: Colors.whiteSmoke,
-    fontSize: "1.2rem",
-    fontFamily: "Mate, serif",
-    width: 200,
-    height: 100,
-    border: "none",
-    boxShadow: `5px 5px 9px 2px rgba(51,51,51,0.5)`,
-    borderRadius: 5,
-    transform: "",
-    backgroundColor: Colors.blog,
-    cursor: "pointer",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-around",
-    alignItems: "center",
-  },
-};
-
-const Grid = () => {
+const Grid = (props) => {
+  const styles = {
+    box: {
+      boxSizing: "border-box",
+      color: Colors.whiteSmoke,
+      fontSize: "1.2rem",
+      fontFamily: "Mate, serif",
+      width: 200,
+      height: 100,
+      border: "none",
+      boxShadow: `5px 5px 9px 2px rgba(51,51,51,0.5)`,
+      borderRadius: 5,
+      transform: "",
+      backgroundColor: props.ButtonColor,
+      cursor: "pointer",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-around",
+      alignItems: "center",
+    },
+    blog: {
+      boxSizing: "border-box",
+      color: Colors.whiteSmoke,
+      fontSize: "1.2rem",
+      fontFamily: "Mate, serif",
+      width: 200,
+      height: 100,
+      border: "none",
+      boxShadow: `5px 5px 9px 2px rgba(51,51,51,0.5)`,
+      borderRadius: 5,
+      transform: "",
+      backgroundColor: props.BlogButtonColor,
+      cursor: "pointer",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-around",
+      alignItems: "center",
+    },
+  };
   return (
     <div className="grid">
       {/*(<div class="vertical-text">PROJECTS</div>)*/}

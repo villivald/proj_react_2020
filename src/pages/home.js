@@ -6,6 +6,7 @@ import Screens from "../components/Screens";
 import Stats from "../components/Stats";
 import night from "../images/night.png";
 import lamp from "../images/lamp.png";
+import Colors from "../constants/colors";
 
 const Home = () => {
   const [mainStyle, setMainStyle] = useState(false);
@@ -20,10 +21,14 @@ const Home = () => {
         setMainStyle={setMainStyle}
         Pic={mainStyle ? lamp : night}
       />
-      <Grid />
+      <Grid
+        BlogButtonColor={mainStyle ? "rgb(139, 133, 133)" : Colors.blog}
+        ButtonColor={mainStyle ? "rgb(139, 133, 133)" : Colors.button}
+      />
       <Stats
         statsHeaders={mainStyle ? "h1-alt" : ""}
         TimelineColor={mainStyle ? "error" : "textSecondary"}
+        ContainerColor={mainStyle ? "rgb(139, 133, 133)" : ""}
       />
       <Screens />
       <Footer footerStyle={mainStyle ? "footer-alt" : "footer"} />
