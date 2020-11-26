@@ -3,7 +3,7 @@
 > The website with my project built with React.
 
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.3.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-0.4.0-blue.svg?cacheSeconds=2592000" />
   <img alt="Contributors" src="https://img.shields.io/github/contributors/villivald/proj_react_2020.svg?style=flat" />
   <img alt="Forks" src="https://img.shields.io/github/forks/villivald/proj_react_2020.svg?style=flat" />
   <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/villivald/proj_react_2020">
