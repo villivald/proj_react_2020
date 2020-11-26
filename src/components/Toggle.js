@@ -50,7 +50,7 @@ const SwitchLabels = (props) => {
         />
       </FormGroup>
       <Link to="/">
-        <div>
+        <div className="logocat">
           <img src={logo} alt="Logo" width="350px" className="headerClip" />
         </div>
       </Link>

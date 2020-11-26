@@ -641,7 +641,11 @@ ul {
     padding-top: 15px;
   }
   .switch {
-    display: none;
+    margin-left: 7%;
+  }
+
+  .headerClip {
+    width: 300px;
   }
 }
 
@@ -679,7 +683,11 @@ ul {
   }
 
   .switch {
-    display: none;
+    margin-left: -2%;
+  }
+
+  .headerClip {
+    width: 250px;
   }
 
   .footer {
@@ -705,6 +713,18 @@ ul {
     margin-top: 23%;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .theme-btn {
+    width: 10px;
+  }
+
+  .switch {
+    margin-left: -12%;
+  }
+
+  .headerClip {
+    width: 170px;
   }
 }
 
@@ -760,6 +780,10 @@ ul {
     grid-gap: 8%;
     grid-template-columns: repeat(3, 140px);
     margin-bottom: 10%;
+  }
+
+  .theme-btn {
+    display: none;
   }
 }
 
