@@ -29,7 +29,7 @@ const Home = () => {
       />
       <Stats
         statsHeaders={mainStyle ? "h1-alt" : ""}
-        TimelineColor={mainStyle ? "error" : ""}
+        TimelineColor={mainStyle ? "error" : "textPrimary"}
         ContainerColor={mainStyle ? "rgb(139, 133, 133)" : ""}
         ChipColors={mainStyle ? "#333" : Colors.header}
       />
