@@ -395,7 +395,6 @@ ul {
 .use {
   display: flex;
   gap: 10px;
-  min-width: 200px;
 }
 
 .emoji {
@@ -414,6 +413,16 @@ ul {
 
 .theme-btn:focus {
   outline: none;
+}
+
+.catHover {
+  width: 100px;
+  height: 100px;
+  margin-left: -160px;
+  border-radius: 50%;
+  background-color: #25a2b9;
+  display: grid;
+  place-items: center;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -452,6 +461,14 @@ ul {
   .button {
     font-size: 1.1rem !important;
   }
+
+  .h1 {
+    margin-bottom: 1%;
+  }
+
+  .uses {
+    gap: 1%;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -489,6 +506,14 @@ ul {
   .switch {
     margin-left: 15px;
   }
+
+  .uses > div:not:first-child {
+    width: 23%;
+  }
+
+  .catHover {
+    margin-left: -120px;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -525,6 +550,10 @@ ul {
   }
   .switch {
     margin-left: 30px;
+  }
+  .catHover {
+    margin-left: -80px;
+    display: absolute;
   }
 }
 
@@ -569,6 +598,27 @@ ul {
 
   .contacts {
     margin-bottom: 2%;
+  }
+
+  .uses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .uses-wrapper {
+    display: none;
+  }
+
+  #root > div > div.uses > div:not(:first-child) {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .catHover {
+    margin-left: 10px;
+    margin-bottom: 10px;
   }
 }
 
@@ -726,6 +776,15 @@ ul {
   .headerClip {
     width: 170px;
   }
+
+  #root > div > div.uses > div:not(:first-child) {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+
+  #root > div > div.uses > div > ul > li > a {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -784,6 +843,19 @@ ul {
 
   .theme-btn {
     display: none;
+  }
+
+  #root > div > div.uses > div:not(:first-child) {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+
+  #root > div > div.uses > div > ul > li > a {
+    font-size: 12px;
+  }
+
+  .logo {
+    margin-left: -1px;
   }
 }
 

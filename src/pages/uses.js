@@ -27,7 +27,7 @@ const Uses = () => {
   return (
     <div className="main">
       <Menu menuStyle="menu" ButtonDisplay="none" />
-      <h1>Uses</h1>
+      <h1 className="h1">Uses</h1>
       <div className="contact-wrapper">
         <img
           style={{ marginBottom: "50px" }}
@@ -43,17 +43,9 @@ const Uses = () => {
       </div>
       <div className="uses">
         <div
+          className="catHover"
           onMouseOver={handlePic}
           onMouseOut={handlePicOut}
-          style={{
-            width: "100px",
-            height: "100px",
-            marginLeft: "-160px",
-            borderRadius: "50%",
-            backgroundColor: "#25A2B9",
-            display: "grid",
-            placeItems: "center",
-          }}
         >
           <img src={catPic} alt="cat"></img>
         </div>
