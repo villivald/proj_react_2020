@@ -924,6 +924,9 @@ ul {
     justify-content: space-around;
     align-items: center;
   }
+  .grid {
+    margin-left: -4%;
+  }
 }
 
 @media not all and (min-resolution: 0.001dpcm) {
@@ -941,6 +944,9 @@ ul {
     .menu {
       display: flex;
       align-items: center;
+    }
+    .theme-btn {
+      margin-left: 200px;
     }
   }
   @media only screen and (max-width: 1200px) {
@@ -972,16 +978,95 @@ ul {
     .switch {
       display: flex;
     }
+    .theme-btn {
+      margin-left: 150px;
+    }
   }
   @media only screen and (max-width: 780px) {
     .drop {
-      display: none;
+      position: relative;
+      margin-left: 80%;
     }
     .logo {
-      margin-left: 5%;
+      margin-left: 230%;
+    }
+    .switch {
+      margin-left: -38%;
+    }
+    .theme-btn {
+      margin-left: 120px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .theme-btn {
+      margin-left: 140px;
+    }
+    .switch {
+      margin-left: -41%;
+    }
+    .logo {
+      margin-left: 210%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .theme-btn {
+      margin-left: 95px;
+    }
+    .switch {
+      margin-left: -47%;
+    }
+    .logo {
+      margin-left: 180%;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    .theme-btn {
+      margin-left: 90px;
+    }
+    .switch {
+      margin-left: -49%;
+    }
+    .logo {
+      margin-left: 170%;
+    }
+    .headerClip {
+      width: 140px;
+    }
+  }
+  @media only screen and (max-width: 470px) {
+    .theme-btn {
+      margin-left: 90px;
+    }
+    .switch {
+      margin-left: -52%;
+    }
+    .logo {
+      margin-left: 160%;
+    }
+    .headerClip {
+      width: 100px;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    .theme-btn {
+      margin-left: 90px;
     }
     .switch {
       display: none;
+    }
+    .headerClip {
+      display: none;
+    }
+    .logo {
+      margin-left: 150%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .logo {
+      margin-left: 10%;
+    }
+    .grid {
+      margin-left: -4%;
     }
   }
 }
