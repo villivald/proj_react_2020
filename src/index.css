@@ -425,6 +425,31 @@ ul {
   place-items: center;
 }
 
+.courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 1rem;
+  font-family: "Mate", serif;
+}
+
+.course {
+  display: flex;
+  gap: 3%;
+  align-items: center;
+}
+
+.course-icons {
+  margin-bottom: 3%;
+}
+
+.course-li {
+  width: 120%;
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;

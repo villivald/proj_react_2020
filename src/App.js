@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Uses from "./pages/uses";
+import Courses from "./pages/courses";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/about" exact component={About} />
         <Route path="/contact" exact component={Contact} />
         <Route path="/uses" exact component={Uses} />
+        <Route path="/courses" exact component={Courses} />
       </Switch>
     </Router>
   );
