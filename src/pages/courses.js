@@ -9,10 +9,10 @@ const Second = () => {
   return (
     <div className="main">
       <Menu menuStyle="menu" ButtonDisplay="none" />
-      <h1 className="contacts">Courses & Certifications</h1>
-      <h2 className="h2-courses">Completed</h2>
       <div className="courses">
         <ul>
+          <h1 className="contacts">Courses & Certifications</h1>
+          <h2 className="h2-courses">Completed</h2>
           <li className="course course-li">
             <img
               className="icons course-icons"
