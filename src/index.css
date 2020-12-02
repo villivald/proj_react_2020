@@ -430,8 +430,6 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 100px;
-  margin-top: 50px;
-  margin-bottom: 50px;
   font-size: 1rem;
   font-family: "Mate", serif;
 }
@@ -448,6 +446,11 @@ ul {
 
 .course-li {
   width: 120%;
+}
+
+.h2-courses {
+  margin-top: 3%;
+  margin-bottom: 1%;
 }
 
 @media only screen and (max-width: 1300px) {
