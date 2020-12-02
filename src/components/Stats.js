@@ -47,8 +47,8 @@ const Stats = (props) => {
                     marginTop: 30,
                   }}
                 >
-                  <Progress percent={37.5} size="small" /> B.E. 2019 - 2023
-                  (90/240 ECTS)
+                  <Progress percent={40} size="small" /> B.E. 2019 - 2023
+                  (95/240 ECTS)
                   <Progress percent={100} size="small" /> M.A. 2011 - 2015 (300
                   ECTS)
                 </div>
