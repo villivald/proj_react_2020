@@ -885,6 +885,14 @@ ul {
   .logo {
     margin-left: -1px;
   }
+
+  .course-li {
+    width: 80%;
+  }
+
+  .course-icons {
+    margin-bottom: 10%;
+  }
 }
 
 @media only screen and (max-width: 470px) {
