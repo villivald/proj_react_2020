@@ -5,6 +5,7 @@ import clip2 from "../images/clip-2.webp";
 import Timelines from "../components/Timeline";
 import { withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
+import Button from "@material-ui/core/Button";
 import "antd/dist/antd.css";
 
 const Stats = (props) => {
@@ -54,6 +55,9 @@ const Stats = (props) => {
                 </div>
                 <img src={clip2} alt="Logo" width="250px" />
               </div>
+              <Button variant="contained" href="/courses">
+                Courses & Certifications
+              </Button>
             </StyledPaper>
           </div>
         </div>
