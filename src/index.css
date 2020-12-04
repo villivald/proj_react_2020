@@ -752,6 +752,16 @@ ul {
   .headerClip {
     width: 300px;
   }
+  #root
+    > div
+    > div:nth-child(3)
+    > div.timeline
+    > div.chipWrapper
+    > div
+    > div
+    > a {
+    margin-left: 8.8%;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -765,7 +775,7 @@ ul {
   .timeline {
     display: flex;
     flex-direction: column;
-    margin-top: 15%;
+    margin-top: 18%;
     justify-content: space-around;
     align-items: center;
   }
@@ -806,6 +816,16 @@ ul {
   .dropdown {
     margin-left: -2%;
   }
+  #root
+    > div
+    > div:nth-child(3)
+    > div.timeline
+    > div.chipWrapper
+    > div
+    > div
+    > a {
+    margin-left: 13.8%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -840,6 +860,16 @@ ul {
   #root > div > div.uses > div > ul > li > a {
     font-size: 14px;
   }
+  #root
+    > div
+    > div:nth-child(3)
+    > div.timeline
+    > div.chipWrapper
+    > div
+    > div
+    > a {
+    margin-left: 11%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -853,7 +883,7 @@ ul {
   .timeline {
     display: flex;
     flex-direction: column;
-    margin-top: 2%;
+    margin-top: 4%;
     justify-content: space-around;
     align-items: center;
   }
@@ -919,6 +949,17 @@ ul {
 
   .course-icons {
     margin-bottom: 10%;
+  }
+  #root
+    > div
+    > div:nth-child(3)
+    > div.timeline
+    > div.chipWrapper
+    > div
+    > div
+    > a {
+    margin-top: 2%;
+    margin-left: 8.8%;
   }
 }
 
