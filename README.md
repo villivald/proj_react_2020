@@ -48,7 +48,7 @@
 
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
-    <img src="./gif/website.gif" alt="Logo"  >
+    <img src="./readme_pics/site.png" alt="Logo"  >
   </a>
 </p>
 
@@ -58,7 +58,7 @@
 
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
-    <img src="./gif/Projects.gif" alt="Logo"  >
+    <img src="./readme_pics/projects.png" alt="Logo"  >
   </a>
 </p>
 
@@ -70,7 +70,7 @@
 
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
-    <img src="./gif/blog.gif" alt="Logo"  >
+    <img src="./readme_pics/blog.png" alt="Logo"  >
   </a>
 </p>
 
@@ -81,6 +81,7 @@
 - Website: https://create-react-app.com/
 - Twitter: [@crapp_blog](https://twitter.com/crapp_blog)
 - Github: [@villivald](https://github.com/villivald)
+- Dev: [@villivald](https://dev.to/villivald)
 - LinkedIn: [@maxim-villivald-4b1b311a3](https://linkedin.com/in/maxim-villivald-4b1b311a3)
 
 ## 🤝 Contributing
@@ -88,7 +89,7 @@
 
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
-    <img src="./gif/footer.gif" alt="Logo"  >
+    <img src="./readme_pics/footer.png" alt="Logo"  >
   </a>
 </p>
 
