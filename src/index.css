@@ -1162,7 +1162,10 @@ ul {
       display: none;
     }
     .logo {
-      margin-left: 150%;
+      margin-left: 130%;
+    }
+    .grid {
+      margin-left: -6%;
     }
   }
   @media only screen and (max-width: 400px) {
@@ -1170,7 +1173,7 @@ ul {
       margin-left: 10%;
     }
     .grid {
-      margin-left: -4%;
+      margin-left: -6%;
     }
   }
 }
