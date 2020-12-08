@@ -1058,6 +1058,9 @@ ul {
     .icons.course-icons {
       margin-right: 10px;
     }
+    #root > div > div.uses > div {
+      margin-right: 20px;
+    }
   }
   @media only screen and (max-width: 1200px) {
     .drop {
