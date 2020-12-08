@@ -480,6 +480,22 @@ ul {
   padding-bottom: 35px;
 }
 
+.p-rating {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  font-size: 32px;
+}
+
+.p-rating-star {
+  background-color: transparent;
+  border: transparent;
+  margin: 0 2px;
+  padding: 0;
+  position: relative;
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;

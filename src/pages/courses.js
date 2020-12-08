@@ -5,6 +5,7 @@ import fcc from "../images/fccdark.png";
 import fm from "../images/fm.jpg";
 import coursera from "../images/coursera.jpeg";
 import Course from "../components/Course";
+// import Star from "../components/Star";
 
 const Second = () => {
   return (
