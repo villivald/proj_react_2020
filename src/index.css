@@ -1055,6 +1055,9 @@ ul {
     #root > div > div.stickyHeader > div > div > div.header > div {
       transform: none !important;
     }
+    .icons.course-icons {
+      margin-right: 10px;
+    }
   }
   @media only screen and (max-width: 1200px) {
     .drop {
