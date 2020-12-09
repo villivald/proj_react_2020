@@ -55,7 +55,7 @@
 #### Projects
 
 <p align="center">
-  <a href="https://github.com/villivald/proj_react_2020">
+  <a href="https://proj.create-react-app.com/">
     <img src="./readme_pics/projects.png" alt="Logo"  >
   </a>
 </p>
@@ -63,7 +63,7 @@
 #### Uses
 
 <p align="center">
-  <a href="https://github.com/villivald/proj_react_2020">
+  <a href="https://proj.create-react-app.com/uses">
     <img src="./readme_pics/uses.png" alt="Logo"  >
   </a>
 </p>
@@ -71,7 +71,7 @@
 #### Courses
 
 <p align="center">
-  <a href="https://github.com/villivald/proj_react_2020">
+  <a href="https://proj.create-react-app.com/courses">
     <img src="./readme_pics/courses.png" alt="Logo"  >
   </a>
 </p>
