@@ -52,8 +52,6 @@
   </a>
 </p>
 
-
-
 #### Projects
 
 <p align="center">
@@ -62,11 +60,25 @@
   </a>
 </p>
 
+#### Uses
+
+<p align="center">
+  <a href="https://github.com/villivald/proj_react_2020">
+    <img src="./readme_pics/uses.png" alt="Logo"  >
+  </a>
+</p>
+
+#### Courses
+
+<p align="center">
+  <a href="https://github.com/villivald/proj_react_2020">
+    <img src="./readme_pics/courses.png" alt="Logo"  >
+  </a>
+</p>
+
 ## Blog
 
 [Create React App Blog](https://create-react-app.com/)
-
-
 
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
@@ -86,7 +98,6 @@
 
 ## 🤝 Contributing
 
-
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
     <img src="./readme_pics/footer.png" alt="Logo"  >
@@ -94,7 +105,6 @@
 </p>
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/villivald/proj_react_2020/issues).
-
 
 ## Show your support
 
