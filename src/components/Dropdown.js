@@ -25,6 +25,10 @@ const DropDown = (props) => {
       <Dropdown.Item>
         <Link to="/courses">Courses</Link>
       </Dropdown.Item>
+      <Dropdown.Divider />
+      <Dropdown.Item>
+        <Link to="/books">Books</Link>
+      </Dropdown.Item>
     </DropdownButton>
   );
 };

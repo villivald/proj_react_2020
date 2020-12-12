@@ -5,6 +5,7 @@ import About from "./pages/about";
 import Contact from "./pages/contact";
 import Uses from "./pages/uses";
 import Courses from "./pages/courses";
+import Books from "./pages/books";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/contact" exact component={Contact} />
         <Route path="/uses" exact component={Uses} />
         <Route path="/courses" exact component={Courses} />
+        <Route path="/books" exact component={Books} />
       </Switch>
     </Router>
   );
