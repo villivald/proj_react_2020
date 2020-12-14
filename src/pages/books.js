@@ -3,6 +3,8 @@ import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import GridItem from "../components/GridItem";
 import Colors from "../constants/colors";
+import Gallery from "react-grid-gallery";
+import IMAGES from "../components/Images";
 
 const Books = (props) => {
   const styles = {
@@ -38,6 +40,11 @@ const Books = (props) => {
         image={"📚"}
         alt="wordpress"
       />
+      <div className="galleryContainer">
+        <div className="gallery">
+          <Gallery images={IMAGES} enableImageSelection={false} />
+        </div>
+      </div>
       <Footer footerStyle="footer" />
     </div>
   );
