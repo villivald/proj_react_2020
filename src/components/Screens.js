@@ -2,9 +2,9 @@ import React from "react";
 import { makeStyles, withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Colors from "../constants/colors";
+import logo15 from "../images/15.webp";
 import logo14 from "../images/14.webp";
 import logo13 from "../images/13.webp";
-import logo12 from "../images/12.webp";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -37,6 +37,17 @@ const Screens = (props) => {
       <h1 className={props.statsHeaders}>The Latest Blog Posts</h1>
       <div className={classes.root}>
         <StyledPaper elevation={6}>
+          <a href="https://create-react-app.com/top-15-web-development-blogs/">
+            <img
+              className="image"
+              src={logo15}
+              width="350px"
+              height="290px"
+              alt="blog-post-15-logo"
+            />
+          </a>
+        </StyledPaper>
+        <StyledPaper elevation={6}>
           <a href="https://create-react-app.com/15-best-developer-resources-in-2020/">
             <img
               className="image"
@@ -55,17 +66,6 @@ const Screens = (props) => {
               width="350px"
               height="290px"
               alt="blog-post-13-logo"
-            />
-          </a>
-        </StyledPaper>
-        <StyledPaper elevation={6}>
-          <a href="https://create-react-app.com/top-15-resources-to-learn-coding/">
-            <img
-              className="image"
-              src={logo12}
-              width="350px"
-              height="290px"
-              alt="blog-post-12-logo"
             />
           </a>
         </StyledPaper>
