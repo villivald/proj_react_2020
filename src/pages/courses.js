@@ -87,15 +87,15 @@ const Second = () => {
             }
             name={"JavaScript Algorithms and Data Structures - 02.12.20"}
           />
-          <h2 className="h2-courses">Ongoing</h2>
           <Course
             pic={fm}
             alt={"frontend masters logo"}
             height={45}
             width={45}
             link={"https://frontendmasters.com/courses/fullstack-v2/"}
-            name={"Full Stack for Front-End Engineers"}
+            name={"Full Stack for Front-End Engineers - 14.12.20"}
           />
+          <h2 className="h2-courses">Ongoing</h2>
           <Course
             pic={fcc}
             alt={"freecodecamp logo"}
