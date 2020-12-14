@@ -4,7 +4,7 @@ import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import Screens from "../components/Screens";
 import Stats from "../components/Stats";
-import night from "../images/night.png";
+import night from "../images/night.webp";
 import lamp from "../images/lamp.png";
 import Colors from "../constants/colors";
 
