@@ -41,6 +41,8 @@
 - [Material-UI](https://material-ui.com/)
 - [Ant Design](https://ant.design/)
 - [React Bootstrap](https://react-bootstrap.github.io/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Grid Gallery](https://benhowell.github.io/react-grid-gallery/)
 
 ## Website
 
