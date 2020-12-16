@@ -1,6 +1,6 @@
 import React from "react";
 import Toggle from "./Toggle";
-import logo from "../images/logo/103.png";
+import logo from "../images/logo/103.webp";
 import Dropdown from "../components/Dropdown";
 import { Frame } from "framer";
 import { Link } from "react-router-dom";
