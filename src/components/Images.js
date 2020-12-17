@@ -9,8 +9,9 @@ const IMAGES = [
     caption: "After Rain (Jeshu John - designerspics.com)",
   },
   {
-    src: "http://www.maximkantor.com/svet/cover.jpg",
-    thumbnail: "http://www.maximkantor.com/svet/cover.jpg",
+    src: "https://s1.livelib.ru/boocover/1000656413/200x305/1bb1/boocover.jpg",
+    thumbnail:
+      "https://s1.livelib.ru/boocover/1000656413/200x305/1bb1/boocover.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "After Rain (Jeshu John - designerspics.com)",
@@ -204,19 +205,16 @@ const IMAGES = [
     caption: "After Rain (Jeshu John - designerspics.com)",
   },
   {
-    src:
-      "http://www.elkost.com/images/stories/ehrenburg/covers/jurenito/ehrenburg_jurenito1.jpg",
+    src: "https://s1.livelib.ru/boocover/1002910038/200/687d/boocover.jpg",
     thumbnail:
-      "http://www.elkost.com/images/stories/ehrenburg/covers/jurenito/ehrenburg_jurenito1.jpg",
+      "https://s1.livelib.ru/boocover/1002910038/200/687d/boocover.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "After Rain (Jeshu John - designerspics.com)",
   },
   {
-    src:
-      "http://www.postmodernmystery.com/sitebuilder/images/the_voyeur-190x300.jpg",
-    thumbnail:
-      "http://www.postmodernmystery.com/sitebuilder/images/the_voyeur-190x300.jpg",
+    src: "https://royallib.com/data/images/291/cover_291540.jpg",
+    thumbnail: "https://royallib.com/data/images/291/cover_291540.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "After Rain (Jeshu John - designerspics.com)",
