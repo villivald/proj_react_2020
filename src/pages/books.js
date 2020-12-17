@@ -5,6 +5,7 @@ import GridItem from "../components/GridItem";
 import Colors from "../constants/colors";
 import Gallery from "react-grid-gallery";
 import IMAGES from "../components/Images";
+import github from "../images/github.webp";
 
 const Books = (props) => {
   const styles = {
@@ -37,8 +38,8 @@ const Books = (props) => {
         hoverColor={Colors.buttonShadow}
         boxStyle={styles.blog}
         afterHover={props.AfterHoverBlog}
-        image={"📚"}
-        alt="wordpress"
+        image={github}
+        alt="Book list"
       />
       <div className="galleryContainer">
         <div className="gallery">
