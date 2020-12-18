@@ -253,7 +253,7 @@ const IMAGES = [
       "https://img4.labirint.ru/rc/327188b91c8db13a9d39f10cc2e94691/220x340/books68/671998/cover.jpg?1564158974",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Почему распался СССР - Аркадий Дубнов",
   },
   {
     src:
@@ -262,7 +262,7 @@ const IMAGES = [
       "https://frontendmasters.com/books/front-end-handbook/2019/assets/images/FM_2019Cover_final.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Frontend developer handbook - Frontendmasters",
   },
   {
     src:
@@ -271,7 +271,7 @@ const IMAGES = [
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405229927l/3424859.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Дневник неудачника - Лимонов",
   },
   {
     src:
@@ -280,7 +280,7 @@ const IMAGES = [
       "https://refactoring-ui.nyc3.cdn.digitaloceanspaces.com/landing/book-cover-sm.png",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Refactoring UI - Wathan & Schoger",
   },
   {
     src:
@@ -289,21 +289,21 @@ const IMAGES = [
       "https://img3.labirint.ru/rc/348204bd3b07b9762fba3484fda20d22/220x340/books9/86729/cover.jpg?1280394613",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Торжество метафизики - Лимонов",
   },
   {
     src: "https://store.artlebedev.ru/products/images/m19bqkt2.jpg",
     thumbnail: "https://store.artlebedev.ru/products/images/m19bqkt2.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Ководство - Лебедев",
   },
   {
     src: "https://m.media-amazon.com/images/I/51yr12gkjRL.jpg",
     thumbnail: "https://m.media-amazon.com/images/I/51yr12gkjRL.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "The Complete Software Developer's Career Guide - Sonmez",
   },
   {
     src: "https://cdn.ast.ru/v2/AST000000000145915/COVER/cover1__w340.jpg",
@@ -311,7 +311,7 @@ const IMAGES = [
       "https://cdn.ast.ru/v2/AST000000000145915/COVER/cover1__w340.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Первая сверхдержава - Акунин",
   },
   {
     src:
@@ -320,7 +320,7 @@ const IMAGES = [
       "https://northernstories.no/dynamic_images/0ed994e6749ba9080a7dd9177ac56014c42d8305/1334x2048/21-20190510143236485252.png",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Предатель в Северной Корее - М.Тровик",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/en/6/60/Azazel_%28book%29.jpg",
@@ -328,7 +328,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/6/60/Azazel_%28book%29.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Азазель - Акунин",
   },
   {
     src:
@@ -337,7 +337,7 @@ const IMAGES = [
       "https://images-na.ssl-images-amazon.com/images/I/51WiLueukSL._SX396_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Soft skills - Sonmez",
   },
   {
     src:
@@ -346,7 +346,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/6/62/The_turkish_gambit_by_boris_akunin.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Турецкий гамбит - Акунин",
   },
   {
     src:
@@ -355,7 +355,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/8/8f/The_pragmatic_programmer.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Pragmatic programmer - Thomas & Hunt",
   },
   {
     src:
@@ -364,7 +364,7 @@ const IMAGES = [
       "https://img3.labirint.ru/rc/607ec12ecef5a1baea69d8f84f63d28e/220x340/books68/675273/cover.jpg?1564165713",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Хрущев - Млечин",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/en/5/51/Leviafan_book.jpg",
@@ -372,14 +372,14 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/5/51/Leviafan_book.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Левиафан - Акунин",
   },
   {
     src: "hhttps://upload.wikimedia.org/wikipedia/en/c/c6/EnvyOlyesha.jpg",
     thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/c6/EnvyOlyesha.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Зависть - Олеша",
   },
   {
     src:
@@ -388,7 +388,7 @@ const IMAGES = [
       "https://assets1.bmstatic.com/assets/books-covers/21/9e/ipad-10fd2ce8d7f8855bf103be0d3b4c7727.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Расстрига - Доренко",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/en/6/61/Smert_achillesa.jpg",
@@ -396,7 +396,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/6/61/Smert_achillesa.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Смерть Ахиллеса - Акунин",
   },
   {
     src:
@@ -405,7 +405,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/b/b2/The_House_of_Government_by_Yuri_Slezkine.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Дом правительства - Слезкин",
   },
   {
     src:
@@ -414,7 +414,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/ru/8/8a/%D0%9E%D1%81%D0%BE%D0%B1%D1%8B%D0%B5_%D0%BF%D0%BE%D1%80%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8%29.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Пиковый валет - Акунин",
   },
   {
     src:
@@ -423,7 +423,7 @@ const IMAGES = [
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439448575l/26085784._SX318_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Отъявленный программист - Савчук",
   },
   {
     src:
@@ -432,14 +432,14 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/e/ee/SpecialAssignments.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Декоратор - Акунин",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/en/2/2f/Konarmiya.jpg",
     thumbnail: "https://upload.wikimedia.org/wikipedia/en/2/2f/Konarmiya.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Конармия - Бабель",
   },
   {
     src:
