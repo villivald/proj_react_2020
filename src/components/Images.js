@@ -6,7 +6,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/commons/4/4c/%D0%9E%D0%B1%D0%BB%D0%BE%D0%BC%D0%BE%D0%B2.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Обломов - Гончаров",
   },
   {
     src: "https://s1.livelib.ru/boocover/1000656413/200x305/1bb1/boocover.jpg",
@@ -14,7 +14,7 @@ const IMAGES = [
       "https://s1.livelib.ru/boocover/1000656413/200x305/1bb1/boocover.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Красный свет - Кантор",
   },
   {
     src:
@@ -23,7 +23,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/ru/thumb/3/38/ABS_Strana_Bagrovyh_Tuch_1960_BookCover.jpg/256px-ABS_Strana_Bagrovyh_Tuch_1960_BookCover.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Страна багровых туч	-	Стругацкие",
   },
   {
     src: "https://www.litmir.me/data/Book/0/249000/249883/BC4_1490723871.jpg",
@@ -31,7 +31,7 @@ const IMAGES = [
       "https://www.litmir.me/data/Book/0/249000/249883/BC4_1490723871.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Путь на Амальтею - Стругацкие",
   },
   {
     src:
@@ -40,7 +40,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/ru/thumb/9/99/%D0%A1%D1%82%D0%B0%D0%B6%D1%91%D1%80%D1%8B_%28%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C%29.jpg/245px-%D0%A1%D1%82%D0%B0%D0%B6%D1%91%D1%80%D1%8B_%28%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C%29.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Стажеры - Стругацкие",
   },
   {
     src:
@@ -49,7 +49,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/ru/2/2b/%D0%A5%D0%B8%D1%89%D0%BD%D1%8B%D0%B5_%D0%B2%D0%B5%D1%89%D0%B8_%D0%B2%D0%B5%D0%BA%D0%B0.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Хищные вещи века - Стругацкие",
   },
   {
     src:
@@ -58,14 +58,14 @@ const IMAGES = [
       "https://img4.labirint.ru/rc/dc123b42c9d7c0826bc677257d2b0de9/220x340/books62/616698/cover.jpg?1564047727",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Октябрь - Мьевиль",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/en/7/73/Homo_Deus.jpg",
     thumbnail: "https://upload.wikimedia.org/wikipedia/en/7/73/Homo_Deus.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Homo Deus - Харари",
   },
   {
     src:
@@ -74,14 +74,14 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/ru/5/53/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B3%D0%BE_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F_%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D0%B0_%D0%B1%D1%80%D0%B0%D1%82%D1%8C%D0%B5%D0%B2_%D0%A1%D1%82%D1%80%D1%83%D0%B3%D0%B0%D1%86%D0%BA%D0%B8%D1%85_%C2%AB%D0%9F%D0%BE%D0%BB%D0%B4%D0%B5%D0%BD%D1%8C%2C_XXII_%D0%B2%D0%B5%D0%BA%C2%BB.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Полдень, XXII век - Стругацкие",
   },
   {
     src: "https://m.media-amazon.com/images/I/31hKHfEGWlL.jpg",
     thumbnail: "https://m.media-amazon.com/images/I/31hKHfEGWlL.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Краткая история русских хакеров - Туровский",
   },
   {
     src:
@@ -90,7 +90,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/ru/e/ed/%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D0%BE_%D0%B1%D1%8B%D1%82%D1%8C_%D0%B1%D0%BE%D0%B3%D0%BE%D0%BC.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Трудно быть богом - Стругацкие",
   },
   {
     src:
@@ -99,7 +99,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/a/ad/Escape-attempt-macmillan-cover.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Попытка к бегству - Стругацкие",
   },
   {
     src:
@@ -108,21 +108,21 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/7/74/Far-rainbow-macmillan-cover.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Далекая радуга - Стругацкие",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d4/TheThaw.jpg",
     thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/d4/TheThaw.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Оттепель - Эренбург",
   },
   {
     src: "https://www.corpus.ru/picts/products/Sorokin-History-1000.jpg",
     thumbnail: "https://www.corpus.ru/picts/products/Sorokin-History-1000.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Нормальная история - Сорокин",
   },
   {
     src:
@@ -131,7 +131,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/0/04/Prisoners-of-power-cover.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Обитаемый остров - Стругацкие",
   },
   {
     src:
@@ -140,7 +140,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/ru/8/83/%D0%98%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%BA_%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%BC%D1%83_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8E_%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D0%B8_%D0%B1%D1%80%D0%B0%D1%82%D1%8C%D0%B5%D0%B2_%D0%A1%D1%82%D1%80%D1%83%D0%B3%D0%B0%D1%86%D0%BA%D0%B8%D1%85_%C2%AB%D0%9C%D0%B0%D0%BB%D1%8B%D1%88%C2%BB.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Малыш - Стругацкие",
   },
   {
     src:
@@ -149,7 +149,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/ru/thumb/9/9d/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C_%D0%B8%D0%B7_%D0%9F%D1%80%D0%B5%D0%B8%D1%81%D0%BF%D0%BE%D0%B4%D0%BD%D0%B5%D0%B9.jpeg/400px-%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C_%D0%B8%D0%B7_%D0%9F%D1%80%D0%B5%D0%B8%D1%81%D0%BF%D0%BE%D0%B4%D0%BD%D0%B5%D0%B9.jpeg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Парень из прейсподней - Стругацкие",
   },
   {
     src:
@@ -158,7 +158,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/ru/1/17/%D0%96%D1%83%D0%BA_%D0%B2_%D0%BC%D1%83%D1%80%D0%B0%D0%B2%D0%B5%D0%B9%D0%BD%D0%B8%D0%BA%D0%B5.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Жук в муравейнике - Стругацкие",
   },
   {
     src:
@@ -167,7 +167,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/f/f7/The-time-wanderers-cover.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Волны гасят ветер - Стругацкие",
   },
   {
     src:
@@ -176,7 +176,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/6/69/Laurus_book_cover_%28Russian%29.jpeg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Лавр - Водолазкин",
   },
   {
     src:
@@ -185,7 +185,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/c/cd/The_map_and_the_territory_bookcover.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Карта и территория - Мишель Уельбек",
   },
   {
     src: "https://s1.livelib.ru/boocover/1000013515/200/1596/boocover.jpg",
@@ -193,7 +193,7 @@ const IMAGES = [
       "https://s1.livelib.ru/boocover/1000013515/200/1596/boocover.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Норма - Сорокин",
   },
   {
     src:
@@ -202,7 +202,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/d/d2/Sapiens_A_Brief_History_of_Humankind.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Sapiens. краткая история человечества - Харари",
   },
   {
     src: "https://s1.livelib.ru/boocover/1002910038/200/687d/boocover.jpg",
@@ -210,14 +210,14 @@ const IMAGES = [
       "https://s1.livelib.ru/boocover/1002910038/200/687d/boocover.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Необычайные похождения Хулио Хуренито - Эренбург",
   },
   {
     src: "https://royallib.com/data/images/291/cover_291540.jpg",
     thumbnail: "https://royallib.com/data/images/291/cover_291540.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Соглядатай - A. Роб-Грийе",
   },
   {
     src:
@@ -226,7 +226,7 @@ const IMAGES = [
       "https://img3.labirint.ru/rc/9bacb4fcb80bd0fe910a4412d13e9b66/220x340/books4/31745/cover.jpg?1563632793",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Воры - Галеотти",
   },
   {
     src:
@@ -235,7 +235,7 @@ const IMAGES = [
       "https://images-na.ssl-images-amazon.com/images/I/51PEj5p72jL._SX331_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Палач - Лимонов",
   },
   {
     src:
@@ -244,7 +244,7 @@ const IMAGES = [
       "https://chernaya100.com/media/books/kovalevsky-foreignrussia/kovalevsky-1.png",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Зарубежная Россия - Ковалевский",
   },
   {
     src:
