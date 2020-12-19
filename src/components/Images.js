@@ -448,7 +448,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/d/d2/The_state_counsellor_by_boris_akunin.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Статский советник - Акунин",
   },
   {
     src:
@@ -457,7 +457,7 @@ const IMAGES = [
       "https://images-na.ssl-images-amazon.com/images/I/41htjIPKvJL._SX322_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Беседы с дочерью об экономике - Варуфакис",
   },
   {
     src:
@@ -466,7 +466,7 @@ const IMAGES = [
       "https://groveatlantic.com/core/wp-content/uploads/2017/04/9780802124074-678x1024.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Lingo - G. Dorren",
   },
   {
     src:
@@ -475,7 +475,7 @@ const IMAGES = [
       "https://images-na.ssl-images-amazon.com/images/I/51+lPgRGIRL._SY498_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "If Hemingway Wrote JavaScript - A.Croll",
   },
   {
     src: "https://images-na.ssl-images-amazon.com/images/I/71S21-B1haL.jpg",
@@ -483,7 +483,7 @@ const IMAGES = [
       "https://images-na.ssl-images-amazon.com/images/I/71S21-B1haL.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "The Four - S. Galloway",
   },
   {
     src:
@@ -492,7 +492,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/d/d1/BorisAkunin_Coronation_russian.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Коронация - Акунин",
   },
   {
     src:
@@ -501,7 +501,7 @@ const IMAGES = [
       "https://images-na.ssl-images-amazon.com/images/I/41AtqnBj+3L._SX334_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Век тревожности - С. Стоссел",
   },
   {
     src:
@@ -510,14 +510,14 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/a/a8/Elon_Musk_-_Tesla%2C_SpaceX%2C_and_the_Quest_for_a_Fantastic_Future.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Elon Musk - A. Vance",
   },
   {
     src: "https://www.diktaattori.fi/images/tuotteet/1495438517.jpg",
     thumbnail: "https://www.diktaattori.fi/images/tuotteet/1495438517.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Juoppohullun päiväkirja - Vuorinen ",
   },
   {
     src:
@@ -526,7 +526,7 @@ const IMAGES = [
       "https://img3.labirint.ru/rc/f744d86807cc9d8594b9c590350cb1aa/220x340/books56/556427/cover.jpg?1563950295",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Горький - Быков",
   },
   {
     src:
@@ -535,7 +535,7 @@ const IMAGES = [
       "https://images-na.ssl-images-amazon.com/images/I/510PJI0uGwL._SX334_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Шум времени - Мандельштам",
   },
   {
     src:
@@ -544,7 +544,7 @@ const IMAGES = [
       "https://images-na.ssl-images-amazon.com/images/I/41oAQDXNRML._SX316_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Babel - G. Dorren",
   },
   {
     src:
@@ -553,7 +553,7 @@ const IMAGES = [
       "https://images-na.ssl-images-amazon.com/images/I/51msSEgXtdL._SX324_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "The 2084 Report - J. Powell",
   },
   {
     src:
@@ -562,7 +562,7 @@ const IMAGES = [
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504749459l/34889270._SY475_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Крестовые сестры - Ремизов",
   },
   {
     src:
@@ -571,7 +571,7 @@ const IMAGES = [
       "https://assets1.bmstatic.com/assets/books-covers/bf/26/vNxUkbpl-ipad.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Карамора - Горький",
   },
   {
     src:
@@ -580,7 +580,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/c/cf/Auto-da-Fe_first_edition.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Ослепление - Канетти",
   },
   {
     src:
@@ -589,7 +589,7 @@ const IMAGES = [
       "https://images-na.ssl-images-amazon.com/images/I/515TynAfmlL._SX331_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Будущее - Глуховский",
   },
   {
     src:
@@ -598,7 +598,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/c/cd/She_lover_of_death_by_boris_akunin.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Любовница смерти - Акунин",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/en/7/73/Moscow_Petushki.jpg",
@@ -606,7 +606,7 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/7/73/Moscow_Petushki.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Москва - Петушки - Ерофеев",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/en/a/af/Ubik%281stEd%29.jpg",
@@ -614,14 +614,14 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/a/af/Ubik%281stEd%29.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Убик - Ф. Дик",
   },
   {
     src: "https://m.media-amazon.com/images/I/51Lb4J6645L.jpg",
     thumbnail: "https://m.media-amazon.com/images/I/51Lb4J6645L.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Теоретический минимум по Computer Science - В. Фило",
   },
   {
     src:
@@ -630,7 +630,7 @@ const IMAGES = [
       "https://images-na.ssl-images-amazon.com/images/I/514qh-qixZL._SX331_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Москва и москвичи - Гиляровский",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/en/1/11/TheFoundationPit.jpg",
@@ -638,14 +638,14 @@ const IMAGES = [
       "https://upload.wikimedia.org/wikipedia/en/1/11/TheFoundationPit.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Котлован - Платонов",
   },
   {
     src: "https://s5-goods.ozstatic.by/1000/559/970/10/10970559_0.jpg",
     thumbnail: "https://s5-goods.ozstatic.by/1000/559/970/10/10970559_0.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Все свободны - Зыгарь",
   },
   {
     src:
@@ -654,7 +654,7 @@ const IMAGES = [
       "https://neweasterneurope.eu/new_site/wp-content/uploads/2018/12/tamtam.png",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "Как работает пропаганда - Эйдельман",
   },
   {
     src:
@@ -663,7 +663,7 @@ const IMAGES = [
       "https://s1.livelib.ru/boocover/1000521681/o/f8e5/Boris_Ryzhij__V_kvartalah_dalnih_i_pechalnyh..._sbornik.jpeg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "After Rain (Jeshu John - designerspics.com)",
+    caption: "В кварталах дальних и печальных - Рыжий",
   },
 ];
 
