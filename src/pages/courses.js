@@ -104,6 +104,14 @@ const Second = () => {
             link={"https://www.freecodecamp.org/learn/"}
             name={"Front End Libraries"}
           />
+          <Course
+            pic={fm}
+            alt={"frontend masters logo"}
+            height={45}
+            width={45}
+            link={"https://frontendmasters.com/courses/intermediate-react-v2/"}
+            name={"Intermediate React"}
+          />
         </ul>
       </div>
       <Footer footerStyle="footer" />
