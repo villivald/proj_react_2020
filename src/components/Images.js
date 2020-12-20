@@ -665,6 +665,15 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "В кварталах дальних и печальных - Рыжий",
   },
+  {
+    src:
+      "https://upload.wikimedia.org/wikipedia/en/4/4a/He_Lover_of_Death_-_Akunin.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/en/4/4a/He_Lover_of_Death_-_Akunin.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Любовник смерти - Акунин",
+  },
 ];
 
 export default IMAGES;
