@@ -6,6 +6,16 @@ import fm from "../images/fm.jpg";
 import coursera from "../images/coursera.jpeg";
 import Course from "../components/Course";
 // import Star from "../components/Star";
+import styled from "@emotion/styled";
+import Colors from "../constants/colors";
+
+const Hui = styled.h1`
+  color: ${Colors.gray};
+  &:hover {
+    transform: rotate(3deg);
+    border: 2px solid var(--accent);
+  }
+`;
 
 const Second = () => {
   return (
@@ -13,7 +23,7 @@ const Second = () => {
       <Menu menuStyle="menu" ButtonDisplay="none" />
       <div className="courses">
         <ul>
-          <h1 className="contacts">Courses & Certifications</h1>
+          <Hui className="contacts">Courses & Certifications</Hui>
           <h2 className="h2-courses">Completed</h2>
           <Course
             pic={fm}
