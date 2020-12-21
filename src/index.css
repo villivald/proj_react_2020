@@ -1,3 +1,18 @@
+/*VARIABLES*/
+
+:root {
+  --buttonBackground: #3299bb;
+  --buttonShadow: gray;
+  --header: #5c8d76;
+  --accent: #e54b4b;
+  --background: #e4e1db;
+  --gray: #333;
+  --button: #3b828f;
+  --blog: #25a2b9;
+  --screens: #b96c25;
+  --whiteSmoke: #f5f5f5;
+}
+
 /*GENERAL*/
 
 body {
@@ -5,15 +20,15 @@ body {
 }
 
 .main {
-  background-color: #e4e1db;
+  background-color: var(--background);
 }
 
 .main-alt {
-  background-color: #333;
+  background-color: var(--gray);
 }
 
 a {
-  color: #333;
+  color: var(--gray);
   text-decoration: none;
   font-family: "Mate", serif;
   font-size: 1rem;
@@ -39,7 +54,7 @@ a:focus {
   box-sizing: border-box;
   height: 150px;
   width: 95%;
-  background-color: #5c8d76;
+  background-color: var(--header);
   margin-top: 10px;
   margin-bottom: 30px;
   justify-content: center;
@@ -70,7 +85,7 @@ a:focus {
 .logo {
   padding: 4px;
   border-radius: 10px;
-  filter: drop-shadow(0 0 0.3rem #333);
+  filter: drop-shadow(0 0 0.3rem var(--gray));
   /*filter: drop-shadow(5px 2px 4px #333);*/
 }
 
@@ -118,10 +133,10 @@ a:focus {
   display: flex;
   box-sizing: border-box;
   font-family: "Mate", serif;
-  color: #333;
+  color: var(--gray);
   height: 100px;
   width: 95%;
-  background-color: #5c8d76;
+  background-color: var(--header);
   margin-bottom: 10px;
   justify-content: center;
   align-items: center;
@@ -133,7 +148,7 @@ a:focus {
   display: flex;
   box-sizing: border-box;
   font-family: "Mate", serif;
-  color: #333;
+  color: var(--gray);
   height: 100px;
   width: 95%;
   background-color: rgb(139, 133, 133);
@@ -154,7 +169,7 @@ a:focus {
 .screen {
   width: 380px;
   height: 200px;
-  background-color: #b96c25;
+  background-color: var(--screens);
   border-radius: 15px;
   box-shadow: 0px 0px 6px 2px rgba(51, 51, 51, 0.91);
 }
@@ -185,7 +200,7 @@ h1 {
   font-family: "Mate", serif;
   font-size: 2.5rem;
   text-align: center;
-  color: #333;
+  color: var(--gray);
   letter-spacing: 0.05em;
 }
 
@@ -199,7 +214,7 @@ h1 {
 
 h2 {
   font-family: "Mate", serif;
-  color: #333;
+  color: var(--gray);
   letter-spacing: 0.05em;
   margin: auto;
   text-align: center;
@@ -271,7 +286,7 @@ h2 {
 
 .btn-info {
   color: #fff;
-  background-color: #5c8d76;
+  background-color: var(--header);
   border-color: black;
   font-family: "Mate", serif;
   box-shadow: 1px 1px 1px 1px rgba(51, 51, 51, 0.91);
@@ -279,7 +294,7 @@ h2 {
 }
 
 #dropdown-basic-button-alt {
-  background-color: #333;
+  background-color: var(--gray);
 }
 
 .vertical-text {
@@ -297,7 +312,7 @@ h2 {
 }
 
 .vertical-text:hover {
-  border: 2px solid #e54b4b;
+  border: 2px solid var(--accent);
   transform: rotate(-3deg);
 }
 
@@ -346,35 +361,35 @@ h2 {
   margin: 10px 0 10px 20px;
   background-image: repeating-linear-gradient(
       16deg,
-      #e54b4b,
-      #e54b4b 11px,
+      var(--accent),
+      var(--accent) 11px,
       transparent 11px,
       transparent 23px,
-      #e54b4b 23px
+      var(--accent) 23px
     ),
     repeating-linear-gradient(
       106deg,
-      #e54b4b,
-      #e54b4b 11px,
+      var(--accent),
+      var(--accent) 11px,
       transparent 11px,
       transparent 23px,
-      #e54b4b 23px
+      var(--accent) 23px
     ),
     repeating-linear-gradient(
       196deg,
-      #e54b4b,
-      #e54b4b 11px,
+      var(--accent),
+      var(--accent) 11px,
       transparent 11px,
       transparent 23px,
-      #e54b4b 23px
+      var(--accent) 23px
     ),
     repeating-linear-gradient(
       286deg,
-      #e54b4b,
-      #e54b4b 11px,
+      var(--accent),
+      var(--accent) 11px,
       transparent 11px,
       transparent 23px,
-      #e54b4b 23px
+      var(--accent) 23px
     );
   background-size: 3px 100%, 100% 3px, 3px 100%, 100% 3px;
   background-position: 0 0, 0 0, 100% 0, 0 100%;
@@ -383,7 +398,7 @@ h2 {
 
 .usesBox:hover {
   background-image: none;
-  border: 2px solid #e54b4b;
+  border: 2px solid var(--accent);
   transform: rotate(3deg);
 }
 
@@ -419,7 +434,7 @@ ul {
   height: 100px;
   margin-left: -160px;
   border-radius: 50%;
-  background-color: #25a2b9;
+  background-color: var(--blog);
   display: grid;
   place-items: center;
 }
@@ -453,7 +468,7 @@ ul {
 }
 
 .dropdown-item:active {
-  background-color: #f5f5f5;
+  background-color: var(--whiteSmoke);
 }
 .dropdown-item > a:active {
   outline: none;
@@ -468,8 +483,8 @@ ul {
   > div
   > a {
   margin-left: 30px;
-  background-color: #25a2b9;
-  color: #f5f5f5;
+  background-color: var(--blog);
+  color: var(--whiteSmoke);
 }
 
 .chipWrapper {
@@ -514,7 +529,7 @@ ul {
   margin: 0px 0px 0px 220px;
   max-width: 30em;
   font-family: "Mate";
-  background-color: #f5f5f5;
+  background-color: var(--whiteSmoke);
   padding: 0.5em 1em;
   font-size: 1.25em;
   border-radius: 1rem;
@@ -528,7 +543,7 @@ ul {
   left: 0.8em;
   border: 0.75rem solid transparent;
   border-top: none;
-  border-bottom-color: #f5f5f5;
+  border-bottom-color: var(--whiteSmoke);
   filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
 }
 
