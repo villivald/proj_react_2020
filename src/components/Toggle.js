@@ -22,7 +22,7 @@ const StyledSwitch = withStyles({
   track: {},
 })(Switch);
 
-const SwitchLabels = (props) => {
+const SwitchLabels = () => {
   const [logo, setLogo] = useState(clip5);
   const [state, setState] = useState({
     checkedA: true,
@@ -33,6 +33,10 @@ const SwitchLabels = (props) => {
     setState({ ...state, [event.target.name]: event.target.checked });
     event.target.checked === true ? setLogo(clip3) : setLogo(clip5);
   };
+
+  const [bubble, setBubble] = useState("none");
+  const handleBubbleIn = () => setBubble("inline");
+  const handleBubbleOut = () => setBubble("none");
 
   return (
     <div className="togglePic">
@@ -51,9 +55,19 @@ const SwitchLabels = (props) => {
       </FormGroup>
       <Link to="/">
         <div className="logocat">
-          <img src={logo} alt="Logo" width="350px" className="headerClip" />
+          <img
+            onMouseEnter={handleBubbleIn}
+            onMouseLeave={handleBubbleOut}
+            src={logo}
+            alt="Logo"
+            width="350px"
+            className="headerClip"
+          />
         </div>
       </Link>
+      <p style={{ display: bubble }} className="bubble">
+        Hi there!
+      </p>
     </div>
   );
 };

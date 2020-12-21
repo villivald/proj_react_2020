@@ -509,6 +509,29 @@ ul {
   grid-area: gallery;
 }
 
+.bubble {
+  position: absolute;
+  margin: 0px 0px 0px 220px;
+  max-width: 30em;
+  font-family: "Mate";
+  background-color: #f5f5f5;
+  padding: 0.5em 1em;
+  font-size: 1.25em;
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3),
+    0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
+}
+.bubble::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0.8em;
+  border: 0.75rem solid transparent;
+  border-top: none;
+  border-bottom-color: #f5f5f5;
+  filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;
@@ -740,6 +763,9 @@ ul {
 
   .switch {
     margin-left: 10%;
+  }
+  .bubble {
+    display: none !important;
   }
 }
 
