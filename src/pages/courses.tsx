@@ -1,4 +1,4 @@
-import React from "react";
+import React, {FunctionComponent} from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import fcc from "../images/fccdark.png";
@@ -17,7 +17,7 @@ const Hui = styled.h1`
   }
 `;
 
-const Second = () => {
+const Second: FunctionComponent = () => {
   return (
     <div className="main">
       <Menu menuStyle="menu" ButtonDisplay="none" />

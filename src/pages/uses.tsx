@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import { withStyles } from "@material-ui/core";
@@ -16,7 +16,7 @@ const StyledPaper = withStyles({
   },
 })(Paper);
 
-const Uses = () => {
+const Uses: FunctionComponent = () => {
   const [displayState, setDisplayState] = useState("none");
   const handlePic = () => {
     setDisplayState("list-item");

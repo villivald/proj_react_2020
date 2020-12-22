@@ -1,4 +1,4 @@
-import React from "react";
+import React, {FunctionComponent} from "react";
 import Colors from "../constants/colors";
 import Avatar from "@material-ui/core/Avatar";
 import { makeStyles } from "@material-ui/core/styles";
@@ -16,22 +16,33 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const GridItem = (props) => {
+interface IProps {
+  afterHover: string;
+  link: string;
+  boxStyle: object;
+  text: string;
+  image: string;
+  alt: string;
+  color: string;
+  hoverColor: string;
+}
+
+const GridItem: FunctionComponent<IProps> = (props) => {
   const classes = useStyles();
 
-  const changeBackground = (e) => {
+  const changeBackground = (e:any) => {
     e.target.style.background = Colors.buttonBackground;
     e.target.style.color = Colors.gray;
     //e.target.style.boxShadow = `4px 4px ${props.hoverColor}`;
     e.target.style.transform = "scale(1.1)";
   };
-  const setBackgroundToDefault = (e) => {
+  const setBackgroundToDefault = (e:any) => {
     e.target.style.background = props.afterHover;
     e.target.style.color = "white";
     //e.target.style.boxShadow = `4px 4px ${props.color}`;
     e.target.style.transform = "";
   };
-  const handlePress = (e) => {
+  const handlePress = (e:any) => {
     e.target.style.transform = "translate(3px,6px)";
     window.location.href = props.link;
   };

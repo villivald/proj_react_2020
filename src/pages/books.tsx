@@ -1,4 +1,4 @@
-import React from "react";
+import React, {FunctionComponent} from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import GridItem from "../components/GridItem";
@@ -17,7 +17,7 @@ const Hui = styled.h1`
   }
 `;
 
-const Books = (props) => {
+const Books: FunctionComponent<{AfterHoverBlog: string}> = (props) => {
   const styles = {
     blog: {
       boxSizing: "border-box",

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {FunctionComponent} from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 
@@ -11,7 +11,7 @@ import twitter from "../images/twitter.png";
 import strava from "../images/strava.png";
 import medium from "../images/medium.png";
 
-const Second = () => {
+const Second: FunctionComponent = () => {
   return (
     <div className="main">
       <Menu menuStyle="menu" ButtonDisplay="none" />

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, FunctionComponent } from "react";
 import Grid from "../components/Grid";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
@@ -8,7 +8,7 @@ import night from "../images/night.webp";
 import lamp from "../images/lamp.png";
 import Colors from "../constants/colors";
 
-const Home = () => {
+const Home: FunctionComponent = () => {
   const [mainStyle, setMainStyle] = useState(false);
   return (
     <div className={mainStyle ? "main-alt" : "main"}>

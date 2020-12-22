@@ -1,9 +1,9 @@
-import React from "react";
+import React, {FunctionComponent} from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import about from "../images/about.webp";
 
-const First = (props) => {
+const First: FunctionComponent = () => {
   return (
     <div className="main">
       <Menu menuStyle="menu" ButtonDisplay="none" />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {FunctionComponent} from "react";
 import { withStyles } from "@material-ui/core";
 import Chip from "@material-ui/core/Chip";
 import Avatar from "@material-ui/core/Avatar";
@@ -16,7 +16,7 @@ import github from "../images/github.webp";
 import bash from "../images/bash.webp";
 import php from "../images/php.webp";
 
-const ChipCloud = (props) => {
+const ChipCloud: FunctionComponent<{ChipColor: string}> = (props) => {
   const StyledChip = withStyles({
     root: {
       backgroundColor: props.ChipColor,

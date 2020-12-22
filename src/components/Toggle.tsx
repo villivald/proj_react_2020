@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, FunctionComponent } from "react";
 import FormGroup from "@material-ui/core/FormGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Switch from "@material-ui/core/Switch";
@@ -22,14 +22,14 @@ const StyledSwitch = withStyles({
   track: {},
 })(Switch);
 
-const SwitchLabels = () => {
+const SwitchLabels: FunctionComponent = () => {
   const [logo, setLogo] = useState(clip5);
   const [state, setState] = useState({
     checkedA: true,
     checkedB: false,
   });
 
-  const handleChange = (event) => {
+  const handleChange = (event: any) => {
     setState({ ...state, [event.target.name]: event.target.checked });
     event.target.checked === true ? setLogo(clip3) : setLogo(clip5);
   };
