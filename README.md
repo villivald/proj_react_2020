@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
-    <img src="src/images/logo/103.png" alt="Logo" width="200" height="200">
+    <img src="src/images/logo/103.webp" alt="Logo" width="200" height="200">
   </a>
 </p>
 
