@@ -30,19 +30,28 @@ interface IProps {
 const GridItem: FunctionComponent<IProps> = (props) => {
   const classes = useStyles();
 
-  const changeBackground = (e:any) => {
+  const changeBackground = (e:React.MouseEvent<HTMLElement>) => {
+    if(!(e.target instanceof HTMLElement)) {
+      return
+    }
     e.target.style.background = Colors.buttonBackground;
     e.target.style.color = Colors.gray;
     //e.target.style.boxShadow = `4px 4px ${props.hoverColor}`;
     e.target.style.transform = "scale(1.1)";
   };
-  const setBackgroundToDefault = (e:any) => {
+  const setBackgroundToDefault = (e:React.MouseEvent<HTMLElement>) => {
+    if(!(e.target instanceof HTMLElement)) {
+      return
+    }
     e.target.style.background = props.afterHover;
     e.target.style.color = "white";
     //e.target.style.boxShadow = `4px 4px ${props.color}`;
     e.target.style.transform = "";
   };
-  const handlePress = (e:any) => {
+  const handlePress = (e:React.MouseEvent<HTMLElement>) => {
+    if(!(e.target instanceof HTMLElement)) {
+      return
+    }
     e.target.style.transform = "translate(3px,6px)";
     window.location.href = props.link;
   };
