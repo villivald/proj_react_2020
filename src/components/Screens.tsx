@@ -1,4 +1,4 @@
-import React from "react";
+import {FunctionComponent} from "react";
 import { makeStyles, withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Colors from "../constants/colors";
@@ -30,7 +30,7 @@ const StyledPaper = withStyles({
   },
 })(Paper);
 
-const Screens = (props) => {
+const Screens: FunctionComponent<{statsHeaders: string}> = (props) => {
   const classes = useStyles();
   return (
     <div>
