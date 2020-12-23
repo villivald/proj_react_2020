@@ -50,7 +50,7 @@ const SwitchLabels: FunctionComponent = () => {
               color="primary"
             />
           }
-          label=""
+          label="toggle"
         />
       </FormGroup>
       <Link to="/">
