@@ -1,14 +1,19 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import { Progress } from "antd";
-import ChipCloud from "../components/ChipCloud";
+import ChipCloud from "./ChipCloud";
 import clip2 from "../images/clip-2.webp";
-import Timelines from "../components/Timeline";
+import Timelines from "./Timeline";
 import { withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
 import "antd/dist/antd.css";
 
-const Stats = (props) => {
+const Stats: FunctionComponent<{
+  ContainerColor: string;
+  statsHeaders: string;
+  TimelineColor: string;
+  ChipColors: string;
+}> = (props) => {
   const StyledPaper = withStyles({
     root: {
       fontFamily: "Mate SC, serif",

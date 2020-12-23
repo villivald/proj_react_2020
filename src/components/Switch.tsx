@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, FunctionComponent } from "react";
 import Colors from "../constants/colors";
 
 const styles = {
@@ -30,7 +30,7 @@ const styles = {
   },
 };
 
-const Zwitch = (props) => {
+const Zwitch: FunctionComponent = (props) => {
   const [style, setStyle] = useState(styles.drop);
   const handleClick = () => {
     style === styles.drop ? setStyle(styles.dropAlt) : setStyle(styles.drop);

@@ -32,9 +32,6 @@ const Menu: FunctionComponent<{
   DropdownMenuStyle: string;
   setMainStyle: any;
 }> = (props) => {
-  // const handleClick = () => {
-  //   window.parent.location = window.parent.location.href;
-  // }onClick={handleClick};
   const variants = {
     variantA: { scale: 1, rotate: 0 },
     variantB: { scale: 1.2, rotate: 90 },

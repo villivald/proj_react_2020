@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import Timeline from "@material-ui/lab/Timeline";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
@@ -21,7 +21,7 @@ const StyledTypo = withStyles({
   },
 })(Typography);
 
-const Timelines = (props) => {
+const Timelines: FunctionComponent<{ TextColor: any }> = (props) => {
   return (
     <Timeline align="left">
       <TimelineItem>
