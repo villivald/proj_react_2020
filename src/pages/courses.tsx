@@ -111,6 +111,14 @@ const Second: FunctionComponent = () => {
             link={"https://frontendmasters.com/courses/fullstack-v2/"}
             name={"Full Stack for Front-End Engineers - 14.12.20"}
           />
+          <Course
+            pic={fm}
+            alt={"frontend masters logo"}
+            height={45}
+            width={45}
+            link={"https://frontendmasters.com/courses/intermediate-react-v2/"}
+            name={"Intermediate React - 23.12.20"}
+          />
           <h2 className="h2-courses">Ongoing</h2>
           <Course
             pic={fcc}
@@ -125,8 +133,8 @@ const Second: FunctionComponent = () => {
             alt={"frontend masters logo"}
             height={45}
             width={45}
-            link={"https://frontendmasters.com/courses/intermediate-react-v2/"}
-            name={"Intermediate React"}
+            link={"https://frontendmasters.com/courses/typescript-v2/"}
+            name={"TypeScript Fundamentals"}
           />
         </ul>
       </div>
