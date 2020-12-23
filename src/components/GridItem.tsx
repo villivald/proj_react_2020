@@ -1,4 +1,4 @@
-import React, {FunctionComponent} from "react";
+import React, { FunctionComponent } from "react";
 import Colors from "../constants/colors";
 import Avatar from "@material-ui/core/Avatar";
 import { makeStyles } from "@material-ui/core/styles";
@@ -30,27 +30,27 @@ interface IProps {
 const GridItem: FunctionComponent<IProps> = (props) => {
   const classes = useStyles();
 
-  const changeBackground = (e:React.MouseEvent<HTMLElement>) => {
-    if(!(e.target instanceof HTMLElement)) {
-      return
+  const changeBackground = (e: React.MouseEvent<HTMLElement>) => {
+    if (!(e.target instanceof HTMLElement)) {
+      return;
     }
     e.target.style.background = Colors.buttonBackground;
     e.target.style.color = Colors.gray;
     //e.target.style.boxShadow = `4px 4px ${props.hoverColor}`;
     e.target.style.transform = "scale(1.1)";
   };
-  const setBackgroundToDefault = (e:React.MouseEvent<HTMLElement>) => {
-    if(!(e.target instanceof HTMLElement)) {
-      return
+  const setBackgroundToDefault = (e: React.MouseEvent<HTMLElement>) => {
+    if (!(e.target instanceof HTMLElement)) {
+      return;
     }
     e.target.style.background = props.afterHover;
     e.target.style.color = "white";
     //e.target.style.boxShadow = `4px 4px ${props.color}`;
     e.target.style.transform = "";
   };
-  const handlePress = (e:React.MouseEvent<HTMLElement>) => {
-    if(!(e.target instanceof HTMLElement)) {
-      return
+  const handlePress = (e: React.MouseEvent<HTMLElement>) => {
+    if (!(e.target instanceof HTMLElement)) {
+      return;
     }
     e.target.style.transform = "translate(3px,6px)";
     window.location.href = props.link;
