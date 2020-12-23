@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import GridItem from "./GridItem";
 import Colors from "../constants/colors";
 import html from "../images/html.webp";
@@ -8,7 +8,12 @@ import wpb from "../images/wpb.webp";
 import soon from "../images/soon.webp";
 import php from "../images/php.webp";
 
-const Grid = (props) => {
+const Grid: FunctionComponent<{
+  ButtonColor: string;
+  BlogButtonColor: string;
+  AfterHoverBlog: string;
+  AfterHoverButtons: string;
+}> = (props) => {
   const styles = {
     box: {
       boxSizing: "border-box",
@@ -69,7 +74,6 @@ const Grid = (props) => {
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
-          background={Colors.button}
           afterHover={props.AfterHoverButtons}
           image={js}
           alt="js"
@@ -204,6 +208,7 @@ const Grid = (props) => {
         />
         <GridItem
           text={"More coming soon... "}
+          link={"/"}
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}

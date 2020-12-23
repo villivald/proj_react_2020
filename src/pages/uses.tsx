@@ -26,7 +26,14 @@ const Uses: FunctionComponent = () => {
   };
   return (
     <div className="main">
-      <Menu menuStyle="menu" ButtonDisplay="none" />
+      <Menu
+        menuStyle="menu"
+        ButtonDisplay="none"
+        mainStyle=""
+        Pic="string"
+        DropdownMenuStyle=""
+        setMainStyle=""
+      />
       <h1 className="h1">Uses</h1>
       <div className="contact-wrapper">
         <img

@@ -1,7 +1,7 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import Toggle from "./Toggle";
 import logo from "../images/logo/103.webp";
-import Dropdown from "../components/Dropdown";
+import Dropdown from "./Dropdown";
 import { Frame } from "framer";
 import { Link } from "react-router-dom";
 import Avatar from "@material-ui/core/Avatar";
@@ -24,10 +24,17 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Menu = (props) => {
-  const handleClick = () => {
-    window.parent.location = window.parent.location.href;
-  };
+const Menu: FunctionComponent<{
+  menuStyle: string;
+  ButtonDisplay: any;
+  mainStyle: any;
+  Pic: string;
+  DropdownMenuStyle: string;
+  setMainStyle: any;
+}> = (props) => {
+  // const handleClick = () => {
+  //   window.parent.location = window.parent.location.href;
+  // }onClick={handleClick};
   const variants = {
     variantA: { scale: 1, rotate: 0 },
     variantB: { scale: 1.2, rotate: 90 },
@@ -41,8 +48,7 @@ const Menu = (props) => {
           <div className="switch">
             <Toggle />
           </div>
-
-          <div className="header" onClick={handleClick}>
+          <div className="header">
             <Frame
               initial={"variantA"}
               whileHover={"variantB"}

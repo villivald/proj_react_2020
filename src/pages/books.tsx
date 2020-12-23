@@ -1,4 +1,4 @@
-import React, {FunctionComponent} from "react";
+import React, { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import GridItem from "../components/GridItem";
@@ -17,7 +17,7 @@ const Hui = styled.h1`
   }
 `;
 
-const Books: FunctionComponent<{AfterHoverBlog: string}> = (props) => {
+const Books: FunctionComponent<{ AfterHoverBlog: string }> = (props) => {
   const styles = {
     blog: {
       boxSizing: "border-box",
@@ -40,7 +40,14 @@ const Books: FunctionComponent<{AfterHoverBlog: string}> = (props) => {
   };
   return (
     <div className="main">
-      <Menu menuStyle="menu" ButtonDisplay="none" />
+      <Menu
+        menuStyle="menu"
+        ButtonDisplay="none"
+        mainStyle=""
+        Pic="string"
+        DropdownMenuStyle=""
+        setMainStyle=""
+      />
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Hui>Books</Hui>
       </div>

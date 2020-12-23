@@ -1,11 +1,10 @@
-import React, {FunctionComponent} from "react";
+import React, { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import fcc from "../images/fccdark.png";
 import fm from "../images/fm.jpg";
 import coursera from "../images/coursera.jpeg";
 import Course from "../components/Course";
-// import Star from "../components/Star";
 import styled from "@emotion/styled";
 import Colors from "../constants/colors";
 
@@ -20,7 +19,14 @@ const Hui = styled.h1`
 const Second: FunctionComponent = () => {
   return (
     <div className="main">
-      <Menu menuStyle="menu" ButtonDisplay="none" />
+      <Menu
+        menuStyle="menu"
+        ButtonDisplay="none"
+        mainStyle=""
+        Pic=""
+        DropdownMenuStyle=""
+        setMainStyle=""
+      />
       <div className="courses">
         <ul>
           <Hui className="contacts">Courses & Certifications</Hui>

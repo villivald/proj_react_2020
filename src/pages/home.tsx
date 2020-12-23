@@ -20,6 +20,7 @@ const Home: FunctionComponent = () => {
         mainStyle={mainStyle}
         setMainStyle={setMainStyle}
         Pic={mainStyle ? lamp : night}
+        ButtonDisplay={true}
       />
       <Grid
         BlogButtonColor={mainStyle ? "rgb(139, 133, 133)" : Colors.blog}

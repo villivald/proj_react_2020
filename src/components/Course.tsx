@@ -1,6 +1,13 @@
-import React from "react";
+import { FunctionComponent } from "react";
 
-const Course = (props) => {
+const Course: FunctionComponent<{
+  pic: string;
+  alt: string;
+  height: number;
+  width: number;
+  link: string;
+  name: string;
+}> = (props) => {
   return (
     <li className="course course-li">
       <img

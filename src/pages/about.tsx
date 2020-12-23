@@ -6,7 +6,14 @@ import about from "../images/about.webp";
 const First: FunctionComponent = () => {
   return (
     <div className="main">
-      <Menu menuStyle="menu" ButtonDisplay="none" />
+      <Menu
+        menuStyle="menu"
+        ButtonDisplay="none"
+        mainStyle=""
+        Pic="string"
+        DropdownMenuStyle=""
+        setMainStyle=""
+      />
       <div className="contact-wrapper">
         <img
           style={{ marginBottom: "50px" }}

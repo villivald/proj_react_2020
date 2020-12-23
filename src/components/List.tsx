@@ -1,6 +1,10 @@
-import React from "react";
+import { FunctionComponent } from "react";
 
-const List = (props) => {
+const List: FunctionComponent<{
+  emoji: string;
+  link: string;
+  name: string;
+}> = (props) => {
   return (
     <li className="use">
       <span className="emoji" role="img" aria-label="bike">

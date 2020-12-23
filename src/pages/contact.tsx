@@ -1,4 +1,4 @@
-import React, {FunctionComponent} from "react";
+import React, { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 
@@ -14,7 +14,14 @@ import medium from "../images/medium.png";
 const Second: FunctionComponent = () => {
   return (
     <div className="main">
-      <Menu menuStyle="menu" ButtonDisplay="none" />
+      <Menu
+        menuStyle="menu"
+        ButtonDisplay="none"
+        mainStyle=""
+        Pic="string"
+        DropdownMenuStyle=""
+        setMainStyle=""
+      />
       <h1 className="contacts">Contact</h1>
       <div className="contact-wrapper">
         <div className="contact-badges">

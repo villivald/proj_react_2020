@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 
 //Icons
@@ -10,7 +10,7 @@ import MailIcon from "@material-ui/icons/Mail";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 
-const Footer = (props) => {
+const Footer: FunctionComponent<{ footerStyle: string }> = (props) => {
   return (
     <div className="footer-wrapper">
       <div className={props.footerStyle}>

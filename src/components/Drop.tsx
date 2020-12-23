@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, FunctionComponent } from "react";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
@@ -17,14 +17,14 @@ const StyledMenuItem = withStyles({
   },
 })(MenuItem);
 
-const Drop = (props) => {
+const Drop: FunctionComponent<{ link: string }> = (props) => {
   const [anchorEl, setAnchorEl] = useState(null);
 
-  const handleClick = (event) => {
+  const handleClick = (event: any) => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleClose = (event) => {
+  const handleClose = () => {
     setAnchorEl(null);
     window.location.href = props.link;
   };

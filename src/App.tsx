@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy, Suspense, FunctionComponent } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/home";
 // import About from "./pages/about";
@@ -13,7 +13,7 @@ const Contact = lazy(() => import("./pages/contact"));
 const Courses = lazy(() => import("./pages/courses"));
 const Books = lazy(() => import("./pages/books"));
 
-const App = () => {
+const App: FunctionComponent = () => {
   return (
     <Router>
       <Switch>

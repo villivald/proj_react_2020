@@ -1,9 +1,9 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 
-const DropDown = (props) => {
+const DropDown: FunctionComponent<{ DropdownId: string }> = (props) => {
   return (
     <DropdownButton id={props.DropdownId} variant="info" title="Menu">
       <Dropdown.Item>
