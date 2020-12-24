@@ -7,6 +7,7 @@ import react from "../images/react.webp";
 import wpb from "../images/wpb.webp";
 import soon from "../images/soon.webp";
 import php from "../images/php.webp";
+import markdown from "../images/markdown.webp";
 
 const Grid: FunctionComponent<{
   ButtonColor: string;
@@ -197,14 +198,14 @@ const Grid: FunctionComponent<{
           alt="php"
         />
         <GridItem
-          text={"Currently working on: React Native App"}
-          link={"https://create-react-app.com/7-react-native/"}
+          text={"Markdown Cheatsheet"}
+          link={"https://old.create-react-app.com/Projects/Cheatsheet.md"}
           color={Colors.gray}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
-          image={react}
-          alt="react"
+          image={markdown}
+          alt="markdown"
         />
         <GridItem
           text={"More coming soon... "}

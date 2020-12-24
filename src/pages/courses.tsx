@@ -3,6 +3,7 @@ import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import fcc from "../images/fccdark.png";
 import fm from "../images/fm.jpg";
+import wb from "../images/wb.webp";
 import coursera from "../images/coursera.jpeg";
 import Course from "../components/Course";
 import styled from "@emotion/styled";
@@ -118,6 +119,14 @@ const Second: FunctionComponent = () => {
             width={45}
             link={"https://frontendmasters.com/courses/intermediate-react-v2/"}
             name={"Intermediate React - 23.12.20"}
+          />
+          <Course
+            pic={wb}
+            alt={"wes bos logo"}
+            height={45}
+            width={45}
+            link={"http://masteringmarkdown.com/"}
+            name={"Mastering Markdown - 24.12.20"}
           />
           <h2 className="h2-courses">Ongoing</h2>
           <Course
