@@ -1,58 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Create React App. Stories About My Journey to Become a Programmer."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Mate&family=Mate+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <title>Proj</title>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Create React App. Stories About My Journey to Become a Programmer." />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Mate&family=Mate+SC&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <title>Proj</title>
-
-  <script type="application/ld+json">
-    {
-      "@context" : "http://schema.org",
-      "@type" : "Organization",
-      "name" : "Proj. Create React App Blog.",
-     "url" : "https://proj.create-react-app.com/",
-     "sameAs" : [
-       "https://create-react-app.com/",
-       "https://twitter.com/crapp_blog",
-       "https://github.com/villivald",
-       "https://www.linkedin.com/in/maxim-villivald-4b1b311a3/",
-      "https://www.strava.com/athletes/42251423",
-      "https://t.me/create_react_app"
-       ]
-    }
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Proj. Create React App Blog.",
+        "url": "https://proj.create-react-app.com/",
+        "sameAs": [
+          "https://create-react-app.com/",
+          "https://twitter.com/crapp_blog",
+          "https://github.com/villivald",
+          "https://www.linkedin.com/in/maxim-villivald-4b1b311a3/",
+          "https://www.strava.com/athletes/42251423",
+          "https://t.me/create_react_app"
+        ]
+      }
     </script>
-    
 
-</head>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
 
-<body style="margin-bottom: 0px">
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('worker.js').then(function(registration) {
-          console.log('Worker registration successful', registration.scope);
-        }, function(err) {
-          console.log('Worker registration failed', err);
-        }).catch(function(err) {
-          console.log(err);
-        });
+      ym(70788199, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
       });
-    } else {
-      console.log('Service Worker is not supported by browser.');
-    }
-  </script>
-</body>
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/70788199"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
+  </head>
 
+  <body style="margin-bottom: 0px">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker
+            .register("worker.js")
+            .then(
+              function (registration) {
+                console.log(
+                  "Worker registration successful",
+                  registration.scope
+                );
+              },
+              function (err) {
+                console.log("Worker registration failed", err);
+              }
+            )
+            .catch(function (err) {
+              console.log(err);
+            });
+        });
+      } else {
+        console.log("Service Worker is not supported by browser.");
+      }
+    </script>
+  </body>
 </html>
