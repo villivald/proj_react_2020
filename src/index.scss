@@ -1,0 +1,9 @@
+@supports (background: paint(something)) {
+    .houdini:hover {
+       --extra-confettiNumber: 30; /* defaults to 30 */
+      --extra-confettiLengthVariance: 12; /* Defaults to 15 */
+      --extra-confettiWeightVariance: 3; /* Defaults to 4 */
+    
+      background: paint(extra-confetti);
+    }
+  }

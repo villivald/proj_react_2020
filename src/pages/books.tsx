@@ -14,7 +14,7 @@ const H1 = styled.h1`
   padding: 1% 2%;
   &:hover {
     transform: rotate(3deg);
-    border: 2px solid var(--accent);
+    /* border: 2px solid var(--accent); */
   }
 `;
 
@@ -50,7 +50,7 @@ const Books: FunctionComponent<{ AfterHoverBlog: string }> = (props) => {
         setMainStyle=""
       />
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <H1>Books</H1>
+        <H1 className="houdini">Books</H1>
       </div>
       <GridItem
         text={"Book List on GitHub"}

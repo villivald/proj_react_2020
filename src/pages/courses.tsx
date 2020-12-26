@@ -13,7 +13,7 @@ const H1 = styled.h1`
   color: ${Colors.gray};
   &:hover {
     transform: rotate(3deg);
-    border: 2px solid var(--accent);
+    /* border: 2px solid var(--accent); */
   }
 `;
 
@@ -30,7 +30,7 @@ const Second: FunctionComponent = () => {
       />
       <div className="courses">
         <ul>
-          <H1 className="contacts">Courses & Certifications</H1>
+          <H1 className="contacts houdini">Courses & Certifications</H1>
           <h2 className="h2-courses">Completed</h2>
           <Course
             pic={fm}
