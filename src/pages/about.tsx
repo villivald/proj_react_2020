@@ -16,7 +16,7 @@ const First: FunctionComponent = () => {
       />
       <div className="contact-wrapper">
         <img
-          style={{ marginBottom: "50px" }}
+          style={{ marginBottom: "3%", width: "clamp(350px, 50%, 800px)" }}
           src={about}
           alt="About me poster"
           width="50%"

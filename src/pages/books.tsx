@@ -8,9 +8,10 @@ import IMAGES from "../components/Images";
 import github from "../images/github.webp";
 import styled from "@emotion/styled";
 
-const Hui = styled.h1`
+const H1 = styled.h1`
   color: ${Colors.gray};
-  padding: 10px 20px;
+  margin: -1% 0% 0.5% 0%;
+  padding: 1% 2%;
   &:hover {
     transform: rotate(3deg);
     border: 2px solid var(--accent);
@@ -49,7 +50,7 @@ const Books: FunctionComponent<{ AfterHoverBlog: string }> = (props) => {
         setMainStyle=""
       />
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <Hui>Books</Hui>
+        <H1>Books</H1>
       </div>
       <GridItem
         text={"Book List on GitHub"}

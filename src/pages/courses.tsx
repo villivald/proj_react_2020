@@ -9,7 +9,7 @@ import Course from "../components/Course";
 import styled from "@emotion/styled";
 import Colors from "../constants/colors";
 
-const Hui = styled.h1`
+const H1 = styled.h1`
   color: ${Colors.gray};
   &:hover {
     transform: rotate(3deg);
@@ -30,7 +30,7 @@ const Second: FunctionComponent = () => {
       />
       <div className="courses">
         <ul>
-          <Hui className="contacts">Courses & Certifications</Hui>
+          <H1 className="contacts">Courses & Certifications</H1>
           <h2 className="h2-courses">Completed</h2>
           <Course
             pic={fm}
