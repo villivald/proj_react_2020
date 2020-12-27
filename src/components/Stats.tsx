@@ -25,8 +25,8 @@ const Stats: FunctionComponent<{
   return (
     <div>
       <div className="headers">
-        <h1 className={props.statsHeaders}>Timeline</h1>
-        <h1 className={props.statsHeaders}>Skills</h1>
+        <h1 className="{props.statsHeaders} underline">Timeline</h1>
+        <h1 className="{props.statsHeaders} underline">Skills</h1>
       </div>
       <div className="timeline">
         <div className="timelines">
