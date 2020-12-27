@@ -22,7 +22,14 @@ const Second: FunctionComponent = () => {
         DropdownMenuStyle=""
         setMainStyle=""
       />
-      <h1 className="contacts">Contact</h1>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <h1
+          style={{ padding: "10px 20px 10px 20px" }}
+          className="contacts houdini"
+        >
+          Contact
+        </h1>
+      </div>
       <div className="contact-wrapper">
         <div className="contact-badges">
           <a href="https://dev.to/villivald">

@@ -34,7 +34,11 @@ const Uses: FunctionComponent = () => {
         DropdownMenuStyle=""
         setMainStyle=""
       />
-      <h1 className="h1">Uses</h1>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <h1 style={{ padding: "10px 20px 10px 20px" }} className="houdini">
+          Uses
+        </h1>
+      </div>
       <div className="contact-wrapper">
         <img
           style={{ marginBottom: "50px" }}

@@ -11,10 +11,11 @@ import Colors from "../constants/colors";
 
 const H1 = styled.h1`
   color: ${Colors.gray};
-  &:hover {
+  padding: 10px 20px 10px 20px;
+  /* &:hover {
     transform: rotate(3deg);
-    /* border: 2px solid var(--accent); */
-  }
+    border: 2px solid var(--accent);
+  } */
 `;
 
 const Second: FunctionComponent = () => {

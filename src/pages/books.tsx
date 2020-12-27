@@ -12,10 +12,10 @@ const H1 = styled.h1`
   color: ${Colors.gray};
   margin: -1% 0% 0.5% 0%;
   padding: 1% 2%;
-  &:hover {
+  /* &:hover {
     transform: rotate(3deg);
-    /* border: 2px solid var(--accent); */
-  }
+    border: 2px solid var(--accent);
+  } */
 `;
 
 const Books: FunctionComponent<{ AfterHoverBlog: string }> = (props) => {
