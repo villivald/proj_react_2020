@@ -6,9 +6,6 @@
 
     background: paint(extra-confetti);
   }
-}
-
-@supports (background: paint(something)) {
   .underline {
     --extra-underlineNumber: 5; /* default: 3 */
     --extra-underlineColor: #e54b4b; /* default: black */
