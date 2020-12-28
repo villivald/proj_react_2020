@@ -34,7 +34,11 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
   const classes = useStyles();
   return (
     <div>
-      <h1 className={props.statsHeaders}>The Latest Blog Posts</h1>
+      <div
+        style={{ display: "flex", justifyContent: "center", marginBottom: -5 }}
+      >
+        <h1 className="{props.statsHeaders} hui">The Latest Blog Posts</h1>
+      </div>
       <div className={classes.root}>
         <StyledPaper elevation={6}>
           <a href="https://create-react-app.com/top-15-best-developer-resources-part2/">

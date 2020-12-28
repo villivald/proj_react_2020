@@ -15,4 +15,15 @@
     background: paint(extra-superUnderline);
     line-height: 1.5;
   }
+
+  .hui:hover {
+    --tesla-segments: 5;
+    --tesla-angle: 45;
+    --tesla-blur: 5;
+    --tesla-width: 4;
+    --tesla-hue: 180;
+    --tesla-saturation: 100;
+    --tesla-lightness: 50;
+    background: paint(tesla-coil);
+  }
 }

@@ -71,6 +71,16 @@
     </script>
     <script src="https://unpkg.com/extra.css/confetti.js"></script>
     <script src="https://unpkg.com/extra.css/superUnderline.js"></script>
+    <script>
+      (async function () {
+        if (CSS["paintWorklet"] === undefined)
+          await import("https://unpkg.com/css-paint-polyfill");
+
+        CSS.paintWorklet.addModule(
+          "https://unpkg.com/houdini-tesla/dist/worklet.js"
+        );
+      })();
+    </script>
     <noscript
       ><div>
         <img
