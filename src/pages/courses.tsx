@@ -5,6 +5,7 @@ import fcc from "../images/fccdark.png";
 import fm from "../images/fm.jpg";
 import wb from "../images/wb.webp";
 import coursera from "../images/coursera.jpeg";
+import udemy from "../images/udemy.webp";
 import Course from "../components/Course";
 import styled from "@emotion/styled";
 import Colors from "../constants/colors";
@@ -139,12 +140,12 @@ const Second: FunctionComponent = () => {
             name={"Front End Libraries"}
           />
           <Course
-            pic={fm}
-            alt={"frontend masters logo"}
-            height={45}
-            width={45}
-            link={"https://frontendmasters.com/courses/typescript-v2/"}
-            name={"TypeScript Fundamentals"}
+            pic={udemy}
+            alt={"udemy logo"}
+            height={40}
+            width={48}
+            link={"https://www.udemy.com/course/understanding-typescript/"}
+            name={"Understanding TypeScript"}
           />
         </ul>
       </div>
