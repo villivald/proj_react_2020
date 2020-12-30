@@ -674,6 +674,15 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Любовник смерти - Акунин",
   },
+  {
+    src:
+      "https://upload.wikimedia.org/wikipedia/commons/6/68/Dostoyevski_-_White_Nights_%281865%29.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/commons/6/68/Dostoyevski_-_White_Nights_%281865%29.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Белые ночи - Достоевский",
+  },
 ];
 
 export default IMAGES;
