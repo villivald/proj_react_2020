@@ -428,6 +428,9 @@ ul {
 .theme-btn:focus {
   outline: none;
 }
+.theme-btn:hover {
+  transform: scale(1.1);
+}
 
 .catHover {
   width: 100px;
