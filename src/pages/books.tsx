@@ -59,6 +59,7 @@ const Books: FunctionComponent<{ AfterHoverBlog: string }> = (props) => {
         hoverColor={Colors.buttonShadow}
         boxStyle={styles.blog}
         afterHover={props.AfterHoverBlog}
+        afterHoverTextColor="#282828"
         image={github}
         alt="Book list"
       />

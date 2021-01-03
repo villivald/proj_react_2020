@@ -18,7 +18,7 @@ const Grid: FunctionComponent<{
   const styles = {
     box: {
       boxSizing: "border-box",
-      color: Colors.whiteSmoke,
+      color: Colors.white,
       fontSize: "1.2rem",
       fontFamily: "Mate, serif",
       width: 200,
@@ -36,7 +36,7 @@ const Grid: FunctionComponent<{
     },
     blog: {
       boxSizing: "border-box",
-      color: Colors.whiteSmoke,
+      color: Colors.almostBlack,
       fontSize: "1.2rem",
       fontFamily: "Mate, serif",
       width: 200,
@@ -60,10 +60,11 @@ const Grid: FunctionComponent<{
         <GridItem
           text={"Blog"}
           link={"https://create-react-app.com/"}
-          color={Colors.gray}
+          color={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.blog}
           afterHover={props.AfterHoverBlog}
+          afterHoverTextColor={Colors.almostBlack}
           image={wpb}
           alt="wordpress"
         />
@@ -76,6 +77,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={js}
           alt="js"
         />
@@ -88,6 +90,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={js}
           alt="js"
         />
@@ -100,6 +103,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={js}
           alt="js"
         />
@@ -112,6 +116,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={js}
           alt="js"
         />
@@ -122,6 +127,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={js}
           alt="js"
         />
@@ -132,6 +138,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={html}
           alt="html"
         />
@@ -144,6 +151,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={js}
           alt="js"
         />
@@ -154,6 +162,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={react}
           alt="react"
         />
@@ -164,6 +173,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={react}
           alt="react"
         />
@@ -174,6 +184,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={html}
           alt="html"
         />
@@ -184,6 +195,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={html}
           alt="html"
         />
@@ -194,6 +206,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={php}
           alt="php"
         />
@@ -204,6 +217,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={markdown}
           alt="markdown"
         />
@@ -214,6 +228,7 @@ const Grid: FunctionComponent<{
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
           image={soon}
           alt="coming soon"
         />
