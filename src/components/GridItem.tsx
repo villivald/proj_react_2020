@@ -25,6 +25,8 @@ interface IProps {
   alt: string;
   color: string;
   hoverColor: string;
+  afterHoverTextColor: string;
+  onHoverTextColor: string;
 }
 
 const GridItem: FunctionComponent<IProps> = (props) => {
@@ -35,7 +37,7 @@ const GridItem: FunctionComponent<IProps> = (props) => {
       return;
     }
     e.target.style.background = Colors.buttonBackground;
-    e.target.style.color = Colors.gray;
+    e.target.style.color = props.onHoverTextColor;
     //e.target.style.boxShadow = `4px 4px ${props.hoverColor}`;
     e.target.style.transform = "scale(1.1)";
   };
@@ -44,7 +46,7 @@ const GridItem: FunctionComponent<IProps> = (props) => {
       return;
     }
     e.target.style.background = props.afterHover;
-    e.target.style.color = "white";
+    e.target.style.color = props.afterHoverTextColor;
     //e.target.style.boxShadow = `4px 4px ${props.color}`;
     e.target.style.transform = "";
   };

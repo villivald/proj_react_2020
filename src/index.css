@@ -28,7 +28,7 @@ body {
 }
 
 a {
-  color: var(--gray);
+  color: #1a1a1a;
   text-decoration: none;
   font-family: "Mate", serif;
   font-size: 1rem;
@@ -285,7 +285,7 @@ h2 {
 }
 
 .btn-info {
-  color: #fff;
+  color: #1a1a1a;
   background-color: var(--header);
   border-color: black;
   font-family: "Mate", serif;
@@ -552,6 +552,14 @@ ul {
 
 .MuiFormControlLabel-label {
   display: none;
+}
+
+.ant-progress-text {
+  color: var(--gray);
+}
+
+.MuiButton-label {
+  color: #282828;
 }
 
 @media only screen and (max-width: 1300px) {

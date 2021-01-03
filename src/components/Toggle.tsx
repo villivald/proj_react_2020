@@ -48,9 +48,10 @@ const SwitchLabels: FunctionComponent = () => {
               onChange={handleChange}
               name="checkedB"
               color="primary"
+              inputProps={{ "aria-label": "Switch A" }}
             />
           }
-          label="toggle"
+          label="Small"
         />
       </FormGroup>
       <Link to="/">

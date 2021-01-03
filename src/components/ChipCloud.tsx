@@ -20,7 +20,7 @@ const ChipCloud: FunctionComponent<{ ChipColor: string }> = (props) => {
   const StyledChip = withStyles({
     root: {
       backgroundColor: props.ChipColor,
-      color: Colors.whiteSmoke,
+      color: Colors.richBlack,
       fontFamily: "Mate, serif",
     },
   })(Chip);
