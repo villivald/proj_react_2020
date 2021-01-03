@@ -22,7 +22,7 @@ const Books: FunctionComponent<{ AfterHoverBlog: string }> = (props) => {
   const styles = {
     blog: {
       boxSizing: "border-box",
-      color: Colors.whiteSmoke,
+      color: Colors.almostBlack,
       fontSize: "1.2rem",
       fontFamily: "Mate, serif",
       width: 200,
@@ -55,11 +55,12 @@ const Books: FunctionComponent<{ AfterHoverBlog: string }> = (props) => {
       <GridItem
         text={"Book List on GitHub"}
         link={"https://github.com/villivald/Books"}
-        color={Colors.gray}
+        color={Colors.almostBlack}
+        onHoverTextColor={Colors.white}
         hoverColor={Colors.buttonShadow}
         boxStyle={styles.blog}
         afterHover={props.AfterHoverBlog}
-        afterHoverTextColor="#282828"
+        afterHoverTextColor={Colors.almostBlack}
         image={github}
         alt="Book list"
       />

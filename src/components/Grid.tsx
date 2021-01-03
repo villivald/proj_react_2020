@@ -61,6 +61,7 @@ const Grid: FunctionComponent<{
           text={"Blog"}
           link={"https://create-react-app.com/"}
           color={Colors.almostBlack}
+          onHoverTextColor={Colors.white}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.blog}
           afterHover={props.AfterHoverBlog}
@@ -74,6 +75,7 @@ const Grid: FunctionComponent<{
             "https://old.create-react-app.com/Projects/calculator/index.html"
           }
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -87,6 +89,7 @@ const Grid: FunctionComponent<{
             "https://old.create-react-app.com/Projects/calculator_mobile/test.html"
           }
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -100,6 +103,7 @@ const Grid: FunctionComponent<{
             "https://old.create-react-app.com/Projects/ping_pong/index.html"
           }
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -113,6 +117,7 @@ const Grid: FunctionComponent<{
             "https://old.create-react-app.com/Projects/ping_pong_v2/index.html"
           }
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -124,6 +129,7 @@ const Grid: FunctionComponent<{
           text={"Todo App | JS"}
           link={"https://old.create-react-app.com/Projects/ToDo/todo.html"}
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -135,6 +141,7 @@ const Grid: FunctionComponent<{
           text={"Layout"}
           link={"https://old.create-react-app.com/Projects/Site/index.html"}
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -148,6 +155,7 @@ const Grid: FunctionComponent<{
             "https://old.create-react-app.com/Projects/MineSweeper/index.html"
           }
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -159,6 +167,7 @@ const Grid: FunctionComponent<{
           text={"Todo App | React"}
           link={"https://old.create-react-app.com/todo/"}
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -170,6 +179,7 @@ const Grid: FunctionComponent<{
           text={"Phonebook | React & Heroku"}
           link={"https://safe-reef-57298.herokuapp.com/"}
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -181,6 +191,7 @@ const Grid: FunctionComponent<{
           text={"Website (Winter '19)"}
           link={"https://old.create-react-app.com/Projects/Skeleton/index.html"}
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -192,6 +203,7 @@ const Grid: FunctionComponent<{
           text={"Website (Spring '20)"}
           link={"https://old.create-react-app.com/"}
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -203,6 +215,7 @@ const Grid: FunctionComponent<{
           text={"Store catalog | PHP"}
           link={"https://old.create-react-app.com/Projects/PHP/"}
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -214,6 +227,7 @@ const Grid: FunctionComponent<{
           text={"Markdown Cheatsheet"}
           link={"https://old.create-react-app.com/Projects/Cheatsheet.md"}
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
@@ -225,6 +239,7 @@ const Grid: FunctionComponent<{
           text={"More coming soon... "}
           link={"/"}
           color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
           hoverColor={Colors.buttonShadow}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
