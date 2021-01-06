@@ -37,7 +37,7 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
       <div
         style={{ display: "flex", justifyContent: "center", marginBottom: -5 }}
       >
-        <h1 className="{props.statsHeaders} hui">The Latest Blog Posts</h1>
+        <h1 className={props.statsHeaders}>The Latest Blog Posts</h1>
       </div>
       <div className={classes.root}>
         <StyledPaper elevation={6}>

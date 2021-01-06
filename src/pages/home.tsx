@@ -35,7 +35,7 @@ const Home: FunctionComponent = () => {
         ContainerColor={mainStyle ? "#6C7073" : ""}
         ChipColors={mainStyle ? "#DDDFE3" : Colors.header}
       />
-      <Screens statsHeaders={mainStyle ? "h1-alt" : ""} />
+      <Screens statsHeaders={mainStyle ? "tesla-alt" : "tesla"} />
       <Footer footerStyle={mainStyle ? "footer-alt" : "footer"} />
     </div>
   );
