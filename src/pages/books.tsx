@@ -18,7 +18,10 @@ const H1 = styled.h1`
   } */
 `;
 
-const Books: FunctionComponent<{ AfterHoverBlog: string }> = (props) => {
+const Books: FunctionComponent<{
+  AfterHoverBlog: string;
+  OnHoverColor: string;
+}> = (props) => {
   const styles = {
     blog: {
       boxSizing: "border-box",
@@ -57,7 +60,7 @@ const Books: FunctionComponent<{ AfterHoverBlog: string }> = (props) => {
         link={"https://github.com/villivald/Books"}
         color={Colors.almostBlack}
         onHoverTextColor={Colors.white}
-        hoverColor={Colors.buttonShadow}
+        onHoverColor={props.OnHoverColor}
         boxStyle={styles.blog}
         afterHover={props.AfterHoverBlog}
         afterHoverTextColor={Colors.almostBlack}

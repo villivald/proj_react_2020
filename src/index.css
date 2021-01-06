@@ -68,7 +68,7 @@ a:focus {
   box-sizing: border-box;
   height: 150px;
   width: 95%;
-  background-color: rgb(139, 133, 133);
+  background-color: #6c7073;
   margin-top: 10px;
   margin-bottom: 30px;
   justify-content: center;
@@ -296,7 +296,11 @@ h2 {
 }
 
 #dropdown-basic-button-alt {
-  background-color: var(--gray);
+  background-color: #dddfe3;
+}
+#dropdown-basic-button-alt:hover {
+  background-color: #6c7073;
+  border: none;
 }
 
 .vertical-text {

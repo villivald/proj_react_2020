@@ -23,10 +23,11 @@ const Home: FunctionComponent = () => {
         ButtonDisplay={true}
       />
       <Grid
-        BlogButtonColor={mainStyle ? "rgb(139, 133, 133)" : Colors.blog}
-        ButtonColor={mainStyle ? "rgb(139, 133, 133)" : Colors.button}
-        AfterHoverBlog={mainStyle ? "rgb(139, 133, 133)" : Colors.blog}
-        AfterHoverButtons={mainStyle ? "rgb(139, 133, 133)" : Colors.button}
+        BlogButtonColor={mainStyle ? "#DDDFE3" : Colors.blog}
+        ButtonColor={mainStyle ? "#6C7073" : Colors.button}
+        AfterHoverBlog={mainStyle ? "#DDDFE3" : Colors.blog}
+        AfterHoverButtons={mainStyle ? "#6C7073" : Colors.button}
+        OnHoverColor={mainStyle ? "#DDDFE3" : Colors.buttonBackground}
       />
       <Stats
         statsHeaders={mainStyle ? "h1-alt" : ""}

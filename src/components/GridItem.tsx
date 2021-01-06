@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from "react";
-import Colors from "../constants/colors";
 import Avatar from "@material-ui/core/Avatar";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -24,9 +23,9 @@ interface IProps {
   image: string;
   alt: string;
   color: string;
-  hoverColor: string;
   afterHoverTextColor: string;
   onHoverTextColor: string;
+  onHoverColor: string;
 }
 
 const GridItem: FunctionComponent<IProps> = (props) => {
@@ -36,7 +35,7 @@ const GridItem: FunctionComponent<IProps> = (props) => {
     if (!(e.target instanceof HTMLElement)) {
       return;
     }
-    e.target.style.background = Colors.buttonBackground;
+    e.target.style.background = props.onHoverColor;
     e.target.style.color = props.onHoverTextColor;
     //e.target.style.boxShadow = `4px 4px ${props.hoverColor}`;
     e.target.style.transform = "scale(1.1)";
