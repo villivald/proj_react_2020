@@ -115,7 +115,7 @@ const Second: FunctionComponent = () => {
           </a>
         </div>
       </div>
-      <Footer footerStyle="footer" />
+      <Footer footerStyle="footer" footerTextStyle="a" />
     </div>
   );
 };

@@ -232,7 +232,7 @@ const Uses: FunctionComponent = () => {
           </ul>
         </StyledPaper>
       </div>
-      <Footer footerStyle="footer" />
+      <Footer footerStyle="footer" footerTextStyle="a" />
     </div>
   );
 };

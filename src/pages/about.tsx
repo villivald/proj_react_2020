@@ -22,7 +22,7 @@ const First: FunctionComponent = () => {
           width="50%"
         />
       </div>
-      <Footer footerStyle="footer" />
+      <Footer footerStyle="footer" footerTextStyle="a" />
     </div>
   );
 };

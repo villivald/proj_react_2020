@@ -35,6 +35,14 @@ a {
   display: flex;
   gap: 5px;
 }
+.a-alt {
+  color: white;
+  text-decoration: none;
+  font-family: "Mate", serif;
+  font-size: 1rem;
+  display: flex;
+  gap: 5px;
+}
 
 a:focus {
   outline: lightgreen solid 2px;
@@ -132,8 +140,6 @@ a:focus {
 .footer {
   display: flex;
   box-sizing: border-box;
-  font-family: "Mate", serif;
-  color: var(--gray);
   height: 100px;
   width: 95%;
   background-color: var(--header);
@@ -147,11 +153,9 @@ a:focus {
 .footer-alt {
   display: flex;
   box-sizing: border-box;
-  font-family: "Mate", serif;
-  color: var(--gray);
   height: 100px;
   width: 95%;
-  background-color: rgb(139, 133, 133);
+  background-color: #6c7073;
   margin-bottom: 10px;
   justify-content: center;
   align-items: center;
@@ -562,6 +566,9 @@ ul {
 
 .ant-progress-text {
   color: var(--gray);
+}
+.ant-progress-text-alt {
+  color: red;
 }
 
 .MuiButton-label {

@@ -34,9 +34,13 @@ const Home: FunctionComponent = () => {
         TimelineColor={mainStyle ? "error" : "textPrimary"}
         ContainerColor={mainStyle ? "#6C7073" : ""}
         ChipColors={mainStyle ? "#DDDFE3" : Colors.header}
+        StatsTextColor={mainStyle ? "white" : Colors.almostBlack}
       />
       <Screens statsHeaders={mainStyle ? "tesla-alt" : "tesla"} />
-      <Footer footerStyle={mainStyle ? "footer-alt" : "footer"} />
+      <Footer
+        footerStyle={mainStyle ? "footer-alt" : "footer"}
+        footerTextStyle={mainStyle ? "a-alt" : "a"}
+      />
     </div>
   );
 };

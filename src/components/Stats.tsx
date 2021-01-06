@@ -13,6 +13,7 @@ const Stats: FunctionComponent<{
   statsHeaders: string;
   TimelineColor: string;
   ChipColors: string;
+  StatsTextColor: string;
 }> = (props) => {
   const StyledPaper = withStyles({
     root: {
@@ -51,6 +52,7 @@ const Stats: FunctionComponent<{
                     width: 200,
                     marginLeft: 20,
                     marginTop: 30,
+                    color: props.StatsTextColor,
                   }}
                 >
                   <Progress percent={46} size="small" /> B.E. 2019 - 2023

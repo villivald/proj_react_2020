@@ -149,7 +149,7 @@ const Second: FunctionComponent = () => {
           />
         </ul>
       </div>
-      <Footer footerStyle="footer" />
+      <Footer footerStyle="footer" footerTextStyle="a" />
     </div>
   );
 };
