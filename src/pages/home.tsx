@@ -30,7 +30,7 @@ const Home: FunctionComponent = () => {
         OnHoverColor={mainStyle ? "#DDDFE3" : Colors.buttonBackground}
       />
       <Stats
-        statsHeaders={mainStyle ? "h1-alt" : ""}
+        statsHeaders={mainStyle ? "underline-alt" : "underline"}
         TimelineColor={mainStyle ? "error" : "textPrimary"}
         ContainerColor={mainStyle ? "rgb(139, 133, 133)" : ""}
         ChipColors={mainStyle ? "#333" : Colors.header}

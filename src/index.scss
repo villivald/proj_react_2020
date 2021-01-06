@@ -15,6 +15,21 @@
     background: paint(extra-superUnderline);
     line-height: 1.5;
   }
+  .underline-alt {
+    --extra-underlineNumber: 5; /* default: 3 */
+    --extra-underlineColor: #e54b4b; /* default: black */
+    --extra-underlineSpread: 15; /* default: 20 */
+    --extra-underlineWidth: 1; /* default: 2 */
+
+    background: paint(extra-superUnderline);
+    line-height: 1.5;
+
+    font-family: "Mate", serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.05em;
+  }
 
   .hui:hover {
     --tesla-segments: 5;
