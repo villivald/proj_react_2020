@@ -32,8 +32,8 @@ const Home: FunctionComponent = () => {
       <Stats
         statsHeaders={mainStyle ? "underline-alt" : "underline"}
         TimelineColor={mainStyle ? "error" : "textPrimary"}
-        ContainerColor={mainStyle ? "rgb(139, 133, 133)" : ""}
-        ChipColors={mainStyle ? "#333" : Colors.header}
+        ContainerColor={mainStyle ? "#6C7073" : ""}
+        ChipColors={mainStyle ? "#DDDFE3" : Colors.header}
       />
       <Screens statsHeaders={mainStyle ? "h1-alt" : ""} />
       <Footer footerStyle={mainStyle ? "footer-alt" : "footer"} />
