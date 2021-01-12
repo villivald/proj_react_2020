@@ -683,6 +683,15 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Белые ночи - Достоевский",
   },
+  {
+    src:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536006768l/41671384._SY475_.jpg",
+    thumbnail:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536006768l/41671384._SY475_.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Несовременная страна - Иноземцев",
+  },
 ];
 
 export default IMAGES;
