@@ -78,6 +78,14 @@
   </a>
 </p>
 
+#### Books
+
+<p align="center">
+  <a href="https://proj.create-react-app.com/books">
+    <img src="./readme_pics/books.png" alt="Logo"  >
+  </a>
+</p>
+
 ## Blog
 
 [Create React App Blog](https://create-react-app.com/)
