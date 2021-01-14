@@ -15,6 +15,7 @@ import git from "../images/git.webp";
 import github from "../images/github.webp";
 import bash from "../images/bash.webp";
 import php from "../images/php.webp";
+import ts from "../images/ts.webp";
 
 const ChipCloud: FunctionComponent<{ ChipColor: string }> = (props) => {
   const StyledChip = withStyles({
@@ -43,8 +44,12 @@ const ChipCloud: FunctionComponent<{ ChipColor: string }> = (props) => {
         label="React"
       />
       <StyledChip
-        avatar={<Avatar alt="react logo" src={react}></Avatar>}
+        avatar={<Avatar alt="react native logo" src={react}></Avatar>}
         label="React Native"
+      />
+      <StyledChip
+        avatar={<Avatar alt="typescript logo" src={ts}></Avatar>}
+        label="TypeScript"
       />
       <StyledChip
         avatar={<Avatar alt="wordpress logo" src={wp}></Avatar>}
