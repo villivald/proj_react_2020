@@ -2,14 +2,14 @@ import React, { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 
-import github from "../images/github.png";
+import github from "../images/github1.webp";
 import blog from "../images/wordpress.png";
-import linkedin from "../images/linkedin.png";
-import telegram from "../images/telegram.png";
-import mail from "../images/gmail.png";
-import twitter from "../images/twitter.png";
+import linkedin from "../images/linkedin.webp";
+import telegram from "../images/telegram.webp";
+import mail from "../images/gmail.webp";
+import twitter from "../images/twitter.webp";
 import strava from "../images/strava.png";
-import medium from "../images/medium.png";
+import medium from "../images/medium.webp";
 
 const Second: FunctionComponent = () => {
   return (
