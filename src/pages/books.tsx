@@ -1,12 +1,13 @@
-import React, { FunctionComponent } from "react";
+import React, { FunctionComponent, lazy, Suspense } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import GridItem from "../components/GridItem";
 import Colors from "../constants/colors";
-import Gallery from "react-grid-gallery";
-import IMAGES from "../components/Images";
 import github from "../images/github.webp";
 import styled from "@emotion/styled";
+// import BookPics from "../components/BookPics";
+
+const BookPics = lazy(() => import("../components/BookPics"));
 
 const H1 = styled.h1`
   color: ${Colors.gray};
@@ -67,11 +68,9 @@ const Books: FunctionComponent<{
         image={github}
         alt="Book list"
       />
-      <div className="galleryContainer">
-        <div className="gallery">
-          <Gallery images={IMAGES} enableImageSelection={false} />
-        </div>
-      </div>
+      <Suspense fallback={<h1>loading...</h1>}>
+        <BookPics />
+      </Suspense>
       <Footer footerStyle="footer" footerTextStyle="a" />
     </div>
   );
