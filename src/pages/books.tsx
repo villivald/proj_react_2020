@@ -5,7 +5,7 @@ import GridItem from "../components/GridItem";
 import Colors from "../constants/colors";
 import github from "../images/github.webp";
 import styled from "@emotion/styled";
-// import BookPics from "../components/BookPics";
+import BeatLoader from "react-spinners/BeatLoader";
 
 const BookPics = lazy(() => import("../components/BookPics"));
 
@@ -68,7 +68,20 @@ const Books: FunctionComponent<{
         image={github}
         alt="Book list"
       />
-      <Suspense fallback={<h1>loading...</h1>}>
+      <Suspense
+        fallback={
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: 100,
+            }}
+          >
+            <BeatLoader color={Colors.blog} size={30} loading={true} />
+          </div>
+        }
+      >
         <BookPics />
       </Suspense>
       <Footer footerStyle="footer" footerTextStyle="a" />

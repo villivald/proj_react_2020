@@ -22,7 +22,8 @@
     "react-dom": "^16.14.0",
     "react-grid-gallery": "^0.5.5",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1"
+    "react-scripts": "4.0.1",
+    "react-spinners": "^0.10.4"
   },
   "scripts": {
     "start": "react-scripts start",
