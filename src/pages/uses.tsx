@@ -197,6 +197,7 @@ const Uses: FunctionComponent = () => {
               name="Transmit"
               link="https://panic.com/transmit/"
             />
+            <List emoji="🔑" name="Bitwarden" link="https://bitwarden.com/" />
           </ul>
         </StyledPaper>
         <StyledPaper elevation={6}>
