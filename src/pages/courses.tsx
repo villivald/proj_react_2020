@@ -6,6 +6,7 @@ import fm from "../images/fm.jpg";
 import wb from "../images/wb.webp";
 import coursera from "../images/coursera.jpeg";
 import udemy from "../images/udemy.webp";
+import savonia from "../images/savonia.webp";
 import Course from "../components/Course";
 import styled from "@emotion/styled";
 import Colors from "../constants/colors";
@@ -146,6 +147,16 @@ const Second: FunctionComponent = () => {
             width={48}
             link={"https://www.udemy.com/course/understanding-typescript/"}
             name={"Understanding TypeScript"}
+          />
+          <Course
+            pic={savonia}
+            alt={"savonia university logo"}
+            height={45}
+            width={45}
+            link={
+              "https://www.lyyti.fi/p/CampusOnline21_Websovelluskehitys_ja_NoSQLkannat_7210"
+            }
+            name={"Web Application Development and NoSQL"}
           />
         </ul>
       </div>
