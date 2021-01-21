@@ -579,6 +579,12 @@ ul {
   color: white !important;
 }
 
+#fixedbutton {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;

@@ -7,11 +7,13 @@ import Stats from "../components/Stats";
 import night from "../images/night.webp";
 import lamp from "../images/lamp.png";
 import Colors from "../constants/colors";
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 
 const Home: FunctionComponent = () => {
   const [mainStyle, setMainStyle] = useState(false);
   return (
     <div className={mainStyle ? "main-alt" : "main"}>
+      <div id="up"></div>
       <Menu
         menuStyle={mainStyle ? "menu-alt" : "menu"}
         DropdownMenuStyle={
@@ -41,6 +43,11 @@ const Home: FunctionComponent = () => {
         footerStyle={mainStyle ? "footer-alt" : "footer"}
         footerTextStyle={mainStyle ? "a-alt" : "a"}
       />
+      <a href="#up">
+        <div id="fixedbutton">
+          <ArrowUpwardIcon fontSize="large" />
+        </div>
+      </a>
     </div>
   );
 };
