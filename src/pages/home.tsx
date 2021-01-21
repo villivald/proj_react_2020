@@ -10,7 +10,19 @@ import Colors from "../constants/colors";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 
 const Home: FunctionComponent = () => {
+  const [butt, setButt] = useState("none");
   const [mainStyle, setMainStyle] = useState(false);
+
+  const handleScroll = () => {
+    var rootElement = document.documentElement;
+    var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+    if (rootElement.scrollTop / scrollTotal > 0.8) {
+      setButt("inline");
+    } else {
+      setButt("none");
+    }
+  };
+  document.addEventListener("scroll", handleScroll);
   return (
     <div className={mainStyle ? "main-alt" : "main"}>
       <Menu
@@ -42,7 +54,7 @@ const Home: FunctionComponent = () => {
         footerStyle={mainStyle ? "footer-alt" : "footer"}
         footerTextStyle={mainStyle ? "a-alt" : "a"}
       />
-      <a href="#up">
+      <a href="#up" style={{ display: butt }}>
         <div id="fixedbutton">
           <ArrowUpwardIcon fontSize="inherit" />
         </div>
