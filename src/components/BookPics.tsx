@@ -1,6 +1,6 @@
-import React, { FunctionComponent } from "react";
+import { FunctionComponent } from "react";
 import Gallery from "react-grid-gallery";
-import IMAGES from "../components/Images";
+import IMAGES from "./Images";
 
 const BookPics: FunctionComponent = () => {
   return (
