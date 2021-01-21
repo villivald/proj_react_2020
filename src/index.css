@@ -580,9 +580,17 @@ ul {
 }
 
 #fixedbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   bottom: 2%;
-  right: 2%;
+  right: 1%;
+  font-size: 3.5rem;
+  background-color: rgb(177, 175, 175);
+  border-radius: 35px;
+  width: 70px;
+  height: 70px;
 }
 
 @media only screen and (max-width: 1300px) {

@@ -13,7 +13,6 @@ const Home: FunctionComponent = () => {
   const [mainStyle, setMainStyle] = useState(false);
   return (
     <div className={mainStyle ? "main-alt" : "main"}>
-      <div id="up"></div>
       <Menu
         menuStyle={mainStyle ? "menu-alt" : "menu"}
         DropdownMenuStyle={
@@ -45,7 +44,7 @@ const Home: FunctionComponent = () => {
       />
       <a href="#up">
         <div id="fixedbutton">
-          <ArrowUpwardIcon fontSize="large" />
+          <ArrowUpwardIcon fontSize="inherit" />
         </div>
       </a>
     </div>

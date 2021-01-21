@@ -39,7 +39,7 @@ const Menu: FunctionComponent<{
   const classes = useStyles();
 
   return (
-    <div className="stickyHeader">
+    <div className="stickyHeader" id="up">
       <div className="wrapper">
         <div className={props.menuStyle}>
           <div className="switch">
