@@ -479,7 +479,22 @@ ul {
   margin-top: 3%;
   margin-bottom: 1%;
 }
-
+#up > div > div > div.drop > div > div {
+  padding: 0px;
+}
+.dropdown-divider {
+  margin: 0;
+}
+.dropdown-item {
+  padding: 1rem 1.2rem;
+}
+.dropdown-item:hover {
+  background-color: var(--buttonBackground);
+  color: white;
+}
+#up > div > div > div.drop > div > div > a > a:hover {
+  color: white;
+}
 .dropdown-item:active {
   background-color: var(--whiteSmoke);
 }
