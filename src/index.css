@@ -509,6 +509,23 @@ ul {
   > div.chipWrapper
   > div
   > div
+  > div:nth-child(1)
+  > div
+  > div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+#root
+  > div
+  > div:nth-child(3)
+  > div.timeline
+  > div.chipWrapper
+  > div
+  > div
   > a {
   margin-left: 30px;
   background-color: var(--blog);
