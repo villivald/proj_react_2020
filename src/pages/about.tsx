@@ -1,11 +1,25 @@
-import React, { FunctionComponent } from "react";
+import React, { useState, FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import about from "../images/about.webp";
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 
 const First: FunctionComponent = () => {
+  const [butt, setButt] = useState("none");
+
+  const handleScroll = () => {
+    var rootElement = document.documentElement;
+    var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+    if (rootElement.scrollTop / scrollTotal > 0.8) {
+      setButt("inline");
+    } else {
+      setButt("none");
+    }
+  };
+  document.addEventListener("scroll", handleScroll);
+
   return (
-    <div className="main">
+    <div className="main" id="up">
       <Menu
         menuStyle="menu"
         ButtonDisplay="none"
@@ -23,6 +37,11 @@ const First: FunctionComponent = () => {
         />
       </div>
       <Footer footerStyle="footer" footerTextStyle="a" />
+      <a href="#up" style={{ display: butt }}>
+        <div id="fixedbutton">
+          <ArrowUpwardIcon fontSize="inherit" />
+        </div>
+      </a>
     </div>
   );
 };

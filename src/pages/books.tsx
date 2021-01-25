@@ -1,4 +1,4 @@
-import React, { FunctionComponent, lazy, Suspense } from "react";
+import React, { FunctionComponent, lazy, Suspense, useState } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import GridItem from "../components/GridItem";
@@ -6,6 +6,7 @@ import Colors from "../constants/colors";
 import github from "../images/github.webp";
 import styled from "@emotion/styled";
 import BeatLoader from "react-spinners/BeatLoader";
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 
 const BookPics = lazy(() => import("../components/BookPics"));
 
@@ -39,8 +40,20 @@ const Books: FunctionComponent<{
       alignItems: "center",
     },
   };
+  const [butt, setButt] = useState("none");
+
+  const handleScroll = () => {
+    var rootElement = document.documentElement;
+    var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+    if (rootElement.scrollTop / scrollTotal > 0.8) {
+      setButt("inline");
+    } else {
+      setButt("none");
+    }
+  };
+  document.addEventListener("scroll", handleScroll);
   return (
-    <div className="main">
+    <div className="main" id="up">
       <Menu
         menuStyle="menu"
         ButtonDisplay="none"
@@ -81,6 +94,11 @@ const Books: FunctionComponent<{
         <BookPics />
       </Suspense>
       <Footer footerStyle="footer" footerTextStyle="a" />
+      <a href="#up" style={{ display: butt }}>
+        <div id="fixedbutton">
+          <ArrowUpwardIcon fontSize="inherit" />
+        </div>
+      </a>
     </div>
   );
 };
