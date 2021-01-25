@@ -619,8 +619,10 @@ ul {
   bottom: 3%;
   right: 1%;
   font-size: 3.5rem;
-  background-color: rgb(177, 175, 175);
-  border-radius: 35px;
+  background-color: var(--accent);
+  color: white;
+  /* clip-path: inset(1px 1px 1px round 35px); */
+  clip-path: circle(35px at 50% 50%);
   width: 70px;
   height: 70px;
 }
