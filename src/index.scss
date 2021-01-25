@@ -59,3 +59,46 @@
     background: paint(tesla-coil);
   }
 }
+
+:root {
+  --pos: center;
+  --size: 0;
+}
+
+a.dropdown-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 3px 10px 0 rgba(#000, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+
+  a {
+    /* z-index works becuase those are flex childs.. */
+    z-index: 1;
+    transition: 0.25s linear;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--blog);
+    clip-path: circle(var(--size) at var(--pos));
+    transition: 0.8s linear;
+  }
+
+  &:hover {
+    a {
+      color: #fff;
+    }
+
+    &:before {
+      --size: 300px;
+    }
+  }
+}
