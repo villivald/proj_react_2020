@@ -489,7 +489,7 @@ ul {
   padding: 1rem 1.2rem;
 }
 .dropdown-item:hover {
-  background-color: var(--buttonBackground);
+  background-color: var(--blog);
   color: white;
 }
 #up > div > div > div.drop > div > div > a > a:hover {
@@ -500,6 +500,10 @@ ul {
 }
 .dropdown-item > a:active {
   outline: none;
+}
+
+.dropdown-item:hover {
+  clip-path: polygon(5% 10%, 90% 20%, 95% 95%, 2% 90%);
 }
 
 #root
@@ -621,7 +625,8 @@ ul {
   font-size: 3.5rem;
   background-color: var(--accent);
   color: white;
-  /* clip-path: inset(1px 1px 1px round 35px); */
+  /* clip-path: inset(1px 1px 1px round 35px); 
+  clip-path: polygon(25% 15%, 80% 5%, 85% 95%, 20% 95%); */
   clip-path: circle(35px at 50% 50%);
   width: 70px;
   height: 70px;
