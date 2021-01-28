@@ -19,7 +19,8 @@ const First: FunctionComponent = () => {
   document.addEventListener("scroll", handleScroll);
 
   return (
-    <div className="main" id="up">
+    <div className="main">
+      <div id="up"></div>
       <Menu
         menuStyle="menu"
         ButtonDisplay="none"
