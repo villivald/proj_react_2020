@@ -692,6 +692,15 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Несовременная страна - Иноземцев",
   },
+  {
+    src:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367786544l/17885102.jpg",
+    thumbnail:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367786544l/17885102.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Апокалипсис от Кобы. Иосиф Сталин. Начало",
+  },
 ];
 
 export default IMAGES;
