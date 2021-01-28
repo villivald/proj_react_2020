@@ -10,6 +10,7 @@ import savonia from "../images/savonia.webp";
 import Course from "../components/Course";
 import styled from "@emotion/styled";
 import Colors from "../constants/colors";
+import Arrow from "../components/Arrow";
 
 const H1 = styled.h1`
   color: ${Colors.gray};
@@ -23,6 +24,7 @@ const H1 = styled.h1`
 const Second: FunctionComponent = () => {
   return (
     <div className="main">
+      <div id="up"></div>
       <Menu
         menuStyle="menu"
         ButtonDisplay="none"
@@ -161,6 +163,7 @@ const Second: FunctionComponent = () => {
         </ul>
       </div>
       <Footer footerStyle="footer" footerTextStyle="a" />
+      <Arrow />
     </div>
   );
 };

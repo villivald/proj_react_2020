@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
+import Arrow from "../components/Arrow";
 
 import github from "../images/github1.webp";
 import blog from "../images/wordpress.png";
@@ -14,6 +15,7 @@ import medium from "../images/medium.webp";
 const Second: FunctionComponent = () => {
   return (
     <div className="main">
+      <div id="up"></div>
       <Menu
         menuStyle="menu"
         ButtonDisplay="none"
@@ -116,6 +118,7 @@ const Second: FunctionComponent = () => {
         </div>
       </div>
       <Footer footerStyle="footer" footerTextStyle="a" />
+      <Arrow />
     </div>
   );
 };

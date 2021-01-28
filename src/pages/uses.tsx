@@ -7,6 +7,7 @@ import uses from "../images/uses.webp";
 import cat from "../images/cat.webp";
 import catPic from "../images/catPic.webp";
 import List from "../components/List";
+import Arrow from "../components/Arrow";
 
 const StyledPaper = withStyles({
   root: {
@@ -26,6 +27,7 @@ const Uses: FunctionComponent = () => {
   };
   return (
     <div className="main">
+      <div id="up"></div>
       <Menu
         menuStyle="menu"
         ButtonDisplay="none"
@@ -234,6 +236,7 @@ const Uses: FunctionComponent = () => {
         </StyledPaper>
       </div>
       <Footer footerStyle="footer" footerTextStyle="a" />
+      <Arrow />
     </div>
   );
 };
