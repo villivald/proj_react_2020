@@ -14,6 +14,7 @@ const Home: FunctionComponent = () => {
 
   return (
     <div className={mainStyle ? "main-alt" : "main"}>
+      <div id="up"></div>
       <Menu
         menuStyle={mainStyle ? "menu-alt" : "menu"}
         DropdownMenuStyle={
