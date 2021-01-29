@@ -527,16 +527,7 @@ ul {
   color: white;
 } */
 
-#root
-  > div
-  > div:nth-child(3)
-  > div.timeline
-  > div.chipWrapper
-  > div
-  > div
-  > div:nth-child(1)
-  > div
-  > div {
+div.MuiChip-root {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
