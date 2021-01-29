@@ -501,6 +501,9 @@ ul {
 .dropdown-item > a:active {
   outline: none;
 }
+.dropdown-menu {
+  padding: 0;
+}
 
 /* .dropdown-item:hover {
   clip-path: polygon(5% 10%, 90% 20%, 95% 95%, 2% 90%);
