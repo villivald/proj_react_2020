@@ -699,7 +699,16 @@ const IMAGES = [
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367786544l/17885102.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "Апокалипсис от Кобы. Иосиф Сталин. Начало",
+    caption: "Апокалипсис от Кобы. Иосиф Сталин. Начало - Радзинский",
+  },
+  {
+    src:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487805540l/34376766._SY475_.jpg",
+    thumbnail:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487805540l/34376766._SY475_.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Blood, Sweat, and Pixels - Schreier",
   },
 ];
 
