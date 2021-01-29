@@ -200,6 +200,7 @@ const Uses: FunctionComponent = () => {
               link="https://panic.com/transmit/"
             />
             <List emoji="🔑" name="Bitwarden" link="https://bitwarden.com/" />
+            <List emoji="📡" name="Bitwarden" link="https://surfshark.com/" />
           </ul>
         </StyledPaper>
         <StyledPaper elevation={6}>
