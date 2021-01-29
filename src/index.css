@@ -537,7 +537,7 @@ div.MuiChip-root {
 
 #root
   > div
-  > div:nth-child(3)
+  > div:nth-child(4)
   > div.timeline
   > div.chipWrapper
   > div
@@ -552,7 +552,7 @@ div.MuiChip-root {
   margin-top: 3%;
 }
 
-#root > div > div:nth-child(3) > div.timeline > div.chipWrapper > div > div {
+#root > div > div:nth-child(4) > div.timeline > div.chipWrapper > div > div {
   padding-bottom: 35px;
 }
 
