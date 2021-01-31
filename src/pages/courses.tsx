@@ -133,15 +133,17 @@ const Second: FunctionComponent = () => {
             link={"http://masteringmarkdown.com/"}
             name={"Mastering Markdown - 24.12.20"}
           />
-          <h2 className="h2-courses">Ongoing</h2>
           <Course
             pic={fcc}
             alt={"freecodecamp logo"}
             height={35.5}
             width={50}
-            link={"https://www.freecodecamp.org/learn/"}
-            name={"Front End Libraries"}
+            link={
+              "https://www.freecodecamp.org/certification/villivald/front-end-libraries"
+            }
+            name={"Front End Libraries - 31.01.21"}
           />
+          <h2 className="h2-courses">Ongoing</h2>
           <Course
             pic={udemy}
             alt={"udemy logo"}
