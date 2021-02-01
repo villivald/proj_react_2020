@@ -162,6 +162,14 @@ const Second: FunctionComponent = () => {
             }
             name={"Web Application Development and NoSQL"}
           />
+          <Course
+            pic={fcc}
+            alt={"freecodecamp logo"}
+            height={35.5}
+            width={50}
+            link={"https://www.freecodecamp.org/"}
+            name={"Data Visualization"}
+          />
         </ul>
       </div>
       <Footer footerStyle="footer" footerTextStyle="a" />
