@@ -794,9 +794,7 @@ div.MuiChip-root {
   .headers {
     display: none;
   }
-  h1 {
-    margin-bottom: -4%;
-  }
+
   .chipWrapper {
     width: 80%;
     margin-left: -60px;
@@ -859,9 +857,6 @@ div.MuiChip-root {
   .headers {
     display: none;
   }
-  h1 {
-    margin-bottom: -4%;
-  }
   .chipWrapper {
     width: 80%;
     margin-left: -50px;
@@ -899,9 +894,7 @@ div.MuiChip-root {
   .headers {
     display: none;
   }
-  h1 {
-    margin-bottom: -4%;
-  }
+
   .chipWrapper {
     width: 80%;
     margin-left: -50px;
@@ -948,9 +941,6 @@ div.MuiChip-root {
   }
   .headers {
     display: none;
-  }
-  h1 {
-    margin-bottom: -4%;
   }
   .chipWrapper {
     width: 80%;
@@ -1059,7 +1049,6 @@ div.MuiChip-root {
   }
   h1 {
     margin-top: 4%;
-    margin-bottom: -4%;
   }
   .chipWrapper {
     width: 80%;
