@@ -710,6 +710,15 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Blood, Sweat, and Pixels - Schreier",
   },
+  {
+    src:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348376248l/10792024.jpg",
+    thumbnail:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348376248l/10792024.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Третий Рейх - Боланьо",
+  },
 ];
 
 export default IMAGES;
