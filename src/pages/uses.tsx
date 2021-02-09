@@ -52,7 +52,7 @@ const Uses: FunctionComponent = () => {
       <div className="uses-wrapper">
         The following is a list of the tools and software that I use on a daily
         basis. This page was inspired by Wes Bos and his project -
-        https://uses.tech/.
+        <a href="https://uses.tech/">https://uses.tech/</a>.
       </div>
       <div className="uses">
         <div

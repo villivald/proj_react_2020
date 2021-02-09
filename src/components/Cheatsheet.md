@@ -2,7 +2,7 @@ _Italics_
 
 **Bold**
 
-~~Strike throught~~
+~~Strike through~~
 
 # H1
 

@@ -369,6 +369,7 @@ h2 {
   border: 2px dotted transparent;
   border-radius: 5px;
   margin: 10px 0 10px 20px;
+  padding: 5px 0px;
   background-image: repeating-linear-gradient(
       16deg,
       var(--accent),
