@@ -1,7 +1,6 @@
 import React, { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
-import Arrow from "../components/Arrow";
 import Contact from "../components/Contact";
 
 import github from "../images/github1.webp";
@@ -83,7 +82,6 @@ const Second: FunctionComponent = () => {
         </div>
       </div>
       <Footer footerStyle="footer" footerTextStyle="a" />
-      <Arrow />
     </div>
   );
 };
