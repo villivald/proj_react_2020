@@ -9,6 +9,7 @@ const Uses = lazy(() => import("./pages/uses"));
 const Contact = lazy(() => import("./pages/contact"));
 const Courses = lazy(() => import("./pages/courses"));
 const Books = lazy(() => import("./pages/books"));
+const Projects = lazy(() => import("./pages/projects"));
 
 const App: FunctionComponent = () => {
   return (
@@ -34,6 +35,7 @@ const App: FunctionComponent = () => {
           <Route path="/uses" exact component={Uses} />
           <Route path="/courses" exact component={Courses} />
           <Route path="/books" exact component={Books} />
+          <Route path="/projects" exact component={Projects} />
         </Suspense>
       </Switch>
     </Router>

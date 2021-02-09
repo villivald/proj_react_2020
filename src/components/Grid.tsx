@@ -238,7 +238,7 @@ const Grid: FunctionComponent<{
         />
         <GridItem
           text={"More coming soon... "}
-          link={"/"}
+          link={"/projects"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
           onHoverColor={props.OnHoverColor}
