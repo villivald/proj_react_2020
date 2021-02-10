@@ -71,84 +71,16 @@ const Grid: FunctionComponent<{
           alt="wordpress"
         />
         <GridItem
-          text={"Calculator | 🖥"}
-          link={
-            "https://old.create-react-app.com/Projects/calculator/index.html"
-          }
+          text={"Small Projects (2020) "}
+          link={"/projects"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
           onHoverColor={props.OnHoverColor}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
           afterHoverTextColor={Colors.white}
-          image={js}
-          alt="js"
-        />
-        <GridItem
-          text={"Calculator | 📱"}
-          link={
-            "https://old.create-react-app.com/Projects/calculator_mobile/test.html"
-          }
-          color={Colors.gray}
-          onHoverTextColor={Colors.almostBlack}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.box}
-          afterHover={props.AfterHoverButtons}
-          afterHoverTextColor={Colors.white}
-          image={js}
-          alt="js"
-        />
-        <GridItem
-          text={"Ping-Pong | Player vs Player"}
-          link={
-            "https://old.create-react-app.com/Projects/ping_pong/index.html"
-          }
-          color={Colors.gray}
-          onHoverTextColor={Colors.almostBlack}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.box}
-          afterHover={props.AfterHoverButtons}
-          afterHoverTextColor={Colors.white}
-          image={js}
-          alt="js"
-        />
-        <GridItem
-          text={"Ping-Pong | Player vs AI"}
-          link={
-            "https://old.create-react-app.com/Projects/ping_pong_v2/index.html"
-          }
-          color={Colors.gray}
-          onHoverTextColor={Colors.almostBlack}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.box}
-          afterHover={props.AfterHoverButtons}
-          afterHoverTextColor={Colors.white}
-          image={js}
-          alt="js"
-        />
-        <GridItem
-          text={"Todo App | JS"}
-          link={"https://old.create-react-app.com/Projects/ToDo/todo.html"}
-          color={Colors.gray}
-          onHoverTextColor={Colors.almostBlack}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.box}
-          afterHover={props.AfterHoverButtons}
-          afterHoverTextColor={Colors.white}
-          image={js}
-          alt="js"
-        />
-        <GridItem
-          text={"Layout"}
-          link={"https://old.create-react-app.com/Projects/Site/index.html"}
-          color={Colors.gray}
-          onHoverTextColor={Colors.almostBlack}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.box}
-          afterHover={props.AfterHoverButtons}
-          afterHoverTextColor={Colors.white}
-          image={html}
-          alt="html"
+          image={soon}
+          alt="coming soon"
         />
         <GridItem
           text={"Mine Sweeper | JS"}
@@ -235,18 +167,6 @@ const Grid: FunctionComponent<{
           afterHoverTextColor={Colors.white}
           image={markdown}
           alt="markdown"
-        />
-        <GridItem
-          text={"More coming soon... "}
-          link={"/projects"}
-          color={Colors.gray}
-          onHoverTextColor={Colors.almostBlack}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.box}
-          afterHover={props.AfterHoverButtons}
-          afterHoverTextColor={Colors.white}
-          image={soon}
-          alt="coming soon"
         />
       </div>
     </div>
