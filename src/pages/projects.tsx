@@ -57,9 +57,9 @@ const Projects: FunctionComponent<{
             }
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
-            onHoverColor={Colors.almostBlack}
+            onHoverColor={Colors.buttonBackground}
             boxStyle={styles.box}
-            afterHover={Colors.almostBlack}
+            afterHover={Colors.button}
             afterHoverTextColor={Colors.white}
             image={js}
             alt="js"
@@ -71,9 +71,9 @@ const Projects: FunctionComponent<{
             }
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
-            onHoverColor={props.OnHoverColor}
+            onHoverColor={Colors.buttonBackground}
             boxStyle={styles.box}
-            afterHover={props.AfterHoverButtons}
+            afterHover={Colors.button}
             afterHoverTextColor={Colors.white}
             image={js}
             alt="js"
@@ -85,9 +85,9 @@ const Projects: FunctionComponent<{
             }
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
-            onHoverColor={props.OnHoverColor}
+            onHoverColor={Colors.buttonBackground}
             boxStyle={styles.box}
-            afterHover={props.AfterHoverButtons}
+            afterHover={Colors.button}
             afterHoverTextColor={Colors.white}
             image={js}
             alt="js"
@@ -99,9 +99,9 @@ const Projects: FunctionComponent<{
             }
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
-            onHoverColor={props.OnHoverColor}
+            onHoverColor={Colors.buttonBackground}
             boxStyle={styles.box}
-            afterHover={props.AfterHoverButtons}
+            afterHover={Colors.button}
             afterHoverTextColor={Colors.white}
             image={js}
             alt="js"
@@ -111,9 +111,9 @@ const Projects: FunctionComponent<{
             link={"https://old.create-react-app.com/Projects/ToDo/todo.html"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
-            onHoverColor={props.OnHoverColor}
+            onHoverColor={Colors.buttonBackground}
             boxStyle={styles.box}
-            afterHover={props.AfterHoverButtons}
+            afterHover={Colors.button}
             afterHoverTextColor={Colors.white}
             image={js}
             alt="js"
@@ -123,9 +123,9 @@ const Projects: FunctionComponent<{
             link={"https://old.create-react-app.com/Projects/Site/index.html"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
-            onHoverColor={props.OnHoverColor}
+            onHoverColor={Colors.buttonBackground}
             boxStyle={styles.box}
-            afterHover={props.AfterHoverButtons}
+            afterHover={Colors.button}
             afterHoverTextColor={Colors.white}
             image={html}
             alt="html"

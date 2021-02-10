@@ -646,11 +646,7 @@ div.MuiChip-root {
 }
 
 .projects {
-  display: grid;
-  grid-gap: 20px;
   grid-template-columns: repeat(3, 197px);
-  margin-top: 10px;
-
   margin-bottom: 100px;
 }
 
