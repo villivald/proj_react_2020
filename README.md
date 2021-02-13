@@ -28,7 +28,7 @@
 
 # Proj
 
-### 🔥 [Homepage](https://proj.create-react-app.com/)
+### 🔥 [Homepage](https://villivald.com/)
 
 ### ⚡️ [Blog](https://create-react-app.com)
 
@@ -46,7 +46,7 @@
 
 ## Website
 
-[Proj](https://proj.create-react-app.com/)
+[Proj](https://villivald.com/)
 
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
@@ -57,7 +57,7 @@
 #### Projects
 
 <p align="center">
-  <a href="https://proj.create-react-app.com/">
+  <a href="https://villivald.com/">
     <img src="./readme_pics/projects.png" alt="Logo"  >
   </a>
 </p>
@@ -65,7 +65,7 @@
 #### Uses
 
 <p align="center">
-  <a href="https://proj.create-react-app.com/uses">
+  <a href="https://villivald.com/uses">
     <img src="./readme_pics/uses.png" alt="Logo"  >
   </a>
 </p>
@@ -73,7 +73,7 @@
 #### Courses
 
 <p align="center">
-  <a href="https://proj.create-react-app.com/courses">
+  <a href="https://villivald.com/courses">
     <img src="./readme_pics/courses.png" alt="Logo"  >
   </a>
 </p>
@@ -81,7 +81,7 @@
 #### Books
 
 <p align="center">
-  <a href="https://proj.create-react-app.com/books">
+  <a href="https://villivald.com/books">
     <img src="./readme_pics/books.png" alt="Logo"  >
   </a>
 </p>
