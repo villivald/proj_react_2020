@@ -167,7 +167,7 @@ const Second: FunctionComponent = () => {
             alt={"freecodecamp logo"}
             height={35.5}
             width={50}
-            link={"https://www.freecodecamp.org/"}
+            link={"https://www.freecodecamp.org/learn/data-visualization/"}
             name={"Data Visualization"}
           />
         </ul>
