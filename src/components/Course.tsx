@@ -7,6 +7,7 @@ const Course: FunctionComponent<{
   width: number;
   link: string;
   name: string;
+  date?: string;
 }> = (props) => {
   return (
     <li className="course course-li">
@@ -17,7 +18,10 @@ const Course: FunctionComponent<{
         height={props.height}
         width={props.width}
       />
-      <a href={props.link}>{props.name}</a>
+      <a href={props.link}>
+        {props.name}
+        <p className="courseDate">{props.date}</p>
+      </a>
     </li>
   );
 };

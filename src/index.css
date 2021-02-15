@@ -650,6 +650,14 @@ div.MuiChip-root {
   margin-bottom: 100px;
 }
 
+.courseDate {
+  text-decoration: underline;
+  text-decoration-thickness: 2.5ex;
+  text-underline-offset: -2ex;
+  text-decoration-skip-ink: none;
+  text-decoration-color: #63cdda;
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;
