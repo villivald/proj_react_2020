@@ -481,10 +481,6 @@ ul {
 .dropdown-item {
   padding: 1rem 1.2rem;
 }
-/* .dropdown-item:hover {
-  background-color: var(--blog);
-  color: white;
-} */
 #up > div > div > div.drop > div > div > a > a:hover {
   color: white;
 }

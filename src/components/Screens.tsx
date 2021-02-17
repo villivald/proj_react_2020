@@ -24,7 +24,6 @@ const useStyles = makeStyles((theme) => ({
 const StyledPaper = withStyles({
   root: {
     fontFamily: "Mate SC, serif",
-    //backgroundColor: "",
     backgroundColor: Colors.screens,
     borderRadius: 5,
   },

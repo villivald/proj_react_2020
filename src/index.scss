@@ -75,7 +75,6 @@ a.dropdown-item {
   cursor: pointer;
 
   a {
-    /* z-index works becuase those are flex childs.. */
     z-index: 1;
     transition: 0.25s linear;
   }
