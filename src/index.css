@@ -481,6 +481,14 @@ ul {
 .dropdown-item {
   padding: 1rem 1.2rem;
 }
+.dropdown-item:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.dropdown-item:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
 #up > div > div > div.drop > div > div > a > a:hover {
   color: white;
 }
@@ -492,6 +500,7 @@ ul {
 }
 .dropdown-menu {
   padding: 0;
+  border-radius: 5px;
 }
 
 /* .dropdown-item:hover {
