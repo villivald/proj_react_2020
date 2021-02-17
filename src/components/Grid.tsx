@@ -56,7 +56,7 @@ const Grid: FunctionComponent<{
   };
   return (
     <div className="grid">
-      {/*(<div class="vertical-text">PROJECTS</div>)*/}
+      {/* {<div className="vertical-text">PROJECTS</div>} */}
       <div className="grid-wrapper">
         <GridItem
           text={"Blog"}

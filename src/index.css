@@ -94,7 +94,6 @@ a:focus {
   padding: 4px;
   border-radius: 10px;
   filter: drop-shadow(0 0 0.3rem var(--gray));
-  /*filter: drop-shadow(5px 2px 4px #333);*/
 }
 
 .drop {
@@ -307,24 +306,17 @@ h2 {
   border: none;
 }
 
-.vertical-text {
+/* .vertical-text {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   font-family: "Mate SC", serif;
   letter-spacing: 0.65em;
   font-size: 2rem;
-  margin-left: -70px;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: -10px;
   margin-top: 10px;
   padding: 15px 5px 5px 5px;
-  /*border: 2px dashed #e54b4b;*/
-  border-radius: 5px;
-}
-
-.vertical-text:hover {
-  border: 2px solid var(--accent);
-  transform: rotate(-3deg);
-}
+} */
 
 .contact-badges {
   margin-top: 3%;
