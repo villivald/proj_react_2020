@@ -13,7 +13,7 @@ const Projects: FunctionComponent<{
   AfterHoverBlog: string;
   AfterHoverButtons: string;
   OnHoverColor: string;
-}> = (props) => {
+}> = () => {
   const styles = {
     box: {
       boxSizing: "border-box",
