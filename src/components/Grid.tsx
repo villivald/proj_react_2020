@@ -71,7 +71,7 @@ const Grid: FunctionComponent<{
           alt="wordpress"
         />
         <GridItem
-          text={"Small Projects (2020) "}
+          text={"Old Projects ('19, '20)"}
           link={"/projects"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}

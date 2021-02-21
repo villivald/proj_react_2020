@@ -1,7 +1,6 @@
 import React, { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
-import Arrow from "../components/Arrow";
 import GridItem from "../components/GridItem";
 import Colors from "../constants/colors";
 import js from "../images/js.webp";
@@ -46,7 +45,7 @@ const Projects: FunctionComponent<{
         setMainStyle=""
       />
       <div>
-        <h1>2020</h1>
+        <h1>2019 | 2020</h1>
       </div>
       <div className="grid">
         <div className="grid-wrapper projects">
@@ -133,7 +132,6 @@ const Projects: FunctionComponent<{
         </div>
       </div>
       <Footer footerStyle="footer" footerTextStyle="a" />
-      <Arrow />
     </div>
   );
 };
