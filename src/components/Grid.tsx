@@ -8,6 +8,7 @@ import wpb from "../images/wpb.webp";
 import soon from "../images/soon.webp";
 import php from "../images/php.webp";
 import markdown from "../images/markdown.webp";
+import ts from "../images/ts.webp";
 
 const Grid: FunctionComponent<{
   ButtonColor: string;
@@ -167,6 +168,18 @@ const Grid: FunctionComponent<{
           afterHoverTextColor={Colors.white}
           image={markdown}
           alt="markdown"
+        />
+        <GridItem
+          text={"Drag & Drop Todo App | TS"}
+          link={"https://old.create-react-app.com/Projects/DragAndDrop/"}
+          color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
+          onHoverColor={props.OnHoverColor}
+          boxStyle={styles.box}
+          afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
+          image={ts}
+          alt="ts"
         />
       </div>
     </div>
