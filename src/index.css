@@ -646,6 +646,11 @@ div.MuiChip-root {
   grid-template-columns: repeat(3, 197px);
   margin-bottom: 100px;
 }
+.reactprojects {
+  grid-template-columns: repeat(3, 197px);
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
 
 .courseDate {
   text-decoration: underline;

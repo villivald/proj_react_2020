@@ -43,13 +43,13 @@ const Projects: FunctionComponent<{
         DropdownMenuStyle=""
         setMainStyle=""
       />
-      {/* <div>
-        <h1>2019 | 2020</h1>
-      </div> */}
+      <div>
+        <h1>2020 | 2021</h1>
+      </div>
       <div className="grid">
-        <div className="grid-wrapper projects">
+        <div className="grid-wrapper reactprojects">
           <GridItem
-            text={"Todo App | React"}
+            text={"Todo App | React '20"}
             link={"https://old.create-react-app.com/todo/"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
@@ -73,8 +73,8 @@ const Projects: FunctionComponent<{
             alt="react"
           />
           <GridItem
-            text={"Phonebook | React & Heroku"}
-            link={"https://safe-reef-57298.herokuapp.com/"}
+            text={"Todo App | React & Netlify '21"}
+            link={"https://romantic-murdock-3acc77.netlify.app/"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={props.OnHoverColor}
