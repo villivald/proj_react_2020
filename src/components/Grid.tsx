@@ -98,30 +98,6 @@ const Grid: FunctionComponent<{
           alt="js"
         />
         <GridItem
-          text={"Todo App | React"}
-          link={"https://old.create-react-app.com/todo/"}
-          color={Colors.gray}
-          onHoverTextColor={Colors.almostBlack}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.box}
-          afterHover={props.AfterHoverButtons}
-          afterHoverTextColor={Colors.white}
-          image={react}
-          alt="react"
-        />
-        <GridItem
-          text={"Phonebook | React & Heroku"}
-          link={"https://safe-reef-57298.herokuapp.com/"}
-          color={Colors.gray}
-          onHoverTextColor={Colors.almostBlack}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.box}
-          afterHover={props.AfterHoverButtons}
-          afterHoverTextColor={Colors.white}
-          image={react}
-          alt="react"
-        />
-        <GridItem
           text={"Website (Winter '19)"}
           link={"https://old.create-react-app.com/Projects/Skeleton/index.html"}
           color={Colors.gray}
@@ -180,6 +156,18 @@ const Grid: FunctionComponent<{
           afterHoverTextColor={Colors.white}
           image={ts}
           alt="ts"
+        />
+        <GridItem
+          text={"React projects"}
+          link={"/react"}
+          color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
+          onHoverColor={props.OnHoverColor}
+          boxStyle={styles.box}
+          afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
+          image={react}
+          alt="react"
         />
       </div>
     </div>
