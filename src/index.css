@@ -647,7 +647,6 @@ div.MuiChip-root {
   margin-bottom: 100px;
 }
 .reactprojects {
-  grid-template-columns: repeat(3, 197px);
   margin-top: 30px;
   margin-bottom: 200px;
 }
