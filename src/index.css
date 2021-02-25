@@ -94,6 +94,14 @@ a:focus {
   padding: 4px;
   border-radius: 10px;
   filter: drop-shadow(0 0 0.3rem var(--gray));
+  content-visibility: auto;
+}
+.logocat {
+  content-visibility: auto;
+}
+
+#root > div > div.contact-wrapper > img {
+  content-visibility: auto;
 }
 
 .drop {
@@ -654,9 +662,15 @@ div.MuiChip-root {
 .courseDate {
   text-decoration: underline;
   text-decoration-thickness: 2.5ex;
-  text-underline-offset: -2ex;
+  text-underline-offset: -3ex;
   text-decoration-skip-ink: none;
   text-decoration-color: #63cdda;
+}
+
+@-moz-document url-prefix() {
+  .courseDate {
+    text-underline-offset: -2ex;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
