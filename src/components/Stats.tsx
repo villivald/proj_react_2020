@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from "react";
-import { Progress } from "antd";
+import Progress from "antd/lib/progress";
 import ChipCloud from "./ChipCloud";
 import clip2 from "../images/clip-2.webp";
 import Timelines from "./Timeline";

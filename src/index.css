@@ -589,6 +589,7 @@ div.MuiChip-root {
 
 .gallery {
   grid-area: gallery;
+  content-visibility: auto;
 }
 
 .bubble {
