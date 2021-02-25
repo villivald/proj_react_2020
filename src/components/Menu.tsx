@@ -1,11 +1,12 @@
-import React, { FunctionComponent } from "react";
+import React, { lazy, Suspense, FunctionComponent } from "react";
 import Toggle from "./Toggle";
-import logo from "../images/logo/103.webp";
 import Dropdown from "./Dropdown";
-import { Frame } from "framer";
-import { Link } from "react-router-dom";
 import Avatar from "@material-ui/core/Avatar";
 import { makeStyles } from "@material-ui/core/styles";
+import BeatLoader from "react-spinners/BeatLoader";
+import Colors from "../constants/colors";
+
+const Logo = lazy(() => import("./Logo"));
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -32,10 +33,6 @@ const Menu: FunctionComponent<{
   DropdownMenuStyle: string;
   setMainStyle: any;
 }> = (props) => {
-  const variants = {
-    variantA: { scale: 1, rotate: 0 },
-    variantB: { scale: 1.2, rotate: 90 },
-  };
   const classes = useStyles();
 
   return (
@@ -45,22 +42,22 @@ const Menu: FunctionComponent<{
           <div className="switch">
             <Toggle />
           </div>
-          <div className="header">
-            <Frame
-              initial={"variantA"}
-              whileHover={"variantB"}
-              variants={variants}
-              size={150}
-              radius={30}
-              background={"hsla(0, 100%, 50%, 0)"}
-            >
-              <Link to="/">
-                <div>
-                  <img className="logo" src={logo} alt="Logo" width="150px" />
-                </div>
-              </Link>
-            </Frame>
-          </div>
+          <Suspense
+            fallback={
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  margin: 100,
+                }}
+              >
+                <BeatLoader color={Colors.blog} size={30} loading={true} />
+              </div>
+            }
+          >
+            <Logo />
+          </Suspense>
           <button
             style={{ display: props.ButtonDisplay }}
             className="theme-btn"
