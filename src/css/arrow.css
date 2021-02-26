@@ -1,0 +1,16 @@
+#fixedbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 3%;
+  right: 1%;
+  font-size: 3.5rem;
+  background-color: var(--accent);
+  color: white;
+  /* clip-path: inset(1px 1px 1px round 35px); 
+    clip-path: polygon(25% 15%, 80% 5%, 85% 95%, 20% 95%); */
+  clip-path: circle(35px at 50% 50%);
+  width: 70px;
+  height: 70px;
+}

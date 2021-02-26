@@ -1,0 +1,28 @@
+.timeline {
+  display: flex;
+  margin-top: 2%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.timelines {
+  margin-left: -10%;
+}
+
+.chipper {
+  width: 110%;
+  height: 150%;
+  background-color: transparent;
+  margin-bottom: 10%;
+}
+
+.chipWrapper {
+  margin-top: 3%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -20px;
+  align-items: center;
+}

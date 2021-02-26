@@ -1,6 +1,7 @@
 import { FunctionComponent } from "react";
 import Gallery from "react-grid-gallery";
 import IMAGES from "./Images";
+import "../css/bookpicks.css";
 
 const BookPics: FunctionComponent = () => {
   return (

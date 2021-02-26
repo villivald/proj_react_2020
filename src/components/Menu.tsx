@@ -5,6 +5,7 @@ import Avatar from "@material-ui/core/Avatar";
 import { makeStyles } from "@material-ui/core/styles";
 import BeatLoader from "react-spinners/BeatLoader";
 import Colors from "../constants/colors";
+import "../css/menu.css";
 
 const Logo = lazy(() => import("./Logo"));
 

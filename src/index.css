@@ -96,30 +96,9 @@ a:focus {
   filter: drop-shadow(0 0 0.3rem var(--gray));
   content-visibility: auto;
 }
-.logocat {
-  content-visibility: auto;
-}
 
 #root > div > div.contact-wrapper > img {
   content-visibility: auto;
-}
-
-.drop {
-  display: flex;
-  box-sizing: border-box;
-  margin-left: 80%;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-}
-
-.switch {
-  display: flex;
-  box-sizing: border-box;
-  margin-right: 80%;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
 }
 
 /*GRID*/
@@ -240,24 +219,6 @@ h2 {
   margin-left: -130px;
 }
 
-.timeline {
-  display: flex;
-  margin-top: 2%;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.timelines {
-  margin-left: -10%;
-}
-
-.chipper {
-  width: 110%;
-  height: 150%;
-  background-color: transparent;
-  margin-bottom: 10%;
-}
-
 .MuiPaper-root-alt {
   background-color: red !important;
 }
@@ -267,32 +228,6 @@ h2 {
   grid-gap: 20px;
   grid-template-columns: repeat(3, 160px);
   padding-top: 15px;
-}
-
-.togglePic {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 240px;
-}
-
-.stats {
-  display: flex;
-  justify-content: space-around;
-  margin-left: -20px;
-  align-items: center;
-}
-
-.headerClip {
-  margin-bottom: 30px;
-}
-
-.stickyHeader {
-  position: -webkit-sticky;
-  position: sticky;
-  top: -20px;
-  z-index: 1;
 }
 
 .btn-info {
@@ -426,23 +361,6 @@ ul {
   width: 20px;
 }
 
-.theme-btn {
-  border: none;
-  background-color: transparent;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  margin-left: 40%;
-  position: absolute;
-}
-
-.theme-btn:focus {
-  outline: none;
-}
-.theme-btn:hover {
-  transform: scale(1.1);
-}
-
 .catHover {
   width: 100px;
   height: 100px;
@@ -554,10 +472,6 @@ div.MuiChip-root {
   color: var(--whiteSmoke);
 }
 
-.chipWrapper {
-  margin-top: 3%;
-}
-
 #root > div > div:nth-child(4) > div.timeline > div.chipWrapper > div > div {
   padding-bottom: 35px;
 }
@@ -578,43 +492,6 @@ div.MuiChip-root {
   position: relative;
 }
 
-.galleryContainer {
-  margin: 30px 0 100px 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-template-areas: ". gallery gallery gallery .";
-}
-
-.gallery {
-  grid-area: gallery;
-  content-visibility: auto;
-}
-
-.bubble {
-  position: absolute;
-  margin: 0px 0px 0px 220px;
-  max-width: 30em;
-  font-family: "Mate";
-  background-color: var(--whiteSmoke);
-  padding: 0.5em 1em;
-  font-size: 1.25em;
-  border-radius: 1rem;
-  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3),
-    0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
-}
-.bubble::before {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 0.8em;
-  border: 0.75rem solid transparent;
-  border-top: none;
-  border-bottom-color: var(--whiteSmoke);
-  filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
-}
-
 .MuiFormControlLabel-label {
   display: none;
 }
@@ -632,23 +509,6 @@ div.MuiChip-root {
 
 .MuiTypography-colorError {
   color: white !important;
-}
-
-#fixedbutton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 3%;
-  right: 1%;
-  font-size: 3.5rem;
-  background-color: var(--accent);
-  color: white;
-  /* clip-path: inset(1px 1px 1px round 35px); 
-  clip-path: polygon(25% 15%, 80% 5%, 85% 95%, 20% 95%); */
-  clip-path: circle(35px at 50% 50%);
-  width: 70px;
-  height: 70px;
 }
 
 .projects {

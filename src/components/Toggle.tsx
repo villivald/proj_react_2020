@@ -7,6 +7,7 @@ import Colors from "../constants/colors";
 import clip5 from "../images/dc2.webp";
 import clip3 from "../images/clip-3.webp";
 import { Link } from "react-router-dom";
+import "../css/toggle.css";
 
 const StyledSwitch = withStyles({
   switchBase: {

@@ -1,0 +1,13 @@
+.galleryContainer {
+  margin: 30px 0 100px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". gallery gallery gallery .";
+}
+
+.gallery {
+  grid-area: gallery;
+  content-visibility: auto;
+}

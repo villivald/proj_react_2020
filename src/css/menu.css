@@ -1,0 +1,40 @@
+.stickyHeader {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -20px;
+  z-index: 1;
+}
+
+.switch {
+  display: flex;
+  box-sizing: border-box;
+  margin-right: 80%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+.theme-btn {
+  border: none;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 40%;
+  position: absolute;
+}
+
+.theme-btn:focus {
+  outline: none;
+}
+.theme-btn:hover {
+  transform: scale(1.1);
+}
+
+.drop {
+  display: flex;
+  box-sizing: border-box;
+  margin-left: 80%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}

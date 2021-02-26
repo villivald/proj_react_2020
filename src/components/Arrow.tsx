@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
+import "../css/arrow.css";
 
 const Arrow = () => {
   const [butt, setButt] = useState("none");
