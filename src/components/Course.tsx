@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import "../css/course.css";
 
 const Course: FunctionComponent<{
   pic: string;

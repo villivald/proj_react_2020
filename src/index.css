@@ -380,20 +380,6 @@ ul {
   font-family: "Mate", serif;
 }
 
-.course {
-  display: flex;
-  gap: 3%;
-  align-items: center;
-}
-
-.course-icons {
-  margin-bottom: 3%;
-}
-
-.course-li {
-  width: 120%;
-}
-
 .h2-courses {
   margin-top: 3%;
   margin-bottom: 1%;
@@ -518,20 +504,6 @@ div.MuiChip-root {
 .reactprojects {
   margin-top: 30px;
   margin-bottom: 200px;
-}
-
-.courseDate {
-  text-decoration: underline;
-  text-decoration-thickness: 2.5ex;
-  text-underline-offset: -3ex;
-  text-decoration-skip-ink: none;
-  text-decoration-color: #63cdda;
-}
-
-@-moz-document url-prefix() {
-  .courseDate {
-    text-underline-offset: -2ex;
-  }
 }
 
 @media only screen and (max-width: 1300px) {

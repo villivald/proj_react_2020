@@ -1,0 +1,27 @@
+.course {
+  display: flex;
+  gap: 3%;
+  align-items: center;
+}
+
+.course-icons {
+  margin-bottom: 3%;
+}
+
+.course-li {
+  width: 120%;
+}
+
+.courseDate {
+  text-decoration: underline;
+  text-decoration-thickness: 2.5ex;
+  text-underline-offset: -3ex;
+  text-decoration-skip-ink: none;
+  text-decoration-color: #63cdda;
+}
+
+@-moz-document url-prefix() {
+  .courseDate {
+    text-underline-offset: -2ex;
+  }
+}
