@@ -12,10 +12,6 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Mate&family=Mate+SC&display=swap"
-      rel="stylesheet"
-    />
-    <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
@@ -82,4 +78,14 @@
       }
     </script>
   </body>
+  <script>
+    (function () {
+      var cssFa = document.createElement("link");
+      cssFa.href =
+        "https://fonts.googleapis.com/css2?family=Lato&family=Mate&family=Mate+SC&display=swap";
+      cssFa.rel = "stylesheet";
+      cssFa.type = "text/css";
+      document.getElementsByTagName("head")[0].appendChild(cssFa);
+    })();
+  </script>
 </html>
