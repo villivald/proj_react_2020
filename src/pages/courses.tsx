@@ -11,6 +11,7 @@ import Course from "../components/Course";
 import styled from "@emotion/styled";
 import Colors from "../constants/colors";
 import Arrow from "../components/Arrow";
+import "../css/courses.css";
 
 const H1 = styled.h1`
   color: ${Colors.gray};

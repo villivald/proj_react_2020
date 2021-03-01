@@ -275,77 +275,12 @@ h2 {
   align-items: center;
 }
 
-.uses-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1%;
-  font-family: "Mate", serif;
-  font-size: 1rem;
-  letter-spacing: 0.05em;
-}
-
 .icons {
   margin-bottom: 25%;
 }
 
 .icons:hover {
   transform: scale(1.5) rotate(-5deg);
-}
-
-.uses {
-  display: flex;
-  justify-content: center;
-  gap: 5%;
-  margin-bottom: 2%;
-}
-
-.usesBox {
-  border: 2px dotted transparent;
-  border-radius: 5px;
-  margin: 10px 0 10px 20px;
-  padding: 5px 0px;
-  background-image: repeating-linear-gradient(
-      16deg,
-      var(--accent),
-      var(--accent) 11px,
-      transparent 11px,
-      transparent 23px,
-      var(--accent) 23px
-    ),
-    repeating-linear-gradient(
-      106deg,
-      var(--accent),
-      var(--accent) 11px,
-      transparent 11px,
-      transparent 23px,
-      var(--accent) 23px
-    ),
-    repeating-linear-gradient(
-      196deg,
-      var(--accent),
-      var(--accent) 11px,
-      transparent 11px,
-      transparent 23px,
-      var(--accent) 23px
-    ),
-    repeating-linear-gradient(
-      286deg,
-      var(--accent),
-      var(--accent) 11px,
-      transparent 11px,
-      transparent 23px,
-      var(--accent) 23px
-    );
-  background-size: 3px 100%, 100% 3px, 3px 100%, 100% 3px;
-  background-position: 0 0, 0 0, 100% 0, 0 100%;
-  background-repeat: no-repeat;
-}
-
-.usesBox:hover {
-  background-image: none;
-  border: 2px solid var(--accent);
-  transform: rotate(3deg);
 }
 
 ul {
@@ -361,29 +296,6 @@ ul {
   width: 20px;
 }
 
-.catHover {
-  width: 100px;
-  height: 100px;
-  margin-left: -160px;
-  border-radius: 50%;
-  background-color: var(--blog);
-  display: grid;
-  place-items: center;
-}
-
-.courses {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
-  font-size: 1rem;
-  font-family: "Mate", serif;
-}
-
-.h2-courses {
-  margin-top: 3%;
-  margin-bottom: 1%;
-}
 #up > div > div > div.drop > div > div {
   padding: 0px;
 }

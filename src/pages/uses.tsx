@@ -8,6 +8,7 @@ import cat from "../images/cat.webp";
 import catPic from "../images/catPic.webp";
 import List from "../components/List";
 import Arrow from "../components/Arrow";
+import "../css/uses.css";
 
 const StyledPaper = withStyles({
   root: {
