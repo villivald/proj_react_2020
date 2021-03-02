@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
-import fcc from "../images/fccdark.png";
+import fcc from "../images/fccdark.webp";
 import fm from "../images/fm.jpg";
 import wb from "../images/wb.webp";
 import coursera from "../images/coursera.jpeg";

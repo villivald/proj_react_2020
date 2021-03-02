@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Contact from "../components/Contact";
 
 import github from "../images/github1.webp";
-import blog from "../images/wordpress.png";
+import blog from "../images/wordpress.webp";
 import linkedin from "../images/linkedin.webp";
 import telegram from "../images/telegram.webp";
 import mail from "../images/gmail.webp";
