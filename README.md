@@ -50,7 +50,7 @@
 
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
-    <img src="./readme_pics/site.png" alt="Logo"  >
+    <img src="./readme_pics/site.webp" alt="Logo"  >
   </a>
 </p>
 
@@ -58,7 +58,7 @@
 
 <p align="center">
   <a href="https://villivald.com/">
-    <img src="./readme_pics/projects.png" alt="Logo"  >
+    <img src="./readme_pics/projects.webp" alt="Logo"  >
   </a>
 </p>
 
@@ -66,7 +66,7 @@
 
 <p align="center">
   <a href="https://villivald.com/uses">
-    <img src="./readme_pics/uses.png" alt="Logo"  >
+    <img src="./readme_pics/uses.webp" alt="Logo"  >
   </a>
 </p>
 
@@ -74,7 +74,7 @@
 
 <p align="center">
   <a href="https://villivald.com/courses">
-    <img src="./readme_pics/courses.png" alt="Logo"  >
+    <img src="./readme_pics/courses.webp" alt="Logo"  >
   </a>
 </p>
 
@@ -82,7 +82,7 @@
 
 <p align="center">
   <a href="https://villivald.com/books">
-    <img src="./readme_pics/books.png" alt="Logo"  >
+    <img src="./readme_pics/books.webp" alt="Logo"  >
   </a>
 </p>
 
@@ -92,7 +92,7 @@
 
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
-    <img src="./readme_pics/blog.png" alt="Logo"  >
+    <img src="./readme_pics/blog.webp" alt="Logo"  >
   </a>
 </p>
 
@@ -110,7 +110,7 @@
 
 <p align="center">
   <a href="https://github.com/villivald/proj_react_2020">
-    <img src="./readme_pics/footer.png" alt="Logo"  >
+    <img src="./readme_pics/footer.webp" alt="Logo"  >
   </a>
 </p>
 
