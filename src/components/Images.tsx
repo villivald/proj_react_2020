@@ -719,6 +719,15 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Третий Рейх - Боланьо",
   },
+  {
+    src:
+      "https://upload.wikimedia.org/wikipedia/en/9/95/The_diamond_chariot_-_bookcover.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/en/9/95/The_diamond_chariot_-_bookcover.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Алмазная колесница - Акунин",
+  },
 ];
 
 export default IMAGES;
