@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import fcc from "../images/fccdark.webp";
@@ -152,15 +152,16 @@ const Second: FunctionComponent = () => {
             name={"Front End Libraries - "}
             date={"31.01.21"}
           />
-          <h2 className="h2-courses">Ongoing</h2>
           <Course
             pic={udemy}
             alt={"udemy logo"}
             height={40}
             width={48}
             link={"https://www.udemy.com/course/understanding-typescript/"}
-            name={"Understanding TypeScript"}
+            name={"Understanding TypeScript - "}
+            date={"05.03.21"}
           />
+          <h2 className="h2-courses">Ongoing</h2>
           <Course
             pic={savonia}
             alt={"savonia university logo"}
