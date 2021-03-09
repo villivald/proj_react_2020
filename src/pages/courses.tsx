@@ -161,6 +161,15 @@ const Second: FunctionComponent = () => {
             name={"Understanding TypeScript - "}
             date={"05.03.21"}
           />
+          <Course
+            pic={fm}
+            alt={"frontend masters logo"}
+            height={45}
+            width={45}
+            link={"https://frontendmasters.com/workshops/vim-fundamentals/"}
+            name={"VIM Fundamentals - "}
+            date={"09.03.21"}
+          />
           <h2 className="h2-courses">Ongoing</h2>
           <Course
             pic={savonia}
