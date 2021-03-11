@@ -1,4 +1,4 @@
-import React, { useState, FunctionComponent } from "react";
+import { useState, FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import { withStyles } from "@material-ui/core";
@@ -53,7 +53,7 @@ const Uses: FunctionComponent = () => {
       <div className="uses-wrapper">
         The following is a list of the tools and software that I use on a daily
         basis. This page was inspired by Wes Bos and his project -
-        <a href="https://uses.tech/">https://uses.tech/</a>.
+        https://uses.tech.
       </div>
       <div className="uses">
         <div

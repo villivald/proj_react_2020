@@ -458,10 +458,6 @@ div.MuiChip-root {
   .h1 {
     margin-bottom: 1%;
   }
-
-  .uses {
-    gap: 1%;
-  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -499,14 +495,6 @@ div.MuiChip-root {
   .switch {
     margin-left: 15px;
   }
-
-  .uses > div:not:first-child {
-    width: 23%;
-  }
-
-  .catHover {
-    margin-left: -120px;
-  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -543,10 +531,6 @@ div.MuiChip-root {
   }
   .switch {
     margin-left: 30px;
-  }
-  .catHover {
-    margin-left: -80px;
-    display: absolute;
   }
 }
 
@@ -589,27 +573,6 @@ div.MuiChip-root {
 
   .contacts {
     margin-bottom: 2%;
-  }
-
-  .uses {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .uses-wrapper {
-    display: none;
-  }
-
-  #root > div > div.uses > div:not(:first-child) {
-    width: 50%;
-    margin-bottom: 10px;
-  }
-
-  .catHover {
-    margin-left: 10px;
-    margin-bottom: 10px;
   }
 }
 
@@ -783,14 +746,6 @@ div.MuiChip-root {
     width: 170px;
   }
 
-  #root > div > div.uses > div:not(:first-child) {
-    width: 70%;
-    margin-bottom: 10px;
-  }
-
-  #root > div > div.uses > div > ul > li > a {
-    font-size: 14px;
-  }
   #root
     > div
     > div:nth-child(3)
@@ -859,15 +814,6 @@ div.MuiChip-root {
 
   .theme-btn {
     display: none;
-  }
-
-  #root > div > div.uses > div:not(:first-child) {
-    width: 70%;
-    margin-bottom: 10px;
-  }
-
-  #root > div > div.uses > div > ul > li > a {
-    font-size: 12px;
   }
 
   .logo {

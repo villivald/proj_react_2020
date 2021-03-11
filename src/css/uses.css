@@ -72,3 +72,65 @@
   display: grid;
   place-items: center;
 }
+
+@media only screen and (max-width: 1300px) {
+  .uses {
+    gap: 1%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .catHover {
+    margin-left: -120px;
+  }
+
+  .uses > div:not:first-child {
+    width: 23%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .catHover {
+    margin-left: -80px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .uses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .uses-wrapper {
+    display: none;
+  }
+
+  #root > div > div.uses > div:not(:first-child) {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .catHover {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #root > div > div.uses > div:not(:first-child) {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+
+  #root > div > div.uses > div > ul > li > a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #root > div > div.uses > div > ul > li > a {
+    font-size: 12px;
+  }
+}
