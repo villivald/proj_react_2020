@@ -19,7 +19,7 @@ const Course: FunctionComponent<{
         height={props.height}
         width={props.width}
       />
-      <a href={props.link}>
+      <a className="courseName" href={props.link}>
         {props.name}
         <p className="courseDate">{props.date}</p>
       </a>

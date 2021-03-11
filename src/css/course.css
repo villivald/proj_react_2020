@@ -12,6 +12,10 @@
   width: 120%;
 }
 
+.courseName {
+  font-size: clamp(0.5rem, -0.0294rem + 2.3529vw, 1rem);
+}
+
 .courseDate {
   text-decoration: underline;
   text-decoration-thickness: 2.5ex;
