@@ -29,3 +29,9 @@
     text-underline-offset: -2ex;
   }
 }
+
+_::-webkit-full-page-media,
+_:future,
+:root .courseDate {
+  text-decoration: none;
+}
