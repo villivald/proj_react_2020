@@ -172,6 +172,14 @@ const Second: FunctionComponent = () => {
           />
           <h2 className="h2-courses">Ongoing</h2>
           <Course
+            pic={fcc}
+            alt={"freecodecamp logo"}
+            height={35.5}
+            width={50}
+            link={"https://www.freecodecamp.org/news/react-10-hour-course/"}
+            name={"Full React Course 2020"}
+          />
+          <Course
             pic={savonia}
             alt={"savonia university logo"}
             height={45}
