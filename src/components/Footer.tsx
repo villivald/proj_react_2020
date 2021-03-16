@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import { FunctionComponent } from "react";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 
 //Icons
@@ -23,49 +23,49 @@ const Footer: FunctionComponent<{
             href="https://create-react-app.com/"
           >
             <CreateIcon />
-            Blog
+            <div className="footer-text">Blog</div>
           </a>
           <a
             className={props.footerTextStyle}
             href="https://proj.create-react-app.com/"
           >
             <WebIcon />
-            Site
+            <div className="footer-text">Site</div>
           </a>
           <a
             className={props.footerTextStyle}
             href="https://github.com/villivald"
           >
             <GitHubIcon />
-            GitHub
+            <div className="footer-text">GitHub</div>
           </a>
           <a
             className={props.footerTextStyle}
             href="https://www.linkedin.com/in/maxim-villivald-4b1b311a3/"
           >
             <LinkedInIcon />
-            LinkedIn
+            <div className="footer-text">LinkedIn</div>
           </a>
           <a
             className={props.footerTextStyle}
             href="mailto:maxim.villivald@gmail.com"
           >
             <MailIcon />
-            Email
+            <div className="footer-text">Email</div>
           </a>
           <a
             className={props.footerTextStyle}
             href="https://t.me/create_react_app"
           >
             <TelegramIcon />
-            Telegram
+            <div className="footer-text">Telegram</div>
           </a>
           <a
             className={props.footerTextStyle}
             href="https://twitter.com/crapp_blog"
           >
             <TwitterIcon />
-            Twitter
+            <div className="footer-text">Twitter</div>
           </a>
         </Breadcrumbs>
       </div>

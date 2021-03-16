@@ -720,6 +720,10 @@ div.MuiChip-root {
     > a {
     margin-left: 13.8%;
   }
+
+  .footer-text {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {

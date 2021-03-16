@@ -1,4 +1,4 @@
-import React, { useState, lazy, Suspense, FunctionComponent } from "react";
+import { useState, lazy, Suspense, FunctionComponent } from "react";
 import Grid from "../components/Grid";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
