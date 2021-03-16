@@ -914,6 +914,9 @@ div.MuiChip-root {
   .grid {
     margin-left: -4%;
   }
+  .footer {
+    width: 98%;
+  }
 }
 
 @media not all and (min-resolution: 0.001dpcm) {
