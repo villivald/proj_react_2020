@@ -875,6 +875,15 @@ div.MuiChip-root {
   .switch {
     display: none;
   }
+
+  .react-page-title {
+    margin-bottom: 5%;
+  }
+
+  .reactprojects,
+  .projects {
+    gap: 3%;
+  }
 }
 
 @media only screen and (max-width: 420px) {

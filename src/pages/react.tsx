@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import GridItem from "../components/GridItem";
@@ -44,7 +44,7 @@ const Projects: FunctionComponent<{
         setMainStyle=""
       />
       <div>
-        <h1>2020 | 2021</h1>
+        <h1 className="react-page-title">2020 | 2021</h1>
       </div>
       <div className="grid">
         <div className="grid-wrapper projects reactprojects">
