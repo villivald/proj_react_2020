@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 import "../css/arrow.css";
 
