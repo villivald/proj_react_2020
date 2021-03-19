@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import GridItem from "../components/GridItem";
 import Colors from "../constants/colors";
 import react from "../images/react.webp";
+import soon from "../images/soon.webp";
 
 const Projects: FunctionComponent<{
   ButtonColor: string;
@@ -47,9 +48,9 @@ const Projects: FunctionComponent<{
         <h1 className="react-page-title">Projects</h1>
       </div>
       <div className="grid">
-        <div className="grid-wrapper projects reactprojects">
+        <div className="grid-wrapper projects reactprojects allProjects">
           <GridItem
-            text={"Todo App | React '20"}
+            text={"React Projects"}
             link={"./react.tsx"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
@@ -61,7 +62,7 @@ const Projects: FunctionComponent<{
             alt="react"
           />
           <GridItem
-            text={"Phonebook | React & Heroku"}
+            text={"Old Projects"}
             link={"./projects.tsx"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
@@ -69,8 +70,8 @@ const Projects: FunctionComponent<{
             boxStyle={styles.box}
             afterHover={props.AfterHoverButtons}
             afterHoverTextColor={Colors.white}
-            image={react}
-            alt="react"
+            image={soon}
+            alt="old projects"
           />
         </div>
       </div>

@@ -417,6 +417,9 @@ div.MuiChip-root {
   margin-top: 30px;
   margin-bottom: 200px;
 }
+.allProjects {
+  grid-template-columns: repeat(2, 197px);
+}
 
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {

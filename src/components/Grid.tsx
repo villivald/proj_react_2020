@@ -122,7 +122,7 @@ const Grid: FunctionComponent<{
           alt="html"
         />
         <GridItem
-          text={"Store catalog | PHP"}
+          text={"Store Catalog | PHP"}
           link={"https://old.create-react-app.com/Projects/PHP/"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
@@ -158,7 +158,7 @@ const Grid: FunctionComponent<{
           alt="ts"
         />
         <GridItem
-          text={"React projects"}
+          text={"React Projects"}
           link={"/react"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
