@@ -1,4 +1,4 @@
-import React, { lazy, Suspense, FunctionComponent } from "react";
+import { lazy, Suspense, FunctionComponent } from "react";
 import Toggle from "./Toggle";
 import Dropdown from "./Dropdown";
 import Avatar from "@material-ui/core/Avatar";

@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import { FunctionComponent } from "react";
 import logo from "../images/logo/103.webp";
 import { Link } from "react-router-dom";
 import { Frame } from "framer";

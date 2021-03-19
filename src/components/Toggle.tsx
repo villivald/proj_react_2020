@@ -1,4 +1,4 @@
-import React, { useState, FunctionComponent } from "react";
+import { useState, FunctionComponent } from "react";
 import FormGroup from "@material-ui/core/FormGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Switch from "@material-ui/core/Switch";

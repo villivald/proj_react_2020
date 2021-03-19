@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import { FunctionComponent } from "react";
 import GridItem from "./GridItem";
 import Colors from "../constants/colors";
 import html from "../images/html.webp";

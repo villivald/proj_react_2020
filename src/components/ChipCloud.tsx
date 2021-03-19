@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import { FunctionComponent } from "react";
 import { withStyles } from "@material-ui/core";
 import Chip from "@material-ui/core/Chip";
 import Avatar from "@material-ui/core/Avatar";
