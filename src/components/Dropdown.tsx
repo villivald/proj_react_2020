@@ -18,6 +18,11 @@ const DropDown: FunctionComponent<{ DropdownId: string }> = (props) => {
         <Link to="/contact">Contact</Link>
       </Dropdown.Item>
       <Dropdown.Divider />
+      <Dropdown.Divider />
+      <Dropdown.Item>
+        <Link to="/allProjects">Projects</Link>
+      </Dropdown.Item>
+      <Dropdown.Divider />
       <Dropdown.Item>
         <Link to="/uses">Uses</Link>
       </Dropdown.Item>

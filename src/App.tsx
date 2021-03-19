@@ -1,4 +1,4 @@
-import React, { lazy, Suspense, FunctionComponent } from "react";
+import { lazy, Suspense, FunctionComponent } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/home";
 import BeatLoader from "react-spinners/BeatLoader";
@@ -11,6 +11,7 @@ const Courses = lazy(() => import("./pages/courses"));
 const Books = lazy(() => import("./pages/books"));
 const Projects = lazy(() => import("./pages/projects"));
 const ReactProjects = lazy(() => import("./pages/react"));
+const AllProjects = lazy(() => import("./pages/allProjects"));
 
 const App: FunctionComponent = () => {
   return (
@@ -38,6 +39,7 @@ const App: FunctionComponent = () => {
           <Route path="/books" exact component={Books} />
           <Route path="/projects" exact component={Projects} />
           <Route path="/react" exact component={ReactProjects} />
+          <Route path="/allProjects" exact component={AllProjects} />
         </Suspense>
       </Switch>
     </Router>
