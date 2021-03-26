@@ -728,6 +728,22 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Алмазная колесница - Акунин",
   },
+  {
+    src: "https://newpol.org/sites/default/files/imagepicker/14/Ten%20Days.jpg",
+    thumbnail:
+      "https://newpol.org/sites/default/files/imagepicker/14/Ten%20Days.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Десять дней которые потрясли мир - Джон Рид",
+  },
+  {
+    src: "https://images-na.ssl-images-amazon.com/images/I/51Bw+KGlm3L.jpg",
+    thumbnail:
+      "https://images-na.ssl-images-amazon.com/images/I/51Bw+KGlm3L.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Инь и Ян - Акунин",
+  },
 ];
 
 export default IMAGES;
