@@ -6,7 +6,7 @@ import fm from "../images/fm.jpg";
 import wb from "../images/wb.webp";
 import coursera from "../images/coursera.jpeg";
 import udemy from "../images/udemy.webp";
-import savonia from "../images/savonia.webp";
+import helsinki from "../images/helsinki.webp";
 import Course from "../components/Course";
 import styled from "@emotion/styled";
 import Colors from "../constants/colors";
@@ -170,24 +170,23 @@ const Second: FunctionComponent = () => {
             name={"VIM Fundamentals - "}
             date={"09.03.21"}
           />
-          <h2 className="h2-courses">Ongoing</h2>
           <Course
             pic={fcc}
             alt={"freecodecamp logo"}
             height={35.5}
             width={50}
             link={"https://www.freecodecamp.org/news/react-10-hour-course/"}
-            name={"Full React Course 2020"}
+            name={"React Course 2020 - "}
+            date={"02.04.21"}
           />
+          <h2 className="h2-courses">Ongoing</h2>
           <Course
-            pic={savonia}
-            alt={"savonia university logo"}
+            pic={helsinki}
+            alt={"helsinki university logo"}
             height={45}
             width={45}
-            link={
-              "https://www.lyyti.fi/p/CampusOnline21_Websovelluskehitys_ja_NoSQLkannat_7210"
-            }
-            name={"Web Application Development and NoSQL"}
+            link={"https://fullstackopen.com/en/"}
+            name={"Full Stack Open 2021"}
           />
           <Course
             pic={fcc}
