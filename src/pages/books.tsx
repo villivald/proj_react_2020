@@ -1,4 +1,4 @@
-import React, { FunctionComponent, lazy, Suspense } from "react";
+import { FunctionComponent, lazy, Suspense } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import GridItem from "../components/GridItem";

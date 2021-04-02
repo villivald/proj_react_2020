@@ -744,6 +744,15 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Инь и Ян - Акунин",
   },
+  {
+    src:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565810646l/43582376.jpg",
+    thumbnail:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565810646l/43582376.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "The Body - Bill Bryson",
+  },
 ];
 
 export default IMAGES;
