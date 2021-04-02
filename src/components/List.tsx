@@ -3,7 +3,9 @@ import { FunctionComponent } from "react";
 const List: FunctionComponent<{
   emoji: string;
   link: string;
-  name: string;
+  name: any;
+  newLink?: string;
+  newName?: string;
 }> = (props) => {
   return (
     <li className="use">
@@ -11,6 +13,7 @@ const List: FunctionComponent<{
         {props.emoji}
       </span>
       <a href={props.link}>{props.name}</a>
+      <a href={props.newLink}>{props.newName}</a>
     </li>
   );
 };

@@ -151,7 +151,13 @@ const Uses: FunctionComponent = () => {
               <a href="https://www.google.com/gmail/">Gmail</a>+
               <a href="https://sparkmailapp.com/">Spark</a>
             </li>
-            <List emoji="📋" name="Todoist" link="https://todoist.com/" />
+            <List
+              emoji="📋"
+              name={<s>Todoist</s>}
+              link="https://todoist.com/"
+              newName={"→ Things"}
+              newLink="https://culturedcode.com/things/"
+            />
             <List emoji="📁" name="Notion" link="https://www.notion.so/" />
             <List emoji="💬" name="Telegram" link="https://web.telegram.org/" />
             <List
@@ -159,7 +165,13 @@ const Uses: FunctionComponent = () => {
               name="Teams"
               link="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software"
             />
-            <List emoji="🗄" name="OneNote" link="https://www.onenote.com/" />
+            <List
+              emoji="🗄"
+              name={<s>OneNote</s>}
+              link="https://www.onenote.com/"
+              newName={"→ Notability"}
+              newLink="https://www.gingerlabs.com/"
+            />
             <List
               emoji="📆"
               name="Calendars 5"
@@ -202,6 +214,7 @@ const Uses: FunctionComponent = () => {
             />
             <List emoji="🔑" name="Bitwarden" link="https://bitwarden.com/" />
             <List emoji="📡" name="Surfshark" link="https://surfshark.com/" />
+            <List emoji="⌨️" name="Obsidian" link="https://obsidian.md/" />
           </ul>
         </StyledPaper>
         <StyledPaper elevation={6}>
