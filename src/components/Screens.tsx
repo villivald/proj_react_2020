@@ -2,9 +2,9 @@ import { FunctionComponent } from "react";
 import { makeStyles, withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Colors from "../constants/colors";
+import logo19 from "../images/19.webp";
 import logo18 from "../images/18.webp";
 import logo17 from "../images/17.webp";
-import logo16 from "../images/16.webp";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -40,6 +40,17 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
       </div>
       <div className={classes.root}>
         <StyledPaper elevation={6}>
+          <a href="https://create-react-app.com/top-10-web-dev-tools-04-2021/">
+            <img
+              className="image"
+              src={logo19}
+              width="350px"
+              height="290px"
+              alt="blog-post-19-logo"
+            />
+          </a>
+        </StyledPaper>
+        <StyledPaper elevation={6}>
           <a href="https://create-react-app.com/18-top-10-web-dev-tools-03-2021/">
             <img
               className="image"
@@ -58,17 +69,6 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
               width="350px"
               height="290px"
               alt="blog-post-17-logo"
-            />
-          </a>
-        </StyledPaper>
-        <StyledPaper elevation={6}>
-          <a href="https://create-react-app.com/top-15-best-developer-resources-part2/">
-            <img
-              className="image"
-              src={logo16}
-              width="350px"
-              height="290px"
-              alt="blog-post-16-logo"
             />
           </a>
         </StyledPaper>
