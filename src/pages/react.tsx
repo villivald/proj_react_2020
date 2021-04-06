@@ -19,7 +19,7 @@ const Projects: FunctionComponent<{
       fontSize: "1.2rem",
       fontFamily: "Mate, serif",
       width: 200,
-      height: 100,
+      height: 120,
       border: "none",
       boxShadow: `5px 5px 9px 2px rgba(51,51,51,0.5)`,
       borderRadius: 5,
@@ -61,8 +61,8 @@ const Projects: FunctionComponent<{
             alt="react"
           />
           <GridItem
-            text={"Phonebook | React & Heroku"}
-            link={"https://safe-reef-57298.herokuapp.com/"}
+            text={"Phonebook | React, Express & MongoDB '21"}
+            link={"https://blueberry-cupcake-53839.herokuapp.com/"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={props.OnHoverColor}
