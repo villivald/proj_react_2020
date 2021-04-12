@@ -18,12 +18,12 @@
     "framer": "^1.2.29",
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
-    "react-bootstrap": "^1.4.3",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^16.14.0",
     "react-grid-gallery": "^0.5.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "react-spinners": "^0.10.4"
+    "react-spinners": "^0.10.6"
   },
   "scripts": {
     "start": "react-app-rewired start",
