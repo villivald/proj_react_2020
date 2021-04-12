@@ -3,6 +3,7 @@ import { makeStyles, withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Colors from "../constants/colors";
 import screens from "../data/screensData";
+// import Hook from "./Hook";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,6 +43,8 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
       </a>
     </StyledPaper>
   ));
+  // const data = Hook();
+  // const HUI = data.map((user) => <h1>{user.name}</h1>);
   return (
     <div>
       <div
@@ -50,6 +53,7 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
         <h1 className={props.statsHeaders}>The Latest Blog Posts</h1>
       </div>
       <div className={classes.root}>{BlogPosts}</div>
+      {/* {HUI} */}
     </div>
   );
 };
