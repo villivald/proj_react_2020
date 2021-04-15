@@ -753,6 +753,15 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "The Body - Bill Bryson",
   },
+  {
+    src:
+      "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Автостопом по Галактике - Д. Адамс",
+  },
 ];
 
 export default IMAGES;
