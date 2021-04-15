@@ -762,6 +762,15 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Автостопом по Галактике - Д. Адамс",
   },
+  {
+    src:
+      "https://upload.wikimedia.org/wikipedia/en/9/98/RestaurantAtTheEndOfTheUniverse.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/en/9/98/RestaurantAtTheEndOfTheUniverse.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Ресторан в конце Вселенной - Д. Адамс",
+  },
 ];
 
 export default IMAGES;
