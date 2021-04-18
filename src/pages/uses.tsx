@@ -68,11 +68,6 @@ const Uses: FunctionComponent = () => {
             <h2>Hardware</h2>
           </div>
           <ul>
-            <List
-              emoji="💻"
-              name="MacBook Pro 13 2017"
-              link="https://www.apple.com/fi/macbook-pro-13/"
-            />
             <img
               src={cat}
               alt="pic"
@@ -82,6 +77,11 @@ const Uses: FunctionComponent = () => {
                 position: "absolute",
                 transform: "translateX(80px) translateY(-92px)",
               }}
+            />
+            <List
+              emoji="💻"
+              name="MacBook Pro 13 2017"
+              link="https://www.apple.com/fi/macbook-pro-13/"
             />
             <List
               emoji="📱"
