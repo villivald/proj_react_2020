@@ -1,4 +1,4 @@
-/*VARIABLES*/
+/* VARIABLES */
 
 :root {
   --buttonBackground: #3299bb;
@@ -13,7 +13,7 @@
   --whiteSmoke: #f5f5f5;
 }
 
-/*GENERAL*/
+/* GENERAL */
 
 html {
   overflow-y: scroll;
@@ -40,6 +40,7 @@ a {
   display: flex;
   gap: 5px;
 }
+
 .a-alt {
   color: white;
   text-decoration: none;
@@ -53,7 +54,7 @@ a:focus {
   outline: lightgreen solid 2px;
 }
 
-/*HEADER*/
+/* HEADER */
 
 .wrapper {
   display: flex;
@@ -89,12 +90,14 @@ a:focus {
   border-radius: 5px;
   box-shadow: 0px 0px 9px 2px rgba(51, 51, 51, 0.41);
 }
+
 .header {
   cursor: pointer;
   display: flex;
   place-content: center;
   place-items: center;
 }
+
 .logo {
   padding: 4px;
   border-radius: 10px;
@@ -106,7 +109,7 @@ a:focus {
   content-visibility: auto;
 }
 
-/*GRID*/
+/* GRID */
 
 .grid-wrapper {
   display: grid;
@@ -114,13 +117,14 @@ a:focus {
   grid-template-columns: repeat(6, 197px);
   margin-top: 10px;
 }
+
 .grid {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/*FOOTER*/
+/* FOOTER */
 
 .footer {
   display: flex;
@@ -147,7 +151,8 @@ a:focus {
   border-radius: 5px;
   box-shadow: 0px 0px 9px 2px rgba(51, 51, 51, 0.41);
 }
-/*SCREENS*/
+
+/* SCREENS */
 
 .screen-wrapper {
   display: flex;
@@ -155,6 +160,7 @@ a:focus {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .screen {
   width: 380px;
   height: 200px;
@@ -243,6 +249,7 @@ h2 {
 #dropdown-basic-button-alt {
   background-color: #dddfe3;
 }
+
 #dropdown-basic-button-alt:hover {
   background-color: #6c7073;
   border: none;
@@ -298,29 +305,37 @@ ul {
 #up > div > div > div.drop > div > div {
   padding: 0px;
 }
+
 .dropdown-divider {
   margin: 0;
 }
+
 .dropdown-item {
   padding: 1rem 1.2rem;
 }
+
 .dropdown-item:first-child {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+
 .dropdown-item:last-child {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
 #up > div > div > div.drop > div > div > a > a:hover {
   color: white;
 }
+
 .dropdown-item:active {
   background-color: var(--whiteSmoke);
 }
+
 .dropdown-item > a:active {
   outline: none;
 }
+
 .dropdown-menu {
   padding: 0;
   border-radius: 5px;
