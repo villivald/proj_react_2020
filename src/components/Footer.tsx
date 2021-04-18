@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
+import "../css/footer.css";
 
 //Icons
 import GitHubIcon from "@material-ui/icons/GitHub";

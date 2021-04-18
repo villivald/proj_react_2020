@@ -122,12 +122,6 @@ a:focus {
 
 /*FOOTER*/
 
-.footer-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px;
-}
 .footer {
   display: flex;
   box-sizing: border-box;
@@ -727,10 +721,6 @@ div.MuiChip-root {
     > div
     > a {
     margin-left: 13.8%;
-  }
-
-  .footer-text {
-    display: none;
   }
 }
 
