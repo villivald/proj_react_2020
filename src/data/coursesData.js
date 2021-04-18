@@ -1,0 +1,149 @@
+import fcc from "../images/fccdark.webp";
+import fm from "../images/fm.jpg";
+import wb from "../images/wb.webp";
+import coursera from "../images/coursera.jpeg";
+import udemy from "../images/udemy.webp";
+
+const courses = [
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/linux-command-line/",
+    name: "Complete Intro to Linux and the Command-Line - ",
+    date: "06.09.20",
+  },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/getting-a-job/",
+    name: "Getting a Front-End Developer Job - ",
+    date: "15.09.20",
+  },
+  {
+    pic: fcc,
+    alt: "freecodecamp logo",
+    height: 35.5,
+    width: 50,
+    link:
+      "https://freecodecamp.org/certification/villivald/responsive-web-design",
+    name: "Responsive Web Design - ",
+    date: "25.10.20",
+  },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/css-in-depth-v2/",
+    name: "CSS In-Depth - ",
+    date: "02.11.20",
+  },
+  {
+    pic: coursera,
+    alt: "coursera logo",
+    height: 45,
+    width: 45,
+    link:
+      "https://www.coursera.org/account/accomplishments/certificate/XXH88UHKWCNW",
+    name: "Michigan University - Internet History, Technology, and Security - ",
+    date: "09.11.20",
+  },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/design-systems/",
+    name: "Design Systems with React & Storybook - ",
+    date: "16.11.20",
+  },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/customize-vs-code/",
+    name: "Visual Studio Code Can Do That? - ",
+    date: "23.11.20",
+  },
+  {
+    pic: fcc,
+    alt: "freecodecamp logo",
+    height: 35.5,
+    width: 50,
+    link:
+      "https://freecodecamp.org/certification/villivald/javascript-algorithms-and-data-structures",
+    name: "JavaScript Algorithms and Data Structures - ",
+    date: "02.12.20",
+  },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/fullstack-v2/",
+    name: "Full Stack for Front-End Engineers - ",
+    date: "14.12.20",
+  },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/intermediate-react-v2/",
+    name: "Intermediate React - ",
+    date: "23.12.20",
+  },
+  {
+    pic: wb,
+    alt: "wes bos logo",
+    height: 45,
+    width: 45,
+    link: "http://masteringmarkdown.com/",
+    name: "Mastering Markdown - ",
+    date: "24.12.20",
+  },
+  {
+    pic: fcc,
+    alt: "freecodecamp logo",
+    height: 35.5,
+    width: 50,
+    link:
+      "https://www.freecodecamp.org/certification/villivald/front-end-libraries",
+    name: "Front End Libraries - ",
+    date: "31.01.21",
+  },
+  {
+    pic: udemy,
+    alt: "udemy logo",
+    height: 40,
+    width: 48,
+    link: "https://www.udemy.com/course/understanding-typescript/",
+    name: "Understanding TypeScript - ",
+    date: "05.03.21",
+  },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/workshops/vim-fundamentals/",
+    name: "VIM Fundamentals - ",
+    date: "09.03.21",
+  },
+  {
+    pic: fcc,
+    alt: "freecodecamp logo",
+    height: 35.5,
+    width: 50,
+    link: "https://www.freecodecamp.org/news/react-10-hour-course/",
+    name: "React Course 2020 - ",
+    date: "02.04.21",
+  },
+];
+
+export default courses;
