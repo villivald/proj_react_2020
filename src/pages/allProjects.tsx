@@ -51,7 +51,7 @@ const Projects: FunctionComponent<{
         <div className="grid-wrapper projects reactprojects allProjects">
           <GridItem
             text={"React Projects"}
-            link={"./react.tsx"}
+            link={"./react"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={props.OnHoverColor}
@@ -63,7 +63,7 @@ const Projects: FunctionComponent<{
           />
           <GridItem
             text={"Old Projects"}
-            link={"./projects.tsx"}
+            link={"./projects"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={props.OnHoverColor}

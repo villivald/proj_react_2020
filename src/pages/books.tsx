@@ -55,18 +55,32 @@ const Books: FunctionComponent<{
       <div style={{ display: "flex", justifyContent: "center" }}>
         <H1 className="houdini">Books</H1>
       </div>
-      <GridItem
-        text={"Book List on GitHub"}
-        link={"https://github.com/villivald/Books"}
-        color={Colors.almostBlack}
-        onHoverTextColor={Colors.white}
-        onHoverColor={props.OnHoverColor}
-        boxStyle={styles.blog}
-        afterHover={props.AfterHoverBlog}
-        afterHoverTextColor={Colors.almostBlack}
-        image={github}
-        alt="Book list"
-      />
+      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+        <GridItem
+          text={"Book List on GitHub"}
+          link={"https://github.com/villivald/Books"}
+          color={Colors.almostBlack}
+          onHoverTextColor={Colors.white}
+          onHoverColor={props.OnHoverColor}
+          boxStyle={styles.blog}
+          afterHover={props.AfterHoverBlog}
+          afterHoverTextColor={Colors.almostBlack}
+          image={github}
+          alt="Book list"
+        />
+        <GridItem
+          text={"Book Stats"}
+          link={"./stats"}
+          color={Colors.almostBlack}
+          onHoverTextColor={Colors.white}
+          onHoverColor={props.OnHoverColor}
+          boxStyle={styles.blog}
+          afterHover={props.AfterHoverBlog}
+          afterHoverTextColor={Colors.almostBlack}
+          image={github}
+          alt="Book list"
+        />
+      </div>
       <Suspense
         fallback={
           <div
