@@ -3,10 +3,11 @@ import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import GridItem from "../components/GridItem";
 import Colors from "../constants/colors";
-import github from "../images/github.webp";
 import styled from "@emotion/styled";
 import BeatLoader from "react-spinners/BeatLoader";
 import Arrow from "../components/Arrow";
+import github from "../images/github.webp";
+import books from "../images/books.webp";
 
 const BookPics = lazy(() => import("../components/BookPics"));
 
@@ -69,7 +70,7 @@ const Books: FunctionComponent<{
           alt="Book list"
         />
         <GridItem
-          text={"Book Stats"}
+          text={"Books Stats"}
           link={"./stats"}
           color={Colors.almostBlack}
           onHoverTextColor={Colors.white}
@@ -77,7 +78,7 @@ const Books: FunctionComponent<{
           boxStyle={styles.blog}
           afterHover={props.AfterHoverBlog}
           afterHoverTextColor={Colors.almostBlack}
-          image={github}
+          image={books}
           alt="Book list"
         />
       </div>
