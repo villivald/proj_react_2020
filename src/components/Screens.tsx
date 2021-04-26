@@ -52,6 +52,16 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
       >
         <h1 className={props.statsHeaders}>The Latest Blog Posts</h1>
       </div>
+      <h1 style={{ display: "flex", justifyContent: "center" }}>
+        Also available on
+        <a href="https://dev.to/villivald" className="underlined">
+          Dev
+        </a>
+        &
+        <a href="https://proj.ninja" className="underlined">
+          Hashnode
+        </a>
+      </h1>
       <div className={classes.root}>{BlogPosts}</div>
       {/* {HUI} */}
     </div>
