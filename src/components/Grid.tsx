@@ -9,6 +9,8 @@ import soon from "../images/soon.webp";
 import php from "../images/php.webp";
 import markdown from "../images/markdown.webp";
 import ts from "../images/ts.webp";
+import dev from "../images/dev.svg";
+import hashnode from "../images/hashnode.webp";
 
 const Grid: FunctionComponent<{
   ButtonColor: string;
@@ -69,6 +71,30 @@ const Grid: FunctionComponent<{
           afterHover={props.AfterHoverBlog}
           afterHoverTextColor={Colors.almostBlack}
           image={wpb}
+          alt="wordpress"
+        />
+        <GridItem
+          text={"DEV"}
+          link={"https://dev.to/villivald"}
+          color={Colors.almostBlack}
+          onHoverTextColor={Colors.white}
+          onHoverColor={props.OnHoverColor}
+          boxStyle={styles.blog}
+          afterHover={props.AfterHoverBlog}
+          afterHoverTextColor={Colors.almostBlack}
+          image={dev}
+          alt="dev.to"
+        />
+        <GridItem
+          text={"Hashnode"}
+          link={"https://proj.ninja/"}
+          color={Colors.almostBlack}
+          onHoverTextColor={Colors.white}
+          onHoverColor={props.OnHoverColor}
+          boxStyle={styles.blog}
+          afterHover={props.AfterHoverBlog}
+          afterHoverTextColor={Colors.almostBlack}
+          image={hashnode}
           alt="wordpress"
         />
         <GridItem
