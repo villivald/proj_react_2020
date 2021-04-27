@@ -84,6 +84,18 @@ const Projects: FunctionComponent<{
             image={react}
             alt="react"
           />
+          <GridItem
+            text={"Color Converter | React & Heroku '21"}
+            link={"https://rocky-hollows-62914.herokuapp.com/"}
+            color={Colors.gray}
+            onHoverTextColor={Colors.almostBlack}
+            onHoverColor={props.OnHoverColor}
+            boxStyle={styles.box}
+            afterHover={props.AfterHoverButtons}
+            afterHoverTextColor={Colors.white}
+            image={react}
+            alt="react"
+          />
         </div>
       </div>
       <Footer footerStyle="footer" footerTextStyle="a" />
