@@ -98,20 +98,8 @@ const Grid: FunctionComponent<{
           alt="js"
         />
         <GridItem
-          text={"Website (Winter '19)"}
-          link={"https://old.create-react-app.com/Projects/Skeleton/index.html"}
-          color={Colors.gray}
-          onHoverTextColor={Colors.almostBlack}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.box}
-          afterHover={props.AfterHoverButtons}
-          afterHoverTextColor={Colors.white}
-          image={html}
-          alt="html"
-        />
-        <GridItem
-          text={"Website (Spring '20)"}
-          link={"https://old.create-react-app.com/"}
+          text={"Old Website Versions"}
+          link={"/old-website"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
           onHoverColor={props.OnHoverColor}

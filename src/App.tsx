@@ -13,6 +13,7 @@ const Projects = lazy(() => import("./pages/projects"));
 const ReactProjects = lazy(() => import("./pages/react"));
 const AllProjects = lazy(() => import("./pages/allProjects"));
 const Stats = lazy(() => import("./pages/stats"));
+const OldWebsites = lazy(() => import("./pages/old-website"));
 
 const App: FunctionComponent = () => {
   return (
@@ -42,6 +43,7 @@ const App: FunctionComponent = () => {
           <Route path="/react" exact component={ReactProjects} />
           <Route path="/allProjects" exact component={AllProjects} />
           <Route path="/stats" exact component={Stats} />
+          <Route path="/old-website" exact component={OldWebsites} />
         </Suspense>
       </Switch>
     </Router>
