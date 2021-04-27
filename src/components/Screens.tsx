@@ -52,7 +52,10 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
       >
         <h1 className={props.statsHeaders}>The Latest Blog Posts</h1>
       </div>
-      <h1 style={{ display: "flex", justifyContent: "center" }}>
+      <h1
+        className="devHashnode"
+        style={{ display: "flex", justifyContent: "center" }}
+      >
         Also available on
         <a href="https://dev.to/villivald" className="underlined">
           Dev
