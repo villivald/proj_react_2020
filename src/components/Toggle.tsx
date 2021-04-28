@@ -11,7 +11,7 @@ import "../css/toggle.css";
 
 const StyledSwitch = withStyles({
   switchBase: {
-    color: Colors.blog,
+    color: Colors.buttonBackground,
     "&$checked": {
       color: Colors.screens,
     },
