@@ -78,7 +78,7 @@ const OldWebsites: FunctionComponent<{
           />
           <GridItem
             text={"Website (Winter '20)"}
-            link={"https://old.villivald.com/"}
+            link={"https://old2021.villivald.com/"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={props.OnHoverColor}
