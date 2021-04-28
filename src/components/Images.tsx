@@ -771,6 +771,24 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Ресторан в конце Вселенной - Д. Адамс",
   },
+  {
+    src:
+      "https://img3.labirint.ru/rc/21942fff69138a03be3e9404b5d8b46a/220x340/books46/457691/cover.jpg?1613060782",
+    thumbnail:
+      "https://img3.labirint.ru/rc/21942fff69138a03be3e9404b5d8b46a/220x340/books46/457691/cover.jpg?1613060782",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Дорогая редакция - Тимченко",
+  },
+  {
+    src:
+      "https://upload.wikimedia.org/wikipedia/ru/8/8d/%D0%9D%D0%B5%D1%84%D1%80%D0%B8%D1%82%D0%BE%D0%B2%D1%8B%D0%B5_%D1%87%D1%91%D1%82%D0%BA%D0%B8_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8%29.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/ru/8/8d/%D0%9D%D0%B5%D1%84%D1%80%D0%B8%D1%82%D0%BE%D0%B2%D1%8B%D0%B5_%D1%87%D1%91%D1%82%D0%BA%D0%B8_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8%29.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Нефритовые четки - Акунин",
+  },
 ];
 
 export default IMAGES;
