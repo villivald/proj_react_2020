@@ -789,6 +789,15 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Нефритовые четки - Акунин",
   },
+  {
+    src:
+      "https://cv1.litres.ru/pub/c/elektronnaya-kniga/cover_415/63123111-sasha-sulim-bezludnoe-mesto-kak-lovyat-manyakov-v-rossii.jpg",
+    thumbnail:
+      "https://cv1.litres.ru/pub/c/elektronnaya-kniga/cover_415/63123111-sasha-sulim-bezludnoe-mesto-kak-lovyat-manyakov-v-rossii.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Безлюдное место - Сулим",
+  },
 ];
 
 export default IMAGES;
