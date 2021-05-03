@@ -96,6 +96,18 @@ const Projects: FunctionComponent<{
             image={react}
             alt="react"
           />
+          <GridItem
+            text={"Blog Platform | React, Express & MongoDB '21"}
+            link={"https://evening-mesa-82321.herokuapp.com/"}
+            color={Colors.gray}
+            onHoverTextColor={Colors.almostBlack}
+            onHoverColor={props.OnHoverColor}
+            boxStyle={styles.box}
+            afterHover={props.AfterHoverButtons}
+            afterHoverTextColor={Colors.white}
+            image={react}
+            alt="react"
+          />
         </div>
       </div>
       <Footer footerStyle="footer" footerTextStyle="a" />
