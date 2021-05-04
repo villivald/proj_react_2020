@@ -23,8 +23,8 @@
   position: absolute;
 }
 
-.theme-btn:focus {
-  outline: none;
+.theme-btn:focus-visible {
+  outline: lightgreen solid 2px;
 }
 .theme-btn:hover {
   transform: scale(1.1);

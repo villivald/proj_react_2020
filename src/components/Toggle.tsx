@@ -40,7 +40,7 @@ const SwitchLabels: FunctionComponent = () => {
   const handleBubbleOut = () => setBubble("none");
 
   return (
-    <div className="togglePic">
+    <div className="togglePic" tabIndex={0}>
       <FormGroup row>
         <FormControlLabel
           control={

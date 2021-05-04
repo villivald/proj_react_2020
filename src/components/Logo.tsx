@@ -20,8 +20,14 @@ const Logo: FunctionComponent = () => {
         background={"hsla(0, 100%, 50%, 0)"}
       >
         <Link to="/">
-          <div>
-            <img className="logo" src={logo} alt="Logo" width="150px" />
+          <div tabIndex={0} className="logoContainer">
+            <img
+              className="logo"
+              tabIndex={0}
+              src={logo}
+              alt="Logo"
+              width="150px"
+            />
           </div>
         </Link>
       </Frame>

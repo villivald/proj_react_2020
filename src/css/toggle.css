@@ -5,6 +5,9 @@
   align-items: center;
   margin-left: 240px;
 }
+.togglepic:focus-visible {
+  outline: lightgreen solid 2px;
+}
 .logocat {
   content-visibility: auto;
 }

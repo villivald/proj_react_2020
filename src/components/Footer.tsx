@@ -24,49 +24,63 @@ const Footer: FunctionComponent<{
             href="https://create-react-app.com/"
           >
             <CreateIcon />
-            <div className="footer-text">Blog</div>
+            <div className="footer-text" tabIndex={0}>
+              Blog
+            </div>
           </a>
           <a
             className={props.footerTextStyle}
             href="https://proj.create-react-app.com/"
           >
             <WebIcon />
-            <div className="footer-text">Site</div>
+            <div className="footer-text" tabIndex={0}>
+              Site
+            </div>
           </a>
           <a
             className={props.footerTextStyle}
             href="https://github.com/villivald"
           >
             <GitHubIcon />
-            <div className="footer-text">GitHub</div>
+            <div className="footer-text" tabIndex={0}>
+              GitHub
+            </div>
           </a>
           <a
             className={props.footerTextStyle}
             href="https://www.linkedin.com/in/maxim-villivald-4b1b311a3/"
           >
             <LinkedInIcon />
-            <div className="footer-text">LinkedIn</div>
+            <div className="footer-text" tabIndex={0}>
+              LinkedIn
+            </div>
           </a>
           <a
             className={props.footerTextStyle}
             href="mailto:maxim.villivald@gmail.com"
           >
             <MailIcon />
-            <div className="footer-text">Email</div>
+            <div className="footer-text" tabIndex={0}>
+              Email
+            </div>
           </a>
           <a
             className={props.footerTextStyle}
             href="https://t.me/create_react_app"
           >
             <TelegramIcon />
-            <div className="footer-text">Telegram</div>
+            <div className="footer-text" tabIndex={0}>
+              Telegram
+            </div>
           </a>
           <a
             className={props.footerTextStyle}
             href="https://twitter.com/crapp_blog"
           >
             <TwitterIcon />
-            <div className="footer-text">Twitter</div>
+            <div className="footer-text" tabIndex={0}>
+              Twitter
+            </div>
           </a>
         </Breadcrumbs>
       </div>

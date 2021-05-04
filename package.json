@@ -15,7 +15,6 @@
     "@types/jest": "^26.0.22",
     "@types/node": "^14.14.37",
     "antd": "^4.15.1",
-    "bootstrap": "^4.6.0",
     "framer": "^1.2.29",
     "node-sass": "^4.14.1",
     "react": "^16.14.0",

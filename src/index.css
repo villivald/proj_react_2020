@@ -50,7 +50,10 @@ a {
   gap: 5px;
 }
 
-a:focus {
+a:focus-visible {
+  outline: lightgreen solid 2px;
+}
+.a:focus-visible {
   outline: lightgreen solid 2px;
 }
 
@@ -103,6 +106,10 @@ a:focus {
   border-radius: 10px;
   filter: drop-shadow(0 0 0.3rem var(--gray));
   content-visibility: auto;
+}
+
+.logoContainer:focus-visible {
+  outline: lightgreen solid 2px;
 }
 
 #root > div > div.contact-wrapper > img {
@@ -169,13 +176,21 @@ a:focus {
   box-shadow: 0px 0px 6px 2px rgba(51, 51, 51, 0.91);
 }
 
+.screen:focus-visible {
+  outline: lightgreen solid 2px;
+}
+
 .button-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-button.button:focus {
+button.button:focus-visible {
+  outline: lightgreen solid 2px;
+}
+
+.MuiSwitch-root:focus-visible {
   outline: lightgreen solid 2px;
 }
 
@@ -187,7 +202,7 @@ img {
   transform: scale(1.1);
 }
 
-.image:focus {
+.image:focus-visible {
   outline: lightgreen solid 2px;
 }
 

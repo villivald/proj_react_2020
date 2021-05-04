@@ -31,7 +31,7 @@ const StyledPaper = withStyles({
 const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
   const classes = useStyles();
   const BlogPosts = screens.map((screen) => (
-    <StyledPaper elevation={6} key={screen.id}>
+    <StyledPaper elevation={6} key={screen.id} tabIndex={0}>
       <a href={screen.url}>
         <img
           className="image"
@@ -54,6 +54,7 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
       </div>
       <h1
         className="devHashnode"
+        tabIndex={0}
         style={{ display: "flex", justifyContent: "center" }}
       >
         Also available on
