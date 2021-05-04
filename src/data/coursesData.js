@@ -144,6 +144,15 @@ const courses = [
     name: "React Course 2020 - ",
     date: "02.04.21",
   },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/next-js/",
+    name: "Introduction to Next.js - ",
+    date: "04.05.21",
+  },
 ];
 
 export default courses;
