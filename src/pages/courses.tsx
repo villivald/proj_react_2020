@@ -44,7 +44,6 @@ const Second: FunctionComponent = () => {
         ButtonDisplay="none"
         mainStyle=""
         Pic=""
-        DropdownMenuStyle=""
         setMainStyle=""
       />
       <div className="courses">

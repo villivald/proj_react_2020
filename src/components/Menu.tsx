@@ -31,7 +31,6 @@ const Menu: FunctionComponent<{
   ButtonDisplay: any;
   mainStyle: any;
   Pic: string;
-  DropdownMenuStyle: string;
   setMainStyle: any;
 }> = (props) => {
   const classes = useStyles();
@@ -73,7 +72,7 @@ const Menu: FunctionComponent<{
             />
           </button>
           <div className="drop">
-            <Dropdown DropdownId={props.DropdownMenuStyle} />
+            <Dropdown DropDownMenuColor={props.mainStyle ? "orange" : "gray"} />
           </div>
         </div>
       </div>

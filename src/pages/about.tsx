@@ -13,7 +13,6 @@ const First: FunctionComponent = () => {
         ButtonDisplay="none"
         mainStyle=""
         Pic="string"
-        DropdownMenuStyle=""
         setMainStyle=""
       />
       <div className="contact-wrapper">

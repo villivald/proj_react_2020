@@ -13,7 +13,6 @@ const Stats: FunctionComponent = () => {
         ButtonDisplay="none"
         mainStyle=""
         Pic="string"
-        DropdownMenuStyle=""
         setMainStyle=""
       />
       <div>

@@ -1,40 +1,59 @@
 import { FunctionComponent } from "react";
 import { Link } from "react-router-dom";
-import Dropdown from "react-bootstrap/Dropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
+import { Menu, MenuItem, Button, Hr } from "@mantine/core";
+import {
+  HamburgerMenuIcon,
+  HomeIcon,
+  BookmarkIcon,
+  EnvelopeOpenIcon,
+  LightningBoltIcon,
+  IdCardIcon,
+  DashboardIcon,
+  BackpackIcon,
+} from "@modulz/radix-icons";
 
-const DropDown: FunctionComponent<{ DropdownId: string }> = (props) => {
+const DropDown: FunctionComponent<{ DropDownMenuColor: any }> = (props) => {
   return (
-    <DropdownButton id={props.DropdownId} variant="info" title="Menu">
-      <Dropdown.Item>
+    <Menu
+      control={
+        <Button
+          variant="outline"
+          color={props.DropDownMenuColor}
+          size="xl"
+          leftIcon={<HamburgerMenuIcon />}
+        >
+          Menu
+        </Button>
+      }
+    >
+      <MenuItem icon={<HomeIcon />}>
         <Link to="/">Home Page</Link>
-      </Dropdown.Item>
-      <Dropdown.Divider />
-      <Dropdown.Item>
+      </MenuItem>
+      <Hr />
+      <MenuItem icon={<IdCardIcon />}>
         <Link to="/about">About</Link>
-      </Dropdown.Item>
-      <Dropdown.Divider />
-      <Dropdown.Item>
+      </MenuItem>
+      <Hr />
+      <MenuItem icon={<EnvelopeOpenIcon />}>
         <Link to="/contact">Contact</Link>
-      </Dropdown.Item>
-      <Dropdown.Divider />
-      <Dropdown.Divider />
-      <Dropdown.Item>
+      </MenuItem>
+      <Hr />
+      <MenuItem icon={<LightningBoltIcon />}>
         <Link to="/allProjects">Projects</Link>
-      </Dropdown.Item>
-      <Dropdown.Divider />
-      <Dropdown.Item>
+      </MenuItem>
+      <Hr />
+      <MenuItem icon={<DashboardIcon />}>
         <Link to="/uses">Uses</Link>
-      </Dropdown.Item>
-      <Dropdown.Divider />
-      <Dropdown.Item>
+      </MenuItem>
+      <Hr />
+      <MenuItem icon={<BackpackIcon />}>
         <Link to="/courses">Courses</Link>
-      </Dropdown.Item>
-      <Dropdown.Divider />
-      <Dropdown.Item>
+      </MenuItem>
+      <Hr />
+      <MenuItem icon={<BookmarkIcon />}>
         <Link to="/books">Books</Link>
-      </Dropdown.Item>
-    </DropdownButton>
+      </MenuItem>
+    </Menu>
   );
 };
 

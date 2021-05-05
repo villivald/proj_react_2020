@@ -34,7 +34,6 @@ const Uses: FunctionComponent = () => {
         ButtonDisplay="none"
         mainStyle=""
         Pic="string"
-        DropdownMenuStyle=""
         setMainStyle=""
       />
       <div style={{ display: "flex", justifyContent: "center" }}>
