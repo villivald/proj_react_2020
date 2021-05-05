@@ -401,14 +401,6 @@ div.MuiChip-root {
   grid-template-columns: repeat(2, 197px);
 }
 
-.underlined {
-  text-decoration: underline wavy #e11d74 5px;
-  font-size: 2.5rem;
-  display: inline;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;

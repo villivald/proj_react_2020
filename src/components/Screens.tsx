@@ -57,12 +57,32 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
         tabIndex={0}
         style={{ display: "flex", justifyContent: "center" }}
       >
-        Also available on
-        <a href="https://dev.to/villivald" className="underlined">
+        <p className={props.statsHeaders}>Also available on</p>
+        <a
+          href="https://dev.to/villivald"
+          className={props.statsHeaders}
+          style={{
+            textDecoration: "underline wavy #e11d74 5px",
+            fontSize: "2.5rem",
+            display: "inline",
+            marginLeft: "10px",
+            marginRight: "10px",
+          }}
+        >
           Dev
         </a>
-        &
-        <a href="https://proj.ninja" className="underlined">
+        <p className={props.statsHeaders}>&</p>
+        <a
+          href="https://proj.ninja"
+          className={props.statsHeaders}
+          style={{
+            textDecoration: "underline wavy #e11d74 5px",
+            fontSize: "2.5rem",
+            display: "inline",
+            marginLeft: "10px",
+            marginRight: "10px",
+          }}
+        >
           Hashnode
         </a>
       </h1>
