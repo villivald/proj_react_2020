@@ -20,7 +20,7 @@ const data = {
   datasets: [
     {
       label: "📚 2021",
-      data: [3, 1, 4, 4, 1],
+      data: [3, 1, 4, 4, 2],
       fill: false,
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgba(255, 99, 132, 0.2)",

@@ -798,6 +798,15 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Безлюдное место - Сулим",
   },
+  {
+    src:
+      "https://images-na.ssl-images-amazon.com/images/I/51YT-uzWiuL._SX328_BO1,204,203,200_.jpg",
+    thumbnail:
+      "https://images-na.ssl-images-amazon.com/images/I/51YT-uzWiuL._SX328_BO1,204,203,200_.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Весь мир театр - Акунин",
+  },
 ];
 
 export default IMAGES;
