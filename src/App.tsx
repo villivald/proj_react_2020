@@ -19,22 +19,22 @@ const NotFoundPage = lazy(() => import("./pages/404"));
 const App: FunctionComponent = () => {
   return (
     <Router>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Suspense
-          fallback={
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                margin: 100,
-              }}
-            >
-              <BeatLoader color={Colors.blog} size={30} loading={true} />
-            </div>
-          }
-        >
+      <Suspense
+        fallback={
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: 100,
+            }}
+          >
+            <BeatLoader color={Colors.blog} size={30} loading={true} />
+          </div>
+        }
+      >
+        <Switch>
+          <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/uses" exact component={Uses} />
@@ -46,8 +46,8 @@ const App: FunctionComponent = () => {
           <Route path="/stats" exact component={Stats} />
           <Route path="/old-website" exact component={OldWebsites} />
           <Route path="*" component={NotFoundPage} />
-        </Suspense>
-      </Switch>
+        </Switch>
+      </Suspense>
     </Router>
   );
 };
