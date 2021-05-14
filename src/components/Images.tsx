@@ -1,7 +1,6 @@
 const IMAGES = [
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/commons/4/4c/%D0%9E%D0%B1%D0%BB%D0%BE%D0%BC%D0%BE%D0%B2.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/commons/4/4c/%D0%9E%D0%B1%D0%BB%D0%BE%D0%BC%D0%BE%D0%B2.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/commons/4/4c/%D0%9E%D0%B1%D0%BB%D0%BE%D0%BC%D0%BE%D0%B2.jpg",
     thumbnailWidth: 150,
@@ -17,8 +16,7 @@ const IMAGES = [
     caption: "Красный свет - Кантор",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/ru/thumb/3/38/ABS_Strana_Bagrovyh_Tuch_1960_BookCover.jpg/256px-ABS_Strana_Bagrovyh_Tuch_1960_BookCover.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/ru/thumb/3/38/ABS_Strana_Bagrovyh_Tuch_1960_BookCover.jpg/256px-ABS_Strana_Bagrovyh_Tuch_1960_BookCover.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/ru/thumb/3/38/ABS_Strana_Bagrovyh_Tuch_1960_BookCover.jpg/256px-ABS_Strana_Bagrovyh_Tuch_1960_BookCover.jpg",
     thumbnailWidth: 150,
@@ -34,8 +32,7 @@ const IMAGES = [
     caption: "Путь на Амальтею - Стругацкие",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/ru/thumb/9/99/%D0%A1%D1%82%D0%B0%D0%B6%D1%91%D1%80%D1%8B_%28%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C%29.jpg/245px-%D0%A1%D1%82%D0%B0%D0%B6%D1%91%D1%80%D1%8B_%28%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C%29.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/ru/thumb/9/99/%D0%A1%D1%82%D0%B0%D0%B6%D1%91%D1%80%D1%8B_%28%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C%29.jpg/245px-%D0%A1%D1%82%D0%B0%D0%B6%D1%91%D1%80%D1%8B_%28%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C%29.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/ru/thumb/9/99/%D0%A1%D1%82%D0%B0%D0%B6%D1%91%D1%80%D1%8B_%28%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C%29.jpg/245px-%D0%A1%D1%82%D0%B0%D0%B6%D1%91%D1%80%D1%8B_%28%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C%29.jpg",
     thumbnailWidth: 150,
@@ -43,8 +40,7 @@ const IMAGES = [
     caption: "Стажеры - Стругацкие",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/ru/2/2b/%D0%A5%D0%B8%D1%89%D0%BD%D1%8B%D0%B5_%D0%B2%D0%B5%D1%89%D0%B8_%D0%B2%D0%B5%D0%BA%D0%B0.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/ru/2/2b/%D0%A5%D0%B8%D1%89%D0%BD%D1%8B%D0%B5_%D0%B2%D0%B5%D1%89%D0%B8_%D0%B2%D0%B5%D0%BA%D0%B0.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/ru/2/2b/%D0%A5%D0%B8%D1%89%D0%BD%D1%8B%D0%B5_%D0%B2%D0%B5%D1%89%D0%B8_%D0%B2%D0%B5%D0%BA%D0%B0.jpg",
     thumbnailWidth: 150,
@@ -52,8 +48,7 @@ const IMAGES = [
     caption: "Хищные вещи века - Стругацкие",
   },
   {
-    src:
-      "https://img4.labirint.ru/rc/dc123b42c9d7c0826bc677257d2b0de9/220x340/books62/616698/cover.jpg?1564047727",
+    src: "https://img4.labirint.ru/rc/dc123b42c9d7c0826bc677257d2b0de9/220x340/books62/616698/cover.jpg?1564047727",
     thumbnail:
       "https://img4.labirint.ru/rc/dc123b42c9d7c0826bc677257d2b0de9/220x340/books62/616698/cover.jpg?1564047727",
     thumbnailWidth: 150,
@@ -68,8 +63,7 @@ const IMAGES = [
     caption: "Homo Deus - Харари",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/ru/5/53/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B3%D0%BE_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F_%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D0%B0_%D0%B1%D1%80%D0%B0%D1%82%D1%8C%D0%B5%D0%B2_%D0%A1%D1%82%D1%80%D1%83%D0%B3%D0%B0%D1%86%D0%BA%D0%B8%D1%85_%C2%AB%D0%9F%D0%BE%D0%BB%D0%B4%D0%B5%D0%BD%D1%8C%2C_XXII_%D0%B2%D0%B5%D0%BA%C2%BB.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/ru/5/53/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B3%D0%BE_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F_%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D0%B0_%D0%B1%D1%80%D0%B0%D1%82%D1%8C%D0%B5%D0%B2_%D0%A1%D1%82%D1%80%D1%83%D0%B3%D0%B0%D1%86%D0%BA%D0%B8%D1%85_%C2%AB%D0%9F%D0%BE%D0%BB%D0%B4%D0%B5%D0%BD%D1%8C%2C_XXII_%D0%B2%D0%B5%D0%BA%C2%BB.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/ru/5/53/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B3%D0%BE_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F_%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D0%B0_%D0%B1%D1%80%D0%B0%D1%82%D1%8C%D0%B5%D0%B2_%D0%A1%D1%82%D1%80%D1%83%D0%B3%D0%B0%D1%86%D0%BA%D0%B8%D1%85_%C2%AB%D0%9F%D0%BE%D0%BB%D0%B4%D0%B5%D0%BD%D1%8C%2C_XXII_%D0%B2%D0%B5%D0%BA%C2%BB.jpg",
     thumbnailWidth: 150,
@@ -84,8 +78,7 @@ const IMAGES = [
     caption: "Краткая история русских хакеров - Туровский",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/ru/e/ed/%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D0%BE_%D0%B1%D1%8B%D1%82%D1%8C_%D0%B1%D0%BE%D0%B3%D0%BE%D0%BC.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/ru/e/ed/%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D0%BE_%D0%B1%D1%8B%D1%82%D1%8C_%D0%B1%D0%BE%D0%B3%D0%BE%D0%BC.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/ru/e/ed/%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D0%BE_%D0%B1%D1%8B%D1%82%D1%8C_%D0%B1%D0%BE%D0%B3%D0%BE%D0%BC.jpg",
     thumbnailWidth: 150,
@@ -93,8 +86,7 @@ const IMAGES = [
     caption: "Трудно быть богом - Стругацкие",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/a/ad/Escape-attempt-macmillan-cover.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/ad/Escape-attempt-macmillan-cover.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/a/ad/Escape-attempt-macmillan-cover.jpg",
     thumbnailWidth: 150,
@@ -102,8 +94,7 @@ const IMAGES = [
     caption: "Попытка к бегству - Стругацкие",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/7/74/Far-rainbow-macmillan-cover.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/74/Far-rainbow-macmillan-cover.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/7/74/Far-rainbow-macmillan-cover.jpg",
     thumbnailWidth: 150,
@@ -125,8 +116,7 @@ const IMAGES = [
     caption: "Нормальная история - Сорокин",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/0/04/Prisoners-of-power-cover.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/04/Prisoners-of-power-cover.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/0/04/Prisoners-of-power-cover.jpg",
     thumbnailWidth: 150,
@@ -134,8 +124,7 @@ const IMAGES = [
     caption: "Обитаемый остров - Стругацкие",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/ru/8/83/%D0%98%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%BA_%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%BC%D1%83_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8E_%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D0%B8_%D0%B1%D1%80%D0%B0%D1%82%D1%8C%D0%B5%D0%B2_%D0%A1%D1%82%D1%80%D1%83%D0%B3%D0%B0%D1%86%D0%BA%D0%B8%D1%85_%C2%AB%D0%9C%D0%B0%D0%BB%D1%8B%D1%88%C2%BB.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/ru/8/83/%D0%98%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%BA_%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%BC%D1%83_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8E_%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D0%B8_%D0%B1%D1%80%D0%B0%D1%82%D1%8C%D0%B5%D0%B2_%D0%A1%D1%82%D1%80%D1%83%D0%B3%D0%B0%D1%86%D0%BA%D0%B8%D1%85_%C2%AB%D0%9C%D0%B0%D0%BB%D1%8B%D1%88%C2%BB.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/ru/8/83/%D0%98%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%BA_%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%BC%D1%83_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8E_%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D0%B8_%D0%B1%D1%80%D0%B0%D1%82%D1%8C%D0%B5%D0%B2_%D0%A1%D1%82%D1%80%D1%83%D0%B3%D0%B0%D1%86%D0%BA%D0%B8%D1%85_%C2%AB%D0%9C%D0%B0%D0%BB%D1%8B%D1%88%C2%BB.jpg",
     thumbnailWidth: 150,
@@ -143,8 +132,7 @@ const IMAGES = [
     caption: "Малыш - Стругацкие",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/ru/thumb/9/9d/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C_%D0%B8%D0%B7_%D0%9F%D1%80%D0%B5%D0%B8%D1%81%D0%BF%D0%BE%D0%B4%D0%BD%D0%B5%D0%B9.jpeg/400px-%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C_%D0%B8%D0%B7_%D0%9F%D1%80%D0%B5%D0%B8%D1%81%D0%BF%D0%BE%D0%B4%D0%BD%D0%B5%D0%B9.jpeg",
+    src: "https://upload.wikimedia.org/wikipedia/ru/thumb/9/9d/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C_%D0%B8%D0%B7_%D0%9F%D1%80%D0%B5%D0%B8%D1%81%D0%BF%D0%BE%D0%B4%D0%BD%D0%B5%D0%B9.jpeg/400px-%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C_%D0%B8%D0%B7_%D0%9F%D1%80%D0%B5%D0%B8%D1%81%D0%BF%D0%BE%D0%B4%D0%BD%D0%B5%D0%B9.jpeg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/ru/thumb/9/9d/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C_%D0%B8%D0%B7_%D0%9F%D1%80%D0%B5%D0%B8%D1%81%D0%BF%D0%BE%D0%B4%D0%BD%D0%B5%D0%B9.jpeg/400px-%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C_%D0%B8%D0%B7_%D0%9F%D1%80%D0%B5%D0%B8%D1%81%D0%BF%D0%BE%D0%B4%D0%BD%D0%B5%D0%B9.jpeg",
     thumbnailWidth: 150,
@@ -152,8 +140,7 @@ const IMAGES = [
     caption: "Парень из прейсподней - Стругацкие",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/ru/1/17/%D0%96%D1%83%D0%BA_%D0%B2_%D0%BC%D1%83%D1%80%D0%B0%D0%B2%D0%B5%D0%B9%D0%BD%D0%B8%D0%BA%D0%B5.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/ru/1/17/%D0%96%D1%83%D0%BA_%D0%B2_%D0%BC%D1%83%D1%80%D0%B0%D0%B2%D0%B5%D0%B9%D0%BD%D0%B8%D0%BA%D0%B5.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/ru/1/17/%D0%96%D1%83%D0%BA_%D0%B2_%D0%BC%D1%83%D1%80%D0%B0%D0%B2%D0%B5%D0%B9%D0%BD%D0%B8%D0%BA%D0%B5.jpg",
     thumbnailWidth: 150,
@@ -161,8 +148,7 @@ const IMAGES = [
     caption: "Жук в муравейнике - Стругацкие",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/f/f7/The-time-wanderers-cover.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f7/The-time-wanderers-cover.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/f/f7/The-time-wanderers-cover.jpg",
     thumbnailWidth: 150,
@@ -170,8 +156,7 @@ const IMAGES = [
     caption: "Волны гасят ветер - Стругацкие",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/6/69/Laurus_book_cover_%28Russian%29.jpeg",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/69/Laurus_book_cover_%28Russian%29.jpeg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/6/69/Laurus_book_cover_%28Russian%29.jpeg",
     thumbnailWidth: 150,
@@ -179,8 +164,7 @@ const IMAGES = [
     caption: "Лавр - Водолазкин",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/c/cd/The_map_and_the_territory_bookcover.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cd/The_map_and_the_territory_bookcover.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/c/cd/The_map_and_the_territory_bookcover.jpg",
     thumbnailWidth: 150,
@@ -196,8 +180,7 @@ const IMAGES = [
     caption: "Норма - Сорокин",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/d/d2/Sapiens_A_Brief_History_of_Humankind.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d2/Sapiens_A_Brief_History_of_Humankind.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/d/d2/Sapiens_A_Brief_History_of_Humankind.jpg",
     thumbnailWidth: 150,
@@ -220,8 +203,7 @@ const IMAGES = [
     caption: "Соглядатай - A. Роб-Грийе",
   },
   {
-    src:
-      "https://img3.labirint.ru/rc/9bacb4fcb80bd0fe910a4412d13e9b66/220x340/books4/31745/cover.jpg?1563632793",
+    src: "https://img3.labirint.ru/rc/9bacb4fcb80bd0fe910a4412d13e9b66/220x340/books4/31745/cover.jpg?1563632793",
     thumbnail:
       "https://img3.labirint.ru/rc/9bacb4fcb80bd0fe910a4412d13e9b66/220x340/books4/31745/cover.jpg?1563632793",
     thumbnailWidth: 150,
@@ -229,8 +211,7 @@ const IMAGES = [
     caption: "Воры - Галеотти",
   },
   {
-    src:
-      "https://images-na.ssl-images-amazon.com/images/I/51PEj5p72jL._SX331_BO1,204,203,200_.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/51PEj5p72jL._SX331_BO1,204,203,200_.jpg",
     thumbnail:
       "https://images-na.ssl-images-amazon.com/images/I/51PEj5p72jL._SX331_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
@@ -238,8 +219,7 @@ const IMAGES = [
     caption: "Палач - Лимонов",
   },
   {
-    src:
-      "https://chernaya100.com/media/books/kovalevsky-foreignrussia/kovalevsky-1.png",
+    src: "https://chernaya100.com/media/books/kovalevsky-foreignrussia/kovalevsky-1.png",
     thumbnail:
       "https://chernaya100.com/media/books/kovalevsky-foreignrussia/kovalevsky-1.png",
     thumbnailWidth: 150,
@@ -247,8 +227,7 @@ const IMAGES = [
     caption: "Зарубежная Россия - Ковалевский",
   },
   {
-    src:
-      "https://img4.labirint.ru/rc/327188b91c8db13a9d39f10cc2e94691/220x340/books68/671998/cover.jpg?1564158974",
+    src: "https://img4.labirint.ru/rc/327188b91c8db13a9d39f10cc2e94691/220x340/books68/671998/cover.jpg?1564158974",
     thumbnail:
       "https://img4.labirint.ru/rc/327188b91c8db13a9d39f10cc2e94691/220x340/books68/671998/cover.jpg?1564158974",
     thumbnailWidth: 150,
@@ -256,8 +235,7 @@ const IMAGES = [
     caption: "Почему распался СССР - Аркадий Дубнов",
   },
   {
-    src:
-      "https://frontendmasters.com/books/front-end-handbook/2019/assets/images/FM_2019Cover_final.jpg",
+    src: "https://frontendmasters.com/books/front-end-handbook/2019/assets/images/FM_2019Cover_final.jpg",
     thumbnail:
       "https://frontendmasters.com/books/front-end-handbook/2019/assets/images/FM_2019Cover_final.jpg",
     thumbnailWidth: 150,
@@ -265,8 +243,7 @@ const IMAGES = [
     caption: "Frontend developer handbook - Frontendmasters",
   },
   {
-    src:
-      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405229927l/3424859.jpg",
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405229927l/3424859.jpg",
     thumbnail:
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405229927l/3424859.jpg",
     thumbnailWidth: 150,
@@ -274,8 +251,7 @@ const IMAGES = [
     caption: "Дневник неудачника - Лимонов",
   },
   {
-    src:
-      "https://refactoring-ui.nyc3.cdn.digitaloceanspaces.com/landing/book-cover-sm.png",
+    src: "https://refactoring-ui.nyc3.cdn.digitaloceanspaces.com/landing/book-cover-sm.png",
     thumbnail:
       "https://refactoring-ui.nyc3.cdn.digitaloceanspaces.com/landing/book-cover-sm.png",
     thumbnailWidth: 150,
@@ -283,8 +259,7 @@ const IMAGES = [
     caption: "Refactoring UI - Wathan & Schoger",
   },
   {
-    src:
-      "https://img3.labirint.ru/rc/348204bd3b07b9762fba3484fda20d22/220x340/books9/86729/cover.jpg?1280394613",
+    src: "https://img3.labirint.ru/rc/348204bd3b07b9762fba3484fda20d22/220x340/books9/86729/cover.jpg?1280394613",
     thumbnail:
       "https://img3.labirint.ru/rc/348204bd3b07b9762fba3484fda20d22/220x340/books9/86729/cover.jpg?1280394613",
     thumbnailWidth: 150,
@@ -314,8 +289,7 @@ const IMAGES = [
     caption: "Первая сверхдержава - Акунин",
   },
   {
-    src:
-      "https://northernstories.no/dynamic_images/0ed994e6749ba9080a7dd9177ac56014c42d8305/1334x2048/21-20190510143236485252.png",
+    src: "https://northernstories.no/dynamic_images/0ed994e6749ba9080a7dd9177ac56014c42d8305/1334x2048/21-20190510143236485252.png",
     thumbnail:
       "https://northernstories.no/dynamic_images/0ed994e6749ba9080a7dd9177ac56014c42d8305/1334x2048/21-20190510143236485252.png",
     thumbnailWidth: 150,
@@ -331,8 +305,7 @@ const IMAGES = [
     caption: "Азазель - Акунин",
   },
   {
-    src:
-      "https://images-na.ssl-images-amazon.com/images/I/51WiLueukSL._SX396_BO1,204,203,200_.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/51WiLueukSL._SX396_BO1,204,203,200_.jpg",
     thumbnail:
       "https://images-na.ssl-images-amazon.com/images/I/51WiLueukSL._SX396_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
@@ -340,8 +313,7 @@ const IMAGES = [
     caption: "Soft skills - Sonmez",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/6/62/The_turkish_gambit_by_boris_akunin.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/62/The_turkish_gambit_by_boris_akunin.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/6/62/The_turkish_gambit_by_boris_akunin.jpg",
     thumbnailWidth: 150,
@@ -349,8 +321,7 @@ const IMAGES = [
     caption: "Турецкий гамбит - Акунин",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/8/8f/The_pragmatic_programmer.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8f/The_pragmatic_programmer.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/8/8f/The_pragmatic_programmer.jpg",
     thumbnailWidth: 150,
@@ -358,8 +329,7 @@ const IMAGES = [
     caption: "Pragmatic programmer - Thomas & Hunt",
   },
   {
-    src:
-      "https://img3.labirint.ru/rc/607ec12ecef5a1baea69d8f84f63d28e/220x340/books68/675273/cover.jpg?1564165713",
+    src: "https://img3.labirint.ru/rc/607ec12ecef5a1baea69d8f84f63d28e/220x340/books68/675273/cover.jpg?1564165713",
     thumbnail:
       "https://img3.labirint.ru/rc/607ec12ecef5a1baea69d8f84f63d28e/220x340/books68/675273/cover.jpg?1564165713",
     thumbnailWidth: 150,
@@ -382,8 +352,7 @@ const IMAGES = [
     caption: "Зависть - Олеша",
   },
   {
-    src:
-      "https://assets1.bmstatic.com/assets/books-covers/21/9e/ipad-10fd2ce8d7f8855bf103be0d3b4c7727.jpg",
+    src: "https://assets1.bmstatic.com/assets/books-covers/21/9e/ipad-10fd2ce8d7f8855bf103be0d3b4c7727.jpg",
     thumbnail:
       "https://assets1.bmstatic.com/assets/books-covers/21/9e/ipad-10fd2ce8d7f8855bf103be0d3b4c7727.jpg",
     thumbnailWidth: 150,
@@ -399,8 +368,7 @@ const IMAGES = [
     caption: "Смерть Ахиллеса - Акунин",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/b/b2/The_House_of_Government_by_Yuri_Slezkine.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b2/The_House_of_Government_by_Yuri_Slezkine.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/b/b2/The_House_of_Government_by_Yuri_Slezkine.jpg",
     thumbnailWidth: 150,
@@ -408,8 +376,7 @@ const IMAGES = [
     caption: "Дом правительства - Слезкин",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/ru/8/8a/%D0%9E%D1%81%D0%BE%D0%B1%D1%8B%D0%B5_%D0%BF%D0%BE%D1%80%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8%29.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/ru/8/8a/%D0%9E%D1%81%D0%BE%D0%B1%D1%8B%D0%B5_%D0%BF%D0%BE%D1%80%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8%29.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/ru/8/8a/%D0%9E%D1%81%D0%BE%D0%B1%D1%8B%D0%B5_%D0%BF%D0%BE%D1%80%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8%29.jpg",
     thumbnailWidth: 150,
@@ -417,8 +384,7 @@ const IMAGES = [
     caption: "Пиковый валет - Акунин",
   },
   {
-    src:
-      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439448575l/26085784._SX318_.jpg",
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439448575l/26085784._SX318_.jpg",
     thumbnail:
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439448575l/26085784._SX318_.jpg",
     thumbnailWidth: 150,
@@ -426,8 +392,7 @@ const IMAGES = [
     caption: "Отъявленный программист - Савчук",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/e/ee/SpecialAssignments.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ee/SpecialAssignments.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/e/ee/SpecialAssignments.jpg",
     thumbnailWidth: 150,
@@ -442,8 +407,7 @@ const IMAGES = [
     caption: "Конармия - Бабель",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/d/d2/The_state_counsellor_by_boris_akunin.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d2/The_state_counsellor_by_boris_akunin.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/d/d2/The_state_counsellor_by_boris_akunin.jpg",
     thumbnailWidth: 150,
@@ -451,8 +415,7 @@ const IMAGES = [
     caption: "Статский советник - Акунин",
   },
   {
-    src:
-      "https://images-na.ssl-images-amazon.com/images/I/41htjIPKvJL._SX322_BO1,204,203,200_.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/41htjIPKvJL._SX322_BO1,204,203,200_.jpg",
     thumbnail:
       "https://images-na.ssl-images-amazon.com/images/I/41htjIPKvJL._SX322_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
@@ -460,8 +423,7 @@ const IMAGES = [
     caption: "Беседы с дочерью об экономике - Варуфакис",
   },
   {
-    src:
-      "https://groveatlantic.com/core/wp-content/uploads/2017/04/9780802124074-678x1024.jpg",
+    src: "https://groveatlantic.com/core/wp-content/uploads/2017/04/9780802124074-678x1024.jpg",
     thumbnail:
       "https://groveatlantic.com/core/wp-content/uploads/2017/04/9780802124074-678x1024.jpg",
     thumbnailWidth: 150,
@@ -469,8 +431,7 @@ const IMAGES = [
     caption: "Lingo - G. Dorren",
   },
   {
-    src:
-      "https://images-na.ssl-images-amazon.com/images/I/51+lPgRGIRL._SY498_BO1,204,203,200_.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/51+lPgRGIRL._SY498_BO1,204,203,200_.jpg",
     thumbnail:
       "https://images-na.ssl-images-amazon.com/images/I/51+lPgRGIRL._SY498_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
@@ -486,8 +447,7 @@ const IMAGES = [
     caption: "The Four - S. Galloway",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/d/d1/BorisAkunin_Coronation_russian.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d1/BorisAkunin_Coronation_russian.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/d/d1/BorisAkunin_Coronation_russian.jpg",
     thumbnailWidth: 150,
@@ -495,8 +455,7 @@ const IMAGES = [
     caption: "Коронация - Акунин",
   },
   {
-    src:
-      "https://images-na.ssl-images-amazon.com/images/I/41AtqnBj+3L._SX334_BO1,204,203,200_.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/41AtqnBj+3L._SX334_BO1,204,203,200_.jpg",
     thumbnail:
       "https://images-na.ssl-images-amazon.com/images/I/41AtqnBj+3L._SX334_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
@@ -504,8 +463,7 @@ const IMAGES = [
     caption: "Век тревожности - С. Стоссел",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/a/a8/Elon_Musk_-_Tesla%2C_SpaceX%2C_and_the_Quest_for_a_Fantastic_Future.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a8/Elon_Musk_-_Tesla%2C_SpaceX%2C_and_the_Quest_for_a_Fantastic_Future.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/a/a8/Elon_Musk_-_Tesla%2C_SpaceX%2C_and_the_Quest_for_a_Fantastic_Future.jpg",
     thumbnailWidth: 150,
@@ -520,8 +478,7 @@ const IMAGES = [
     caption: "Juoppohullun päiväkirja - Vuorinen ",
   },
   {
-    src:
-      "https://img3.labirint.ru/rc/f744d86807cc9d8594b9c590350cb1aa/220x340/books56/556427/cover.jpg?1563950295",
+    src: "https://img3.labirint.ru/rc/f744d86807cc9d8594b9c590350cb1aa/220x340/books56/556427/cover.jpg?1563950295",
     thumbnail:
       "https://img3.labirint.ru/rc/f744d86807cc9d8594b9c590350cb1aa/220x340/books56/556427/cover.jpg?1563950295",
     thumbnailWidth: 150,
@@ -529,8 +486,7 @@ const IMAGES = [
     caption: "Горький - Быков",
   },
   {
-    src:
-      "https://images-na.ssl-images-amazon.com/images/I/510PJI0uGwL._SX334_BO1,204,203,200_.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/510PJI0uGwL._SX334_BO1,204,203,200_.jpg",
     thumbnail:
       "https://images-na.ssl-images-amazon.com/images/I/510PJI0uGwL._SX334_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
@@ -538,8 +494,7 @@ const IMAGES = [
     caption: "Шум времени - Мандельштам",
   },
   {
-    src:
-      "https://images-na.ssl-images-amazon.com/images/I/41oAQDXNRML._SX316_BO1,204,203,200_.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/41oAQDXNRML._SX316_BO1,204,203,200_.jpg",
     thumbnail:
       "https://images-na.ssl-images-amazon.com/images/I/41oAQDXNRML._SX316_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
@@ -547,8 +502,7 @@ const IMAGES = [
     caption: "Babel - G. Dorren",
   },
   {
-    src:
-      "https://images-na.ssl-images-amazon.com/images/I/51msSEgXtdL._SX324_BO1,204,203,200_.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/51msSEgXtdL._SX324_BO1,204,203,200_.jpg",
     thumbnail:
       "https://images-na.ssl-images-amazon.com/images/I/51msSEgXtdL._SX324_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
@@ -556,8 +510,7 @@ const IMAGES = [
     caption: "The 2084 Report - J. Powell",
   },
   {
-    src:
-      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504749459l/34889270._SY475_.jpg",
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504749459l/34889270._SY475_.jpg",
     thumbnail:
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504749459l/34889270._SY475_.jpg",
     thumbnailWidth: 150,
@@ -565,8 +518,7 @@ const IMAGES = [
     caption: "Крестовые сестры - Ремизов",
   },
   {
-    src:
-      "https://assets1.bmstatic.com/assets/books-covers/bf/26/vNxUkbpl-ipad.jpg",
+    src: "https://assets1.bmstatic.com/assets/books-covers/bf/26/vNxUkbpl-ipad.jpg",
     thumbnail:
       "https://assets1.bmstatic.com/assets/books-covers/bf/26/vNxUkbpl-ipad.jpg",
     thumbnailWidth: 150,
@@ -574,8 +526,7 @@ const IMAGES = [
     caption: "Карамора - Горький",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/c/cf/Auto-da-Fe_first_edition.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cf/Auto-da-Fe_first_edition.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/c/cf/Auto-da-Fe_first_edition.jpg",
     thumbnailWidth: 150,
@@ -583,8 +534,7 @@ const IMAGES = [
     caption: "Ослепление - Канетти",
   },
   {
-    src:
-      "https://images-na.ssl-images-amazon.com/images/I/515TynAfmlL._SX331_BO1,204,203,200_.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/515TynAfmlL._SX331_BO1,204,203,200_.jpg",
     thumbnail:
       "https://images-na.ssl-images-amazon.com/images/I/515TynAfmlL._SX331_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
@@ -592,8 +542,7 @@ const IMAGES = [
     caption: "Будущее - Глуховский",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/c/cd/She_lover_of_death_by_boris_akunin.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cd/She_lover_of_death_by_boris_akunin.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/c/cd/She_lover_of_death_by_boris_akunin.jpg",
     thumbnailWidth: 150,
@@ -624,8 +573,7 @@ const IMAGES = [
     caption: "Теоретический минимум по Computer Science - В. Фило",
   },
   {
-    src:
-      "https://images-na.ssl-images-amazon.com/images/I/514qh-qixZL._SX331_BO1,204,203,200_.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/514qh-qixZL._SX331_BO1,204,203,200_.jpg",
     thumbnail:
       "https://images-na.ssl-images-amazon.com/images/I/514qh-qixZL._SX331_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
@@ -648,8 +596,7 @@ const IMAGES = [
     caption: "Все свободны - Зыгарь",
   },
   {
-    src:
-      "https://neweasterneurope.eu/new_site/wp-content/uploads/2018/12/tamtam.png",
+    src: "https://neweasterneurope.eu/new_site/wp-content/uploads/2018/12/tamtam.png",
     thumbnail:
       "https://neweasterneurope.eu/new_site/wp-content/uploads/2018/12/tamtam.png",
     thumbnailWidth: 150,
@@ -657,8 +604,7 @@ const IMAGES = [
     caption: "Как работает пропаганда - Эйдельман",
   },
   {
-    src:
-      "https://s1.livelib.ru/boocover/1000521681/o/f8e5/Boris_Ryzhij__V_kvartalah_dalnih_i_pechalnyh..._sbornik.jpeg",
+    src: "https://s1.livelib.ru/boocover/1000521681/o/f8e5/Boris_Ryzhij__V_kvartalah_dalnih_i_pechalnyh..._sbornik.jpeg",
     thumbnail:
       "https://s1.livelib.ru/boocover/1000521681/o/f8e5/Boris_Ryzhij__V_kvartalah_dalnih_i_pechalnyh..._sbornik.jpeg",
     thumbnailWidth: 150,
@@ -666,8 +612,7 @@ const IMAGES = [
     caption: "В кварталах дальних и печальных - Рыжий",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/4/4a/He_Lover_of_Death_-_Akunin.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4a/He_Lover_of_Death_-_Akunin.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/4/4a/He_Lover_of_Death_-_Akunin.jpg",
     thumbnailWidth: 150,
@@ -675,8 +620,7 @@ const IMAGES = [
     caption: "Любовник смерти - Акунин",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/commons/6/68/Dostoyevski_-_White_Nights_%281865%29.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/commons/6/68/Dostoyevski_-_White_Nights_%281865%29.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/commons/6/68/Dostoyevski_-_White_Nights_%281865%29.jpg",
     thumbnailWidth: 150,
@@ -684,8 +628,7 @@ const IMAGES = [
     caption: "Белые ночи - Достоевский",
   },
   {
-    src:
-      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536006768l/41671384._SY475_.jpg",
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536006768l/41671384._SY475_.jpg",
     thumbnail:
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536006768l/41671384._SY475_.jpg",
     thumbnailWidth: 150,
@@ -693,8 +636,7 @@ const IMAGES = [
     caption: "Несовременная страна - Иноземцев",
   },
   {
-    src:
-      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367786544l/17885102.jpg",
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367786544l/17885102.jpg",
     thumbnail:
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367786544l/17885102.jpg",
     thumbnailWidth: 150,
@@ -702,8 +644,7 @@ const IMAGES = [
     caption: "Апокалипсис от Кобы. Иосиф Сталин. Начало - Радзинский",
   },
   {
-    src:
-      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487805540l/34376766._SY475_.jpg",
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487805540l/34376766._SY475_.jpg",
     thumbnail:
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487805540l/34376766._SY475_.jpg",
     thumbnailWidth: 150,
@@ -711,8 +652,7 @@ const IMAGES = [
     caption: "Blood, Sweat, and Pixels - Schreier",
   },
   {
-    src:
-      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348376248l/10792024.jpg",
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348376248l/10792024.jpg",
     thumbnail:
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348376248l/10792024.jpg",
     thumbnailWidth: 150,
@@ -720,8 +660,7 @@ const IMAGES = [
     caption: "Третий Рейх - Боланьо",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/9/95/The_diamond_chariot_-_bookcover.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/95/The_diamond_chariot_-_bookcover.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/9/95/The_diamond_chariot_-_bookcover.jpg",
     thumbnailWidth: 150,
@@ -745,8 +684,7 @@ const IMAGES = [
     caption: "Инь и Ян - Акунин",
   },
   {
-    src:
-      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565810646l/43582376.jpg",
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565810646l/43582376.jpg",
     thumbnail:
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565810646l/43582376.jpg",
     thumbnailWidth: 150,
@@ -754,8 +692,7 @@ const IMAGES = [
     caption: "The Body - Bill Bryson",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
     thumbnailWidth: 150,
@@ -763,8 +700,7 @@ const IMAGES = [
     caption: "Автостопом по Галактике - Д. Адамс",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/en/9/98/RestaurantAtTheEndOfTheUniverse.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/98/RestaurantAtTheEndOfTheUniverse.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/en/9/98/RestaurantAtTheEndOfTheUniverse.jpg",
     thumbnailWidth: 150,
@@ -772,8 +708,7 @@ const IMAGES = [
     caption: "Ресторан в конце Вселенной - Д. Адамс",
   },
   {
-    src:
-      "https://img3.labirint.ru/rc/21942fff69138a03be3e9404b5d8b46a/220x340/books46/457691/cover.jpg?1613060782",
+    src: "https://img3.labirint.ru/rc/21942fff69138a03be3e9404b5d8b46a/220x340/books46/457691/cover.jpg?1613060782",
     thumbnail:
       "https://img3.labirint.ru/rc/21942fff69138a03be3e9404b5d8b46a/220x340/books46/457691/cover.jpg?1613060782",
     thumbnailWidth: 150,
@@ -781,8 +716,7 @@ const IMAGES = [
     caption: "Дорогая редакция - Тимченко",
   },
   {
-    src:
-      "https://upload.wikimedia.org/wikipedia/ru/8/8d/%D0%9D%D0%B5%D1%84%D1%80%D0%B8%D1%82%D0%BE%D0%B2%D1%8B%D0%B5_%D1%87%D1%91%D1%82%D0%BA%D0%B8_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8%29.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/ru/8/8d/%D0%9D%D0%B5%D1%84%D1%80%D0%B8%D1%82%D0%BE%D0%B2%D1%8B%D0%B5_%D1%87%D1%91%D1%82%D0%BA%D0%B8_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8%29.jpg",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/ru/8/8d/%D0%9D%D0%B5%D1%84%D1%80%D0%B8%D1%82%D0%BE%D0%B2%D1%8B%D0%B5_%D1%87%D1%91%D1%82%D0%BA%D0%B8_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8%29.jpg",
     thumbnailWidth: 150,
@@ -790,8 +724,7 @@ const IMAGES = [
     caption: "Нефритовые четки - Акунин",
   },
   {
-    src:
-      "https://cv1.litres.ru/pub/c/elektronnaya-kniga/cover_415/63123111-sasha-sulim-bezludnoe-mesto-kak-lovyat-manyakov-v-rossii.jpg",
+    src: "https://cv1.litres.ru/pub/c/elektronnaya-kniga/cover_415/63123111-sasha-sulim-bezludnoe-mesto-kak-lovyat-manyakov-v-rossii.jpg",
     thumbnail:
       "https://cv1.litres.ru/pub/c/elektronnaya-kniga/cover_415/63123111-sasha-sulim-bezludnoe-mesto-kak-lovyat-manyakov-v-rossii.jpg",
     thumbnailWidth: 150,
@@ -799,8 +732,7 @@ const IMAGES = [
     caption: "Безлюдное место - Сулим",
   },
   {
-    src:
-      "https://images-na.ssl-images-amazon.com/images/I/51YT-uzWiuL._SX328_BO1,204,203,200_.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/51YT-uzWiuL._SX328_BO1,204,203,200_.jpg",
     thumbnail:
       "https://images-na.ssl-images-amazon.com/images/I/51YT-uzWiuL._SX328_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
@@ -808,13 +740,20 @@ const IMAGES = [
     caption: "Весь мир театр - Акунин",
   },
   {
-    src:
-      "https://images-na.ssl-images-amazon.com/images/I/41yafGMO+rL._SX376_BO1,204,203,200_.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/41yafGMO+rL._SX376_BO1,204,203,200_.jpg",
     thumbnail:
       "https://images-na.ssl-images-amazon.com/images/I/41yafGMO+rL._SX376_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Clean Code - R. Martin",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/4/49/Cover_of_The_Time_Traveler%27s_Guide_to_Medieval_England.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/commons/4/49/Cover_of_The_Time_Traveler%27s_Guide_to_Medieval_England.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Средневековая Англия - Я. Мортимер",
   },
 ];
 
