@@ -14,6 +14,7 @@ const ReactProjects = lazy(() => import("./pages/react"));
 const AllProjects = lazy(() => import("./pages/allProjects"));
 const Stats = lazy(() => import("./pages/stats"));
 const OldWebsites = lazy(() => import("./pages/old-website"));
+const NotFoundPage = lazy(() => import("./pages/404"));
 
 const App: FunctionComponent = () => {
   return (
@@ -44,6 +45,7 @@ const App: FunctionComponent = () => {
           <Route path="/allProjects" exact component={AllProjects} />
           <Route path="/stats" exact component={Stats} />
           <Route path="/old-website" exact component={OldWebsites} />
+          <Route path="*" component={NotFoundPage} />
         </Suspense>
       </Switch>
     </Router>
