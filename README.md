@@ -34,13 +34,11 @@
 
 ### Built With
 
-- HTML
-- CSS
-- JavaScript
 - [React](https://reactjs.org/docs/getting-started.html)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Material-UI](https://material-ui.com/)
 - [Ant Design](https://ant.design/)
-- [React Bootstrap](https://react-bootstrap.github.io/)
+- [Mantine](https://mantine.dev/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [React Grid Gallery](https://benhowell.github.io/react-grid-gallery/)
 
