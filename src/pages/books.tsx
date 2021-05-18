@@ -8,6 +8,7 @@ import BeatLoader from "react-spinners/BeatLoader";
 import Arrow from "../components/Arrow";
 import github from "../images/github.webp";
 import books from "../images/books.webp";
+import logo from "../images/logo/103.webp";
 
 const BookPics = lazy(() => import("../components/BookPics"));
 
@@ -66,6 +67,18 @@ const Books: FunctionComponent<{
           afterHover={props.AfterHoverBlog}
           afterHoverTextColor={Colors.almostBlack}
           image={github}
+          alt="Book list"
+        />
+        <GridItem
+          text={"Book List"}
+          link={"./bookList"}
+          color={Colors.almostBlack}
+          onHoverTextColor={Colors.white}
+          onHoverColor={props.OnHoverColor}
+          boxStyle={styles.blog}
+          afterHover={props.AfterHoverBlog}
+          afterHoverTextColor={Colors.almostBlack}
+          image={logo}
           alt="Book list"
         />
         <GridItem
