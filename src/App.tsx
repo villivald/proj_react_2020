@@ -4,10 +4,6 @@ import Home from "./pages/home";
 import BeatLoader from "react-spinners/BeatLoader";
 import Colors from "./constants/colors";
 
-import ReactGA from "react-ga";
-ReactGA.initialize("G-9T3BLQCBY2");
-ReactGA.pageview(window.location.pathname + window.location.search);
-
 const About = lazy(() => import("./pages/about"));
 const Uses = lazy(() => import("./pages/uses"));
 const Contact = lazy(() => import("./pages/contact"));
