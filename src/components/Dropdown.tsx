@@ -12,12 +12,15 @@ import {
   BackpackIcon,
 } from "@modulz/radix-icons";
 
-const DropDown: FunctionComponent<{ DropDownMenuColor: any }> = (props) => {
+const DropDown: FunctionComponent<{
+  DropDownMenuColor: any;
+  DropDownMenuStyle: any;
+}> = (props) => {
   return (
     <Menu
       control={
         <Button
-          variant="outline"
+          variant={props.DropDownMenuStyle}
           color={props.DropDownMenuColor}
           size="xl"
           leftIcon={<HamburgerMenuIcon />}
