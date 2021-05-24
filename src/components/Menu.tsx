@@ -72,7 +72,7 @@ const Menu: FunctionComponent<{
             />
           </button>
           <div className="drop">
-            <Dropdown DropDownMenuColor={props.mainStyle ? "orange" : "gray"} />
+            <Dropdown DropDownMenuColor={props.mainStyle ? "orange" : "dark"} />
           </div>
         </div>
       </div>
