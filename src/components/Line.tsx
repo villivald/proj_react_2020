@@ -2,7 +2,7 @@
 
 import { Line } from "@reactchartjs/react-chart.js";
 
-const books = [3, 1, 4, 4, 4];
+const books = [3, 1, 4, 4, 6];
 
 const data = {
   labels: [

@@ -641,7 +641,7 @@ const IMAGES = [
       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367786544l/17885102.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "Апокалипсис от Кобы. Иосиф Сталин. Начало - Радзинский",
+    caption: "Иосиф Сталин. Начало - Радзинский",
   },
   {
     src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487805540l/34376766._SY475_.jpg",
@@ -754,6 +754,21 @@ const IMAGES = [
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Средневековая Англия - Я. Мортимер",
+  },
+  {
+    src: "https://www.storytel.com//images/320x320/0001498335.jpg",
+    thumbnail: "https://www.storytel.com//images/320x320/0001498335.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Солнце мертвых - Шмелев",
+  },
+  {
+    src: "https://cv5.litres.ru/pub/c/elektronnaya-kniga/cover_415/4244155-edvard-radzinskiy-iosif-stalin-gibel-bogov.jpg",
+    thumbnail:
+      "https://cv5.litres.ru/pub/c/elektronnaya-kniga/cover_415/4244155-edvard-radzinskiy-iosif-stalin-gibel-bogov.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Иосиф Сталин. Гибель богов - Радзинский",
   },
 ];
 
