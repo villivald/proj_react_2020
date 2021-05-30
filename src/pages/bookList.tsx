@@ -29,11 +29,11 @@ const Books: FunctionComponent<{
       <H1 className="houdini">Books</H1>
       <div
         style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          gap: "10px",
-          marginBottom: "30px",
+          display: "grid",
+          gridTemplateColumns: "repeat(8, 1fr)",
+          placeItems: "center",
+          gap: "5px",
+          margin: "0 30px 30px 30px",
         }}
       >
         {fetchedBooks()}

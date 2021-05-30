@@ -28,6 +28,7 @@ export const fetchedBooks = () => {
         style={{
           border: "1px solid black",
           padding: "5px",
+          minWidth: "150px",
           maxWidth: "200px",
           height: "300px",
           borderRadius: "5px",
@@ -45,9 +46,8 @@ export const fetchedBooks = () => {
             maxHeight: "150px",
           }}
         />
-        <div>
-          {book.title} by {book.author}
-        </div>
+        <div>{book.title}</div>
+        <div>{book.author}</div>
         <a href={book.url}>Info</a>
         <div>{`${book.day}.${book.month}.${book.year}`}</div>
         <p>{"⭐️".repeat(book.stars)}</p>
