@@ -770,6 +770,13 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Иосиф Сталин. Гибель богов - Радзинский",
   },
+  {
+    src: "https://debuggingcss.com/images/book.jpg",
+    thumbnail: "https://debuggingcss.com/images/book.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Debugging CSS - Shadeed",
+  },
 ];
 
 export default IMAGES;
