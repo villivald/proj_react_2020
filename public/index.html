@@ -12,6 +12,13 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      rel="preload"
+      href="https://fonts.gstatic.com/s/mate/v9/m8JdjftRd7WZ6zq2W6fReLQ.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <title>Proj</title>
 
     <script type="application/ld+json">
@@ -44,14 +51,19 @@
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9T3BLQCBY2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-9T3BLQCBY2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-9T3BLQCBY2');
-</script>
+      gtag("config", "G-9T3BLQCBY2");
+    </script>
   </head>
 
   <body style="margin-bottom: 0px">
@@ -83,7 +95,7 @@
       }
     </script>
   </body>
-  <script>
+  <!-- <script>
     (function () {
       var cssFa = document.createElement("link");
       cssFa.href =
@@ -92,5 +104,5 @@
       cssFa.type = "text/css";
       document.getElementsByTagName("head")[0].appendChild(cssFa);
     })();
-  </script>
+  </script> -->
 </html>
