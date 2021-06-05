@@ -777,6 +777,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Debugging CSS - Shadeed",
   },
+  {
+    src: "https://i1.sndcdn.com/artworks-000114011994-vfhsko-t500x500.jpg",
+    thumbnail:
+      "https://i1.sndcdn.com/artworks-000114011994-vfhsko-t500x500.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Планета Вода - Акунин",
+  },
 ];
 
 export default IMAGES;

@@ -2,7 +2,7 @@
 
 import { Line } from "@reactchartjs/react-chart.js";
 
-const books = [3, 1, 4, 4, 7];
+const books = [3, 1, 4, 4, 7, 1];
 
 const data = {
   labels: [
@@ -44,7 +44,7 @@ const options = {
 
 const LineChart = () => (
   <div style={{ width: "60%" }}>
-    <Line data={data} options={options} />
+    {data && <Line data={data} options={options} />}
   </div>
 );
 
