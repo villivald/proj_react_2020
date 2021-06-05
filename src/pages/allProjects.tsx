@@ -5,6 +5,7 @@ import GridItem from "../components/GridItem";
 import Colors from "../constants/colors";
 import react from "../images/react.webp";
 import soon from "../images/soon.webp";
+import html from "../images/html.webp";
 
 const Projects: FunctionComponent<{
   ButtonColor: string;
@@ -49,7 +50,7 @@ const Projects: FunctionComponent<{
       <div className="grid">
         <div className="grid-wrapper projects reactprojects allProjects">
           <GridItem
-            text={"React Projects"}
+            text={"React Projects ('20, '21)"}
             link={"./react"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
@@ -61,7 +62,7 @@ const Projects: FunctionComponent<{
             alt="react"
           />
           <GridItem
-            text={"Old Projects"}
+            text={"Old JS Projects"}
             link={"./projects"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
@@ -71,6 +72,18 @@ const Projects: FunctionComponent<{
             afterHoverTextColor={Colors.white}
             image={soon}
             alt="old projects"
+          />
+          <GridItem
+            text={"Old Website Versions"}
+            link={"/old-website"}
+            color={Colors.gray}
+            onHoverTextColor={Colors.almostBlack}
+            onHoverColor={props.OnHoverColor}
+            boxStyle={styles.box}
+            afterHover={props.AfterHoverButtons}
+            afterHoverTextColor={Colors.white}
+            image={html}
+            alt="html"
           />
         </div>
       </div>

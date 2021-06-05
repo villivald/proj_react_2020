@@ -128,6 +128,20 @@ const Projects: FunctionComponent<{
             image={html}
             alt="html"
           />
+          <GridItem
+            text={"Mine Sweeper | JS"}
+            link={
+              "https://old.create-react-app.com/Projects/MineSweeper/index.html"
+            }
+            color={Colors.gray}
+            onHoverTextColor={Colors.almostBlack}
+            onHoverColor={Colors.buttonBackground}
+            boxStyle={styles.box}
+            afterHover={Colors.button}
+            afterHoverTextColor={Colors.white}
+            image={js}
+            alt="js"
+          />
         </div>
       </div>
       <Footer footerStyle="footer" footerTextStyle="a" />

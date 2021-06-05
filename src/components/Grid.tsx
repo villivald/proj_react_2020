@@ -2,15 +2,14 @@ import { FunctionComponent } from "react";
 import GridItem from "./GridItem";
 import Colors from "../constants/colors";
 import html from "../images/html.webp";
-import js from "../images/js.webp";
 import react from "../images/react.webp";
 import wpb from "../images/wpb.webp";
-import soon from "../images/soon.webp";
 import php from "../images/php.webp";
 import markdown from "../images/markdown.webp";
 import ts from "../images/ts.webp";
 import dev from "../images/dev.svg";
 import hashnode from "../images/hashnode.webp";
+import js from "../images/js.webp";
 
 const Grid: FunctionComponent<{
   ButtonColor: string;
@@ -98,7 +97,7 @@ const Grid: FunctionComponent<{
           alt="wordpress"
         />
         <GridItem
-          text={"Old Projects ('19, '20)"}
+          text={"Old JS Projects"}
           link={"/projects"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
@@ -106,25 +105,11 @@ const Grid: FunctionComponent<{
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
           afterHoverTextColor={Colors.white}
-          image={soon}
-          alt="coming soon"
-        />
-        <GridItem
-          text={"Mine Sweeper | JS"}
-          link={
-            "https://old.create-react-app.com/Projects/MineSweeper/index.html"
-          }
-          color={Colors.gray}
-          onHoverTextColor={Colors.almostBlack}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.box}
-          afterHover={props.AfterHoverButtons}
-          afterHoverTextColor={Colors.white}
           image={js}
-          alt="js"
+          alt="javascript"
         />
         <GridItem
-          text={"Old Website Versions"}
+          text={"Old Site & Blog Versions"}
           link={"/old-website"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
@@ -134,6 +119,18 @@ const Grid: FunctionComponent<{
           afterHoverTextColor={Colors.white}
           image={html}
           alt="html"
+        />
+        <GridItem
+          text={"React Projects"}
+          link={"/react"}
+          color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
+          onHoverColor={props.OnHoverColor}
+          boxStyle={styles.box}
+          afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
+          image={react}
+          alt="react"
         />
         <GridItem
           text={"Store Catalog | PHP"}
@@ -172,16 +169,16 @@ const Grid: FunctionComponent<{
           alt="ts"
         />
         <GridItem
-          text={"React Projects"}
-          link={"/react"}
+          text={"Drag & Drop Todo App | TS"}
+          link={"https://old.create-react-app.com/Projects/DragAndDrop/"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
           onHoverColor={props.OnHoverColor}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
           afterHoverTextColor={Colors.white}
-          image={react}
-          alt="react"
+          image={ts}
+          alt="ts"
         />
       </div>
     </div>

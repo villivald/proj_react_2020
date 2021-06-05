@@ -45,7 +45,7 @@ const OldWebsites: FunctionComponent<{
         setMainStyle=""
       />
       <div>
-        <h1 className="react-page-title">Old Website Versions</h1>
+        <h1 className="react-page-title">Old Site & Blog Versions</h1>
       </div>
       <div className="grid">
         <div className="grid-wrapper projects oldwebsites">

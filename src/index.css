@@ -384,13 +384,13 @@ div.MuiChip-root {
 }
 
 .projects {
-  grid-template-columns: repeat(3, 197px);
+  grid-template-columns: repeat(4, 197px);
   margin-bottom: 100px;
 }
 .reactprojects {
-  grid-template-columns: repeat(4, 197px);
+  grid-template-columns: repeat(3, 197px);
   margin-top: 30px;
-  margin-bottom: 180px;
+  margin-bottom: 50px;
 }
 .oldwebsites {
   grid-template-columns: repeat(3, 197px);
@@ -398,7 +398,8 @@ div.MuiChip-root {
   margin-bottom: 180px;
 }
 .allProjects {
-  grid-template-columns: repeat(2, 197px);
+  grid-template-columns: repeat(3, 197px);
+  margin-bottom: 180px;
 }
 
 @media only screen and (max-width: 1300px) {
