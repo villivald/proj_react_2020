@@ -10,6 +10,7 @@ import ts from "../images/ts.webp";
 import dev from "../images/dev.svg";
 import hashnode from "../images/hashnode.webp";
 import js from "../images/js.webp";
+import vite from "../images/vite.svg";
 
 const Grid: FunctionComponent<{
   ButtonColor: string;
@@ -97,7 +98,7 @@ const Grid: FunctionComponent<{
           alt="wordpress"
         />
         <GridItem
-          text={"Old JS Projects"}
+          text={"JS Projects"}
           link={"/projects"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
@@ -169,16 +170,16 @@ const Grid: FunctionComponent<{
           alt="ts"
         />
         <GridItem
-          text={"Drag & Drop Todo App | TS"}
-          link={"https://old.create-react-app.com/Projects/DragAndDrop/"}
+          text={"Vaccines Stats App | React"}
+          link={"https://vaccine2021.vercel.app/"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
           onHoverColor={props.OnHoverColor}
           boxStyle={styles.box}
           afterHover={props.AfterHoverButtons}
           afterHoverTextColor={Colors.white}
-          image={ts}
-          alt="ts"
+          image={vite}
+          alt="vite"
         />
       </div>
     </div>
