@@ -785,6 +785,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Планета Вода - Акунин",
   },
+  {
+    src: "https://s1.livelib.ru/boocover/1001256020/o/7260/Boris_Akunin__Parus_odinokij_nostalgicheskij_detektiv.jpeg",
+    thumbnail:
+      "https://s1.livelib.ru/boocover/1001256020/o/7260/Boris_Akunin__Parus_odinokij_nostalgicheskij_detektiv.jpeg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Парус одинокий - Акунин",
+  },
 ];
 
 export default IMAGES;
