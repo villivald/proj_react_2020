@@ -18,7 +18,7 @@ const Stats: FunctionComponent<{
 }> = (props) => {
   const StyledPaper = withStyles({
     root: {
-      fontFamily: "Mate SC, serif",
+      fontFamily: "Mate, serif",
       backgroundColor: props.ContainerColor,
       borderRadius: 5,
       paddingBottom: 50,
@@ -56,8 +56,8 @@ const Stats: FunctionComponent<{
                     color: props.StatsTextColor,
                   }}
                 >
-                  <Progress percent={46} size="small" /> B.E. 2019 - 2023
-                  (112/240 ECTS)
+                  <Progress percent={53} size="small" /> B.E. 2019 - 2023
+                  (127/240 ECTS)
                   <Progress percent={100} size="small" /> M.A. 2011 - 2015 (300
                   ECTS)
                 </div>
