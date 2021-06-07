@@ -668,9 +668,9 @@ const IMAGES = [
     caption: "Алмазная колесница - Акунин",
   },
   {
-    src: "https://newpol.org/sites/default/files/imagepicker/14/Ten%20Days.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/A1MURHOTzcL.jpg",
     thumbnail:
-      "https://newpol.org/sites/default/files/imagepicker/14/Ten%20Days.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/A1MURHOTzcL.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Десять дней которые потрясли мир - Джон Рид",
@@ -792,6 +792,14 @@ const IMAGES = [
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Парус одинокий - Акунин",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/68/ARussianJournal.JPG",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/en/6/68/ARussianJournal.JPG",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Русский дневник - Стейнбек",
   },
 ];
 
