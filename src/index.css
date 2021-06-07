@@ -377,6 +377,8 @@ div.MuiChip-root {
 
 .MuiButton-label {
   color: #282828;
+  font-family: "Mate", serif;
+  font-weight: 900;
 }
 
 .MuiTypography-colorError {
@@ -400,6 +402,10 @@ div.MuiChip-root {
 .allProjects {
   grid-template-columns: repeat(3, 197px);
   margin-bottom: 180px;
+}
+
+.label-0-3-5 {
+  font-family: "Mate", serif;
 }
 
 @media only screen and (max-width: 1300px) {

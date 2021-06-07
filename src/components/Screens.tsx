@@ -43,8 +43,6 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
       </a>
     </StyledPaper>
   ));
-  // const data = Hook();
-  // const HUI = data.map((user) => <h1>{user.name}</h1>);
   return (
     <div>
       <div
@@ -87,7 +85,6 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
         </a>
       </h1>
       <div className={classes.root}>{BlogPosts}</div>
-      {/* {HUI} */}
     </div>
   );
 };
