@@ -3,7 +3,7 @@ import GridItem from "./GridItem";
 import Colors from "../constants/colors";
 import html from "../images/html.webp";
 import react from "../images/react.webp";
-import wpb from "../images/wpb.webp";
+import eleventy from "../images/11ty.webp";
 import php from "../images/php.webp";
 import markdown from "../images/markdown.webp";
 import ts from "../images/ts.webp";
@@ -70,8 +70,8 @@ const Grid: FunctionComponent<{
           boxStyle={styles.blog}
           afterHover={props.AfterHoverBlog}
           afterHoverTextColor={Colors.almostBlack}
-          image={wpb}
-          alt="wordpress"
+          image={eleventy}
+          alt="eleventy"
         />
         <GridItem
           text={"DEV"}
@@ -95,7 +95,7 @@ const Grid: FunctionComponent<{
           afterHover={props.AfterHoverBlog}
           afterHoverTextColor={Colors.almostBlack}
           image={hashnode}
-          alt="wordpress"
+          alt="hashnode"
         />
         <GridItem
           text={"JS Projects"}

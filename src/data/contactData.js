@@ -1,5 +1,5 @@
 import github from "../images/github1.webp";
-import blog from "../images/wordpress.webp";
+import blog from "../images/11ty.webp";
 import linkedin from "../images/linkedin.webp";
 import telegram from "../images/telegram.webp";
 import mail from "../images/gmail.webp";
