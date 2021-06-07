@@ -50,9 +50,7 @@ const Projects: FunctionComponent<{
         <div className="grid-wrapper projects">
           <GridItem
             text={"Calculator | 🖥"}
-            link={
-              "https://old.create-react-app.com/Projects/calculator/index.html"
-            }
+            link={"https://old.villivald.com/Projects/calculator/index.html"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={Colors.buttonBackground}
@@ -65,7 +63,7 @@ const Projects: FunctionComponent<{
           <GridItem
             text={"Calculator | 📱"}
             link={
-              "https://old.create-react-app.com/Projects/calculator_mobile/test.html"
+              "https://old.villivald.com/Projects/calculator_mobile/test.html"
             }
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
@@ -78,9 +76,7 @@ const Projects: FunctionComponent<{
           />
           <GridItem
             text={"Ping-Pong | Player vs Player"}
-            link={
-              "https://old.create-react-app.com/Projects/ping_pong/index.html"
-            }
+            link={"https://old.villivald.com/Projects/ping_pong/index.html"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={Colors.buttonBackground}
@@ -92,9 +88,7 @@ const Projects: FunctionComponent<{
           />
           <GridItem
             text={"Ping-Pong | Player vs AI"}
-            link={
-              "https://old.create-react-app.com/Projects/ping_pong_v2/index.html"
-            }
+            link={"https://old.villivald.com/Projects/ping_pong_v2/index.html"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={Colors.buttonBackground}
@@ -106,7 +100,7 @@ const Projects: FunctionComponent<{
           />
           <GridItem
             text={"Todo App | JS"}
-            link={"https://old.create-react-app.com/Projects/ToDo/todo.html"}
+            link={"https://old.villivald.com/Projects/ToDo/todo.html"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={Colors.buttonBackground}
@@ -118,7 +112,7 @@ const Projects: FunctionComponent<{
           />
           <GridItem
             text={"Layout"}
-            link={"https://old.create-react-app.com/Projects/Site/index.html"}
+            link={"https://old.villivald.com/Projects/Site/index.html"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={Colors.buttonBackground}
@@ -130,9 +124,7 @@ const Projects: FunctionComponent<{
           />
           <GridItem
             text={"Mine Sweeper | JS"}
-            link={
-              "https://old.create-react-app.com/Projects/MineSweeper/index.html"
-            }
+            link={"https://old.villivald.com/Projects/MineSweeper/index.html"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={Colors.buttonBackground}

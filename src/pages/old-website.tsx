@@ -45,15 +45,13 @@ const OldWebsites: FunctionComponent<{
         setMainStyle=""
       />
       <div>
-        <h1 className="react-page-title">Old Site & Blog Versions</h1>
+        <h1 className="react-page-title">Old Site Versions</h1>
       </div>
       <div className="grid">
         <div className="grid-wrapper projects oldwebsites">
           <GridItem
             text={"Website (Winter '19)"}
-            link={
-              "https://old.create-react-app.com/Projects/Skeleton/index.html"
-            }
+            link={"https://old.villivald.com/Projects/Skeleton/index.html"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={props.OnHoverColor}
@@ -65,7 +63,7 @@ const OldWebsites: FunctionComponent<{
           />
           <GridItem
             text={"Website (Spring '20)"}
-            link={"https://old.create-react-app.com/"}
+            link={"https://old.villivald.com/"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={props.OnHoverColor}

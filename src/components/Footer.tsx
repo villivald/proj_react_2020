@@ -28,10 +28,7 @@ const Footer: FunctionComponent<{
               Blog
             </div>
           </a>
-          <a
-            className={props.footerTextStyle}
-            href="https://proj.create-react-app.com/"
-          >
+          <a className={props.footerTextStyle} href="https://villivald.com/">
             <WebIcon />
             <div className="footer-text" tabIndex={0}>
               Site

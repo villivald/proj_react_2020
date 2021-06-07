@@ -49,7 +49,7 @@ const Projects: FunctionComponent<{
         <div className="grid-wrapper projects reactprojects">
           <GridItem
             text={"Todo App | React '20"}
-            link={"https://old.create-react-app.com/todo/"}
+            link={"https://old.villivald.com/todo/"}
             color={Colors.gray}
             onHoverTextColor={Colors.almostBlack}
             onHoverColor={props.OnHoverColor}

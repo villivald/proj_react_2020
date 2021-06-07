@@ -110,7 +110,7 @@ const Grid: FunctionComponent<{
           alt="javascript"
         />
         <GridItem
-          text={"Old Site & Blog Versions"}
+          text={"Old Site Versions"}
           link={"/old-website"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
@@ -135,7 +135,7 @@ const Grid: FunctionComponent<{
         />
         <GridItem
           text={"Store Catalog | PHP"}
-          link={"https://old.create-react-app.com/Projects/PHP/"}
+          link={"https://old.villivald.com/Projects/PHP/"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
           onHoverColor={props.OnHoverColor}
@@ -147,7 +147,7 @@ const Grid: FunctionComponent<{
         />
         <GridItem
           text={"Markdown Cheatsheet"}
-          link={"https://old.create-react-app.com/Projects/Cheatsheet.md"}
+          link={"https://old.villivald.com/Projects/Cheatsheet.md"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
           onHoverColor={props.OnHoverColor}
@@ -159,7 +159,7 @@ const Grid: FunctionComponent<{
         />
         <GridItem
           text={"Drag & Drop Todo App | TS"}
-          link={"https://old.create-react-app.com/Projects/DragAndDrop/"}
+          link={"https://old.villivald.com/Projects/DragAndDrop/"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
           onHoverColor={props.OnHoverColor}
