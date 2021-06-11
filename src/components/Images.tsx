@@ -801,6 +801,13 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Русский дневник - Стейнбек",
   },
+  {
+    src: "https://www.lukuhetki.fi/tuotekuvat/product63345.jpg",
+    thumbnail: "https://www.lukuhetki.fi/tuotekuvat/product63345.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Unelmien NBA - Häyrinen, Möttölä",
+  },
 ];
 
 export default IMAGES;
