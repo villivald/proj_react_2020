@@ -808,6 +808,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Unelmien NBA - Häyrinen, Möttölä",
   },
+  {
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367787355l/17885130.jpg",
+    thumbnail:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367787355l/17885130.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Иосиф Сталин. Последняя загадка - Радзинский",
+  },
 ];
 
 export default IMAGES;
