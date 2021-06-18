@@ -3,7 +3,6 @@ import { makeStyles, withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Colors from "../constants/colors";
 import screens from "../data/screensData";
-// import Hook from "./Hook";
 
 const useStyles = makeStyles((theme) => ({
   root: {
