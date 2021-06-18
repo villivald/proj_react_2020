@@ -35,9 +35,7 @@ const SwitchLabels: FunctionComponent = () => {
     event.target.checked === true ? setLogo(clip3) : setLogo(clip5);
   };
 
-  const [bubble, setBubble] = useState("none");
-  const handleBubbleIn = () => setBubble("inline");
-  const handleBubbleOut = () => setBubble("none");
+  const [isShown, setIsShown] = useState(false);
 
   return (
     <div className="togglePic" tabIndex={0}>
@@ -58,8 +56,8 @@ const SwitchLabels: FunctionComponent = () => {
       <Link to="/">
         <div className="logocat">
           <img
-            onMouseEnter={handleBubbleIn}
-            onMouseLeave={handleBubbleOut}
+            onMouseEnter={() => setIsShown(true)}
+            onMouseLeave={() => setIsShown(false)}
             src={logo}
             alt="Logo"
             width="350px"
@@ -67,9 +65,7 @@ const SwitchLabels: FunctionComponent = () => {
           />
         </div>
       </Link>
-      <p style={{ display: bubble }} className="bubble">
-        Hi there!
-      </p>
+      {isShown && <p className="bubble">Hi there!</p>}
     </div>
   );
 };
