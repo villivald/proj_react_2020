@@ -54,18 +54,22 @@ const SwitchLabels: FunctionComponent = () => {
         />
       </FormGroup>
       <Link to="/">
-        <div className="logocat">
-          <img
-            onMouseEnter={() => setIsShown(true)}
-            onMouseLeave={() => setIsShown(false)}
-            src={logo}
-            alt="Logo"
-            width="350px"
-            className="headerClip"
-          />
+        <div
+          onMouseEnter={() => setIsShown(true)}
+          onMouseLeave={() => setIsShown(false)}
+        >
+          {isShown ? (
+            <div className="logocat">
+              <img src={logo} alt="Logo" width="350px" className="headerClip" />
+              <p className="bubble">Hi there!</p>
+            </div>
+          ) : (
+            <div className="logocat">
+              <img src={logo} alt="Logo" width="350px" className="headerClip" />
+            </div>
+          )}
         </div>
       </Link>
-      {isShown && <p className="bubble">Hi there!</p>}
     </div>
   );
 };

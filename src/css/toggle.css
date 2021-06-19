@@ -16,7 +16,7 @@
 }
 .bubble {
   position: absolute;
-  margin: 0px 0px 0px 220px;
+  margin: -165px 0px 0px 200px;
   max-width: 30em;
   font-family: "Mate";
   background-color: var(--whiteSmoke);
