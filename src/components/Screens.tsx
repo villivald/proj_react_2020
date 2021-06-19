@@ -35,8 +35,8 @@ const Screens: FunctionComponent<{ statsHeaders: string }> = (props) => {
         <img
           className="image"
           src={screen.logo}
-          width="350px"
-          height="290px"
+          width="340px"
+          height="300px"
           alt={`blog-post-${screen.id}-logo`}
         />
       </a>
