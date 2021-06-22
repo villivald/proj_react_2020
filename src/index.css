@@ -568,6 +568,10 @@ div.MuiChip-root {
   .contacts {
     margin-bottom: 2%;
   }
+
+  #mantine-gchv0no7b {
+    width: 150px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -604,6 +608,10 @@ div.MuiChip-root {
   }
   .bubble {
     display: none !important;
+  }
+
+  #mantine-gchv0no7b {
+    margin-left: -20px;
   }
 }
 
@@ -660,6 +668,10 @@ div.MuiChip-root {
   }
   .underlined {
     font-size: 1.5rem;
+  }
+
+  #mantine-gchv0no7b {
+    margin-left: -30px;
   }
 }
 
@@ -722,6 +734,10 @@ div.MuiChip-root {
     > a {
     margin-left: 13.8%;
   }
+
+  #mantine-gchv0no7b {
+    width: 130px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -757,6 +773,10 @@ div.MuiChip-root {
     > div
     > a {
     margin-left: 11%;
+  }
+
+  #mantine-gchv0no7b {
+    margin-left: -40px;
   }
 }
 
@@ -841,6 +861,11 @@ div.MuiChip-root {
 
   .underlined {
     font-size: 1.2rem;
+  }
+
+  #mantine-gchv0no7b {
+    width: 120px;
+    margin-left: -45px;
   }
 }
 
