@@ -53,6 +53,7 @@ a {
 a:focus-visible {
   outline: lightgreen solid 2px;
 }
+
 .a:focus-visible {
   outline: lightgreen solid 2px;
 }
@@ -489,6 +490,9 @@ div.MuiChip-root {
   .switch {
     margin-left: 15px;
   }
+  .menu-d2-0-3-25{
+    margin-left: -30px
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -525,6 +529,9 @@ div.MuiChip-root {
   }
   .switch {
     margin-left: 30px;
+  }
+  .menu-d2-0-3-25{
+    margin-left: -40px
   }
 }
 
@@ -569,8 +576,8 @@ div.MuiChip-root {
     margin-bottom: 2%;
   }
 
-  #mantine-gchv0no7b {
-    width: 150px;
+  .menu-d2-0-3-25{
+    width: 170px !important;
   }
 }
 
@@ -608,10 +615,6 @@ div.MuiChip-root {
   }
   .bubble {
     display: none !important;
-  }
-
-  #mantine-gchv0no7b {
-    margin-left: -20px;
   }
 }
 
@@ -670,8 +673,8 @@ div.MuiChip-root {
     font-size: 1.5rem;
   }
 
-  #mantine-gchv0no7b {
-    margin-left: -30px;
+  .menu-d2-0-3-25{
+    width: 160px !important
   }
 }
 
@@ -735,8 +738,8 @@ div.MuiChip-root {
     margin-left: 13.8%;
   }
 
-  #mantine-gchv0no7b {
-    width: 130px;
+  .menu-d2-0-3-25{
+    width: 130px !important
   }
 }
 
@@ -775,8 +778,8 @@ div.MuiChip-root {
     margin-left: 11%;
   }
 
-  #mantine-gchv0no7b {
-    margin-left: -40px;
+  .menu-d2-0-3-25 {
+    margin-left: -50px;
   }
 }
 
@@ -863,9 +866,8 @@ div.MuiChip-root {
     font-size: 1.2rem;
   }
 
-  #mantine-gchv0no7b {
-    width: 120px;
-    margin-left: -45px;
+  .menu-d2-0-3-25 {
+    width: 120px !important;
   }
 }
 
