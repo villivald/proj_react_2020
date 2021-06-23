@@ -9,6 +9,7 @@ import Arrow from "../components/Arrow";
 import github from "../images/github.webp";
 import books from "../images/books.webp";
 import logo from "../images/logo/103.webp";
+import "../css/books.css";
 
 const BookPics = lazy(() => import("../components/BookPics"));
 
@@ -53,57 +54,56 @@ const Books: FunctionComponent<{
         Pic="string"
         setMainStyle=""
       />
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <H1 className="houdini">Books</H1>
-      </div>
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-        <GridItem
-          text={"Book List on GitHub"}
-          link={"https://github.com/villivald/Books"}
-          color={Colors.almostBlack}
-          onHoverTextColor={Colors.white}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.blog}
-          afterHover={props.AfterHoverBlog}
-          afterHoverTextColor={Colors.almostBlack}
-          image={github}
-          alt="Book list"
-        />
-        <GridItem
-          text={"Book List"}
-          link={"./bookList"}
-          color={Colors.almostBlack}
-          onHoverTextColor={Colors.white}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.blog}
-          afterHover={props.AfterHoverBlog}
-          afterHoverTextColor={Colors.almostBlack}
-          image={logo}
-          alt="Book list"
-        />
-        <GridItem
-          text={"Books Stats"}
-          link={"./stats"}
-          color={Colors.almostBlack}
-          onHoverTextColor={Colors.white}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.blog}
-          afterHover={props.AfterHoverBlog}
-          afterHoverTextColor={Colors.almostBlack}
-          image={books}
-          alt="Book list"
-        />
+
+      <H1 className="houdini">Books</H1>
+
+      <div className="booksButtons">
+        <div className="div1">
+          <GridItem
+            text={"Book List on GitHub"}
+            link={"https://github.com/villivald/Books"}
+            color={Colors.almostBlack}
+            onHoverTextColor={Colors.white}
+            onHoverColor={props.OnHoverColor}
+            boxStyle={styles.blog}
+            afterHover={props.AfterHoverBlog}
+            afterHoverTextColor={Colors.almostBlack}
+            image={github}
+            alt="Book list"
+          />
+        </div>
+        <div className="div2">
+          <GridItem
+            text={"Book List"}
+            link={"./bookList"}
+            color={Colors.almostBlack}
+            onHoverTextColor={Colors.white}
+            onHoverColor={props.OnHoverColor}
+            boxStyle={styles.blog}
+            afterHover={props.AfterHoverBlog}
+            afterHoverTextColor={Colors.almostBlack}
+            image={logo}
+            alt="Book list"
+          />
+        </div>
+        <div className="div3">
+          <GridItem
+            text={"Books Stats"}
+            link={"./stats"}
+            color={Colors.almostBlack}
+            onHoverTextColor={Colors.white}
+            onHoverColor={props.OnHoverColor}
+            boxStyle={styles.blog}
+            afterHover={props.AfterHoverBlog}
+            afterHoverTextColor={Colors.almostBlack}
+            image={books}
+            alt="Book list"
+          />
+        </div>
       </div>
       <Suspense
         fallback={
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              margin: 100,
-            }}
-          >
+          <div className="beatLoader">
             <BeatLoader color={Colors.blog} size={30} loading={true} />
           </div>
         }

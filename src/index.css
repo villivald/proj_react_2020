@@ -409,6 +409,10 @@ div.MuiChip-root {
   font-family: "Mate", serif;
 }
 
+div.drop > div:nth-child(2) {
+  display: none !important;
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;
@@ -490,8 +494,8 @@ div.MuiChip-root {
   .switch {
     margin-left: 15px;
   }
-  .menu-d2-0-3-25{
-    margin-left: -30px
+  .menu-d0-0-3-18 {
+    margin-left: -30px;
   }
 }
 
@@ -530,8 +534,8 @@ div.MuiChip-root {
   .switch {
     margin-left: 30px;
   }
-  .menu-d2-0-3-25{
-    margin-left: -40px
+  .menu-d0-0-3-18 {
+    margin-left: -40px;
   }
 }
 
@@ -576,7 +580,7 @@ div.MuiChip-root {
     margin-bottom: 2%;
   }
 
-  .menu-d2-0-3-25{
+  .menu-d0-0-3-18 {
     width: 170px !important;
   }
 }
@@ -673,8 +677,8 @@ div.MuiChip-root {
     font-size: 1.5rem;
   }
 
-  .menu-d2-0-3-25{
-    width: 160px !important
+  .menu-d0-0-3-18 {
+    width: 160px !important;
   }
 }
 
@@ -738,8 +742,8 @@ div.MuiChip-root {
     margin-left: 13.8%;
   }
 
-  .menu-d2-0-3-25{
-    width: 130px !important
+  .menu-d0-0-3-18 {
+    width: 130px !important;
   }
 }
 
@@ -778,7 +782,7 @@ div.MuiChip-root {
     margin-left: 11%;
   }
 
-  .menu-d2-0-3-25 {
+  .menu-d0-0-3-18 {
     margin-left: -50px;
   }
 }
@@ -866,7 +870,7 @@ div.MuiChip-root {
     font-size: 1.2rem;
   }
 
-  .menu-d2-0-3-25 {
+  .menu-d0-0-3-18 {
     width: 120px !important;
   }
 }
