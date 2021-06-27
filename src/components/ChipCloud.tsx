@@ -3,19 +3,7 @@ import { withStyles } from "@material-ui/core";
 import Chip from "@material-ui/core/Chip";
 import Avatar from "@material-ui/core/Avatar";
 import Colors from "../constants/colors";
-
-//Icons
-import html from "../images/html.webp";
-import css from "../images/css.webp";
-import js from "../images/js.webp";
-import react from "../images/react.webp";
-import git from "../images/git.webp";
-import github from "../images/github.webp";
-import bash from "../images/bash.webp";
-import ts from "../images/ts.webp";
-import node from "../images/node.webp";
-import express from "../images/express.webp";
-import mongo from "../images/mongo.webp";
+import chipCloudData from "../data/chipCloudData";
 
 const ChipCloud: FunctionComponent<{ ChipColor: string }> = (props) => {
   const StyledChip = withStyles({
@@ -27,50 +15,12 @@ const ChipCloud: FunctionComponent<{ ChipColor: string }> = (props) => {
   })(Chip);
   return (
     <div className="chip-grid">
-      <StyledChip
-        avatar={<Avatar alt="html logo" src={html}></Avatar>}
-        label="HTML"
-      />
-      <StyledChip
-        avatar={<Avatar alt="css logo" src={css}></Avatar>}
-        label="CSS"
-      />
-      <StyledChip
-        avatar={<Avatar alt="js logo" src={js}></Avatar>}
-        label="JavaScript"
-      />
-      <StyledChip
-        avatar={<Avatar alt="react logo" src={react}></Avatar>}
-        label="React"
-      />
-      <StyledChip
-        avatar={<Avatar alt="typescript logo" src={ts}></Avatar>}
-        label="TypeScript"
-      />
-      <StyledChip
-        avatar={<Avatar alt="node logo" src={node}></Avatar>}
-        label="Node"
-      />
-      <StyledChip
-        avatar={<Avatar alt="express logo" src={express}></Avatar>}
-        label="Express"
-      />
-      <StyledChip
-        avatar={<Avatar alt="mongo logo" src={mongo}></Avatar>}
-        label="MongoDB"
-      />
-      <StyledChip
-        avatar={<Avatar alt="git logo" src={git}></Avatar>}
-        label="Git"
-      />
-      <StyledChip
-        avatar={<Avatar alt="github logo" src={github}></Avatar>}
-        label="GitHub"
-      />
-      <StyledChip
-        avatar={<Avatar alt="github logo" src={bash}></Avatar>}
-        label="Bash"
-      />
+      {chipCloudData.map((item) => (
+        <StyledChip
+          avatar={<Avatar alt={`${item.label} logo`} src={item.src}></Avatar>}
+          label={item.label}
+        />
+      ))}
     </div>
   );
 };
