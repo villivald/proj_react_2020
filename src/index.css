@@ -409,10 +409,6 @@ div.MuiChip-root {
   font-family: "Mate", serif;
 }
 
-div.drop > div:nth-child(2) {
-  display: none !important;
-}
-
 .dropDownMenuItem:not(:last-child) {
   border-bottom: 1px solid rgb(233, 236, 239) !important;
 }
