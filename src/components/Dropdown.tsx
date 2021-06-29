@@ -1,16 +1,8 @@
 import { FunctionComponent } from "react";
 import { Link } from "react-router-dom";
-import { Menu, MenuItem, Button, Hr } from "@mantine/core";
-import {
-  HamburgerMenuIcon,
-  HomeIcon,
-  BookmarkIcon,
-  EnvelopeOpenIcon,
-  LightningBoltIcon,
-  IdCardIcon,
-  DashboardIcon,
-  BackpackIcon,
-} from "@modulz/radix-icons";
+import { Menu, MenuItem, Button } from "@mantine/core";
+import { HamburgerMenuIcon } from "@modulz/radix-icons";
+import dropdownData from "../data/dropdownData";
 
 const DropDown: FunctionComponent<{
   DropDownMenuColor: any;
@@ -29,33 +21,17 @@ const DropDown: FunctionComponent<{
         </Button>
       }
     >
-      <MenuItem icon={<HomeIcon />}>
-        <Link to="/">Home Page</Link>
-      </MenuItem>
-      <Hr />
-      <MenuItem icon={<IdCardIcon />}>
-        <Link to="/about">About</Link>
-      </MenuItem>
-      <Hr />
-      <MenuItem icon={<EnvelopeOpenIcon />}>
-        <Link to="/contact">Contact</Link>
-      </MenuItem>
-      <Hr />
-      <MenuItem icon={<LightningBoltIcon />}>
-        <Link to="/allProjects">Projects</Link>
-      </MenuItem>
-      <Hr />
-      <MenuItem icon={<DashboardIcon />}>
-        <Link to="/uses">Uses</Link>
-      </MenuItem>
-      <Hr />
-      <MenuItem icon={<BackpackIcon />}>
-        <Link to="/courses">Courses</Link>
-      </MenuItem>
-      <Hr />
-      <MenuItem icon={<BookmarkIcon />}>
-        <Link to="/books">Books</Link>
-      </MenuItem>
+      {dropdownData.map((item) => {
+        return (
+          <MenuItem
+            icon={item.icon}
+            key={item.address}
+            className="dropDownMenuItem"
+          >
+            <Link to={item.address}>{item.text}</Link>
+          </MenuItem>
+        );
+      })}
     </Menu>
   );
 };

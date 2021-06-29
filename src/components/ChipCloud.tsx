@@ -17,6 +17,7 @@ const ChipCloud: FunctionComponent<{ ChipColor: string }> = (props) => {
     <div className="chip-grid">
       {chipCloudData.map((item) => (
         <StyledChip
+          key={item.label}
           avatar={<Avatar alt={`${item.label} logo`} src={item.src}></Avatar>}
           label={item.label}
         />

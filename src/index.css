@@ -413,6 +413,14 @@ div.drop > div:nth-child(2) {
   display: none !important;
 }
 
+.dropDownMenuItem:not(:last-child) {
+  border-bottom: 1px solid rgb(233, 236, 239) !important;
+}
+.dropDownMenuItem {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;
