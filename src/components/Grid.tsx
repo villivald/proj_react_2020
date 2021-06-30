@@ -11,6 +11,7 @@ import dev from "../images/dev.svg";
 import hashnode from "../images/hashnode.webp";
 import js from "../images/js.webp";
 import vite from "../images/vite.svg";
+import nextjs from "../images/nextjs.svg";
 
 const Grid: FunctionComponent<{
   ButtonColor: string;
@@ -180,6 +181,18 @@ const Grid: FunctionComponent<{
           afterHoverTextColor={Colors.white}
           image={vite}
           alt="vite"
+        />
+        <GridItem
+          text={"Koripallopaikat | Next.js"}
+          link={"https://koripallopaikat.vercel.app/"}
+          color={Colors.gray}
+          onHoverTextColor={Colors.almostBlack}
+          onHoverColor={props.OnHoverColor}
+          boxStyle={styles.box}
+          afterHover={props.AfterHoverButtons}
+          afterHoverTextColor={Colors.white}
+          image={nextjs}
+          alt="next js"
         />
       </div>
     </div>
