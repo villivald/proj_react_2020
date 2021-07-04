@@ -816,6 +816,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Иосиф Сталин. Последняя загадка - Радзинский",
   },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4b/Crimeandpunishmentcover.png",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/en/4/4b/Crimeandpunishmentcover.png",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Преступление и наказание - Достоевский",
+  },
 ];
 
 export default IMAGES;
