@@ -28,8 +28,7 @@ const courses = [
     alt: "freecodecamp logo",
     height: 35.5,
     width: 50,
-    link:
-      "https://freecodecamp.org/certification/villivald/responsive-web-design",
+    link: "https://freecodecamp.org/certification/villivald/responsive-web-design",
     name: "Responsive Web Design - ",
     date: "25.10.20",
   },
@@ -47,8 +46,7 @@ const courses = [
     alt: "coursera logo",
     height: 45,
     width: 45,
-    link:
-      "https://www.coursera.org/account/accomplishments/certificate/XXH88UHKWCNW",
+    link: "https://www.coursera.org/account/accomplishments/certificate/XXH88UHKWCNW",
     name: "Michigan University - Internet History, Technology, and Security - ",
     date: "09.11.20",
   },
@@ -75,8 +73,7 @@ const courses = [
     alt: "freecodecamp logo",
     height: 35.5,
     width: 50,
-    link:
-      "https://freecodecamp.org/certification/villivald/javascript-algorithms-and-data-structures",
+    link: "https://freecodecamp.org/certification/villivald/javascript-algorithms-and-data-structures",
     name: "JavaScript Algorithms and Data Structures - ",
     date: "02.12.20",
   },
@@ -112,8 +109,7 @@ const courses = [
     alt: "freecodecamp logo",
     height: 35.5,
     width: 50,
-    link:
-      "https://www.freecodecamp.org/certification/villivald/front-end-libraries",
+    link: "https://www.freecodecamp.org/certification/villivald/front-end-libraries",
     name: "Front End Libraries - ",
     date: "31.01.21",
   },
@@ -152,6 +148,15 @@ const courses = [
     link: "https://frontendmasters.com/courses/next-js/",
     name: "Introduction to Next.js - ",
     date: "04.05.21",
+  },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/complete-intro-containers/",
+    name: "Complete Intro to Containers - ",
+    date: "04.07.21",
   },
 ];
 
