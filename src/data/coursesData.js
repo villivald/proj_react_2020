@@ -158,6 +158,15 @@ const courses = [
     name: "Complete Intro to Containers - ",
     date: "04.07.21",
   },
+  {
+    pic: fcc,
+    alt: "freecodecamp logo",
+    height: 35.5,
+    width: 50,
+    link: "https://www.youtube.com/watch?v=ulprqHHWlng",
+    name: "AWS Basics - ",
+    date: "05.07.21",
+  },
 ];
 
 export default courses;
