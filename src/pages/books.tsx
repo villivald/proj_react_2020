@@ -8,7 +8,7 @@ import BeatLoader from "react-spinners/BeatLoader";
 import Arrow from "../components/Arrow";
 import github from "../images/github.webp";
 import books from "../images/books.webp";
-import logo from "../images/logo/103.webp";
+// import logo from "../images/logo/103.webp";
 import "../css/books.css";
 
 const BookPics = lazy(() => import("../components/BookPics"));
@@ -72,7 +72,7 @@ const Books: FunctionComponent<{
             alt="Book list"
           />
         </div>
-        <div className="div2">
+        {/* <div className="div2">
           <GridItem
             text={"Book List"}
             link={"./bookList"}
@@ -85,7 +85,7 @@ const Books: FunctionComponent<{
             image={logo}
             alt="Book list"
           />
-        </div>
+        </div> */}
         <div className="div3">
           <GridItem
             text={"Books Stats"}

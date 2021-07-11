@@ -9,6 +9,7 @@ import ts from "../images/ts.webp";
 import node from "../images/node.webp";
 import express from "../images/express.webp";
 import mongo from "../images/mongo.webp";
+import next from "../images/nextjs.svg";
 
 const chipCloudData = [
   {
@@ -26,6 +27,10 @@ const chipCloudData = [
   {
     label: "React",
     src: react,
+  },
+  {
+    label: "Next.js",
+    src: next,
   },
   {
     label: "TypeScript",
