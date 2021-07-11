@@ -332,6 +332,21 @@ div.MuiChip-root {
   grid-row-gap: 0px;
 }
 
+.backButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 70px;
+  border-radius: 35px;
+  aspect-ratio: 1/1;
+  margin-left: 38px;
+  margin-top: 40px;
+  background-color: var(--blog);
+  font-weight: bold;
+  box-shadow: inset 20px 20px 60px #1f8a9d, inset -20px -20px 60px #2bbad5;
+}
+
 #root
   > div
   > div:nth-child(4)
@@ -342,7 +357,6 @@ div.MuiChip-root {
   > a {
   margin-left: 30px;
   background-color: var(--blog);
-  color: var(--whiteSmoke);
 }
 
 #root > div > div:nth-child(4) > div.timeline > div.chipWrapper > div > div {
