@@ -824,6 +824,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Преступление и наказание - Достоевский",
   },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1f/Maybe-you-should-talk-to-someone.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/en/1/1f/Maybe-you-should-talk-to-someone.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Вы хотите поговорить об этом? - Л. Готтлиб",
+  },
 ];
 
 export default IMAGES;
