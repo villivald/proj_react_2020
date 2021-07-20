@@ -400,8 +400,9 @@ const IMAGES = [
     caption: "Декоратор - Акунин",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/en/2/2f/Konarmiya.jpg",
-    thumbnail: "https://upload.wikimedia.org/wikipedia/en/2/2f/Konarmiya.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Isaak_Babel_Konarmiya.jpg/440px-Isaak_Babel_Konarmiya.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Isaak_Babel_Konarmiya.jpg/440px-Isaak_Babel_Konarmiya.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Конармия - Бабель",
@@ -831,6 +832,14 @@ const IMAGES = [
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Вы хотите поговорить об этом? - Л. Готтлиб",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/ru/1/1d/%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80_%D0%93%D0%B0%D1%80%D0%B8%D0%BD_%28%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%29_%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/ru/1/1d/%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80_%D0%93%D0%B0%D1%80%D0%B8%D0%BD_%28%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%29_%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Доктор Гарин - Сорокин",
   },
 ];
 
