@@ -332,34 +332,6 @@ div.MuiChip-root {
   grid-row-gap: 0px;
 }
 
-.backButton {
-  position: absolute;
-  margin-left: 38px;
-  margin-top: 40px;
-  height: 70px;
-  border-radius: 35px;
-  aspect-ratio: 1/1;
-  color: black;
-  background-color: var(--blog);
-  border: 1px solid #5c8d75;
-  font-family: Mate, serif;
-  font-weight: 700;
-  cursor: pointer;
-  box-shadow: 0 2px 2px #888888;
-  transition-duration: 0.5s;
-}
-
-.backButton:hover {
-  transform: scale(1.1);
-  color: white;
-  background: #0d7a8c;
-}
-
-.backButton:active {
-  transition-duration: 0.1s;
-  transform: translateY(5px);
-}
-
 #root
   > div
   > div:nth-child(4)
@@ -444,6 +416,10 @@ div.MuiChip-root {
   padding-bottom: 20px !important;
 }
 
+.hamburger {
+  display: none;
+}
+
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;
@@ -488,6 +464,10 @@ div.MuiChip-root {
   .devHashnode {
     margin-top: 15px;
   }
+
+  div[id*="mantine"] {
+    width: 180px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -527,6 +507,9 @@ div.MuiChip-root {
   }
   .menu-d0-0-3-18 {
     margin-left: -30px;
+  }
+  div[id*="mantine"] {
+    margin-left: -20%;
   }
 }
 
@@ -613,6 +596,11 @@ div.MuiChip-root {
 
   .menu-d0-0-3-18 {
     width: 170px !important;
+  }
+
+  div[id*="mantine"] {
+    margin-left: -25%;
+    width: 170px;
   }
 }
 
@@ -710,6 +698,10 @@ div.MuiChip-root {
 
   .menu-d0-0-3-18 {
     width: 160px !important;
+  }
+
+  div[id*="mantine"] {
+    margin-left: -65%;
   }
 }
 
@@ -816,6 +808,11 @@ div.MuiChip-root {
   .menu-d0-0-3-18 {
     margin-left: -50px;
   }
+
+  div[id*="mantine"] {
+    margin-left: -80%;
+    width: 160px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -904,6 +901,11 @@ div.MuiChip-root {
   .menu-d0-0-3-18 {
     width: 120px !important;
   }
+
+  div[id*="mantine"] {
+    margin-left: -95%;
+    width: 150px;
+  }
 }
 
 @media only screen and (max-width: 470px) {
@@ -967,11 +969,20 @@ div.MuiChip-root {
     grid-template-columns: repeat(3, 120px);
     margin-bottom: 10%;
   }
+
+  div[id*="mantine"] {
+    margin-left: -110% !important;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .drop {
     display: none;
+  }
+  .hamburger {
+    position: absolute;
+    margin-left: 80%;
+    display: block;
   }
   .timeline {
     display: flex;
@@ -985,6 +996,9 @@ div.MuiChip-root {
   }
   .footer {
     width: 98%;
+  }
+  div[id*="mantine"] {
+    margin-left: -260% !important;
   }
 }
 

@@ -1,0 +1,41 @@
+.backButton {
+  position: absolute;
+  margin-left: 38px;
+  margin-top: 40px;
+  height: 70px;
+  border-radius: 35px;
+  aspect-ratio: 1/1;
+  color: black;
+  background-color: var(--blog);
+  border: 1px solid #5c8d75;
+  font-family: Mate, serif;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 2px #888888;
+  transition-duration: 0.5s;
+}
+
+.backButton:hover {
+  transform: scale(1.1);
+  color: white;
+  background: #0d7a8c;
+}
+
+.backButton:active {
+  transition-duration: 0.1s;
+  transform: translateY(5px);
+}
+
+@media only screen and (max-width: 700px) {
+  .backButton {
+    height: 50px;
+    border-radius: 25px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .backButton {
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+}

@@ -1,9 +1,10 @@
 import { lazy, Suspense, FunctionComponent } from "react";
-import Toggle from "./Toggle";
-import Dropdown from "./Dropdown";
 import Avatar from "@material-ui/core/Avatar";
 import { makeStyles } from "@material-ui/core/styles";
 import BeatLoader from "react-spinners/BeatLoader";
+import Toggle from "./Toggle";
+import Dropdown from "./Dropdown";
+import Hamburger from "./Hamburger";
 import Colors from "../constants/colors";
 import "../css/menu.css";
 
@@ -75,6 +76,11 @@ const Menu: FunctionComponent<{
             <Dropdown
               DropDownMenuColor={props.mainStyle ? "orange" : "dark"}
               DropDownMenuStyle={props.mainStyle ? "filled" : "outline"}
+            />
+          </div>
+          <div className="hamburger">
+            <Hamburger
+              DropDownMenuColor={props.mainStyle ? "orange" : "dark"}
             />
           </div>
         </div>
