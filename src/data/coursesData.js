@@ -167,6 +167,15 @@ const courses = [
     name: "AWS Basics - ",
     date: "05.07.21",
   },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/dev-tools/",
+    name: "Dev Tools - ",
+    date: "21.07.21",
+  },
 ];
 
 export default courses;
