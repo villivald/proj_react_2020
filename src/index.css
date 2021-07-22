@@ -1153,6 +1153,10 @@ div.MuiChip-root {
     .grid {
       margin-left: -6%;
     }
+    .hamburger {
+      position: absolute;
+      margin-left: 40%;
+    }
   }
 }
 

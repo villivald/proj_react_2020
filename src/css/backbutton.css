@@ -39,3 +39,28 @@
     margin-left: 20px;
   }
 }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @media only screen and (max-width: 1900px) {
+    .backButton {
+      height: 70px;
+      width: 70px;
+      border-radius: 35px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .backButton {
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .backButton {
+      height: 45px;
+      width: 45px;
+      border-radius: 22.5px;
+      margin-left: 20px;
+    }
+  }
+}
