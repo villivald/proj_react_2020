@@ -333,18 +333,31 @@ div.MuiChip-root {
 }
 
 .backButton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
+  margin-left: 38px;
+  margin-top: 40px;
   height: 70px;
   border-radius: 35px;
   aspect-ratio: 1/1;
-  margin-left: 38px;
-  margin-top: 40px;
+  color: black;
   background-color: var(--blog);
-  font-weight: bold;
-  box-shadow: inset 20px 20px 60px #1f8a9d, inset -20px -20px 60px #2bbad5;
+  border: 1px solid #5c8d75;
+  font-family: Mate, serif;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 2px #888888;
+  transition-duration: 0.5s;
+}
+
+.backButton:hover {
+  transform: scale(1.1);
+  color: white;
+  background: #0d7a8c;
+}
+
+.backButton:active {
+  transition-duration: 0.1s;
+  transform: translateY(5px);
 }
 
 #root

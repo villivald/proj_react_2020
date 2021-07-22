@@ -6,6 +6,7 @@ import Colors from "../constants/colors";
 import styled from "@emotion/styled";
 import BeatLoader from "react-spinners/BeatLoader";
 import Arrow from "../components/Arrow";
+import BackButton from "../components/BackButton";
 import github from "../images/github.webp";
 import books from "../images/books.webp";
 // import logo from "../images/logo/103.webp";
@@ -54,6 +55,7 @@ const Books: FunctionComponent<{
         Pic="string"
         setMainStyle=""
       />
+      <BackButton />
 
       <H1 className="houdini">Books</H1>
 

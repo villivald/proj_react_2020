@@ -2,6 +2,7 @@ import { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import GridItem from "../components/GridItem";
+import BackButton from "../components/BackButton";
 import Colors from "../constants/colors";
 import react from "../images/react.webp";
 import soon from "../images/soon.webp";
@@ -44,6 +45,7 @@ const Projects: FunctionComponent<{
         Pic="string"
         setMainStyle=""
       />
+      <BackButton />
       <div>
         <h1 className="react-page-title">Projects</h1>
       </div>

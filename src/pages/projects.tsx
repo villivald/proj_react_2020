@@ -3,6 +3,8 @@ import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import GridItem from "../components/GridItem";
 import Colors from "../constants/colors";
+import BackButton from "../components/BackButton";
+
 import js from "../images/js.webp";
 import html from "../images/html.webp";
 
@@ -43,6 +45,8 @@ const Projects: FunctionComponent<{
         Pic="string"
         setMainStyle=""
       />
+      <BackButton />
+
       <div>
         <h1 className="react-page-title">2019 | 2020</h1>
       </div>

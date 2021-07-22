@@ -1,17 +1,11 @@
 import { FunctionComponent } from "react";
-import { useHistory } from "react-router-dom";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import Arrow from "../components/Arrow";
+import BackButton from "../components/BackButton";
 import about from "../images/about.webp";
 
 const First: FunctionComponent = () => {
-  const history = useHistory();
-
-  const routeChange = () => {
-    history.goBack();
-  };
-
   return (
     <div className="main">
       <div id="up"></div>
@@ -23,9 +17,7 @@ const First: FunctionComponent = () => {
         setMainStyle=""
       />
 
-      <div className="backButton" onClick={routeChange}>
-        Back
-      </div>
+      <BackButton />
 
       <div className="contact-wrapper">
         <img

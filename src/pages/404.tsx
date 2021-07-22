@@ -3,6 +3,7 @@ import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import NotFound from "../images/404.svg";
 import Arrow from "../components/Arrow";
+import BackButton from "../components/BackButton";
 
 const PageNotFound: FunctionComponent = () => {
   return (
@@ -15,6 +16,8 @@ const PageNotFound: FunctionComponent = () => {
         Pic="string"
         setMainStyle=""
       />
+      <BackButton />
+
       <div className="contact-wrapper">
         <img
           style={{ width: "clamp(350px, 50%, 800px)" }}

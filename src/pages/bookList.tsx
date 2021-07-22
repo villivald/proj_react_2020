@@ -5,6 +5,7 @@ import { fetchedBooks } from "../components/Hook";
 import Colors from "../constants/colors";
 import styled from "@emotion/styled";
 import Arrow from "../components/Arrow";
+import BackButton from "../components/BackButton";
 
 const H1 = styled.h1`
   color: ${Colors.gray};
@@ -26,6 +27,8 @@ const Books: FunctionComponent<{
         Pic="string"
         setMainStyle=""
       />
+      <BackButton />
+
       <H1 className="houdini">Books</H1>
       <div
         style={{

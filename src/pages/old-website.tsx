@@ -2,6 +2,7 @@ import { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import GridItem from "../components/GridItem";
+import BackButton from "../components/BackButton";
 import Colors from "../constants/colors";
 import html from "../images/html.webp";
 import js from "../images/js.webp";
@@ -44,6 +45,8 @@ const OldWebsites: FunctionComponent<{
         Pic="string"
         setMainStyle=""
       />
+      <BackButton />
+
       <div>
         <h1 className="react-page-title">Old Site Versions</h1>
       </div>

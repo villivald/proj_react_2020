@@ -5,6 +5,7 @@ import Course from "../components/Course";
 import styled from "@emotion/styled";
 import Colors from "../constants/colors";
 import Arrow from "../components/Arrow";
+import BackButton from "../components/BackButton";
 import "../css/courses.css";
 import courses from "../data/coursesData";
 import ongoingCourses from "../data/ongoingCoursesData";
@@ -46,6 +47,8 @@ const Second: FunctionComponent = () => {
         Pic=""
         setMainStyle=""
       />
+      <BackButton />
+
       <div className="courses">
         <ul>
           <H1 className="contacts houdini">Courses & Certifications</H1>

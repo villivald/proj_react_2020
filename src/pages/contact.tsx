@@ -1,16 +1,11 @@
 import { FunctionComponent } from "react";
-import { useHistory } from "react-router-dom";
+import BackButton from "../components/BackButton";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
 import contacts from "../data/contactData";
 
 const Second: FunctionComponent = () => {
-  const history = useHistory();
-
-  const routeChange = () => {
-    history.goBack();
-  };
   const Contacts = contacts.map((contact) => (
     <Contact
       link={contact.link}
@@ -28,9 +23,8 @@ const Second: FunctionComponent = () => {
         Pic="string"
         setMainStyle=""
       />
-      <div className="backButton" onClick={routeChange}>
-        Back
-      </div>
+      <BackButton />
+
       <div style={{ display: "flex", justifyContent: "center" }}>
         <h1
           style={{ padding: "10px 20px 10px 20px" }}

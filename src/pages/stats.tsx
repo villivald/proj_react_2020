@@ -3,6 +3,7 @@ import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import Line from "../components/Line";
 import Line2020 from "../components/Line2020";
+import BackButton from "../components/BackButton";
 
 const Stats: FunctionComponent = () => {
   return (
@@ -15,6 +16,7 @@ const Stats: FunctionComponent = () => {
         Pic="string"
         setMainStyle=""
       />
+      <BackButton />
       <div>
         <h1 className="react-page-title">Books Stats</h1>
       </div>

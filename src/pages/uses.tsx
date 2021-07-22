@@ -8,6 +8,7 @@ import cat from "../images/cat.webp";
 import catPic from "../images/catPic.webp";
 import List from "../components/List";
 import Arrow from "../components/Arrow";
+import BackButton from "../components/BackButton";
 import "../css/uses.css";
 
 const StyledPaper = withStyles({
@@ -36,6 +37,7 @@ const Uses: FunctionComponent = () => {
         Pic="string"
         setMainStyle=""
       />
+      <BackButton />
       <div style={{ display: "flex", justifyContent: "center" }}>
         <h1 style={{ padding: "10px 20px 10px 20px" }} className="houdini">
           Uses
