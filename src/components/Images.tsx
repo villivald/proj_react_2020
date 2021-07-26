@@ -841,6 +841,13 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Доктор Гарин - Сорокин",
   },
+  {
+    src: "https://m.media-amazon.com/images/I/518wzjfaR7L.jpg",
+    thumbnail: "https://m.media-amazon.com/images/I/518wzjfaR7L.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Куда ж нам плыть? - Акунин",
+  },
 ];
 
 export default IMAGES;
