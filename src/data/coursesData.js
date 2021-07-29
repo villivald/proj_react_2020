@@ -176,6 +176,15 @@ const courses = [
     name: "Dev Tools - ",
     date: "21.07.21",
   },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/accessibility-v2/",
+    name: "Website Accessibility - ",
+    date: "27.07.21",
+  },
 ];
 
 export default courses;
