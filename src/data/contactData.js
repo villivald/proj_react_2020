@@ -5,9 +5,14 @@ import telegram from "../images/telegram.webp";
 import mail from "../images/gmail.webp";
 import twitter from "../images/twitter.webp";
 import strava from "../images/strava.png";
-import medium from "../images/medium.webp";
+import bio from "../images/bio.webp";
 
 const contacts = [
+  {
+    link: "https://bio.link/villivald",
+    picture: bio,
+    alt: "Bio.link",
+  },
   {
     link: "https://dev.to/villivald",
     picture: "https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg",
@@ -47,11 +52,6 @@ const contacts = [
     link: "https://www.strava.com/athletes/42251423",
     picture: strava,
     alt: "Strava",
-  },
-  {
-    link: "https://create-react-app.medium.com/",
-    picture: medium,
-    alt: "Medium",
   },
 ];
 
