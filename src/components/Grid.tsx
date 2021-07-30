@@ -60,11 +60,11 @@ const Grid: FunctionComponent<{
   };
   return (
     <div className="grid">
-      {/* {<div className="vertical-text">PROJECTS</div>} */}
+      {/* <div className="vertical-text">PROJECTS</div> */}
       <div className="grid-wrapper">
         <GridItem
           text={"Blog"}
-          link={"https://create-react-app.com/"}
+          link={"https://create-react-app.com"}
           color={Colors.almostBlack}
           onHoverTextColor={Colors.white}
           onHoverColor={props.OnHoverColor}
@@ -88,7 +88,7 @@ const Grid: FunctionComponent<{
         />
         <GridItem
           text={"Hashnode"}
-          link={"https://proj.ninja/"}
+          link={"https://proj.ninja"}
           color={Colors.almostBlack}
           onHoverTextColor={Colors.white}
           onHoverColor={props.OnHoverColor}
@@ -136,7 +136,7 @@ const Grid: FunctionComponent<{
         />
         <GridItem
           text={"Store Catalog | PHP"}
-          link={"https://old.villivald.com/Projects/PHP/"}
+          link={"https://old.villivald.com/Projects/PHP"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
           onHoverColor={props.OnHoverColor}
@@ -160,7 +160,7 @@ const Grid: FunctionComponent<{
         />
         <GridItem
           text={"Drag & Drop Todo App | TS"}
-          link={"https://old.villivald.com/Projects/DragAndDrop/"}
+          link={"https://old.villivald.com/Projects/DragAndDrop"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
           onHoverColor={props.OnHoverColor}
@@ -172,7 +172,7 @@ const Grid: FunctionComponent<{
         />
         <GridItem
           text={"Vaccines Stats App | React"}
-          link={"https://vaccine2021.vercel.app/"}
+          link={"https://vaccine2021.vercel.app"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
           onHoverColor={props.OnHoverColor}
@@ -184,7 +184,7 @@ const Grid: FunctionComponent<{
         />
         <GridItem
           text={"Koripallopaikat | Next.js"}
-          link={"https://koripallopaikat.vercel.app/"}
+          link={"https://koripallopaikat.com"}
           color={Colors.gray}
           onHoverTextColor={Colors.almostBlack}
           onHoverColor={props.OnHoverColor}
