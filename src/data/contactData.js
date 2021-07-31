@@ -44,7 +44,7 @@ const contacts = [
     alt: "Twitter",
   },
   {
-    link: "mailto:maxim.villivald@gmail.com",
+    link: "mailto:maxim@villivald.com",
     picture: mail,
     alt: "Email",
   },

@@ -20,7 +20,7 @@ const footerData = [
     text: "LinkedIn",
   },
   {
-    link: "mailto:maxim.villivald@gmail.com",
+    link: "mailto:maxim@villivald.com",
     icon: <MailIcon />,
     text: "Email",
   },
