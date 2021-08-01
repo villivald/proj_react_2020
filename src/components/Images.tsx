@@ -848,6 +848,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Куда ж нам плыть? - Акунин",
   },
+  {
+    src: "https://images-na.ssl-images-amazon.com/images/I/510MOxQqeuL._SX326_BO1,204,203,200_.jpg",
+    thumbnail:
+      "https://images-na.ssl-images-amazon.com/images/I/510MOxQqeuL._SX326_BO1,204,203,200_.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Revolutions - Furtado",
+  },
 ];
 
 export default IMAGES;
