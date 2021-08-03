@@ -3,6 +3,7 @@ import fm from "../images/fm.jpg";
 import wb from "../images/wb.webp";
 import coursera from "../images/coursera.jpeg";
 import udemy from "../images/udemy.webp";
+import jamstack from "../images/jamstack.webp";
 
 const courses = [
   {
@@ -184,6 +185,15 @@ const courses = [
     link: "https://frontendmasters.com/courses/accessibility-v2/",
     name: "Website Accessibility - ",
     date: "27.07.21",
+  },
+  {
+    pic: jamstack,
+    alt: "jamstack explorers logo",
+    height: 45,
+    width: 45,
+    link: "https://explorers.netlify.com/.netlify/functions/certificate-3-missions?name=Maxim+Villivald&date=03%2F08%2F2021",
+    name: "Next.js, Nuxt.js & Serverless functions - ",
+    date: "03.08.21",
   },
 ];
 
