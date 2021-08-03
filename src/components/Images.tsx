@@ -856,6 +856,13 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Revolutions - Furtado",
   },
+  {
+    src: "https://m.media-amazon.com/images/I/51oLu3mpNkL.jpg",
+    thumbnail: "https://m.media-amazon.com/images/I/51oLu3mpNkL.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Герои книг на приеме у психотерапевта - A. Боттлингер",
+  },
 ];
 
 export default IMAGES;
