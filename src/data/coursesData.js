@@ -119,7 +119,7 @@ const courses = [
     alt: "udemy logo",
     height: 40,
     width: 48,
-    link: "https://www.udemy.com/course/understanding-typescript/",
+    link: "https://www.udemy.com/certificate/UC-5abfefff-c2bc-491a-8d81-8610171f981c/",
     name: "Understanding TypeScript - ",
     date: "05.03.21",
   },
