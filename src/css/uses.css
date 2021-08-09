@@ -15,6 +15,12 @@
   margin-bottom: 2%;
 }
 
+.usesTech {
+  margin-left: 0.3rem;
+  color: #0645ad;
+  font-family: "Helvetica Neue";
+}
+
 .usesBox {
   border: 2px dotted transparent;
   border-radius: 5px;

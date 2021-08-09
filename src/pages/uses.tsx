@@ -54,7 +54,10 @@ const Uses: FunctionComponent = () => {
       <div className="uses-wrapper">
         The following is a list of the tools and software that I use on a daily
         basis. This page was inspired by Wes Bos and his project -
-        https://uses.tech.
+        <a className="usesTech" href="https://uses.tech">
+          uses.tech
+        </a>
+        .
       </div>
       <div className="uses">
         <div
@@ -126,11 +129,16 @@ const Uses: FunctionComponent = () => {
             <h2>Software</h2>
           </div>
           <ul>
-            <List
-              emoji="🖥"
-              name="VS Code + Dark + Dank Mono"
-              link="https://code.visualstudio.com/"
-            />
+            <li className="use">
+              <span className="emoji" role="img" aria-label="bike">
+                🖥
+              </span>
+              <a href="https://code.visualstudio.com/">VS Code</a>+
+              <a href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl">
+                Night Owl
+              </a>
+              +<a href="https://philpl.gumroad.com/l/dank-mono">Dank Mono</a>
+            </li>
             <List
               emoji="🐚"
               name="macOS Terminal + Zsh + OhMyZsh"
@@ -154,9 +162,9 @@ const Uses: FunctionComponent = () => {
             </li>
             <List
               emoji="📋"
-              name={<s>Todoist</s>}
+              name={<s>Things</s>}
               link="https://todoist.com/"
-              newName={"→ Things"}
+              newName={"→ Todoist"}
               newLink="https://culturedcode.com/things/"
             />
             <List emoji="📁" name="Notion" link="https://www.notion.so/" />
