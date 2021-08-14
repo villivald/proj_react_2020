@@ -7,6 +7,11 @@ import Colors from "../constants/colors";
 import react from "../images/react.webp";
 import soon from "../images/soon.webp";
 import html from "../images/html.webp";
+import vite from "../images/vite.svg";
+import nextjs from "../images/nextjs.svg";
+import php from "../images/php.webp";
+import markdown from "../images/markdown.webp";
+import ts from "../images/ts.webp";
 
 const Projects: FunctionComponent<{
   ButtonColor: string;
@@ -86,6 +91,66 @@ const Projects: FunctionComponent<{
             afterHoverTextColor={Colors.white}
             image={html}
             alt="html"
+          />
+          <GridItem
+            text={"Store Catalog | PHP"}
+            link={"https://old.villivald.com/Projects/PHP"}
+            color={Colors.gray}
+            onHoverTextColor={Colors.almostBlack}
+            onHoverColor={props.OnHoverColor}
+            boxStyle={styles.box}
+            afterHover={props.AfterHoverButtons}
+            afterHoverTextColor={Colors.white}
+            image={php}
+            alt="php"
+          />
+          <GridItem
+            text={"Markdown Cheatsheet"}
+            link={"https://old.villivald.com/Projects/Cheatsheet.md"}
+            color={Colors.gray}
+            onHoverTextColor={Colors.almostBlack}
+            onHoverColor={props.OnHoverColor}
+            boxStyle={styles.box}
+            afterHover={props.AfterHoverButtons}
+            afterHoverTextColor={Colors.white}
+            image={markdown}
+            alt="markdown"
+          />
+          <GridItem
+            text={"Drag & Drop Todo App | TS"}
+            link={"https://old.villivald.com/Projects/DragAndDrop"}
+            color={Colors.gray}
+            onHoverTextColor={Colors.almostBlack}
+            onHoverColor={props.OnHoverColor}
+            boxStyle={styles.box}
+            afterHover={props.AfterHoverButtons}
+            afterHoverTextColor={Colors.white}
+            image={ts}
+            alt="ts"
+          />
+          <GridItem
+            text={"Vaccines Stats App | React"}
+            link={"https://vaccine2021.vercel.app"}
+            color={Colors.gray}
+            onHoverTextColor={Colors.almostBlack}
+            onHoverColor={props.OnHoverColor}
+            boxStyle={styles.box}
+            afterHover={props.AfterHoverButtons}
+            afterHoverTextColor={Colors.white}
+            image={vite}
+            alt="vite"
+          />
+          <GridItem
+            text={"Koripallopaikat | Next.js"}
+            link={"https://koripallopaikat.com"}
+            color={Colors.gray}
+            onHoverTextColor={Colors.almostBlack}
+            onHoverColor={props.OnHoverColor}
+            boxStyle={styles.box}
+            afterHover={props.AfterHoverButtons}
+            afterHoverTextColor={Colors.white}
+            image={nextjs}
+            alt="next js"
           />
         </div>
       </div>

@@ -400,7 +400,7 @@ div.MuiChip-root {
   margin-bottom: 180px;
 }
 .allProjects {
-  grid-template-columns: repeat(3, 197px);
+  grid-template-columns: repeat(4, 197px);
   margin-bottom: 180px;
 }
 
@@ -468,6 +468,11 @@ div.MuiChip-root {
   div[id*="mantine"] {
     width: 180px;
   }
+
+  .allProjects {
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: -50px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -511,6 +516,10 @@ div.MuiChip-root {
   div[id*="mantine"] {
     margin-left: -20%;
   }
+
+  .allProjects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -550,6 +559,11 @@ div.MuiChip-root {
   }
   .menu-d0-0-3-18 {
     margin-left: -40px;
+  }
+
+  .allProjects {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -30px;
   }
 }
 
@@ -602,6 +616,11 @@ div.MuiChip-root {
     margin-left: -25%;
     width: 170px;
   }
+
+  .allProjects {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -30px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -638,6 +657,11 @@ div.MuiChip-root {
   }
   .bubble {
     display: none !important;
+  }
+
+  .allProjects {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 0px;
   }
 }
 
@@ -702,6 +726,11 @@ div.MuiChip-root {
 
   div[id*="mantine"] {
     margin-left: -65%;
+  }
+
+  .allProjects {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 0px;
   }
 }
 
