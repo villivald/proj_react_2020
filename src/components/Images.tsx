@@ -48,9 +48,9 @@ const IMAGES = [
     caption: "Хищные вещи века - Стругацкие",
   },
   {
-    src: "https://img4.labirint.ru/rc/dc123b42c9d7c0826bc677257d2b0de9/220x340/books62/616698/cover.jpg?1564047727",
+    src: "https://cdn-ed.versobooks.com/images/000013/918/9781784782788-b8440a5152fb956d3a03576ef2ae15d4.jpg",
     thumbnail:
-      "https://img4.labirint.ru/rc/dc123b42c9d7c0826bc677257d2b0de9/220x340/books62/616698/cover.jpg?1564047727",
+      "https://cdn-ed.versobooks.com/images/000013/918/9781784782788-b8440a5152fb956d3a03576ef2ae15d4.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Октябрь - Мьевиль",
@@ -227,9 +227,8 @@ const IMAGES = [
     caption: "Зарубежная Россия - Ковалевский",
   },
   {
-    src: "https://img4.labirint.ru/rc/327188b91c8db13a9d39f10cc2e94691/220x340/books68/671998/cover.jpg?1564158974",
-    thumbnail:
-      "https://img4.labirint.ru/rc/327188b91c8db13a9d39f10cc2e94691/220x340/books68/671998/cover.jpg?1564158974",
+    src: "https://cdn5.ozone.ru/multimedia/wc500/1029183455.jpg",
+    thumbnail: "https://cdn5.ozone.ru/multimedia/wc500/1029183455.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Почему распался СССР - Аркадий Дубнов",
@@ -259,9 +258,9 @@ const IMAGES = [
     caption: "Refactoring UI - Wathan & Schoger",
   },
   {
-    src: "https://img3.labirint.ru/rc/348204bd3b07b9762fba3484fda20d22/220x340/books9/86729/cover.jpg?1280394613",
+    src: "https://s1.livelib.ru/boocover/1000102637/o/c794/Eduard_Limonov__Torzhestvo_metafiziki.jpeg",
     thumbnail:
-      "https://img3.labirint.ru/rc/348204bd3b07b9762fba3484fda20d22/220x340/books9/86729/cover.jpg?1280394613",
+      "https://s1.livelib.ru/boocover/1000102637/o/c794/Eduard_Limonov__Torzhestvo_metafiziki.jpeg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Торжество метафизики - Лимонов",
@@ -329,9 +328,8 @@ const IMAGES = [
     caption: "Pragmatic programmer - Thomas & Hunt",
   },
   {
-    src: "https://img3.labirint.ru/rc/607ec12ecef5a1baea69d8f84f63d28e/220x340/books68/675273/cover.jpg?1564165713",
-    thumbnail:
-      "https://img3.labirint.ru/rc/607ec12ecef5a1baea69d8f84f63d28e/220x340/books68/675273/cover.jpg?1564165713",
+    src: "https://www.storytel.com/images/200x200/0000056775.jpg",
+    thumbnail: "https://www.storytel.com/images/200x200/0000056775.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Хрущев - Млечин",
@@ -709,9 +707,9 @@ const IMAGES = [
     caption: "Ресторан в конце Вселенной - Д. Адамс",
   },
   {
-    src: "https://img3.labirint.ru/rc/21942fff69138a03be3e9404b5d8b46a/220x340/books46/457691/cover.jpg?1613060782",
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1503566879l/23354301._SY475_.jpg",
     thumbnail:
-      "https://img3.labirint.ru/rc/21942fff69138a03be3e9404b5d8b46a/220x340/books46/457691/cover.jpg?1613060782",
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1503566879l/23354301._SY475_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Дорогая редакция - Тимченко",
@@ -862,6 +860,14 @@ const IMAGES = [
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Герои книг на приеме у психотерапевта - A. Боттлингер",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c1/Thinking%2C_Fast_and_Slow.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/en/c/c1/Thinking%2C_Fast_and_Slow.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Думай медленно… решай быстро - Канеман",
   },
 ];
 
