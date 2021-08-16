@@ -195,6 +195,15 @@ const courses = [
     name: "Next.js, Nuxt.js & Serverless functions - ",
     date: "03.08.21",
   },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/serverless-functions/",
+    name: "Introduction to Serverless Functions - ",
+    date: "16.08.21",
+  },
 ];
 
 export default courses;
