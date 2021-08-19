@@ -1,4 +1,5 @@
 import helsinki from "../images/helsinki.webp";
+import treehouse from "../images/treehouse.svg";
 
 const ongoingCourses = [
   {
@@ -16,6 +17,14 @@ const ongoingCourses = [
     width: 45,
     link: "https://devopswithdocker.com/",
     name: "DevOps with Docker",
+  },
+  {
+    pic: treehouse,
+    alt: "treehouse logo",
+    height: 40,
+    width: 45,
+    link: "https://www.freecodecamp.org/news/how-to-design-good-typography/",
+    name: "Typography for Developers",
   },
 ];
 
