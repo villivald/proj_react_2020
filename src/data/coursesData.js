@@ -4,6 +4,7 @@ import wb from "../images/wb.webp";
 import coursera from "../images/coursera.jpeg";
 import udemy from "../images/udemy.webp";
 import jamstack from "../images/jamstack.webp";
+import treehouse from "../images/treehouse.svg";
 
 const courses = [
   {
@@ -203,6 +204,15 @@ const courses = [
     link: "https://frontendmasters.com/courses/serverless-functions/",
     name: "Introduction to Serverless Functions - ",
     date: "16.08.21",
+  },
+  {
+    pic: treehouse,
+    alt: "treehouse logo",
+    height: 40,
+    width: 45,
+    link: "https://www.freecodecamp.org/news/how-to-design-good-typography/",
+    name: "Typography for Developers - ",
+    date: "21.08.21",
   },
 ];
 
