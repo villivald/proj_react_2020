@@ -877,6 +877,13 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Черный город - Акунин",
   },
+  {
+    src: "https://namednibook.ru/img/volumes/covers/1921-1930.jpg",
+    thumbnail: "https://namednibook.ru/img/volumes/covers/1921-1930.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Намедни 1921-1930 - Парфенов",
+  },
 ];
 
 export default IMAGES;
