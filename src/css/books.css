@@ -1,6 +1,7 @@
 .booksButtons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 7%;
 }
 
 .beatLoader {
@@ -10,34 +11,10 @@
   margin: 100px;
 }
 
-@media only screen and (max-width: 1000px) {
-  .booksButtons {
-    justify-content: center;
-    gap: 15px;
-  }
-}
 @media only screen and (max-width: 700px) {
   .booksButtons {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
-  }
-
-  .div1 {
-    grid-area: 1 / 1 / 2 / 2;
-  }
-  .div2 {
-    grid-area: 1 / 2 / 2 / 3;
-  }
-  .div3 {
-    grid-area: 2 / 1 / 3 / 3;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .booksButtons {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: 8%;
   }
 }

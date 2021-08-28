@@ -884,6 +884,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Намедни 1921-1930 - Парфенов",
   },
+  {
+    src: "https://images-na.ssl-images-amazon.com/images/I/41cl5DPW8OL._SX322_BO1,204,203,200_.jpg",
+    thumbnail:
+      "https://images-na.ssl-images-amazon.com/images/I/41cl5DPW8OL._SX322_BO1,204,203,200_.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Птица за птицей - Ламотт",
+  },
 ];
 
 export default IMAGES;
