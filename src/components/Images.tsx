@@ -892,6 +892,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Птица за птицей - Ламотт",
   },
+  {
+    src: "https://images-na.ssl-images-amazon.com/images/I/71nFBeupWzL.jpg",
+    thumbnail:
+      "https://images-na.ssl-images-amazon.com/images/I/71nFBeupWzL.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Не прощаюсь - Акунин",
+  },
 ];
 
 export default IMAGES;
