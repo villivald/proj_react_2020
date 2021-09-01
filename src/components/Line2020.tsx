@@ -22,7 +22,7 @@ const data = {
   datasets: [
     {
       data: books,
-      label: `📚 2021 - ${books.reduce((item, total) => item + total)} books`,
+      label: `📚 2020 - ${books.reduce((item, total) => item + total)} books`,
       fill: false,
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgba(255, 99, 132, 0.2)",

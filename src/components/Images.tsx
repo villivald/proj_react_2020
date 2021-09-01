@@ -900,6 +900,13 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Не прощаюсь - Акунин",
   },
+  {
+    src: "https://i.imgur.com/BMXAyZU.png",
+    thumbnail: "https://i.imgur.com/BMXAyZU.png",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Make VS Code Awesome - Porzio",
+  },
 ];
 
 export default IMAGES;
