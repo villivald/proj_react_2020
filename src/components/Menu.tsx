@@ -45,14 +45,7 @@ const Menu: FunctionComponent<{
           </div>
           <Suspense
             fallback={
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  margin: 100,
-                }}
-              >
+              <div className="beatLoader">
                 <BeatLoader color={Colors.blog} size={30} loading={true} />
               </div>
             }

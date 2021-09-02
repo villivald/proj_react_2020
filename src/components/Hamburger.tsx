@@ -9,7 +9,6 @@ const Hamburger: FunctionComponent<{
 }> = (props) => {
   return (
     <Menu
-      className="habibi"
       control={
         <Button
           variant="link"

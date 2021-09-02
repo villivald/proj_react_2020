@@ -408,18 +408,6 @@ div.MuiChip-root {
   font-family: "Mate", serif;
 }
 
-.dropDownMenuItem:not(:last-child) {
-  border-bottom: 1px solid rgb(233, 236, 239) !important;
-}
-.dropDownMenuItem:not(:first-child) {
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
-}
-
-.hamburger {
-  display: none;
-}
-
 @media only screen and (max-width: 1300px) {
   .grid-wrapper {
     display: grid;
@@ -1005,14 +993,6 @@ div.MuiChip-root {
 }
 
 @media only screen and (max-width: 400px) {
-  .drop {
-    display: none;
-  }
-  .hamburger {
-    position: absolute;
-    margin-left: 80%;
-    display: block;
-  }
   .timeline {
     display: flex;
     flex-direction: column;

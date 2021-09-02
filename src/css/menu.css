@@ -94,6 +94,17 @@
   outline: lightgreen solid 2px;
 }
 
+.beatLoader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100;
+}
+
+.hamburger {
+  display: none;
+}
+
 @media only screen and (max-width: 750px) {
   .shared-0-3-6 {
     height: 40px !important;
@@ -116,5 +127,15 @@
   .shared-0-3-6 {
     padding-right: 10px !important;
     font-size: 8px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .drop {
+    display: none;
+  }
+  .hamburger {
+    position: absolute;
+    margin-left: 80%;
+    display: block;
   }
 }

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Menu, MenuItem, Button } from "@mantine/core";
 import { HamburgerMenuIcon } from "@modulz/radix-icons";
 import dropdownData from "../data/dropdownData";
+import "../css/dropDown.css";
 
 const DropDown: FunctionComponent<{
   DropDownMenuColor: any;
