@@ -13,6 +13,7 @@ const DropDown: FunctionComponent<{
     <Menu
       control={
         <Button
+          className="dropdownMenuButton"
           variant={props.DropDownMenuStyle}
           color={props.DropDownMenuColor}
           size="xl"

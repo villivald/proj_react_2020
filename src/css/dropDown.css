@@ -5,3 +5,8 @@
   padding-top: 20px !important;
   padding-bottom: 20px !important;
 }
+.dropdownMenuButton:hover {
+  color: var(--whiteSmoke);
+  background-color: #537f69;
+  border: 1px solid var(--whiteSmoke);
+}
