@@ -386,22 +386,27 @@ div.MuiChip-root {
 }
 
 .projects {
+  display: grid;
   grid-template-columns: repeat(4, 197px);
+  grid-gap: 3%;
+  margin-top: 30px;
   margin-bottom: 100px;
 }
-.reactprojects {
-  grid-template-columns: repeat(3, 197px);
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
+
 .oldwebsites {
+  display: grid;
   grid-template-columns: repeat(3, 197px);
+  grid-gap: 3%;
   margin-top: 30px;
   margin-bottom: 180px;
 }
 .allProjects {
+  display: grid;
   grid-template-columns: repeat(4, 197px);
+  grid-gap: 3%;
+  margin-top: 30px;
   margin-bottom: 180px;
+  margin-left: -50px;
 }
 
 .label-0-3-5 {
@@ -459,7 +464,6 @@ div.MuiChip-root {
 
   .allProjects {
     grid-template-columns: repeat(4, 1fr);
-    margin-left: -50px;
   }
 }
 
@@ -609,6 +613,10 @@ div.MuiChip-root {
     grid-template-columns: repeat(3, 1fr);
     margin-left: -30px;
   }
+
+  .projects {
+    grid-template-columns: repeat(3, 197px);
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -719,6 +727,14 @@ div.MuiChip-root {
   .allProjects {
     grid-template-columns: repeat(2, 1fr);
     margin-left: 0px;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 197px);
+  }
+
+  .oldwebsites {
+    grid-template-columns: repeat(2, 197px);
   }
 }
 
@@ -923,6 +939,21 @@ div.MuiChip-root {
     margin-left: -95%;
     width: 150px;
   }
+
+  .allProjects {
+    grid-template-columns: repeat(2, 167px);
+  }
+  .projects {
+    grid-template-columns: repeat(2, 167px);
+  }
+
+  .oldwebsites {
+    grid-template-columns: repeat(2, 167px);
+  }
+
+  .react-page-title {
+    font-size: 1.8rem;
+  }
 }
 
 @media only screen and (max-width: 470px) {
@@ -972,7 +1003,6 @@ div.MuiChip-root {
     margin-bottom: 5%;
   }
 
-  .reactprojects,
   .projects {
     gap: 3%;
   }

@@ -48,7 +48,7 @@ const Projects: FunctionComponent<{
         <h1 className="react-page-title">2020 | 2021</h1>
       </div>
       <div className="grid">
-        <div className="grid-wrapper projects reactprojects">
+        <div className="projects">
           <GridItem
             text={"Todo App | React '20"}
             link={"https://old.villivald.com/todo/"}

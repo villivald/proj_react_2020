@@ -51,7 +51,7 @@ const Projects: FunctionComponent<{
         <h1 className="react-page-title">2019 | 2020</h1>
       </div>
       <div className="grid">
-        <div className="grid-wrapper projects">
+        <div className="projects">
           <GridItem
             text={"Calculator | 🖥"}
             link={"https://old.villivald.com/Projects/calculator/index.html"}

@@ -51,7 +51,7 @@ const OldWebsites: FunctionComponent<{
         <h1 className="react-page-title">Old Site Versions</h1>
       </div>
       <div className="grid">
-        <div className="grid-wrapper projects oldwebsites">
+        <div className="oldwebsites">
           <GridItem
             text={"Website (Winter '19)"}
             link={"https://old.villivald.com/Projects/Skeleton/index.html"}

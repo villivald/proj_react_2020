@@ -55,7 +55,7 @@ const Projects: FunctionComponent<{
         <h1 className="react-page-title">Projects</h1>
       </div>
       <div className="grid">
-        <div className="grid-wrapper projects reactprojects allProjects">
+        <div className="allProjects">
           <GridItem
             text={"React Projects ('20, '21)"}
             link={"./react"}
