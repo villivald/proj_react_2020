@@ -411,7 +411,7 @@ div.MuiChip-root {
 .dropDownMenuItem:not(:last-child) {
   border-bottom: 1px solid rgb(233, 236, 239) !important;
 }
-.dropDownMenuItem {
+.dropDownMenuItem:not(:first-child) {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
 }
