@@ -25,7 +25,7 @@ const Second: FunctionComponent = () => {
       link={course.link}
       name={course.name}
       date={course.date}
-    ></Course>
+    />
   ));
   const OngoingCourses = ongoingCourses.map((course) => (
     <Course
@@ -35,7 +35,7 @@ const Second: FunctionComponent = () => {
       width={course.width}
       link={course.link}
       name={course.name}
-    ></Course>
+    />
   ));
   return (
     <div className="main">
