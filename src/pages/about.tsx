@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Arrow from "../components/Arrow";
 import BackButton from "../components/BackButton";
 import about from "../images/about.webp";
+import "../css/about.css";
 
 const First: FunctionComponent = () => {
   return (
@@ -16,15 +17,14 @@ const First: FunctionComponent = () => {
         Pic="string"
         setMainStyle=""
       />
-
       <BackButton />
-
       <div className="contact-wrapper">
         <img
-          style={{ marginBottom: "3%", width: "clamp(350px, 50%, 800px)" }}
+          className="aboutPoster"
           src={about}
           alt="About me poster"
-          width="50%"
+          width="425px"
+          height="600px"
         />
       </div>
       <Footer footerStyle="footer" footerTextStyle="a" />

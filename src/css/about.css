@@ -1,0 +1,10 @@
+.aboutPoster {
+  margin-bottom: 3%;
+}
+
+@media screen and (max-width: 550px) {
+  .aboutPoster {
+    height: 60%;
+    width: 60%;
+  }
+}
