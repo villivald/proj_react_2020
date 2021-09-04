@@ -907,6 +907,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Make VS Code Awesome - Porzio",
   },
+  {
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575496058l/49094876._SY475_.jpg",
+    thumbnail:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575496058l/49094876._SY475_.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Пить или не пить? - Д. Натт",
+  },
 ];
 
 export default IMAGES;
