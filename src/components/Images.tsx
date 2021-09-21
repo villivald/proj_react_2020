@@ -915,6 +915,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Пить или не пить? - Д. Натт",
   },
+  {
+    src: "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/6376393-zinaida-gippius-yazvitelnye-zametki-o-care-staline-i-muzhe-6376393.jpg",
+    thumbnail:
+      "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/6376393-zinaida-gippius-yazvitelnye-zametki-o-care-staline-i-muzhe-6376393.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Дневники - З. Гиппиус",
+  },
 ];
 
 export default IMAGES;
