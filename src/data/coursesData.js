@@ -214,6 +214,15 @@ const courses = [
     name: "Typography for Developers - ",
     date: "21.08.21",
   },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/web-perf/",
+    name: "Web Performance - ",
+    date: "24.09.21",
+  },
 ];
 
 export default courses;
