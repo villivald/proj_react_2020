@@ -580,9 +580,9 @@ const IMAGES = [
     caption: "Москва и москвичи - Гиляровский",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/en/1/11/TheFoundationPit.jpg",
+    src: "https://images-na.ssl-images-amazon.com/images/I/410DSGV3JQL._SX301_BO1,204,203,200_.jpg",
     thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/1/11/TheFoundationPit.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/410DSGV3JQL._SX301_BO1,204,203,200_.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Котлован - Платонов",
@@ -916,12 +916,27 @@ const IMAGES = [
     caption: "Пить или не пить? - Д. Натт",
   },
   {
-    src: "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/6376393-zinaida-gippius-yazvitelnye-zametki-o-care-staline-i-muzhe-6376393.jpg",
-    thumbnail:
-      "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/6376393-zinaida-gippius-yazvitelnye-zametki-o-care-staline-i-muzhe-6376393.jpg",
+    src: "https://m.media-amazon.com/images/I/5181-JHGsdL.jpg",
+    thumbnail: "https://m.media-amazon.com/images/I/5181-JHGsdL.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Дневники - З. Гиппиус",
+  },
+  {
+    src: "https://alpinabook.ru/resize/820x1200/upload/iblock/37f/37f14e25d9516a412cfffa03cd57804a.jpg",
+    thumbnail:
+      "https://alpinabook.ru/resize/820x1200/upload/iblock/37f/37f14e25d9516a412cfffa03cd57804a.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "100 рассказов из истории медицины - М. Шифрин",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/bf/TheHeartOfADog_%28Mikhail_Bulgakov_novel_-_cover_art%29.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/en/b/bf/TheHeartOfADog_%28Mikhail_Bulgakov_novel_-_cover_art%29.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Собачье сердце - Булгаков",
   },
 ];
 
