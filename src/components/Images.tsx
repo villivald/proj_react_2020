@@ -801,8 +801,9 @@ const IMAGES = [
     caption: "Русский дневник - Стейнбек",
   },
   {
-    src: "https://www.lukuhetki.fi/tuotekuvat/product63345.jpg",
-    thumbnail: "https://www.lukuhetki.fi/tuotekuvat/product63345.jpg",
+    src: "https://res.cloudinary.com/dolyfnals/image/upload/v1557141160/ui25mfgkuf0qmqwyvbnm.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/dolyfnals/image/upload/v1557141160/ui25mfgkuf0qmqwyvbnm.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Unelmien NBA - Häyrinen, Möttölä",
@@ -937,6 +938,14 @@ const IMAGES = [
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Собачье сердце - Булгаков",
+  },
+  {
+    src: "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/6880393-sasha-filipenko-10901725-byvshiy-syn.jpg",
+    thumbnail:
+      "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/6880393-sasha-filipenko-10901725-byvshiy-syn.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Филипенко - Бывший сын",
   },
 ];
 
