@@ -945,7 +945,15 @@ const IMAGES = [
       "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/6880393-sasha-filipenko-10901725-byvshiy-syn.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
-    caption: "Филипенко - Бывший сын",
+    caption: "Бывший сын - Филипенко",
+  },
+  {
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328868897l/99797.jpg",
+    thumbnail:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328868897l/99797.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Голем - Майринк",
   },
 ];
 
