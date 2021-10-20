@@ -955,6 +955,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Голем - Майринк",
   },
+  {
+    src: "https://cv6.litres.ru/pub/c/elektronnaya-kniga/cover_415/9243463-sasha-filipenko-10901725-zamysly.jpg",
+    thumbnail:
+      "https://cv6.litres.ru/pub/c/elektronnaya-kniga/cover_415/9243463-sasha-filipenko-10901725-zamysly.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Замыслы - Филипенко",
+  },
 ];
 
 export default IMAGES;
