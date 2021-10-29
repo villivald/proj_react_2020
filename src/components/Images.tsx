@@ -963,6 +963,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Замыслы - Филипенко",
   },
+  {
+    src: "https://images.cdn.yle.fi/image/upload/ar_1:1,b_auto:predominant_gradient:4,c_pad,d_yle-areena.jpg,f_auto,fl_lossy,q_auto:eco,w_720/v1601626132/13-1-4274369-1601626125705.jpg",
+    thumbnail:
+      "https://images.cdn.yle.fi/image/upload/ar_1:1,b_auto:predominant_gradient:4,c_pad,d_yle-areena.jpg,f_auto,fl_lossy,q_auto:eco,w_720/v1601626132/13-1-4274369-1601626125705.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Swannin tie - Proust",
+  },
 ];
 
 export default IMAGES;
