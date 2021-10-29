@@ -1,6 +1,24 @@
 import helsinki from "../images/helsinki.webp";
+import webdev from "../images/webdev.webp";
+import fm from "../images/fm.jpg";
 
 const ongoingCourses = [
+  {
+    pic: webdev,
+    alt: "google web dev logo",
+    height: 42,
+    width: 50,
+    link: "https://web.dev/learn/css/",
+    name: "Learn CSS",
+  },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://www.typescript-training.com/course/fundamentals-v3",
+    name: "TypeScript",
+  },
   {
     pic: helsinki,
     alt: "helsinki university logo",
