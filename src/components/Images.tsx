@@ -971,6 +971,21 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Swannin tie - Proust",
   },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/61/PulpNovel.jpg",
+    thumbnail: "https://upload.wikimedia.org/wikipedia/en/6/61/PulpNovel.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Макулатура - Буковски",
+  },
+  {
+    src: "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/6376393-zinaida-gippius-yazvitelnye-zametki-o-care-staline-i-muzhe-6376393.jpg",
+    thumbnail:
+      "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/6376393-zinaida-gippius-yazvitelnye-zametki-o-care-staline-i-muzhe-6376393.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Язвительные заметки о Царе, Сталине и Муже - Гиппиус",
+  },
 ];
 
 export default IMAGES;
