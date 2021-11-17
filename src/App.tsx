@@ -4,6 +4,19 @@ import Home from "./pages/home";
 import BeatLoader from "react-spinners/BeatLoader";
 import Colors from "./constants/colors";
 
+import {
+  KBarProvider,
+  KBarPortal,
+  KBarPositioner,
+  KBarAnimator,
+  KBarSearch,
+  KBarResults,
+  useMatches,
+  // @ts-ignore
+  NO_GROUP,
+} from "kbar";
+import { useMemo } from "react";
+
 const About = lazy(() => import("./pages/about"));
 const Uses = lazy(() => import("./pages/uses"));
 const Contact = lazy(() => import("./pages/contact"));
@@ -17,40 +30,133 @@ const OldWebsites = lazy(() => import("./pages/old-website"));
 const BookList = lazy(() => import("./pages/bookList"));
 const NotFoundPage = lazy(() => import("./pages/404"));
 
-const App: FunctionComponent = () => {
+const RenderResults = () => {
+  const groups = useMatches();
+  const flattened = useMemo(
+    () =>
+      groups.reduce((acc: any, curr: any) => {
+        acc.push(curr.name);
+        acc.push(...curr.actions);
+        return acc;
+      }, []),
+    [groups]
+  );
+
   return (
-    <Router>
-      <Suspense
-        fallback={
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              margin: 100,
-            }}
-          >
-            <BeatLoader color={Colors.blog} size={30} loading={true} />
+    <KBarResults
+      items={flattened.filter((i: any) => i !== NO_GROUP)}
+      onRender={({ item, active }) =>
+        typeof item === "string" ? (
+          <div>Navigation</div>
+        ) : (
+          <div className={`kbar ${active ? "activeBar" : ""}`}>
+            <div className="kbar-item">
+              {item.name}
+              <p>{item.keywords}</p>
+            </div>
+            <span>{item.shortcut}</span>
           </div>
-        }
-      >
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" exact component={About} />
-          <Route path="/contact" exact component={Contact} />
-          <Route path="/uses" exact component={Uses} />
-          <Route path="/courses" exact component={Courses} />
-          <Route path="/books" exact component={Books} />
-          <Route path="/projects" exact component={Projects} />
-          <Route path="/react" exact component={ReactProjects} />
-          <Route path="/allProjects" exact component={AllProjects} />
-          <Route path="/stats" exact component={Stats} />
-          <Route path="/old-website" exact component={OldWebsites} />
-          <Route path="/bookList" exact component={BookList} />
-          <Route path="*" component={NotFoundPage} />
-        </Switch>
-      </Suspense>
-    </Router>
+        )
+      }
+    />
+  );
+};
+
+const App: FunctionComponent = () => {
+  const actions = [
+    {
+      id: "home",
+      name: "Home",
+      shortcut: ["h"],
+      keywords: "home page",
+      perform: () => (window.location.pathname = "/"),
+    },
+    {
+      id: "about",
+      name: "About",
+      shortcut: ["a"],
+      keywords: "about me",
+      perform: () => (window.location.pathname = "about"),
+    },
+    {
+      id: "contact",
+      name: "Contact",
+      shortcut: ["c"],
+      keywords: "my contacts",
+      perform: () => (window.location.pathname = "contact"),
+    },
+    {
+      id: "projects",
+      name: "Projects",
+      shortcut: ["p"],
+      keywords: "all my coding projects",
+      perform: () => (window.location.pathname = "projects"),
+    },
+    {
+      id: "uses",
+      name: "Uses",
+      shortcut: ["u"],
+      keywords: "tools and technologies I am using",
+      perform: () => (window.location.pathname = "uses"),
+    },
+    {
+      id: "courses",
+      name: "Courses",
+      shortcut: ["r"],
+      keywords: "courses and certifications",
+      perform: () => (window.location.pathname = "courses"),
+    },
+    {
+      id: "books",
+      name: "Books",
+      shortcut: ["b"],
+      keywords: "books I read",
+      perform: () => (window.location.pathname = "books"),
+    },
+  ];
+  return (
+    <KBarProvider actions={actions}>
+      <KBarPortal>
+        <KBarPositioner>
+          <KBarAnimator className="kbarContainer">
+            <KBarSearch className="kbarInput" />
+            <RenderResults />
+          </KBarAnimator>
+        </KBarPositioner>
+      </KBarPortal>
+      <Router>
+        <Suspense
+          fallback={
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                margin: 100,
+              }}
+            >
+              <BeatLoader color={Colors.blog} size={30} loading={true} />
+            </div>
+          }
+        >
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/about" exact component={About} />
+            <Route path="/contact" exact component={Contact} />
+            <Route path="/uses" exact component={Uses} />
+            <Route path="/courses" exact component={Courses} />
+            <Route path="/books" exact component={Books} />
+            <Route path="/projects" exact component={Projects} />
+            <Route path="/react" exact component={ReactProjects} />
+            <Route path="/allProjects" exact component={AllProjects} />
+            <Route path="/stats" exact component={Stats} />
+            <Route path="/old-website" exact component={OldWebsites} />
+            <Route path="/bookList" exact component={BookList} />
+            <Route path="*" component={NotFoundPage} />
+          </Switch>
+        </Suspense>
+      </Router>
+    </KBarProvider>
   );
 };
 
