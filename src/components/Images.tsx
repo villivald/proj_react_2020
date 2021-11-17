@@ -986,6 +986,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Язвительные заметки о Царе, Сталине и Муже - Гиппиус",
   },
+  {
+    src: "http://www.rosaliksom.com/assets/Images/Kannet-fin/_resampled/SetWidth335-Hytti-nro-6.jpg",
+    thumbnail:
+      "http://www.rosaliksom.com/assets/Images/Kannet-fin/_resampled/SetWidth335-Hytti-nro-6.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Hytti nro 6 - R. Liksom",
+  },
 ];
 
 export default IMAGES;
