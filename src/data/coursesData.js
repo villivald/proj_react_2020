@@ -223,6 +223,15 @@ const courses = [
     name: "Web Performance - ",
     date: "24.09.21",
   },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/courses/developer-productivity/",
+    name: "Developer Productivity - ",
+    date: "17.11.21",
+  },
 ];
 
 export default courses;
