@@ -12,7 +12,11 @@ const Footer: FunctionComponent<{
       <div className={props.footerStyle}>
         <Breadcrumbs aria-label="breadcrumb">
           {footerData.map((item) => (
-            <a className={props.footerTextStyle} href={item.link}>
+            <a
+              key={item.link}
+              className={props.footerTextStyle}
+              href={item.link}
+            >
               {item.icon}
               <div className="footer-text" tabIndex={0}>
                 {item.text}
