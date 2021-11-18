@@ -7,6 +7,8 @@ import Dropdown from "./Dropdown";
 import Hamburger from "./Hamburger";
 import Colors from "../constants/colors";
 import "../css/menu.css";
+import command from "../images/command.svg";
+import control from "../images/ctrl.svg";
 
 const Logo = lazy(() => import("./Logo"));
 
@@ -70,6 +72,19 @@ const Menu: FunctionComponent<{
               DropDownMenuColor={props.mainStyle ? "orange" : "dark"}
               DropDownMenuStyle={props.mainStyle ? "filled" : "outline"}
             />
+            <div className="commandPic">
+              <img
+                src={command}
+                alt="command"
+                height={50}
+                width={50}
+                className="commandPicIcon"
+              />
+              <span>/</span>
+              <img src={control} alt="control" height={33} width={33} />
+              <span>＋</span>
+              <span>K</span>
+            </div>
           </div>
           <div className="hamburger">
             <Hamburger
