@@ -1,6 +1,6 @@
-<h1 align="center">Welcome to PROJ 👋</h1>
+<h1 align="center">Welcome to VILLIVALD.COM 👋</h1>
 
-> The website with my project built with React.
+> The website with my projects built with React
 
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.4.0-blue.svg?cacheSeconds=2592000" />
