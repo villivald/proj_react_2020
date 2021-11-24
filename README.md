@@ -13,7 +13,7 @@
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/villivald/proj_react_2020">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/villivald/proj_react_2020">
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/villivald/proj_react_2020">
-  <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fproj.create-react-app.com%2F">
+  <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fvillivald.com%2F">
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/villivald/proj_react_2020">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/villivald/proj_react_2020">
   <img alt="GitHub followers" src="https://img.shields.io/github/followers/villivald?style=social">
@@ -41,6 +41,7 @@
 - [Mantine](https://mantine.dev/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [React Grid Gallery](https://benhowell.github.io/react-grid-gallery/)
+- [kbar](https://kbar.vercel.app/)
 
 ## Website
 
@@ -98,7 +99,8 @@
 
 👤 **villivald**
 
-- Website: https://create-react-app.com/
+- Website: https://villivald.com/
+- Blog: https://create-react-app.com/
 - Twitter: [@crapp_blog](https://twitter.com/crapp_blog)
 - Github: [@villivald](https://github.com/villivald)
 - Dev: [@villivald](https://dev.to/villivald)
