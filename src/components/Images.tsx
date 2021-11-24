@@ -994,6 +994,21 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Hytti nro 6 - R. Liksom",
   },
+  {
+    src: "https://otava.fi/wp-content/uploads/isbn/9789511377474-scaled-400x0-c-default.jpeg",
+    thumbnail:
+      "https://otava.fi/wp-content/uploads/isbn/9789511377474-scaled-400x0-c-default.jpeg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Yhden miehen enemmistö - T. Soini",
+  },
+  {
+    src: "https://cdn1.ozone.ru/multimedia/c1200/1000685961.jpg",
+    thumbnail: "https://cdn1.ozone.ru/multimedia/c1200/1000685961.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Иностранец в смутное время - Лимонов",
+  },
 ];
 
 export default IMAGES;
