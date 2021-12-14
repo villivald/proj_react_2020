@@ -1009,6 +1009,36 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Иностранец в смутное время - Лимонов",
   },
+  {
+    src: "https://otava.fi/wp-content/uploads/isbn/9789511363453-400x0-c-default.jpeg",
+    thumbnail:
+      "https://otava.fi/wp-content/uploads/isbn/9789511363453-400x0-c-default.jpeg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Kaikki elämästä(ni) - A. Holma",
+  },
+  {
+    src: "https://alpinabook.ru/resize/820x1200/upload/iblock/5cb/cgtnvmdhi5cewr6ih13bnb5sqzm14vjk.jpg",
+    thumbnail:
+      "https://alpinabook.ru/resize/820x1200/upload/iblock/5cb/cgtnvmdhi5cewr6ih13bnb5sqzm14vjk.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Ход царем - И. Жегулев",
+  },
+  {
+    src: "https://i.imgur.com/GrbQfAQ.png",
+    thumbnail: "https://i.imgur.com/GrbQfAQ.png",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Frontend Unicorn - S. Adamiak",
+  },
+  {
+    src: "https://m.media-amazon.com/images/I/41bEvgq9yzL.jpg",
+    thumbnail: "https://m.media-amazon.com/images/I/41bEvgq9yzL.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Опасные советские вещи - А. Архипова",
+  },
 ];
 
 export default IMAGES;
