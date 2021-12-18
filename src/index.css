@@ -254,11 +254,6 @@ ul {
   list-style-type: none;
 }
 
-.use {
-  display: flex;
-  gap: 10px;
-}
-
 .emoji {
   width: 20px;
 }

@@ -79,6 +79,12 @@
   place-items: center;
 }
 
+.use {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 @media only screen and (max-width: 1300px) {
   .uses {
     gap: 1%;

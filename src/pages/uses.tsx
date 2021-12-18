@@ -109,8 +109,8 @@ const Uses: FunctionComponent = () => {
             />
             <List
               emoji="🎧"
-              name="Jabra Elite Active 65T"
-              link="https://www.jabra.com/bluetooth-headsets/jabra-elite-active-65t?_ga=2.179610726.358933741.1605687397-815382529.1605687397##100-99010000-02"
+              name="JBL UA Flash X"
+              link="https://fi.jbl.com/UA+FLASH+X-.html"
             />
             <List
               emoji="📺"
@@ -162,10 +162,10 @@ const Uses: FunctionComponent = () => {
             </li>
             <List
               emoji="📋"
-              name={<s>Things</s>}
-              link="https://todoist.com/"
-              newName={"→ Todoist"}
-              newLink="https://culturedcode.com/things/"
+              name={<s>Todoist</s>}
+              link="https://culturedcode.com/things/"
+              newName={"→ Things"}
+              newLink="https://todoist.com/"
             />
             <List emoji="📁" name="Notion" link="https://www.notion.so/" />
             <List emoji="💬" name="Telegram" link="https://web.telegram.org/" />
@@ -186,7 +186,13 @@ const Uses: FunctionComponent = () => {
               name="Calendars 5"
               link="https://readdle.com/calendars5"
             />
-            <List emoji="🗂" name="Pocket" link="https://getpocket.com/" />
+            <List
+              emoji="🗂"
+              name={<s>Pocket</s>}
+              link="https://getpocket.com/"
+              newName="→ Raindrop"
+              newLink="https://raindrop.io/"
+            />
             <List
               emoji="🏋️‍♀️"
               name="Strava"
