@@ -85,6 +85,10 @@
   gap: 10px;
 }
 
+.emoji {
+  width: 20px;
+}
+
 @media only screen and (max-width: 1300px) {
   .uses {
     gap: 1%;
