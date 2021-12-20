@@ -1039,6 +1039,13 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Опасные советские вещи - А. Архипова",
   },
+  {
+    src: "https://s2.adlibris.com/images/7097026/mielensapahoittaja.jpg",
+    thumbnail: "https://s2.adlibris.com/images/7097026/mielensapahoittaja.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Mielensäpahoittaja - T. Kyrö",
+  },
 ];
 
 export default IMAGES;
