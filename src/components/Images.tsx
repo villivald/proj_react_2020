@@ -1046,6 +1046,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Mielensäpahoittaja - T. Kyrö",
   },
+  {
+    src: "https://kirja.s3.amazonaws.com/prod/9789510390795_frontcover_final_medium.jpg",
+    thumbnail:
+      "https://kirja.s3.amazonaws.com/prod/9789510390795_frontcover_final_medium.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Mielensäpahoittaja ja ruskeakastike - T. Kyrö",
+  },
 ];
 
 export default IMAGES;
