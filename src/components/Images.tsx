@@ -227,8 +227,9 @@ const IMAGES = [
     caption: "Зарубежная Россия - Ковалевский",
   },
   {
-    src: "https://cdn5.ozone.ru/multimedia/wc500/1029183455.jpg",
-    thumbnail: "https://cdn5.ozone.ru/multimedia/wc500/1029183455.jpg",
+    src: "https://img4.labirint.ru/rc/327188b91c8db13a9d39f10cc2e94691/220x340/books68/671998/cover.jpg?1564158974",
+    thumbnail:
+      "https://img4.labirint.ru/rc/327188b91c8db13a9d39f10cc2e94691/220x340/books68/671998/cover.jpg?1564158974",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Почему распался СССР - Аркадий Дубнов",
@@ -987,9 +988,9 @@ const IMAGES = [
     caption: "Язвительные заметки о Царе, Сталине и Муже - Гиппиус",
   },
   {
-    src: "http://www.rosaliksom.com/assets/Images/Kannet-fin/_resampled/SetWidth335-Hytti-nro-6.jpg",
+    src: "http://kirsinbookclub.com/wp-content/uploads/2016/03/SetWidth335-Sesta-kupeja-LAT.jpg",
     thumbnail:
-      "http://www.rosaliksom.com/assets/Images/Kannet-fin/_resampled/SetWidth335-Hytti-nro-6.jpg",
+      "http://kirsinbookclub.com/wp-content/uploads/2016/03/SetWidth335-Sesta-kupeja-LAT.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Hytti nro 6 - R. Liksom",
