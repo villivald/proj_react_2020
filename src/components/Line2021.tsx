@@ -1,6 +1,6 @@
 import { Line } from "@reactchartjs/react-chart.js";
 
-const books = [1];
+const books = [3, 1, 4, 4, 7, 5, 4, 7, 4, 7, 3, 7];
 
 const data = {
   labels: [
@@ -20,7 +20,7 @@ const data = {
   datasets: [
     {
       data: books,
-      label: `📚 2022 - ${books.reduce((item, total) => item + total)} books`,
+      label: `📚 2021 - ${books.reduce((item, total) => item + total)} books`,
       fill: false,
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgba(255, 99, 132, 0.2)",

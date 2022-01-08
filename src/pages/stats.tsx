@@ -2,6 +2,7 @@ import { FunctionComponent } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import Line from "../components/Line";
+import Line2021 from "../components/Line2021";
 import Line2020 from "../components/Line2020";
 import BackButton from "../components/BackButton";
 
@@ -22,6 +23,9 @@ const Stats: FunctionComponent = () => {
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Line />
+      </div>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <Line2021 />
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Line2020 />
