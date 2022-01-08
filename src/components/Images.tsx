@@ -86,9 +86,9 @@ const IMAGES = [
     caption: "Трудно быть богом - Стругацкие",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/en/a/ad/Escape-attempt-macmillan-cover.jpg",
+    src: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621617759l/331252.jpg",
     thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/a/ad/Escape-attempt-macmillan-cover.jpg",
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621617759l/331252.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Попытка к бегству - Стругацкие",
@@ -1062,6 +1062,13 @@ const IMAGES = [
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Ilosia aikoja, Mielensäpahoittaja - T. Kyrö",
+  },
+  {
+    src: "https://i.imgur.com/t6VAjPu.png?1",
+    thumbnail: "https://i.imgur.com/t6VAjPu.png?1",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "1947. Год, в который все началось - Э. Осбринк",
   },
 ];
 
