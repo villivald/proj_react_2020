@@ -14,12 +14,19 @@ import prohelsinki from "../images/prohelsinki.webp";
 import ma from "../images/ma.webp";
 import hkl from "../images/hkl.webp";
 import lab from "../images/lab.webp";
+import kk from "../images/kk.webp";
 
 const StyledTypo = withStyles({
   root: {
     fontFamily: "Mate, serif",
   },
 })(Typography);
+
+const StyledTimelineDot = withStyles({
+  root: {
+    marginTop: "11px",
+  },
+})(TimelineDot);
 
 const Timelines: FunctionComponent<{ TextColor: any }> = (props) => {
   return (
@@ -29,7 +36,7 @@ const Timelines: FunctionComponent<{ TextColor: any }> = (props) => {
           <StyledTypo color={props.TextColor}>2011</StyledTypo>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot />
+          <StyledTimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
@@ -44,12 +51,12 @@ const Timelines: FunctionComponent<{ TextColor: any }> = (props) => {
           <StyledTypo color={props.TextColor}>2014</StyledTypo>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot />
+          <StyledTimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
           <StyledTypo color={props.TextColor}>
-            Trainee Copywriter @ AshberryDesign Oy
+            Trainee Copywriter at AshberryDesign Oy
           </StyledTypo>
           <Avatar src={prohelsinki} alt="pro helsinki" />
         </TimelineContent>
@@ -59,7 +66,7 @@ const Timelines: FunctionComponent<{ TextColor: any }> = (props) => {
           <StyledTypo color={props.TextColor}>2015</StyledTypo>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot />
+          <StyledTimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
@@ -74,11 +81,11 @@ const Timelines: FunctionComponent<{ TextColor: any }> = (props) => {
           <StyledTypo color={props.TextColor}>2017</StyledTypo>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot />
+          <StyledTimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <StyledTypo color={props.TextColor}>Tram driver @ HKL</StyledTypo>
+          <StyledTypo color={props.TextColor}>Tram driver at HKL</StyledTypo>
           <Avatar src={hkl} alt="hkl/hst" />
         </TimelineContent>
       </TimelineItem>
@@ -87,7 +94,7 @@ const Timelines: FunctionComponent<{ TextColor: any }> = (props) => {
           <StyledTypo color={props.TextColor}>2019</StyledTypo>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot />
+          <StyledTimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
@@ -95,6 +102,21 @@ const Timelines: FunctionComponent<{ TextColor: any }> = (props) => {
             LAB University of Applied Sciences
           </StyledTypo>
           <Avatar src={lab} alt="lab university" />
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent>
+          <StyledTypo color={props.TextColor}>2022</StyledTypo>
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <StyledTimelineDot />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <StyledTypo color={props.TextColor}>
+            Developer at Kansalliskirjasto
+          </StyledTypo>
+          <Avatar src={kk} alt="kansalliskirjasto" />
         </TimelineContent>
       </TimelineItem>
     </Timeline>
