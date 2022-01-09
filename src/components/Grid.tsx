@@ -8,7 +8,6 @@ import php from "../images/php.webp";
 import markdown from "../images/markdown.webp";
 import ts from "../images/ts.webp";
 import dev from "../images/dev.svg";
-import hashnode from "../images/hashnode.webp";
 import js from "../images/js.webp";
 import vite from "../images/vite.svg";
 import nextjs from "../images/nextjs.svg";
@@ -85,18 +84,6 @@ const Grid: FunctionComponent<{
           afterHoverTextColor={Colors.almostBlack}
           image={dev}
           alt="dev.to"
-        />
-        <GridItem
-          text={"Hashnode"}
-          link={"https://proj.ninja"}
-          color={Colors.almostBlack}
-          onHoverTextColor={Colors.white}
-          onHoverColor={props.OnHoverColor}
-          boxStyle={styles.blog}
-          afterHover={props.AfterHoverBlog}
-          afterHoverTextColor={Colors.almostBlack}
-          image={hashnode}
-          alt="hashnode"
         />
         <GridItem
           text={"JS Projects"}
