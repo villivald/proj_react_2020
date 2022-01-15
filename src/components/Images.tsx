@@ -1070,6 +1070,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "1947. Год, в который все началось - Э. Осбринк",
   },
+  {
+    src: "https://img4.labirint.ru/rc/b83c885ee94edca0ae9bc1dcd6ba6bd4/220x340/books73/728862/cover.jpg?1575534379",
+    thumbnail:
+      "https://img4.labirint.ru/rc/b83c885ee94edca0ae9bc1dcd6ba6bd4/220x340/books73/728862/cover.jpg?1575534379",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Средневековье крупным планом - Воскобойников ",
+  },
 ];
 
 export default IMAGES;
