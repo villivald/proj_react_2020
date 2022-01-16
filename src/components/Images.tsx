@@ -1078,6 +1078,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Средневековье крупным планом - Воскобойников ",
   },
+  {
+    src: "https://www.basicbooks.com/wp-content/uploads/2019/11/9781541618572.jpg?fit=500%2C750",
+    thumbnail:
+      "https://www.basicbooks.com/wp-content/uploads/2019/11/9781541618572.jpg?fit=500%2C750",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "The Little Ice Age - B. Fagan",
+  },
 ];
 
 export default IMAGES;

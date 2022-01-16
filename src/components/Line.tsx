@@ -1,6 +1,6 @@
 import { Line } from "@reactchartjs/react-chart.js";
 
-const books = [2];
+const books = [3];
 
 const data = {
   labels: [
