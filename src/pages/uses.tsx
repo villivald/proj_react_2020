@@ -83,9 +83,19 @@ const Uses: FunctionComponent = () => {
               }}
             />
             <List
+              emoji="🖥"
+              name="iMac 24 2021"
+              link="https://www.apple.com/fi/imac-24/"
+            />
+            <List
               emoji="💻"
               name="MacBook Pro 13 2017"
               link="https://www.apple.com/fi/macbook-pro-13/"
+            />
+            <List
+              emoji="💻"
+              name="Lenovo ThinkPad T14"
+              link="https://www.lenovo.com/fi/fi/laptops/thinkpad/t-series/T14-G2-Intel/p/22TPT14T4N2"
             />
             <List
               emoji="📱"
@@ -104,8 +114,8 @@ const Uses: FunctionComponent = () => {
             />
             <List
               emoji="🎧"
-              name="Corsair HS60"
-              link="https://www.corsair.com/us/en/Categories/Products/Gaming-Headsets/Stereo-Headsets/HS60/p/CA-9011173-NA"
+              name="Marshall Major IV"
+              link="https://www.marshallheadphones.com/fi/en/major-iv.html"
             />
             <List
               emoji="🎧"
@@ -131,7 +141,7 @@ const Uses: FunctionComponent = () => {
           <ul>
             <li className="use">
               <span className="emoji" role="img" aria-label="bike">
-                🖥
+                🦉
               </span>
               <a href="https://code.visualstudio.com/">VS Code</a>+
               <a href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl">
@@ -158,7 +168,8 @@ const Uses: FunctionComponent = () => {
                 ✉️
               </span>
               <a href="https://www.google.com/gmail/">Gmail</a>+
-              <a href="https://sparkmailapp.com/">Spark</a>
+              <a href="https://sparkmailapp.com/">Spark</a>+
+              <a href="https://support.microsoft.com/en-us/outlook">Outlook</a>
             </li>
             <List
               emoji="📋"
@@ -169,11 +180,15 @@ const Uses: FunctionComponent = () => {
             />
             <List emoji="📁" name="Notion" link="https://www.notion.so/" />
             <List emoji="💬" name="Telegram" link="https://web.telegram.org/" />
-            <List
-              emoji="👨‍💻"
-              name="Teams"
-              link="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software"
-            />
+            <li className="use">
+              <span className="emoji" role="img" aria-label="work">
+                👨‍💻
+              </span>
+              <a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software">
+                Teams
+              </a>
+              +<a href="https://slack.com/">Slack</a>
+            </li>
             <List
               emoji="🗄"
               name={<s>OneNote</s>}
