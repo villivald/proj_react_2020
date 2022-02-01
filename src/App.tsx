@@ -15,7 +15,6 @@ import {
   // @ts-ignore
   NO_GROUP,
 } from "kbar";
-import { useMemo } from "react";
 
 const About = lazy(() => import("./pages/about"));
 const Uses = lazy(() => import("./pages/uses"));
@@ -31,20 +30,11 @@ const BookList = lazy(() => import("./pages/bookList"));
 const NotFoundPage = lazy(() => import("./pages/404"));
 
 const RenderResults = () => {
-  const groups = useMatches();
-  const flattened = useMemo(
-    () =>
-      groups.reduce((acc: any, curr: any) => {
-        acc.push(curr.name);
-        acc.push(...curr.actions);
-        return acc;
-      }, []),
-    [groups]
-  );
+  const { results } = useMatches();
 
   return (
     <KBarResults
-      items={flattened.filter((i: any) => i !== NO_GROUP)}
+      items={results}
       onRender={({ item, active }) =>
         typeof item === "string" ? (
           <div>Navigation</div>
