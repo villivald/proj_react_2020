@@ -6,7 +6,7 @@ import Timelines from "./Timeline";
 import { withStyles } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
-import "antd/dist/antd.css";
+import "antd/dist/antd.min.css";
 import "../css/stats.css";
 
 const Stats: FunctionComponent<{
