@@ -1,3 +1,11 @@
+/* stylelint-disable value-list-comma-newline-after */
+/* stylelint-disable declaration-colon-newline-after */
+/* stylelint-disable color-function-notation */
+/* stylelint-disable indentation */
+/* stylelint-disable selector-combinator-space-before */
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable custom-property-pattern */
+
 /* VARIABLES */
 
 :root {
@@ -203,7 +211,7 @@ ul {
 }
 
 #up > div > div > div.drop > div > div {
-  padding: 0px;
+  padding: 0;
 }
 
 .dropdown-divider {
@@ -245,8 +253,8 @@ div.MuiChip-root {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
 }
 
 #root
@@ -288,13 +296,14 @@ div.MuiChip-root {
 .ant-progress-text {
   color: var(--gray);
 }
+
 .ant-progress-text-alt {
   color: red;
 }
 
 .MuiButton-label {
   color: #282828;
-  font-family: "Mate", serif;
+  font-family: Mate, serif;
   font-weight: 900;
 }
 
@@ -328,7 +337,7 @@ div.MuiChip-root {
 }
 
 .label-0-3-5 {
-  font-family: "Mate", serif;
+  font-family: Mate, serif;
 }
 
 .kbar {
@@ -354,7 +363,7 @@ div.MuiChip-root {
   background: rgb(252 252 252);
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0px 6px 20px rgb(0 0 0 / 20%);
+  box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
   margin-top: 80px;
 }
 
@@ -366,25 +375,13 @@ div.MuiChip-root {
 .kbarInput {
   padding: 12px 18px;
   font-size: 1rem;
-  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
   width: 150%;
   box-sizing: border-box;
   outline: none;
   border: none;
   border-radius: 5px;
   background: rgb(252 252 252);
-}
-
-#kbar-listbox-item-0 {
-  text-rendering: optimizeSpeed;
-  line-height: 1.6;
-  color: rgb(28 28 29);
-  font-family: "Roboto", "Helvetica Neue", sans-serif;
-  box-sizing: border-box;
-  padding: 8px 18px;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  opacity: 0.5;
 }
 
 .kbar span {
@@ -439,6 +436,7 @@ div.MuiChip-root {
     margin-top: 1%;
     margin-left: -150px;
   }
+
   .timeline {
     display: flex;
     flex-direction: column;
@@ -446,17 +444,21 @@ div.MuiChip-root {
     justify-content: space-around;
     align-items: center;
   }
+
   .headers {
     display: none;
   }
+
   h1 {
     margin-bottom: -1%;
   }
+
   .chipWrapper {
     width: 80%;
     margin-left: -60px;
     margin-bottom: -20px;
   }
+
   .chip-grid {
     display: grid;
     grid-gap: 40px;
@@ -493,6 +495,7 @@ div.MuiChip-root {
     margin-top: 1%;
     margin-left: -100px;
   }
+
   .timeline {
     display: flex;
     flex-direction: column;
@@ -500,29 +503,36 @@ div.MuiChip-root {
     justify-content: space-around;
     align-items: center;
   }
+
   .headers {
     display: none;
   }
+
   h1 {
     margin-bottom: -1%;
   }
+
   .chipWrapper {
     width: 80%;
     margin-left: -60px;
     margin-bottom: -20px;
   }
+
   .chip-grid {
     display: grid;
     grid-gap: 40px;
     grid-template-columns: repeat(4, 200px);
     padding-top: 30px;
   }
+
   .switch {
     margin-left: 15px;
   }
+
   .menu-d0-0-3-18 {
     margin-left: -30px;
   }
+
   div[id*="mantine"] {
     margin-left: -20%;
   }
@@ -540,6 +550,7 @@ div.MuiChip-root {
     margin-top: 1%;
     margin-left: -100px;
   }
+
   .timeline {
     display: flex;
     flex-direction: column;
@@ -547,26 +558,32 @@ div.MuiChip-root {
     justify-content: space-around;
     align-items: center;
   }
+
   .headers {
     display: none;
   }
+
   h1 {
     margin-bottom: -1%;
   }
+
   .chipWrapper {
     width: 80%;
     margin-left: -60px;
     margin-bottom: -20px;
   }
+
   .chip-grid {
     display: grid;
     grid-gap: 35px;
     grid-template-columns: repeat(4, 180px);
     padding-top: 30px;
   }
+
   .switch {
     margin-left: 30px;
   }
+
   .menu-d0-0-3-18 {
     margin-left: -40px;
   }
@@ -585,6 +602,7 @@ div.MuiChip-root {
     margin-top: 1%;
     margin-left: -60px;
   }
+
   .timeline {
     display: flex;
     flex-direction: column;
@@ -592,6 +610,7 @@ div.MuiChip-root {
     justify-content: space-around;
     align-items: center;
   }
+
   .headers {
     display: none;
   }
@@ -601,15 +620,18 @@ div.MuiChip-root {
     margin-left: -60px;
     margin-bottom: -20px;
   }
+
   .chip-grid {
     display: grid;
     grid-gap: 35px;
     grid-template-columns: repeat(4, 170px);
     padding-top: 15px;
   }
+
   .switch {
     margin-left: 45px;
   }
+
   .logo {
     margin-left: 25px;
   }
@@ -645,6 +667,7 @@ div.MuiChip-root {
     margin-top: 1%;
     margin-left: -40px;
   }
+
   .timeline {
     display: flex;
     flex-direction: column;
@@ -652,13 +675,16 @@ div.MuiChip-root {
     justify-content: space-around;
     align-items: center;
   }
+
   .headers {
     display: none;
   }
+
   .chipWrapper {
     width: 80%;
     margin-left: -50px;
   }
+
   .chip-grid {
     display: grid;
     grid-gap: 30px;
@@ -669,13 +695,14 @@ div.MuiChip-root {
   .switch {
     margin-left: 10%;
   }
+
   .bubble {
     display: none !important;
   }
 
   .allProjects {
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .commandPic {
@@ -691,6 +718,7 @@ div.MuiChip-root {
     margin-top: 1%;
     margin-left: -10px;
   }
+
   .timeline {
     display: flex;
     flex-direction: column;
@@ -698,6 +726,7 @@ div.MuiChip-root {
     justify-content: space-around;
     align-items: center;
   }
+
   .headers {
     display: none;
   }
@@ -706,12 +735,14 @@ div.MuiChip-root {
     width: 80%;
     margin-left: -50px;
   }
+
   .chip-grid {
     display: grid;
     grid-gap: 25px;
     grid-template-columns: repeat(3, 170px);
     padding-top: 15px;
   }
+
   .switch {
     margin-left: 7%;
   }
@@ -734,6 +765,7 @@ div.MuiChip-root {
   .devHashnode {
     font-size: 1.5rem;
   }
+
   .underlined {
     font-size: 1.5rem;
   }
@@ -748,7 +780,7 @@ div.MuiChip-root {
 
   .allProjects {
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .projects {
@@ -802,7 +834,7 @@ div.MuiChip-root {
   }
 
   .footer {
-    padding: 0 10% 0 10%;
+    padding: 0 10%;
   }
 
   .stats {
@@ -812,6 +844,7 @@ div.MuiChip-root {
   .dropdown {
     margin-left: -2%;
   }
+
   #root
     > div
     > div:nth-child(3)
@@ -832,6 +865,7 @@ div.MuiChip-root {
   .dropdown {
     margin-left: -20%;
   }
+
   .timeline {
     display: flex;
     flex-direction: column;
@@ -881,6 +915,7 @@ div.MuiChip-root {
     margin-top: 1%;
     margin-left: -10px;
   }
+
   .timeline {
     display: flex;
     flex-direction: column;
@@ -888,12 +923,15 @@ div.MuiChip-root {
     justify-content: space-around;
     align-items: center;
   }
+
   .headers {
     display: none;
   }
+
   h1 {
     margin-top: 4%;
   }
+
   .chipWrapper {
     width: 80%;
     margin-left: -30px;
@@ -968,6 +1006,7 @@ div.MuiChip-root {
   .allProjects {
     grid-template-columns: repeat(2, 167px);
   }
+
   .projects {
     grid-template-columns: repeat(2, 167px);
   }
@@ -1001,13 +1040,16 @@ div.MuiChip-root {
     justify-content: space-around;
     align-items: center;
   }
+
   .headers {
     display: none;
   }
+
   h1 {
     margin-top: 4%;
     margin-bottom: -4%;
   }
+
   .chipWrapper {
     width: 80%;
     margin-left: -30px;
@@ -1055,12 +1097,15 @@ div.MuiChip-root {
     justify-content: space-around;
     align-items: center;
   }
+
   .grid {
     margin-left: -4%;
   }
+
   .footer {
     width: 98%;
   }
+
   div[id*="mantine"] {
     margin-left: -260% !important;
   }
@@ -1072,151 +1117,192 @@ div.MuiChip-root {
       position: relative;
       margin-left: 80%;
     }
+
     .switch {
       margin-left: -40%;
     }
+
     .logo {
       margin-left: 370%;
     }
+
     .menu {
       display: flex;
       align-items: center;
     }
+
     .theme-btn {
       margin-left: 200px;
     }
+
     #root > div > div.stickyHeader > div > div > div.header > div {
       transform: none !important;
     }
+
     .icons.course-icons {
       margin-right: 10px;
     }
+
     #root > div > div.uses > div {
       margin-right: 20px;
     }
   }
+
   @media only screen and (max-width: 1200px) {
     .drop {
       position: relative;
       margin-left: 70%;
     }
+
     .logo {
       margin-left: 300%;
     }
   }
+
   @media only screen and (max-width: 1163px) {
     .switch {
       margin-left: -38%;
     }
   }
+
   @media only screen and (max-width: 955px) {
     .logo {
       margin-left: 280%;
     }
+
     .switch {
       margin-left: -34%;
     }
   }
+
   @media only screen and (max-width: 900px) {
     .logo {
       margin-left: 250%;
     }
+
     .switch {
       display: flex;
     }
+
     .theme-btn {
       margin-left: 150px;
     }
   }
+
   @media only screen and (max-width: 780px) {
     .drop {
       position: relative;
       margin-left: 80%;
     }
+
     .logo {
       margin-left: 230%;
     }
+
     .switch {
       margin-left: -38%;
     }
+
     .theme-btn {
       margin-left: 120px;
     }
   }
+
   @media only screen and (max-width: 700px) {
     .theme-btn {
       margin-left: 140px;
     }
+
     .switch {
       margin-left: -41%;
     }
+
     .logo {
       margin-left: 210%;
     }
   }
+
   @media only screen and (max-width: 600px) {
     .theme-btn {
       margin-left: 95px;
     }
+
     .switch {
       margin-left: -47%;
     }
+
     .logo {
       margin-left: 180%;
     }
   }
+
   @media only screen and (max-width: 550px) {
     .theme-btn {
       margin-left: 90px;
     }
+
     .switch {
       margin-left: -49%;
     }
+
     .logo {
       margin-left: 170%;
     }
+
     .headerClip {
       width: 140px;
     }
   }
+
   @media only screen and (max-width: 470px) {
     .theme-btn {
       margin-left: 90px;
     }
+
     .switch {
       margin-left: -52%;
     }
+
     .logo {
       margin-left: 160%;
     }
+
     .headerClip {
       width: 100px;
     }
   }
+
   @media only screen and (max-width: 430px) {
     .theme-btn {
       margin-left: 90px;
     }
+
     .switch {
       display: none;
     }
+
     .headerClip {
       display: none;
     }
+
     .logo {
       margin-left: 130%;
     }
+
     .grid {
       margin-left: -6%;
     }
   }
+
   @media only screen and (max-width: 400px) {
     .logo {
       margin-left: 10%;
     }
+
     .grid {
       margin-left: -6%;
     }
+
     .hamburger {
       position: absolute;
       margin-left: 40%;
