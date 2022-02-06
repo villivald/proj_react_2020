@@ -24,9 +24,8 @@ const IMAGES = [
     caption: "Страна багровых туч	-	Стругацкие",
   },
   {
-    src: "https://www.litmir.me/data/Book/0/249000/249883/BC4_1490723871.jpg",
-    thumbnail:
-      "https://www.litmir.me/data/Book/0/249000/249883/BC4_1490723871.jpg",
+    src: "http://www.rusf.ru/abs/images/obl/spagr004.jpg",
+    thumbnail: "http://www.rusf.ru/abs/images/obl/spagr004.jpg",
     thumbnailWidth: 150,
     thumbnailHeight: 174,
     caption: "Путь на Амальтею - Стругацкие",

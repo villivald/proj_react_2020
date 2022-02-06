@@ -11,7 +11,7 @@
     "@modulz/radix-icons": "^4.0.0",
     "@reactchartjs/react-chart.js": "*",
     "@types/node": "^14.14.37",
-    "antd": "^4.15.1",
+    "antd": "^4.18.5",
     "framer": "^1.2.29",
     "kbar": "0.1.0-beta.27",
     "react": "^16.14.0",
