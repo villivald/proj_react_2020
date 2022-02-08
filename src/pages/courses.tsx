@@ -18,6 +18,7 @@ const H1 = styled.h1`
 const Second: FunctionComponent = () => {
   const Courses = courses.map((course) => (
     <Course
+      key={course.name}
       pic={course.pic}
       alt={course.alt}
       height={course.height}
@@ -29,6 +30,7 @@ const Second: FunctionComponent = () => {
   ));
   const OngoingCourses = ongoingCourses.map((course) => (
     <Course
+      key={course.name}
       pic={course.pic}
       alt={course.alt}
       height={course.height}

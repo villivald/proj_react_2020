@@ -1,5 +1,3 @@
-// @ts-nocheck
-import React from "react";
 import { Line } from "@reactchartjs/react-chart.js";
 
 const books = [7, 7, 3, 4, 8, 6, 8, 7, 4, 3, 6, 6];

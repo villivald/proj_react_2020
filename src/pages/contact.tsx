@@ -8,10 +8,11 @@ import contacts from "../data/contactData";
 const Second: FunctionComponent = () => {
   const Contacts = contacts.map((contact) => (
     <Contact
+      key={contact.link}
       link={contact.link}
       picture={contact.picture}
       alt={`MV's ${contact.alt}`}
-    ></Contact>
+    />
   ));
   return (
     <div className="main">

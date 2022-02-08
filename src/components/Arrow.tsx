@@ -6,8 +6,8 @@ const Arrow = () => {
   const [butt, setButt] = useState("none");
 
   const handleScroll = () => {
-    var rootElement = document.documentElement;
-    var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+    const rootElement = document.documentElement;
+    const scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
     if (rootElement.scrollTop / scrollTotal > 0.8) {
       setButt("inline");
     } else {

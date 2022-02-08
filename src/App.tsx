@@ -12,8 +12,6 @@ import {
   KBarSearch,
   KBarResults,
   useMatches,
-  // @ts-ignore
-  NO_GROUP,
 } from "kbar";
 
 const About = lazy(() => import("./pages/about"));
