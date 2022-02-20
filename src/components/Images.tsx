@@ -1085,6 +1085,13 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "The Little Ice Age - B. Fagan",
   },
+  {
+    src: "https://cdn1.ozone.ru/multimedia/wc1200/1000015466.jpg",
+    thumbnail: "https://cdn1.ozone.ru/multimedia/wc1200/1000015466.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Томас Манн - С. Апт",
+  },
 ];
 
 export default IMAGES;
