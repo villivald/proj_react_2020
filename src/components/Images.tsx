@@ -1092,6 +1092,29 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Томас Манн - С. Апт",
   },
+  {
+    src: "https://cdn1.ozone.ru/s3/multimedia-t/c1200/6013151801.jpg",
+    thumbnail: "https://cdn1.ozone.ru/s3/multimedia-t/c1200/6013151801.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Старик путешествует - Лимонов",
+  },
+  {
+    src: "https://cv4.litres.ru/pub/c/elektronnaya-kniga/cover_415/3954345-dmitriy-bykov-iks.jpg",
+    thumbnail:
+      "https://cv4.litres.ru/pub/c/elektronnaya-kniga/cover_415/3954345-dmitriy-bykov-iks.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Икс - Быков",
+  },
+  {
+    src: "https://alpinabook.ru/resize/820x1200/upload/iblock/26f/3a38a26y7hcm3dbw2onyyzaqpb2se572/%D0%BE%D0%B1%D1%80%D0%B5%D1%87.jpg",
+    thumbnail:
+      "https://alpinabook.ru/resize/820x1200/upload/iblock/26f/3a38a26y7hcm3dbw2onyyzaqpb2se572/%D0%BE%D0%B1%D1%80%D0%B5%D1%87.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Град обреченных - Меркачева",
+  },
 ];
 
 export default IMAGES;
