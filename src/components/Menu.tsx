@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { lazy, Suspense, FunctionComponent } from "react";
 import Avatar from "@material-ui/core/Avatar";
 import { makeStyles } from "@material-ui/core/styles";
@@ -32,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
 const Menu: FunctionComponent<{
   menuStyle: string;
   ButtonDisplay: any;
-  mainStyle: any;
+  mainStyle: boolean | string;
   Pic: string;
   setMainStyle: any;
 }> = (props) => {

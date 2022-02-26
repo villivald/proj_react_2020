@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState, useEffect } from "react";
 
 const url = "https://evening-mesa-82321.herokuapp.com/api/books";

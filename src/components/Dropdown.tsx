@@ -6,8 +6,8 @@ import dropdownData from "../data/dropdownData";
 import "../css/dropDown.css";
 
 const DropDown: FunctionComponent<{
-  DropDownMenuColor: any;
-  DropDownMenuStyle: any;
+  DropDownMenuColor: string;
+  DropDownMenuStyle: "link" | "filled" | "outline" | "light" | undefined;
 }> = (props) => {
   return (
     <Menu

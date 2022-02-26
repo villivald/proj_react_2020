@@ -5,7 +5,7 @@ import { HamburgerMenuIcon } from "@modulz/radix-icons";
 import dropdownData from "../data/dropdownData";
 
 const Hamburger: FunctionComponent<{
-  DropDownMenuColor: any;
+  DropDownMenuColor: string;
 }> = (props) => {
   return (
     <Menu
