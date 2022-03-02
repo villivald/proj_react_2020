@@ -1,7 +1,7 @@
-// import helsinki from "../images/helsinki.webp";
 import webdev from "../images/webdev.webp";
 import fm from "../images/fm.jpg";
-import epicreact from "../images/epicreact.webp";
+// import helsinki from "../images/helsinki.webp";
+//import epicreact from "../images/epicreact.webp";
 
 const ongoingCourses = [
   {
@@ -17,9 +17,25 @@ const ongoingCourses = [
     alt: "frontend masters logo",
     height: 45,
     width: 45,
-    link: "https://www.typescript-training.com/course/fundamentals-v3",
-    name: "TypeScript",
+    link: "https://frontendmasters.com/courses/complete-intro-containers/",
+    name: "Complete Intro to Containers",
   },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 45,
+    width: 45,
+    link: "https://frontendmasters.com/workshops/cypress/",
+    name: "Testing Web Apps with Cypress",
+  },
+  // {
+  //   pic: fm,
+  //   alt: "frontend masters logo",
+  //   height: 45,
+  //   width: 45,
+  //   link: "https://www.typescript-training.com/course/fundamentals-v3",
+  //   name: "TypeScript",
+  // },
   // {
   //   pic: helsinki,
   //   alt: "helsinki university logo",
@@ -36,14 +52,14 @@ const ongoingCourses = [
   //   link: "https://devopswithdocker.com/",
   //   name: "DevOps with Docker",
   // },
-  {
-    pic: epicreact,
-    alt: "epic react logo",
-    height: 45,
-    width: 45,
-    link: "https://epicreact.dev/",
-    name: "Epic React",
-  },
+  // {
+  //   pic: epicreact,
+  //   alt: "epic react logo",
+  //   height: 45,
+  //   width: 45,
+  //   link: "https://epicreact.dev/",
+  //   name: "Epic React",
+  // },
 ];
 
 export default ongoingCourses;
