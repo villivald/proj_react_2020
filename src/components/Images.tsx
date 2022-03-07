@@ -1115,6 +1115,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Град обреченных - Меркачева",
   },
+  {
+    src: "https://s1.livelib.ru/boocover/1000088363/o/9da4/Boris_Vishnevskij__Arkadij_i_Boris_Strugatskie._Dvojnaya_zvezda.jpeg",
+    thumbnail:
+      "https://s1.livelib.ru/boocover/1000088363/o/9da4/Boris_Vishnevskij__Arkadij_i_Boris_Strugatskie._Dvojnaya_zvezda.jpeg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Двойная звезда - Вишневский",
+  },
 ];
 
 export default IMAGES;
