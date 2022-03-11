@@ -98,6 +98,21 @@ const Uses: FunctionComponent = () => {
               link="https://www.lenovo.com/fi/fi/laptops/thinkpad/t-series/T14-G2-Intel/p/22TPT14T4N2"
             />
             <List
+              emoji="🐭"
+              name="Logitech MX Master 3"
+              link="https://www.logitech.com/en-us/products/mice/mx-master-3.910-005647.html"
+            />
+            <List
+              emoji="🐁"
+              name="Magic Trackpad"
+              link="https://www.apple.com/shop/product/MK2D3AM/A/magic-trackpad-white-multi-touch-surface"
+            />
+            <List
+              emoji="⌨️"
+              name="Keychron K2"
+              link="https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard"
+            />
+            <List
               emoji="📱"
               name="iPhone 11"
               link="https://www.apple.com/shop/buy-iphone/iphone-11/6.1-inch-display-64gb-green-unlocked"
@@ -147,7 +162,7 @@ const Uses: FunctionComponent = () => {
               <a href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl">
                 Night Owl
               </a>
-              +<a href="https://philpl.gumroad.com/l/dank-mono">Dank Mono</a>
+              +<a href="https://github.com/tonsky/FiraCode">Fira Code</a>
             </li>
             <List
               emoji="🐚"
@@ -173,9 +188,9 @@ const Uses: FunctionComponent = () => {
             </li>
             <List
               emoji="📋"
-              name={<s>Todoist</s>}
+              name={<s>Things</s>}
               link="https://culturedcode.com/things/"
-              newName={"→ Things"}
+              newName={"→ Todoist"}
               newLink="https://todoist.com/"
             />
             <List emoji="📁" name="Notion" link="https://www.notion.so/" />
@@ -236,7 +251,13 @@ const Uses: FunctionComponent = () => {
               name="Grammarly"
               link="https://www.grammarly.com/"
             />
-            <List emoji="🎶" name="Endel" link="https://endel.io/" />
+            <li className="use">
+              <span className="emoji" role="img" aria-label="music">
+                🎶
+              </span>
+              <a href="https://endel.io/">Endel</a>+
+              <a href="https://tidal.com/">Tidal</a>
+            </li>
             <List
               emoji="💾"
               name="Transmit"
@@ -244,7 +265,13 @@ const Uses: FunctionComponent = () => {
             />
             <List emoji="🔑" name="Bitwarden" link="https://bitwarden.com/" />
             <List emoji="📡" name="Surfshark" link="https://surfshark.com/" />
-            <List emoji="⌨️" name="Obsidian" link="https://obsidian.md/" />
+            <li className="use">
+              <span className="emoji" role="img" aria-label="notes">
+                ⌨️
+              </span>
+              <a href="https://obsidian.md/">Obsidian</a>+
+              <a href="https://simplenote.com/">Simplenote</a>
+            </li>
           </ul>
         </StyledPaper>
         <StyledPaper elevation={6}>
