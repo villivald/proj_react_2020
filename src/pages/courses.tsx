@@ -50,15 +50,16 @@ const Second: FunctionComponent = () => {
         setMainStyle=""
       />
       <BackButton />
-
-      <div className="courses">
-        <ul>
-          <H1 className="contacts houdini">Courses & Certifications</H1>
+      <H1 className="contacts houdini">Courses & Certifications</H1>
+      <div className="courses-wrapper">
+        <div className="courses-container">
           <h2 className="h2-courses">Completed</h2>
-          {Courses}
+          <ul className="course-container">{Courses}</ul>
+        </div>
+        <div className="courses-container">
           <h2 className="h2-courses">Ongoing</h2>
-          {OngoingCourses}
-        </ul>
+          <ul className="course-container">{OngoingCourses}</ul>
+        </div>
       </div>
       <Footer footerStyle="footer" footerTextStyle="a" />
       <Arrow />

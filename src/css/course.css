@@ -8,10 +8,6 @@
   margin-bottom: 3%;
 }
 
-.course-li {
-  width: 120%;
-}
-
 .courseName {
   font-size: clamp(0.5rem, -0.0294rem + 2.3529vw, 1rem);
 }
@@ -34,4 +30,10 @@ _::-webkit-full-page-media,
 _:future,
 :root .courseDate {
   text-decoration: none;
+}
+
+@media only screen and (min-width: 1450px) {
+  .courseName {
+    font-size: 1.2rem;
+  }
 }

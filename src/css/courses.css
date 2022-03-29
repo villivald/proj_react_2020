@@ -1,13 +1,29 @@
-.courses {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
+.courses-wrapper {
   font-size: 1rem;
-  font-family: "Mate", serif;
+  font-family: Mate, serif;
 }
 
 .h2-courses {
   margin-top: 3%;
   margin-bottom: 1%;
+}
+
+.course-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .course-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .courses-wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
 }
