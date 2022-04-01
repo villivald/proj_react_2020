@@ -1123,6 +1123,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Двойная звезда - Вишневский",
   },
+  {
+    src: "https://images-na.ssl-images-amazon.com/images/I/71j+zmN5o-L.jpg",
+    thumbnail:
+      "https://images-na.ssl-images-amazon.com/images/I/71j+zmN5o-L.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Моя жизнь - Троцкий",
+  },
 ];
 
 export default IMAGES;
