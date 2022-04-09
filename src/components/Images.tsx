@@ -1131,6 +1131,13 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Моя жизнь - Троцкий",
   },
+  {
+    src: "https://s1.adlibris.com/images/60244009/navalny.jpg",
+    thumbnail: "https://s1.adlibris.com/images/60244009/navalny.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Navalny - Dollbaum",
+  },
 ];
 
 export default IMAGES;
