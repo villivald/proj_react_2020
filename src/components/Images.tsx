@@ -1138,6 +1138,22 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Navalny - Dollbaum",
   },
+  {
+    src: "https://cv0.litres.ru/pub/c/elektronnaya-kniga/cover_415/48513502-boris-akunin-pervaya-s-48513502.jpg",
+    thumbnail:
+      "https://cv0.litres.ru/pub/c/elektronnaya-kniga/cover_415/48513502-boris-akunin-pervaya-s-48513502.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Первая сверхдержава - Акунин",
+  },
+  {
+    src: "https://img4.labirint.ru/rc/7b92e2578ce59191315dc61cf9d6b5f2/220x340/books29/285192/cover.jpg?1563612594",
+    thumbnail:
+      "https://img4.labirint.ru/rc/7b92e2578ce59191315dc61cf9d6b5f2/220x340/books29/285192/cover.jpg?1563612594",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Триптих - С. Соколов",
+  },
 ];
 
 export default IMAGES;
