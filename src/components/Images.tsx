@@ -1154,6 +1154,14 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Триптих - С. Соколов",
   },
+  {
+    src: "https://knizhnik.org/covers/page-26895-tajnye-vidy-na-goru-fudzi.jpg",
+    thumbnail:
+      "https://knizhnik.org/covers/page-26895-tajnye-vidy-na-goru-fudzi.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Тайные виды на гору Фудзи - Пелевин",
+  },
 ];
 
 export default IMAGES;
