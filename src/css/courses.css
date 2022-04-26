@@ -8,11 +8,16 @@
   margin-bottom: 1%;
 }
 
+.courses-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
 .course-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  justify-content: center;
+  column-gap: 3rem;
 }
 
 @media only screen and (max-width: 1200px) {

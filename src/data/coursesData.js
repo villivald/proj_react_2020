@@ -13,7 +13,7 @@ const courses = [
     height: 35,
     width: 35,
     link: "https://frontendmasters.com/courses/linux-command-line/",
-    name: "Complete Intro to Linux and the Command-Line - ",
+    name: "Intro to Linux and the Command-Line - ",
     date: "06.09.20",
   },
   {
@@ -240,6 +240,24 @@ const courses = [
     link: "https://frontendmasters.com/courses/webpack-fundamentals/",
     name: "Webpack - ",
     date: "25.02.22",
+  },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 35,
+    width: 35,
+    link: "https://frontendmasters.com/workshops/figma-for-devs/",
+    name: "Figma for Developers - ",
+    date: "30.03.21",
+  },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 35,
+    width: 35,
+    link: "https://frontendmasters.com/courses/ux-design-principles/",
+    name: "Web UX Design - ",
+    date: "15.04.22",
   },
 ];
 

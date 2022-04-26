@@ -17,8 +17,8 @@ const ongoingCourses = [
     alt: "frontend masters logo",
     height: 35,
     width: 35,
-    link: "https://frontendmasters.com/courses/complete-intro-containers/",
-    name: "Complete Intro to Containers",
+    link: "https://frontendmasters.com/courses/node-js-v2/",
+    name: "Node.js",
   },
   {
     pic: fm,
@@ -27,6 +27,14 @@ const ongoingCourses = [
     width: 35,
     link: "https://frontendmasters.com/workshops/cypress/",
     name: "Testing Web Apps with Cypress",
+  },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 35,
+    width: 35,
+    link: "https://frontendmasters.com/courses/design-for-developers/",
+    name: "Design for Developers",
   },
   // {
   //   pic: fm,
