@@ -56,7 +56,7 @@ const Stats: FunctionComponent<{
                     color: props.StatsTextColor,
                   }}
                 >
-                  <Progress percent={71} size="small" /> B.E. 2019 - 2023
+                  <Progress percent={79} size="small" /> B.E. 2019 - 2023
                   (190/240 ECTS)
                   <Progress percent={100} size="small" /> M.A. 2011 - 2015 (300
                   ECTS)
