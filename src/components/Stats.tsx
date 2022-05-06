@@ -57,7 +57,7 @@ const Stats: FunctionComponent<{
                   }}
                 >
                   <Progress percent={71} size="small" /> B.E. 2019 - 2023
-                  (170/240 ECTS)
+                  (190/240 ECTS)
                   <Progress percent={100} size="small" /> M.A. 2011 - 2015 (300
                   ECTS)
                 </div>
