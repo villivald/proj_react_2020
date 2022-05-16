@@ -1162,6 +1162,29 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Тайные виды на гору Фудзи - Пелевин",
   },
+  {
+    src: "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/tpp20_hu7d9a813cf46675dfb7b1bf4930cee733_2802494_500x0_resize_q75_box.jpg",
+    thumbnail:
+      "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/tpp20_hu7d9a813cf46675dfb7b1bf4930cee733_2802494_500x0_resize_q75_box.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Программист-прагматик - Д. Томас",
+  },
+  {
+    src: "https://ereolen.dk/sites/default/files/styles/ding_primary_large/public/ting/covers/MTUwMDYxLWVib2c6T0ROMDAwNTQ1NDE3Ng%3D%3D.jpg?itok=okKlHmbu",
+    thumbnail:
+      "https://ereolen.dk/sites/default/files/styles/ding_primary_large/public/ting/covers/MTUwMDYxLWVib2c6T0ROMDAwNTQ1NDE3Ng%3D%3D.jpg?itok=okKlHmbu",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Breathe - Nestor",
+  },
+  {
+    src: "https://pup-assets.imgix.net/onix/images/9780691211411.jpg",
+    thumbnail: "https://pup-assets.imgix.net/onix/images/9780691211411.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Spin Dictators - S. Guriev & D. Treisman",
+  },
 ];
 
 export default IMAGES;
