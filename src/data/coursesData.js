@@ -259,6 +259,15 @@ const courses = [
     name: "Web UX Design - ",
     date: "15.04.22",
   },
+  {
+    pic: fm,
+    alt: "frontend masters logo",
+    height: 35,
+    width: 35,
+    link: "https://frontendmasters.com/courses/design-for-developers/",
+    name: "Design for Developers - ",
+    date: "15.05.22",
+  },
 ];
 
 export default courses;

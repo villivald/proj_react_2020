@@ -28,14 +28,6 @@ const ongoingCourses = [
     link: "https://frontendmasters.com/workshops/cypress/",
     name: "Testing Web Apps with Cypress",
   },
-  {
-    pic: fm,
-    alt: "frontend masters logo",
-    height: 35,
-    width: 35,
-    link: "https://frontendmasters.com/courses/design-for-developers/",
-    name: "Design for Developers",
-  },
   // {
   //   pic: fm,
   //   alt: "frontend masters logo",
