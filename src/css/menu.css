@@ -22,6 +22,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .theme-btn {
   border: none;
   background-color: transparent;
@@ -35,6 +36,7 @@
 .theme-btn:focus-visible {
   outline: lightgreen solid 2px;
 }
+
 .theme-btn:hover {
   transform: scale(1.1);
 }

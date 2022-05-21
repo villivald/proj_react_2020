@@ -36,3 +36,31 @@
   border-bottom-color: var(--whiteSmoke);
   filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
 }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .togglePic {
+      margin-left: 60%;
+    }
+    @media screen and (max-width: 1900px) {
+      .togglePic {
+        margin-left: 240%;
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      .togglePic {
+        margin-left: 200%;
+      }
+    }
+    @media screen and (max-width: 1000px) {
+      .togglePic {
+        margin-left: 160%;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .togglePic {
+        margin-left: 180%;
+      }
+    }
+  }
+}
