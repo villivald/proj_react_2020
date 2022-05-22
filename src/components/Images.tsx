@@ -1185,6 +1185,22 @@ const IMAGES = [
     thumbnailHeight: 174,
     caption: "Spin Dictators - S. Guriev & D. Treisman",
   },
+  {
+    src: "https://ndc.book24.ru/resize/820x1180/iblock/464/464fe7c5fe5706ca14b76588390b0aa6/b16a755fc97050c54f5c896b37eabaad.jpg",
+    thumbnail:
+      "https://ndc.book24.ru/resize/820x1180/iblock/464/464fe7c5fe5706ca14b76588390b0aa6/b16a755fc97050c54f5c896b37eabaad.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Spin Dictators - S. Guriev & D. Treisman",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b0/The_God_Equation.jpg",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/en/b/b0/The_God_Equation.jpg",
+    thumbnailWidth: 150,
+    thumbnailHeight: 174,
+    caption: "Уравнение Бога - М. Каку",
+  },
 ];
 
 export default IMAGES;
