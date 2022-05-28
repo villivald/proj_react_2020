@@ -18,6 +18,7 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/villivald/proj_react_2020">
   <img alt="GitHub followers" src="https://img.shields.io/github/followers/villivald?style=social">
   <img alt="Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fvillivald%2Fproj_react_2020" />
+  <img alt="visitor badge" src="https://visitor-badge.glitch.me/badge?page_id=villivald.visitor-badge" />
 </p>
 
 <p align="center">
