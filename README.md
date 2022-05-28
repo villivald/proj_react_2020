@@ -104,7 +104,7 @@
 - Twitter: [@crapp_blog](https://twitter.com/crapp_blog)
 - Github: [@villivald](https://github.com/villivald)
 - Dev: [@villivald](https://dev.to/villivald)
-- LinkedIn: [@maxim-villivald-4b1b311a3](https://linkedin.com/in/villivald)
+- LinkedIn: [@villivald](https://linkedin.com/in/villivald)
 
 ## 🤝 Contributing
 
